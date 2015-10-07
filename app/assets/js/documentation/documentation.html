@@ -1,0 +1,35 @@
+<div class="top-bar">
+    <div class="center">
+        <iframe class="pull-left" src="https://ghbtns.com/github-btn.html?user=buremba&repo=rakam-wiki&type=fork&count=false&size=large" frameborder="0" scrolling="0"  width="90px" height="30px"></iframe>
+        <a class="pull-left hide-decoration" href="https://github.com/buremba/rakam-wiki/" style="color:#fff;margin-top:3px"><h5>and contribute the docs!</h5></a>
+
+        <form class="form-inline pull-right" style="margin:0" action="/doc-search" method="get">
+            <div class="form-group">
+                <input type="text" name="query" ng-model="searchTerm" class="form-control form-control-sm" placeholder="Search" style="border: 1px solid rgba(0, 0, 0, 0.61);">
+            </div>
+            <button type="submit" style="border: 1px solid rgba(0, 0, 0, 0.61);" class="btn btn-secondary btn-sm">Search</button>
+        </form>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="center padding-10-vertical row">
+    <div class="col-sm-3 border-right section-left doc-sidebar" style="border-right:1px solid #eee">
+        <a href="/api"> <span class="label label-default">API Explorer</span></a>
+
+        <h3>Documents</h3>
+        <div markdown-content="sidebar"></div>
+    </div>
+    <div class="col-sm-9 border-right section-right">
+        <div class="docs-content">
+            <div class="docs-header">
+                <div class="pull-right" style="margin:8px 0">
+                    <a href="https://github.com/buremba/rakam-wiki/edit/master/{{page}}.md" class="suggest" style="font-size: .8em">
+                        <div class="fa fa-pencil fa-right"></div> edit</a></div>
+                <h1 ng-bind="page.replace('-', ' ')"></h1>
+            </div>
+            <div class="docs-body" markdown-content="content">
+                dsads
+            </div>
+        </div>
+    </div>
+</div>

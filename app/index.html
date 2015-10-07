@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Rakam · Analytics platform</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rakam.com">
+    <meta property="og:site_name" content="Rakam.com">
+    <link rel="icon" href="/favicon.ico">
+    <base href="/">
+    <meta property="og:title" content="Rakam.com">
+    <meta property="og:description" content="Rakam analytics platform">
+    <meta property="og:image" content="/">
+    <meta property="og:locale" content="en_US">
+    <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" media="all" rel="stylesheet">
+    <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" media="all" rel="stylesheet">
+    <link href="assets/app.css" media="all" rel="stylesheet">
+</head>
+<body class="pages index" ng-app="myApp">
+<div class="landing">
+    <nav>
+        <div class="center">
+        <a href="/" id="logo-large">Rakam</a>
+        <ul class="">
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="//github.com/buremba/rakam"><i class="fa fa-github"></i> Github</a></li>
+            <li><a href="/support">Help &amp; Support</a></li>
+            <li><a href="/doc">Documentation</a></li>
+            <li><a class="nice" href="/login">Login</a></li>
+        </ul>
+            </div>
+    </nav>
+    <div ng-view></div>
+    <footer>
+        <p>© Rakam.com 2015</p>
+        <p><a href="/">Rakam.com</a> / <a href="/">About</a> / <a href="/">FAQ</a>
+        <p><a href="https://twitter.com/rakam" target="_blank">Twitter</a> / <a href="mailto:founders@rakam.com">founders@rakam.com</a>
+        </p>
+    </footer>
+</div>
+<script src="/assets/bower_components/angular/angular.js"></script>
+<script src="/assets/bower_components/angular-route/angular-route.js"></script>
+<script src="/assets/js/app.js"></script>
+<script src="/assets/js/landpage/landpage.js"></script>
+<script src="/assets/js/api/api.js"></script>
+<script src="/assets/js/documentation/documentation.js"></script>
+<script src="/assets/bower_components/showdown/dist/showdown.min.js"></script>
+</body>
+</html>

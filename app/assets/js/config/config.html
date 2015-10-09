@@ -1,0 +1,11 @@
+<div class="top-bar">
+    <div class="center">
+        <form class="form-inline" ng-submit="showApi()">
+            <div class="form-group">
+                <input type="url" ng-model="apiAddressHolder" class="form-control" placeholder="API Address" style="width:500px; border: 1px solid rgba(0, 0, 0, 0.61);">
+            </div>
+            <button type="submit" style="border: 1px solid rgba(0, 0, 0, 0.61);" class="btn btn-secondary">Analyze</button>
+        </form>
+    </div>
+</div>
+<iframe ng-if="apiAddress" sandbox="allow-forms allow-scripts allow-same-origin" full-width-iframe location="locationChanged" ng-src="{{getTrustedAddress(apiAddress)}}" style="border: none; width: 100%;"></iframe>

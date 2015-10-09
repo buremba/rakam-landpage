@@ -6,6 +6,7 @@ var app = angular.module('myApp', [
   'myApp.landpage',
   'myApp.documentation',
   'myApp.api',
+  'angular-loading-bar'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/404'});

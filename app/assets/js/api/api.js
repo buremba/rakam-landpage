@@ -2,27 +2,35 @@
 
 angular.module('myApp.api', ['ngRoute'])
 
-    .config(['$routeProvider', function($routeProvider) {
+    .config(['$routeProvider', '$sceDelegateProvider', function($routeProvider, $sceDelegateProvider) {
         $routeProvider
+            .when('/rest-api', {
+                templateUrl: '/assets/js/api/rest-api.html',
+                controller: 'APICtrl',
+                reloadOnSearch: false
+            })
             .when('/api', {
                 templateUrl: '/assets/js/api/api.html',
-                controller: 'APICtrl'
+                controller: 'APICtrl',
+                reloadOnSearch: false
             })
         ;
+
+        $sceDelegateProvider.resourceUrlWhitelist(['self', '**']);
     }])
 
     .controller('APICtrl', function($http, $scope, $location, $routeParams, $sce) {
-       $scope.apiAddress = $routeParams.addr || "http://generator.swagger.io/api/swagger.json";
-       $scope.apiAddressHolder = "http://generator.swagger.io/api/swagger.json";
-       $scope.tags;
+       $scope.apiAddress = $routeParams.addr || "//app.getrakam.com/api/swagger.json";
+       $scope.apiAddressHolder = $scope.apiAddress;
+       $scope.tags = $routeParams.tags;
 
-       $scope.locationChanged = function(hash) {
-           var lochash    = hash.substr(1),
-               mylocation = lochash.substr(lochash.indexOf('tags='))
-                   .split('&')[0]
-                   .split('=')[1];
-
-           console.log(hash, mylocation);
+       $scope.locationChanged = function(tags) {
+           $scope.tags = tags;
+           console.log(tags);
+           if ($location.search().tags != tags) {
+            //$location.search("tags", tags);
+            //$scope.$apply()
+           }
        }
 
        $scope.getTrustedAddress = function() {
@@ -31,7 +39,7 @@ angular.module('myApp.api', ['ngRoute'])
 
        $scope.showApi = function() {
            $scope.apiAddress = $scope.apiAddressHolder;
-           $location.search('addr', $scope.apiAddress);
+           //$location.search('addr', $scope.apiAddress);
        }
     })
 
@@ -61,7 +69,13 @@ angular.module('myApp.api', ['ngRoute'])
             controller: function ( $scope, $element ) {
                 $element[0].onload = function() {
                     var contentWindow = $element[0].contentWindow;
-                    //$scope.location(contentWindow.location.hash);
+
+                    console.log();
+                    contentWindow.onhashchange = function() {
+                        // TODO: fixme
+                        var tag = contentWindow.location.hash.substring("#/?tags=".length);
+                        $scope.location(tag);
+                    }
 
                     var document = contentWindow.document;
                     var body = document.body,

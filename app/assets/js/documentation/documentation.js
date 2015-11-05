@@ -1,5 +1,7 @@
 'use strict';
 
+var sourceAddress = "//rawgit.com";
+
 angular.module('myApp.documentation', ['ngRoute'])
 
     .config(['$routeProvider', function($routeProvider) {
@@ -7,15 +9,18 @@ angular.module('myApp.documentation', ['ngRoute'])
             .when('/doc/:page?', {
                 templateUrl: '/assets/js/documentation/documentation.html',
                 controller: 'DocumentationCtrl',
+                reloadOnSearch: false,
                 resolve : {
                     markdown: function($http, $route) {
-                        var page = $route.current.params.page = $route.current.params.page || 'Home';
-                        return $http.get("https://raw.githubusercontent.com/buremba/rakam-wiki/master/"+page+".md").then(function(e) {
+                        var page = $route.current.params.page ?
+                            sourceAddress+"/buremba/rakam-wiki/master/"+$route.current.params.page+".md" :
+                            sourceAddress+"/buremba/rakam/master/README.md";
+                        return $http.get(page, { cache: true}).then(function(e) {
                             return e.data
                         });
                     },
                     sidebar: function($http, $route) {
-                        return $http.get("https://raw.githubusercontent.com/buremba/rakam-wiki/master/_Sidebar.md").then(function(e) {
+                        return $http.get(sourceAddress+"/buremba/rakam-wiki/master/_Sidebar.md", { cache: true}).then(function(e) {
                             return e.data
                         });
                     }
@@ -26,29 +31,33 @@ angular.module('myApp.documentation', ['ngRoute'])
                 controller: 'DocumentationSearchCtrl',
                 resolve : {
                     result: function($http, $route) {
-                        return $http.get("https://api.github.com/search/code?q="+encodeURI($route.current.params.query)+"+in%3afile+language%3amd+repo%3aburemba/rakam-wiki",
+                        return $http.get("//api.github.com/search/code?q="+encodeURI($route.current.params.query)+"+in%3afile+language%3amd+repo%3aburemba/rakam-wiki",
                             {headers: {"Accept": "application/vnd.github.v3.text-match+json"
                         }}).then(function(e) {
                             return e.data
                         });
                     },
                     sidebar: function($http, $route) {
-                        return $http.get("https://raw.githubusercontent.com/buremba/rakam-wiki/master/_Sidebar.md").then(function(e) {
+                        return $http.get(sourceAddress+"/buremba/rakam-wiki/master/_Sidebar.md").then(function(e) {
                             return e.data
                         });
                     }
                 }
-            })
-            ;
+            });
     }])
 
-    .controller('DocumentationCtrl', ["$http", "$scope", "$routeParams", "$sce", "sidebar", "markdown", function($http, $scope, $routeParams, $sce, sidebar, markdown) {
+    .controller('DocumentationCtrl', function($http, $scope, $routeParams, $sce, sidebar, markdown, $q) {
         var converter = new showdown.Converter();
-        $scope.page = $routeParams.page;
+        $scope.page = $routeParams.page || "Home";
+        $scope.promise = null;
 
         $scope.sidebar = $sce.trustAsHtml(converter.makeHtml(sidebar));
         $scope.content = $sce.trustAsHtml(converter.makeHtml(markdown));
-    }])
+
+        $scope.test = function() {
+            $scope.promise = $q.defer().promise;
+        }
+    })
 
     .controller('DocumentationSearchCtrl', function($http, $scope, $sce, $routeParams, sidebar, result) {
         var converter = new showdown.Converter();
@@ -74,7 +83,7 @@ angular.module('myApp.documentation', ['ngRoute'])
                     [].forEach.call($element[0].querySelectorAll('img'), function(a) {
                         var href = a.getAttribute("src");
                         if(!r.test(href)) {
-                            a.setAttribute("src", "https://raw.githubusercontent.com/buremba/rakam-wiki/master/"+href);
+                            a.setAttribute("src", sourceAddress+"/buremba/rakam-wiki/master/"+href);
                         }
                     })
                 })
@@ -96,4 +105,17 @@ angular.module('myApp.documentation', ['ngRoute'])
                 $element[0].innerHTML = html;
             }
         };
+    })
+
+    .directive('showMarkdownInPage', function($document){
+        scope: { match: '=callback' }
+        return {
+            restrict: 'A',
+            link: function($scope, elem, attr) {
+                elem.on('click', function(e) {
+                    //e.preventDefault();
+                    $scope.test();
+                });
+            }
+        }
     })

@@ -1,11 +1,36 @@
 <div class="top-bar">
     <div class="center">
-        <form class="form-inline" ng-submit="showApi()">
-            <div class="form-group">
-                <input type="url" ng-model="apiAddressHolder" class="form-control" placeholder="API Address" style="width:500px; border: 1px solid rgba(0, 0, 0, 0.61);">
-            </div>
-            <button type="submit" style="border: 1px solid rgba(0, 0, 0, 0.61);" class="btn btn-secondary">Analyze</button>
-        </form>
+        <h4 style="color:#fff">Configuration Reference</h4>
+        <div class="pull-right">HEAD</div>
     </div>
 </div>
-<iframe ng-if="apiAddress" sandbox="allow-forms allow-scripts allow-same-origin" full-width-iframe location="locationChanged" ng-src="{{getTrustedAddress(apiAddress)}}" style="border: none; width: 100%;"></iframe>
+<div class="center padding-10-vertical row">
+    <div ng-repeat="module in modules" class="bd-callout bd-callout-info" id="{{module.className}}">
+        <h5 class="dealing-with-specificity" style="float:left" ng-bind="module.name"></h5>
+
+        <div class="condition" style="float:right; margin-top:-2px" ng-if="module.condition">
+            <span ng-bind="module.condition.property" class="label label-default"></span>
+            {{module.condition.expectedValue ? '=' : ''}}
+            <span class="label label-default" ng-bind="module.condition.expectedValue"
+                  ng-if="module.condition.expectedValue"></span>
+            <i class="label label-default" ng-if="!module.condition.expectedValue">is set</i>
+        </div>
+        <div class="clearfix"></div>
+        <div ng-bind="module.description"></div>
+        <table class="table table-sm table-hover" style="margin:20px 0 0 0" ng-if="module.properties.length > 0">
+            <thead>
+            <th>property</th>
+            <th>default value</th>
+            <th>description</th>
+            </thead>
+            <tbody>
+            <tr ng-repeat="config in module.properties">
+                <td ng-bind="config.property"></td>
+                <td ng-bind="config.defaultValue"></td>
+                <td ng-bind="config.description" style="font-size:0.9em"></td>
+            </tr>
+            </tbody>
+            <tbody>
+        </table>
+    </div>
+</div>

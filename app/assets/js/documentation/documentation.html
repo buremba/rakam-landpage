@@ -1,7 +1,12 @@
 <div class="top-bar">
     <div class="center">
-        <iframe class="pull-left" src="https://ghbtns.com/github-btn.html?user=buremba&repo=rakam-wiki&type=fork&count=false&size=large" frameborder="0" scrolling="0"  width="90px" height="30px"></iframe>
-        <a class="pull-left hide-decoration" href="https://github.com/buremba/rakam-wiki/" style="color:#fff;margin-top:3px"><h5>and contribute the docs!</h5></a>
+        <span class="github-btn github-forks github-btn-large">
+            <a class="gh-btn" id="gh-btn" href="https://github.com/buremba/rakam-wiki/fork" target="_blank" aria-label="Fork on GitHub">
+                <span class="gh-ico" aria-hidden="true"></span>
+                <span class="gh-text" id="gh-text">Fork</span></a>
+        </span>
+
+        <a class="pull-left hide-decoration" href="https://github.com/buremba/rakam-wiki/" style="color:#fff;margin:3px 0 0 5px"><h5>and contribute the docs!</h5></a>
 
         <form class="form-inline pull-right" style="margin:0" action="/doc-search" method="get">
             <div class="form-group">
@@ -13,14 +18,14 @@
     </div>
 </div>
 <div class="center padding-10-vertical row">
-    <div class="col-sm-3 border-right section-left doc-sidebar" style="border-right:1px solid #eee">
-        <a href="/api" style="display:block" class="padding-5-vertical"> <span class="label label-primary" style="font-size:1em">API Explorer</span></a>
+    <div class="col-sm-3 border-right section-left doc-sidebar">
+        <a href="//api.getrakam.com" style="display:block" class="padding-5-vertical"> <span class="label label-primary" style="font-size:1em">API Reference</span></a>
         <a href="/config" style="display:block" class="padding-5-vertical"> <span class="label label-success" style="font-size:1em">Configuration Reference</span></a>
 
         <h3>Documents</h3>
-        <div markdown-content="sidebar"></div>
+        <div markdown-content="sidebar" show-markdown-in-page callback="test"></div>
     </div>
-    <div class="col-sm-9 border-right section-right">
+    <div class="col-sm-9 border-right section-right relative" cg-busy="{promise: promise, templateUrl:'assets/js/includes/loading.html'}">
         <div class="docs-content">
             <div class="docs-header">
                 <div class="pull-right" style="margin:8px 0">
@@ -28,9 +33,7 @@
                         <div class="fa fa-pencil fa-right"></div> edit</a></div>
                 <h1 ng-bind="page.replace('-', ' ')"></h1>
             </div>
-            <div class="docs-body" markdown-content="content">
-                dsads
-            </div>
+            <div class="docs-body" markdown-content="content"></div>
         </div>
     </div>
 </div>

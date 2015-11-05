@@ -2,15 +2,22 @@
 
 // Declare app level module which depends on views, and components
 var app = angular.module('myApp', [
-  'ngRoute',
-  'myApp.landpage',
-  'myApp.documentation',
-  'myApp.api',
-  'angular-loading-bar'
-]).
-config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/404'});
-}]);
+    'ngRoute',
+    'myApp.landpage',
+    'myApp.documentation',
+    'myApp.api',
+    'myApp.config',
+    'myApp.library',
+    'angular-loading-bar',
+    'cgBusy',
+    'duScroll'
+]);
+
+app.config(function ($routeProvider) {
+    $routeProvider.otherwise({redirectTo: '/404'});
+
+
+});
 
 app.config(function ($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
@@ -18,19 +25,31 @@ app.config(function ($routeProvider, $locationProvider) {
         templateUrl: '/assets/js/blog.html',
         controller: 'BlogCtrl'
     })
-    .when('/pricing', {
-        templateUrl: '/assets/js/pricing.html',
-        controller: 'PricingCtrl'
-    })
-    .when('/support', {
-        templateUrl: '/assets/js/support.html',
-        controller: 'SupportCtrl'
-    })
+        .when('/pricing', {
+            templateUrl: '/assets/js/pricing.html',
+            controller: 'PricingCtrl'
+        })
+        .when('/support', {
+            templateUrl: '/assets/js/support.html',
+            controller: 'SupportCtrl'
+        })
 })
 
-.controller('BlogCtrl', [function() {
-}])
-.controller('PricingCtrl', [function() {
-}])
-.controller('SupportCtrl', [function() {
-}])
+    .controller('BlogCtrl', [function () {
+    }])
+    .controller('PricingCtrl', [function () {
+    }])
+    .controller('SupportCtrl', [function () {
+    }])
+
+app.run(function ($rootScope, $route, $document, $timeout) {
+    $rootScope.$on('$viewContentLoaded', function () {
+
+        if($route.current.params.hash) {
+            $timeout(function() {
+                var someElement = document.getElementById($route.current.params.hash);
+                $document.scrollToElement(someElement);
+            }, 1);
+        }
+    });
+})

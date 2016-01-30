@@ -1,39 +1,56 @@
+<link rel="stylesheet" href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/>
+
 <div class="top-bar">
     <div class="center">
         <span class="github-btn github-forks github-btn-large">
-            <a class="gh-btn" id="gh-btn" href="https://github.com/buremba/rakam-wiki/fork" target="_blank" aria-label="Fork on GitHub">
+            <a class="gh-btn" id="gh-btn" href="https://github.com/buremba/rakam-wiki/fork" target="_blank"
+               aria-label="Fork on GitHub">
                 <span class="gh-ico" aria-hidden="true"></span>
                 <span class="gh-text" id="gh-text">Fork</span></a>
         </span>
 
-        <a class="pull-left hide-decoration" href="https://github.com/buremba/rakam-wiki/" style="color:#fff;margin:3px 0 0 5px"><h5>and contribute the docs!</h5></a>
+        <a class="pull-left hide-decoration" href="https://github.com/buremba/rakam-wiki/"
+           style="color:#fff;margin:3px 0 0 5px"><h5>and contribute the docs!</h5></a>
 
         <form class="form-inline pull-right" style="margin:0" action="/doc-search" method="get">
             <div class="form-group">
-                <input type="text" name="query" ng-model="searchTerm" class="form-control form-control-sm" placeholder="Search" style="border: 1px solid rgba(0, 0, 0, 0.61);">
+                <input type="text" id="search-doc" name="query" ng-model="searchTerm"
+                       class="form-control form-control-sm" placeholder="Search"
+                       style="border: 1px solid rgba(0, 0, 0, 0.61);">
             </div>
-            <button type="submit" style="border: 1px solid rgba(0, 0, 0, 0.61);" class="btn btn-secondary btn-sm">Search</button>
+            <!--<button type="submit" style="border: 1px solid rgba(0, 0, 0, 0.61);" class="btn btn-secondary btn-sm">Search</button>-->
         </form>
         <div class="clearfix"></div>
     </div>
 </div>
 <div class="center padding-10-vertical row">
     <div class="col-sm-3 border-right section-left doc-sidebar">
-        <a href="//api.getrakam.com" style="display:block" class="padding-5-vertical"> <span class="label label-primary" style="font-size:1em">API Reference</span></a>
-        <a href="/config" style="display:block" class="padding-5-vertical"> <span class="label label-success" style="font-size:1em">Configuration Reference</span></a>
+        <a href="//api.rakam.io" style="display:block" class="padding-5-vertical">
+            <span class="label label-primary" style="font-size:1em">API Reference</span>
+        </a>
+        <a href="/config" style="display:block" class="padding-5-vertical">
+            <span class="label label-success" style="font-size:1em">Configuration Reference</span>
+        </a>
 
         <h3>Documents</h3>
-        <div markdown-content="sidebar" show-markdown-in-page callback="test"></div>
+
+        <div markdown-content="sidebar" markdown-sidebar show-markdown-in-page callback="test"></div>
     </div>
-    <div class="col-sm-9 border-right section-right relative" cg-busy="{promise: promise, templateUrl:'assets/js/includes/loading.html'}">
+    <div class="col-sm-9 border-right section-right relative"
+         cg-busy="{promise: promise, templateUrl:'assets/js/includes/loading.html'}">
         <div class="docs-content">
             <div class="docs-header">
                 <div class="pull-right" style="margin:8px 0">
-                    <a href="https://github.com/buremba/rakam-wiki/edit/master/{{page}}.md" class="suggest" style="font-size: .8em">
-                        <div class="fa fa-pencil fa-right"></div> edit</a></div>
-                <h1 ng-bind="page.replace('-', ' ')"></h1>
+                    <a href="https://github.com/buremba/rakam-wiki/edit/master/{{page}}.md" class="suggest"
+                       style="font-size: .8em">
+                        <div class="fa fa-pencil fa-right"></div>
+                        edit</a></div>
+                <h1 ng-bind="page.split( '/' )[page.split( '/' ).length-1].replace('-', ' ')"></h1>
             </div>
             <div class="docs-body" markdown-content="content"></div>
         </div>
     </div>
 </div>
+
+
+<script type="text/javascript-lazy" src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>

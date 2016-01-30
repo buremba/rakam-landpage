@@ -14,17 +14,16 @@ var app = angular.module('myApp', [
 ]);
 
 app.config(function ($routeProvider) {
-    $routeProvider.otherwise({redirectTo: '/404'});
-
-
+    $routeProvider.otherwise('/404');
 });
 
 app.config(function ($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
-    $routeProvider.when('/blog', {
-        templateUrl: '/assets/js/blog.html',
-        controller: 'BlogCtrl'
-    })
+    $routeProvider
+        .when('/blog', {
+            templateUrl: '/assets/js/blog.html',
+            controller: 'BlogCtrl'
+        })
         .when('/pricing', {
             templateUrl: '/assets/js/pricing.html',
             controller: 'PricingCtrl'
@@ -33,20 +32,23 @@ app.config(function ($routeProvider, $locationProvider) {
             templateUrl: '/assets/js/support.html',
             controller: 'SupportCtrl'
         })
-})
+        .when('/404', {
+            templateUrl: '/assets/404.html'
+        })
+});
 
-    .controller('BlogCtrl', [function () {
-    }])
-    .controller('PricingCtrl', [function () {
-    }])
-    .controller('SupportCtrl', [function () {
-    }])
+app.controller('BlogCtrl', [function () {
+}]);
+app.controller('PricingCtrl', [function () {
+}])
+app.controller('SupportCtrl', [function () {
+}]);
 
 app.run(function ($rootScope, $route, $document, $timeout) {
     $rootScope.$on('$viewContentLoaded', function () {
 
-        if($route.current.params.hash) {
-            $timeout(function() {
+        if ($route.current.params.hash) {
+            $timeout(function () {
                 var someElement = document.getElementById($route.current.params.hash);
                 $document.scrollToElement(someElement);
             }, 1);

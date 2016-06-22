@@ -18,7 +18,7 @@
     "shelljs": "^0.2.6"
   },
   "scripts": {
-    "postinstall": "bower install && (cd node_modules/swagger-editor-src && npm install && npm run bower-install && npm run build)",
+    "postinstall": "bower install",
     "prestart": "npm install",
     "start": "node server",
     "pretest": "npm install",

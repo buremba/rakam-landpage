@@ -1,7 +1,7 @@
 'use strict';
 
-var sourceAddress = "//raw.githubusercontent.com";
-// var sourceAddress = "//cdn.rawgit.com";
+// var sourceAddress = "//raw.githubusercontent.com";
+var sourceAddress = "//cdn.rawgit.com";
 
 angular.module('myApp.documentation', ['ngRoute'])
 

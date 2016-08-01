@@ -1,0 +1,17 @@
+<div class="top-bar">
+    <div class="center">
+        <h4 style="color:#fff;margin-top:5px">Deploy Rakam</h4>
+    </div>
+</div>
+<div class="center padding-10-vertical row">
+    <div>
+        <ul class="nav nav-tabs" style="margin-bottom:10px">
+            <li class="nav-item" ng-repeat="tab in tabs">
+                <a class="nav-link" ng-class="{active: selected == tab}"  ng-click="onClickTab(tab)">{{tab.title}}</a>
+            </li>
+        </ul>
+        <div id="mainView">
+            <div class="docs-body" markdown-content="content"></div>
+        </div>
+    </div>
+</div>

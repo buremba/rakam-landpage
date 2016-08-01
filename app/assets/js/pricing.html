@@ -1,1 +1,85 @@
-<div class="center padding-10-vertical row">To be written.</div>
+<div class="top-bar">
+    <div class="center">
+        <h4 style="color:#fff; margin-top:5px">Pricing</h4>
+        <!--<div class="pull-right">HEAD</div>-->
+    </div>
+</div>
+
+<div class="center padding-10-vertical row ng-scope">
+    <div class="switch switch-blue">
+        <input type="radio" class="switch-input" ng-model="pricingType" name="pricingType" value="PaaS" id="paas" checked>
+        <label for="paas" class="switch-label switch-label-off">PaaS</label>
+        <input type="radio" class="switch-input" ng-model="pricingType" name="pricingType" value="SaaS" id="saas">
+        <label for="saas" class="switch-label switch-label-on">SaaS</label>
+        <span class="switch-selection"></span>
+    </div>
+
+    <div class="pricing-wrapper" style="text-align:center" ng-show="pricingType === 'SaaS'">
+        SaaS packages are currently in development.
+    </div>
+
+    <div class="pricing-wrapper" ng-show="pricingType === 'PaaS'">
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <ul class="pricing p-green">
+                <li>
+                    <img src="http://bread.pp.ua/n/settings_g.svg" alt="">
+                    <big>Open-source</big>
+                </li>
+                <li>Rakam Core API</li>
+                <li>Event Mappers</li>
+                <li>Postgresql deployment type</li>
+                <li>Trackers / Client Libraries</li>
+                <li>
+                    <h3>FREE</h3>
+                </li>
+                <li>
+                    <button><a href="/deploy">Deploy Rakam</a></button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <ul class="pricing p-yel">
+                <li>
+                    <img src="http://bread.pp.ua/n/settings_y.svg" alt="">
+                    <big>Managed</big>
+                </li>
+                <li>Rakam Core API</li>
+                <li>Event Mappers</li>
+                <li>Postgresql / Presto deployment type</li>
+                <li>Trackers / Client Libraries</li>
+                <li>SQL Stream processing (Real-time analytics)</li>
+                <li>
+                    <h3>Free <i>in beta</i></h3>
+                    <span>per server</span>
+                </li>
+                <li>
+                    <a href="mailto:contact@rakam.io">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <ul class="pricing p-red">
+                <li>
+                    <img src="http://bread.pp.ua/n/settings_r.svg" alt="">
+                    <big>Business</big>
+                </li>
+                <li>Rakam Core API</li>
+                <li>Event Mappers</li>
+                <li>Postgresql deployment type</li>
+                <li>Trackers / Client Libraries</li>
+                <li>Premium Support</li>
+                <li>Automation Module</li>
+                <li>A/B Testing Module</li>
+
+                <li>
+                    <a href="mailto:contact@rakam.io">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>

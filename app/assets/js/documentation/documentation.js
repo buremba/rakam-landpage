@@ -1,29 +1,33 @@
 'use strict';
 
 // var sourceAddress = "//raw.githubusercontent.com";
-var sourceAddress = "//cdn.rawgit.com";
+var sourceAddress = "//rawgit.com";
 
 angular.module('myApp.documentation', ['ngRoute'])
 
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider
-            .when('/doc/:page*', {
+            .when('/doc/:name/:repo/:page*', {
                 templateUrl: '/assets/js/documentation/documentation.html',
                 controller: 'DocumentationCtrl',
                 reloadOnSearch: false,
                 resolve: {
                     markdown: function ($http, $route, $location) {
-                        var page = sourceAddress + "/buremba/" + $route.current.params.page + ".md";
+                        var page = sourceAddress + "/" + ($route.current.params.name + "/" + ($route.current.params.repo || 'rakam-wiki')) +
+                            "/" + $route.current.params.page + ".md";
                         return $http.get(page, {cache: true}).then(function (e) {
                             return e.data
                         }, function () {
-                            $location.path('/404');
+                            return "Document not found :(";
                         });
                     },
                     sidebar: function ($http) {
                         return $http.get(sourceAddress + "/buremba/rakam-wiki/master/_Sidebar.md", {cache: true}).then(function (e) {
                             return e.data
                         });
+                    },
+                    parent: function ($route) {
+                        return $route.current.params.name +  "/" + ($route.current.params.repo || 'rakam-wiki');
                     }
                 }
             })
@@ -44,6 +48,9 @@ angular.module('myApp.documentation', ['ngRoute'])
                         return $http.get(sourceAddress + "/buremba/rakam-wiki/master/_Sidebar.md", {cache: true}).then(function (e) {
                             return e.data
                         });
+                    },
+                    parent: function ($route) {
+                        return "buremba/rakam-wiki";
                     }
                 }
             })
@@ -58,8 +65,8 @@ angular.module('myApp.documentation', ['ngRoute'])
                                     "Accept": "application/vnd.github.v3.text-match+json"
                                 }
                             }).then(function (e) {
-                                return e.data
-                            });
+                            return e.data
+                        });
                     },
                     sidebar: function ($http) {
                         return $http.get(sourceAddress + "/buremba/rakam-wiki/master/_Sidebar.md").then(function (e) {
@@ -70,13 +77,15 @@ angular.module('myApp.documentation', ['ngRoute'])
             });
     }])
 
-    .controller('DocumentationCtrl', function ($http, $scope, $routeParams, $sce, sidebar, markdown, $q) {
+    .controller('DocumentationCtrl', function ($http, $scope, $routeParams, $sce, sidebar, markdown, $q, parent) {
         var converter = new showdown.Converter({tables: true});
+        window.converter = converter;
         $scope.page = $routeParams.page || "Home";
         $scope.promise = null;
 
         $scope.sidebar = $sce.trustAsHtml(converter.makeHtml(sidebar));
         $scope.content = $sce.trustAsHtml(converter.makeHtml(markdown));
+        $scope.parent = parent;
 
         $scope.test = function () {
             $scope.promise = $q.defer().promise;
@@ -94,23 +103,26 @@ angular.module('myApp.documentation', ['ngRoute'])
         var r = new RegExp('^(?:[a-z]+:)?//', 'i');
 
         return {
-            scope: {content: '=markdownContent'},
+            scope: {content: '=markdownContent', parent: '=parent'},
             controller: function ($scope, $element) {
                 $scope.$watch('content', function (content) {
                     $element[0].innerHTML = content;
                     [].forEach.call($element[0].querySelectorAll('a'), function (a) {
                         var href = a.getAttribute("href");
+
                         if (!r.test(href)) {
-                            a.setAttribute("href", "/doc/rakam-wiki/master/" + href);
-                        } else if (href.match(/^\/\/github.com\/buremba/)) {
-                            a.setAttribute("href", "/doc" + href.replace(/^\/\/github.com\/buremba/, ""));
+                            var path = a.pathname.replace(/.md$/, '') + a.search + a.hash;
+
+                            a.setAttribute("href", "/doc/" + $scope.parent + "/master/" + path);
+                        } else if (href.match(/^\/\/github.com\/buremba/) || href.match(/^\/\/github.com\/rakam-io/)) {
+                            a.setAttribute("href", "/doc/" + href.replace(/^\/\/github.com\//, ""));
                         }
                     });
                     [].forEach.call($element[0].querySelectorAll('img'), function (a) {
                         var href = a.getAttribute("src");
 
                         if (!r.test(href)) {
-                            a.setAttribute("src", sourceAddress + "/buremba/rakam-wiki/master/" + href);
+                            a.setAttribute("src", sourceAddress + "/"+$scope.parent+"/master/" + href);
                         } else if (href.match(/^\/\/github.com\//)) {
                             a.setAttribute("src", href.replace(/^\/\/github.com\/buremba/, sourceAddress));
                         }
@@ -160,12 +172,12 @@ angular.module('myApp.documentation', ['ngRoute'])
         return {
             link: function ($scope, elem) {
                 $scope.$watch('sidebar', function (sidebar, o) {
-                    $timeout(function() {
+                    $timeout(function () {
                         [].forEach.call(elem[0].querySelectorAll('li > a'), function (a) {
-                            if(a.href.endsWith($scope.page)) {
+                            if (a.href.endsWith($scope.parent+"/"+$scope.page)) {
                                 a.classList.add('active');
                                 var previousSibling = a.parentNode.parentNode.previousSibling;
-                                if(previousSibling) {
+                                if (previousSibling) {
                                     previousSibling.previousSibling.classList.add('active');
                                 }
                             }
@@ -176,7 +188,7 @@ angular.module('myApp.documentation', ['ngRoute'])
         }
     })
 
-    .directive('script', function () {
+    .directive('script', function ($window) {
         return {
             restrict: 'E',
             scope: false,
@@ -196,7 +208,7 @@ angular.module('myApp.documentation', ['ngRoute'])
                     elem.remove();
 
                     s.addEventListener('load', function (e) {
-                        window.docsearch({
+                        $window.docsearch({
                             apiKey: 'e65794b4b5457f5121ebed08daff7a15',
                             indexName: 'rakam',
                             inputSelector: '#search-doc'

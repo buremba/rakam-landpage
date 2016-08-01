@@ -6,6 +6,7 @@ var app = angular.module('myApp', [
     'myApp.landpage',
     'myApp.documentation',
     'myApp.api',
+    'myApp.deploy',
     'myApp.config',
     'myApp.library',
     'angular-loading-bar',
@@ -20,28 +21,37 @@ app.config(function ($routeProvider) {
 app.config(function ($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
     $routeProvider
-        .when('/blog', {
-            templateUrl: '/assets/js/blog.html',
-            controller: 'BlogCtrl'
-        })
         .when('/pricing', {
             templateUrl: '/assets/js/pricing.html',
             controller: 'PricingCtrl'
         })
+        .when('/privacy', {
+            templateUrl: '/assets/js/privacy_policy.html',
+            controller: 'PricingCtrl'
+        })
+        .when('/deploy', {
+            templateUrl: '/assets/js/deploy/deploy.html',
+            controller: 'DeployCtrl'
+        })
         .when('/support', {
             templateUrl: '/assets/js/support.html',
             controller: 'SupportCtrl'
+        })
+        .when('/contact', {
+            templateUrl: '/assets/js/contact.html',
+            controller: 'ContactCtrl'
         })
         .when('/404', {
             templateUrl: '/assets/404.html'
         })
 });
 
-app.controller('BlogCtrl', [function () {
-}]);
-app.controller('PricingCtrl', [function () {
+app.controller('PricingCtrl', ['$scope', function ($scope) {
+    $scope.pricingType = 'PaaS';
 }])
 app.controller('SupportCtrl', [function () {
+}]);
+app.controller('ContactCtrl', [function () {
 }]);
 
 app.run(function ($rootScope, $route, $document, $timeout) {

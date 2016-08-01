@@ -1,74 +1,68 @@
 <section id="intro">
     <div class="center">
         <h2>
-            <small>Easy and powerful way to create your custom analytics services</small>
+            <small>Powerful on-premise custom analytics platform.</small>
+            <div style="font-size:.5em; opacity: .5; text-shadow: none; margin-top:5px">
+                rakam is your personal developer at business intelligence team. <br>it <a ng-click="scroll()" style="color:#fff" class="fav-link">manages</a> your data and let you to create insights. no coding required.
+            </div>
         </h2>
         <div class="big_buttons">
-            <a class="gmail demo-button" href="/"><i class="fa fa-desktop"></i> Demo</a>
-            <a class="gmail" href="/">Getting started</a>
+            <a class="gmail demo-button" href="/"><i class="fa fa-desktop" aria-hidden="true"></i> Demo (WIP)</a>
+            <a class="gmail" href="/deploy"> <i class="fa fa-cloud-upload" aria-hidden="true"></i> Deploy Rakam</a>
         </div>
+
+        <form class="subscribe"  method="post" ng-submit="subscribe()" style="position: absolute;left: -173px;margin-left: 50%;margin-top: 54px;">
+            <div style="width:380px;margin-top:-20px;text-align: center;" class="alert alert-{{subscribedType}}" ng-show="subscribed">{{subscribed}}</div>
+
+            <div ng-show="!subscribed" class="input-group input-group-btn" style="margin: 0 auto">
+                <input name="EMAIL" ng-model="user.EMAIL" type="email" style="border-color:transparent;width:240px" required="true" class="form-control" placeholder="Enter your email">
+                <button type="submit" class="btn btn-primary subscribe-button">Subscribe</button>
+            </div>
+        </form>
     </div>
 </section>
 <section id="featured">
     <div class="row">
         <div class="col-xs-12 col-md-4 center-xs right-md">
             <div class="feature">
-                <h4><i class="fa fa-pie-chart"></i> Business Intelligence Tool</h4>
+                <h4><i class="fa fa-pie-chart"></i> BI & Rich Analytical features</h4>
                 <div class="feature-text">
-                    The report analyzer module allows you to run SQL queries and visualize them in various charts.<a
-                        href="">more &gt;</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-md-4 center-xs">
-            <div class="feature">
-                <h4><i class="fa fa-line-chart"></i> Rich analytical features</h4>
-                <div class="feature-text">Retentions, Funnels, Event explorer, Event Stream, Advanced BI reporting tool, Custom Dashboards etc. You have what you need in order to build your own custom analytics service.<a href="">more &gt;</a>
+                    Retentions, Funnels, Event explorer, Event Stream,
+                    <span data-hint="run SQL queries and visualize them in various charts.">Advanced BI reporting tool</span>,
+                    Custom Dashboards etc. You have what you need in order to build your own custom analytics service.
                 </div>
             </div>
         </div>
         <div class="col-xs-12 col-md-4 center-xs left-md">
             <div class="feature">
                 <h4><i class="fa fa-file-text-o"></i> Analytics API Gateway</h4>
-                <div class="feature-text">Rakam is an API that you can interact in order to develop your own front-end applications. You can either use our BI solution or implement your dashboards using Rakam API. <a href="">more &gt;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-4 center-xs right-md">
-            <div class="feature">
-                <h4><i class="fa fa-code" style="font-weight:bold"></i> Fully Customizable</h4>
-                <div class="feature-text">
-                    Rakam includes more than 10+ modules that you can install dependening on your spesific use-case.  <a href="">more &gt;</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-md-4 center-xs">
-            <div class="feature">
-                <h4><i class="fa fa-user"></i> Analytics &amp; CRM in one place</h4>
-                <div class="feature-text">Track user activities, segment your users and communicate with them via Rakam API.
+                <div class="feature-text">Rakam is an API that you can interact in order to develop your own front-end
+                    applications. You can either use our BI solution or implement your dashboards using Rakam API.
                 </div>
             </div>
         </div>
         <div class="col-xs-12 col-md-4 center-xs left-md">
             <div class="feature">
-                <h4><i class="fa fa-server"></i> Hosted wherever you want</h4>
-                <div class="feature-text">You can install Rakam on your own hardware, monitor and scale it without hassle.
+                <h4><i class="fa fa-server"></i> Customize & host on your servers</h4>
+                <div class="feature-text">Rakam includes more than 10+ modules that you can install depending on your specific use-case.. You can install Rakam on your own hardware, monitor and scale it without
+                    hassle.
                 </div>
             </div>
         </div>
     </div>
 </section>
 <section id="map-landing">
-    <h3 class="nice-header">See it in action</h3>
+    <h3 class="nice-header" id="seeitinaction">See it in action</h3>
     <div class="animation" style="backface-visibility: hidden;">
         <div class="box-container" style="margin-top: 50px;">
-            <div class="box-text"><a href="doc/client-libraries">Client Libraries</a><a style="left:-78px">Collection API</a></div>
-            <div class="box"><span class="moving-linear" style="top: -20px;">-</span><span class="moving-linear" style="top: -10px;">-</span>
+            <div class="box-text"><a href="/doc/#clientlibraries">Client Libraries</a><a href="/doc/#trackers" style="left:-78px">SDKs</a>
+            </div>
+            <div class="box"><span class="moving-linear" style="top: -20px;">-</span><span class="moving-linear"
+                                                                                           style="top: -10px;">-</span>
                 <span class="moving-linear" style="top: 0;">-</span>
                 <span class="moving-linear" style="top: 22px;">-</span>
-                <span class="moving-linear" style="top: 32px;">-</span><span class="moving-linear" style="top: 42px;">-</span>
+                <span class="moving-linear" style="top: 32px;">-</span><span class="moving-linear"
+                                                                             style="top: 42px;">-</span>
                 <span class="moving-linear" style="top: 50px;">-</span>collect
             </div>
         </div>
@@ -76,7 +70,7 @@
         <div class="box-container" style="
                   margin-top: 50px;
                   ">
-            <div class="box-text"><a style="margin-left:-16px">Event Mapper Plugins</a></div>
+            <div class="box-text"><a href="/doc/buremba/rakam-wiki/master/Event-Mappers" style="margin-left:-16px">Event Mapper Plugins</a></div>
             <div class="box">
                 <div id="repair-animation">
                     <div id="repair-item3"></div>
@@ -95,19 +89,19 @@
                 <div class="box-text"><a style="
     left: -14px;
     top: -1px;
-">Continuous queries</a><a style="
+" href="/doc/rakam-wiki/master/Getting-Started#continuousquerytablesubapidocapigetrakamcomcontinuousquerysub">Continuous queries</a>
+                    <a href="/doc/buremba/rakam-wiki/master/Modules#eventstreammodulesubapidocapirakamiostreamsub" style="
     right: -85px;
     top: 6px;
 ">Event stream module</a></div>
-                <div class="box"><i class="fa fa-circle-o-notch fa-spin" style="position: absolute;font-size: 80px;margin: -27px -19px;color: rgba(0, 0, 0, 0.04);"></i>process
+                <div class="box"><i class="fa fa-circle-o-notch fa-spin"
+                                    style="position: absolute;font-size: 80px;margin: -27px -19px;color: rgba(0, 0, 0, 0.04);"></i>process
                 </div>
             </div>
-            <i class="fa fa-long-arrow-right" style="top: 96px;left: 42px;font-size: 15px;position: absolute;transform: rotate(90deg);"></i>
+            <i class="fa fa-long-arrow-right"
+               style="top: 96px;left: 42px;font-size: 15px;position: absolute;transform: rotate(90deg);"></i>
             <div class="box-container" style="margin-top: 12px;">
-                <div class="box-text"><a style="
-    top: 108px;
-    left: -5px;
-          ">Backend storage</a></div>
+                <div class="box-text"><a href="/doc/#designdocs" style="top: 108px;left: -5px;">Backend storage</a></div>
                 <div class="box">
                     <div class="loader">
                         <span class="loader-block"></span>
@@ -126,14 +120,8 @@
         </div>
         <i class="fa fa-long-arrow-right" style="margin-top: 139px;"></i>
         <div class="box-container" style="margin-top: 111px;margin-left: 20px;">
-            <div class="box-text"><a style="
-    left: -2px;
-    top: -3px;
-">Analysis API</a>
-                <a style="
-    left: 85px;
-    top: 10px;
-">Web application</a></div>
+            <div class="box-text"><a href="//api.rakam.io/#execute-query-on-event-data-set" style="left: -2px;top: -3px;">Analysis API</a>
+                <a href="/doc/buremba/rakam-wiki/master/Rakam-BI/Dashboards" style="left: 85px;top: 10px;">Rakam BI</a></div>
             <div class="box">
                 analyze
                 <div class="bar-c">
@@ -149,16 +137,149 @@
         <div class="clearfix"></div>
     </div>
 </section>
-<section id="analyze-spendings">
-    <!--<h3 class="nice-header">Analyze your data</h3>-->
-</section>
-<section id="screenshots">
-    <!--<img alt="Map" height="330" src="" width="520">-->
-</section>
 <section id="how-work">
-    <h3>...</h3>
-    <div>
-    </div>
+    <h3 class="nice-header" style="margin: 5px 0 15px">Advanced Business Intelligence (BI) tool</h3>
+
+    <section class="grid clearfix">
+        <a href="#" class="col-md-3" style="margin-left:12.5%" image-transition
+           data-path-hover="m 180,0 -180,0 L 0,0 180,0 z">
+            <figure>
+                <img style="height:210px" src="/assets/images/query-builder.png">
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                    <path d="M180,160C180,160,0,218,0,218C0,218,0,0,0,0C0,0,180,0,180,0C180,0,180,160,180,160"></path>
+                    <desc>Created with Snap</desc>
+                    <defs></defs>
+                </svg>
+                <figcaption>
+                    <h2>Interactive Query Builder</h2>
+                    <p>Analyze event data without writing SQL queries, just use the interactive interface.</p>
+                    <button>View demo</button>
+                </figcaption>
+            </figure>
+        </a>
+        <a href="#" class="col-md-3" image-transition data-path-hover="m 180,0 -180,0 L 0,0 180,0 z">
+            <figure>
+                <img style="height:210px" src="/assets/images/sql-editor.png">
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                    <path d="M180,160C180,160,0,218,0,218C0,218,0,0,0,0C0,0,180,0,180,0C180,0,180,160,180,160"></path>
+                    <desc>Created with Snap</desc>
+                    <defs></defs>
+                </svg>
+                <figcaption>
+                    <h2>SQL Editor</h2>
+                    <p>Write SQL queries, format result-set and generate charts.</p>
+                    <button>View demo</button>
+                </figcaption>
+            </figure>
+        </a>
+        <a href="#" class="col-md-3" image-transition data-path-hover="m 180,0 -180,0 L 0,0 180,0 z">
+            <figure>
+                <img style="height:210px" src="/assets/images/dashboard.png">
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                    <path d="M180,160C180,160,0,218,0,218C0,218,0,0,0,0C0,0,180,0,180,0C180,0,180,160,180,160"></path>
+                    <desc>Created with Snap</desc>
+                    <defs></defs>
+                </svg>
+                <figcaption>
+                    <h2>Dashboard</h2>
+                    <p>Create dashboards from your saved reports</p>
+                    <button>View demo</button>
+                </figcaption>
+            </figure>
+        </a>
+    </section>
 </section>
-<section id="video">
+
+<section id="screenshots" style="padding-bottom: 40px">
+    <h3 class="nice-header" style="margin: 5px 0 15px">Rich analytical features</h3>
+    <section class="grid clearfix">
+        <a href="#" class="col-md-3" style="margin-left:12.5%" image-transition
+           data-path-hover="m 180,0 -180,0 L 0,0 180,0 z">
+            <figure>
+                <img style="height:210px" src="/assets/images/event-explorer.png">
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                    <path d="M180,160C180,160,0,218,0,218C0,218,0,0,0,0C0,0,180,0,180,0C180,0,180,160,180,160"></path>
+                    <desc>Created with Snap</desc>
+                    <defs></defs>
+                </svg>
+                <figcaption>
+                    <h2>Event explorer</h2>
+                    <p>Analyze event data without writing SQL queries, just use the interactive interface.</p>
+                    <button>View demo</button>
+                </figcaption>
+            </figure>
+        </a>
+        <a href="#" class="col-md-3" image-transition data-path-hover="m 180,0 -180,0 L 0,0 180,0 z">
+            <figure>
+                <img style="height:210px" src="/assets/images/funnel.png">
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                    <path d="M180,160C180,160,0,218,0,218C0,218,0,0,0,0C0,0,180,0,180,0C180,0,180,160,180,160"></path>
+                    <desc>Created with Snap</desc>
+                    <defs></defs>
+                </svg>
+                <figcaption>
+                    <h2>Funnel</h2>
+                    <p>Create funnels from user actions</p>
+                    <button>View demo</button>
+                </figcaption>
+            </figure>
+        </a>
+        <a href="#" class="col-md-3" image-transition data-path-hover="m 180,0 -180,0 L 0,0 180,0 z">
+            <figure>
+                <img style="height:210px" src="/assets/images/retention.png">
+                <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                    <path d="M180,160C180,160,0,218,0,218C0,218,0,0,0,0C0,0,180,0,180,0C180,0,180,160,180,160"></path>
+                    <desc>Created with Snap</desc>
+                    <defs></defs>
+                </svg>
+                <figcaption>
+                    <h2>Retention</h2>
+                    <p>Generate retention tables and cohorts from user event data</p>
+                    <button>View demo</button>
+                </figcaption>
+            </figure>
+        </a>
+    </section>
+</section>
+<section id="analyze-spendings">
+    <h3 class="nice-header" style="margin: 5px 0 15px">Analytics API Gateway</h3>
+    <div style="font-size:14px; width:600px; margin:10px auto 25px">Rakam is available in many platforms and programming
+        languages, you can send data from mobile devices, websites,
+        backend applications, IoT devices and
+        gather data from device sensors, <a class="fav-link" href="/doc/buremba/rakam-twitter/master/README">social
+            media services</a> and <a class="fav-link" href="/doc/buremba/rakam-data-importer/master/README">third-party
+            analytics services</a>.
+    </div>
+
+    <div class="col-md-6" style="text-align: right">
+        <h5 class="nice-header">
+            <div class="hint--top hint--large"
+                 aria-label="Rakam SDKs for both web and mobile platforms. They automatically collect data from your users based on their platforms and send data to Rakam.">
+                <i style="font-size:11px;top: -3px; position: relative;" class="fa fa-question-circle"></i>
+            </div>
+            Platform SDK
+        </h5>
+        <ul class="no-decoration" style="font-size:90%">
+            <li><a href="/doc/rakam-javascript/master/README">Web SDK (Javascript)</a></li>
+            <li><a href="/doc/rakam-android/master/README">Android SDK</a></li>
+            <!--<li><a href="/doc/rakam-ios/master/README">IOS SDK (Work in progress)</a></li>-->
+            <li>IOS SDK (Work in progress)</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h5 class="nice-header">Client Library
+            <div class="hint--top hint--large"
+                 aria-label="Rakam libraries that allows you to send data to Rakam and analyze the data in Rakam cluster.">
+                <i style="font-size:11px;top: -1px; position: relative;" class="fa fa-question-circle"></i>
+            </div>
+        </h5>
+        <ul class="no-decoration" style="font-size:90%">
+            <li><a href="/doc/rakam-io/rakam-java-client/master/README">Java</a></li>
+            <li><a href="/doc/rakam-io/rakam-python-client/master/README">Python</a></li>
+            <li><a href="/doc/rakam-io/rakam-php-client/master/README">Php</a></li>
+            <li><a href="/doc/rakam-io/rakam-csharp-client/master/README">C#</a></li>
+            <li><a href="/doc/rakam-io/rakam-ruby-client/master/README">Ruby</a></li>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
 </section>

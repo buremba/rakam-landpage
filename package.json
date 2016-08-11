@@ -15,7 +15,7 @@
     "postinstall": "bower install",
     "prestart": "npm install",
     "start": "node server",
-    "pretest": "npm install",
+    "pretest": "npm install"
   },
   "dependencies": {
     "express": "^4.13.3"

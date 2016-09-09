@@ -33,8 +33,8 @@ angular.module('myApp.landpage', ['ngRoute'])
     .directive('imageTransition', [function () {
         return {
             controller: function ($scope, $element) {
-                var speed = 250,
-                    easing = mina.easeinout;
+                var speed = 250;
+                var easing = mina.easeinout;
 
                 var s = Snap($element[0].querySelector('svg')), path = s.select('path'),
                     pathConfig = {

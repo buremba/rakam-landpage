@@ -9,6 +9,7 @@ var app = angular.module('myApp', [
     'myApp.deploy',
     'myApp.config',
     'myApp.library',
+    'myApp.integration',
     'angular-loading-bar',
     'cgBusy',
     'duScroll'
@@ -32,6 +33,10 @@ app.config(function ($routeProvider, $locationProvider) {
         .when('/deploy', {
             templateUrl: '/assets/js/deploy/deploy.html',
             controller: 'DeployCtrl'
+        })
+        .when('/integrate', {
+            templateUrl: '/assets/js/integration/integration.html',
+            controller: 'IntegrationCtrl'
         })
         .when('/support', {
             templateUrl: '/assets/js/support.html',

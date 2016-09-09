@@ -4,7 +4,8 @@ var sourceAddress = "//rawgit.com";
 
 angular.module('myApp.deploy', ['ngRoute'])
 
-    .controller('DeployCtrl', function ($http, $scope, $sce, $document, $routeParams) {
+    .controller('DeployCtrl', function ($http, $scope, $sce) {
+
         $scope.tabs = [{
             title: 'Docker',
             url: 'h3#docker'
@@ -36,7 +37,7 @@ angular.module('myApp.deploy', ['ngRoute'])
             $scope.selected = tab;
             $scope.promise.then(function (dom) {
                 var actualElement = dom.querySelector(tab.url);
-                
+
                 if (!actualElement) {
                     return null;
                 }
@@ -52,7 +53,7 @@ angular.module('myApp.deploy', ['ngRoute'])
 
                     element = element.nextElementSibling;
                 }
-                
+
                 $scope.content = $sce.trustAsHtml(html);
             });
         }

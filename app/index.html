@@ -14,11 +14,12 @@
     <meta property="og:image" content="/">
     <meta property="og:locale" content="en_US">
     <link href="/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" media="all" rel="stylesheet">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" media="all" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" media="all"
+          rel="stylesheet">
     <link href="/assets/bower_components/angular-loading-bar/build/loading-bar.min.css" media="all" rel="stylesheet">
     <link rel="stylesheet" href="/assets/bower_components/hint.css/hint.min.css">
     <link href="/assets/bower_components/angular-busy/dist/angular-busy.min.css" media="all" rel="stylesheet">
-    <meta name="google-site-verification" content="ou1HlyEke0_4TW2NpR5sVqb2L0Mugxq2H37U4KNAI6Q" />
+    <meta name="google-site-verification" content="ou1HlyEke0_4TW2NpR5sVqb2L0Mugxq2H37U4KNAI6Q"/>
     <link href="assets/app.css" media="all" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
@@ -26,20 +27,28 @@
 <div class="landing">
     <nav>
         <div class="center">
-        <a href="/" id="logo-large">Rakam</a>
-        <ul class="">
-            <li><a href="//blog.rakam.io">Blog</a></li>
-            <li><a href="/pricing">Pricing</a></li>
-            <li><a href="//github.com/buremba/rakam" target="_blank"><i class="fa fa-github"></i> Github</a></li>
-            <!--<li><a href="/support">Help &amp; Support</a></li>-->
-            <li><a href="/doc">Documentation</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a class="nice" href="https://app.rakam.io/login">Login</a></li>
-            <li><a class="nice" href="https://app.rakam.io/register">Register</a></li>
-        </ul>
-            </div>
+            <a href="/" id="logo-large">
+                <img src="https://avatars3.githubusercontent.com/u/18196166?v=3&amp;s=40" style="margin-right: 6px;">
+                Rakam</a>
+            <ul class="">
+                <li><a href="//blog.rakam.io">Blog</a></li>
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="//github.com/buremba/rakam" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+                <!--<li><a href="/support">Help &amp; Support</a></li>-->
+                <li><a href="/doc">Documentation</a></li>
+                <li><a href="/integrate">Integration</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a class="nice" href="https://app.rakam.io/login">Login</a></li>
+                <li><a class="nice" href="https://app.rakam.io/register">Register</a></li>
+            </ul>
+        </div>
     </nav>
-    <div ng-view></div>
+    <div ng-view style="min-height: 100px">
+        <div style="text-align: center; margin-top:30px; font-size:1.1em">
+            Loading..
+            <i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i>
+        </div>
+    </div>
     <footer>
         <p>© Rakam.com 2015</p>
         <p><a href="/">Rakam.com</a> / <a href="/about">About</a>
@@ -54,39 +63,45 @@
 <script src="/assets/bower_components/angular-scroll/angular-scroll.min.js"></script>
 <script src="/assets/js/app.js"></script>
 <script src="/assets/js/landpage/landpage.js"></script>
-<script src="/assets/bower_components/Snap.js/snap.min.js"></script>
+<script src="/assets/bower_components/Snap.svg/dist/snap.svg-min.js"></script>
 <script src="/assets/js/api/api.js"></script>
 <script src="/assets/js/library/library.js"></script>
+<script src="/assets/js/integration/integration.js"></script>
 <script src="/assets/js/config/config.js"></script>
 <script src="/assets/js/documentation/documentation.js"></script>
 <script src="/assets/js/deploy/deploy.js"></script>
 <script src="/assets/bower_components/showdown/dist/showdown.min.js"></script>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-49520110-1', 'auto');
     ga('send', 'pageview');
-//    ga('set', 'userId', {{USER_ID}});
+    //    ga('set', 'userId', {{USER_ID}});
 </script>
 </body>
-<!-- Start of Async Drift Code -->
-<!-- Start of Async Drift Code -->
 <script>
-    !function() {
+    !function () {
         var t;
         return t = window.driftt = window.drift = window.driftt || [], t.init ? void 0 : t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-                t.methods = [ "identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-                t.factory = function(e) {
-                    return function() {
+                t.methods = ["identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                t.factory = function (e) {
+                    return function () {
                         var n;
                         return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
                     };
-                }, t.methods.forEach(function(e) {
+                }, t.methods.forEach(function (e) {
             t[e] = t.factory(e);
-        }), t.load = function(t) {
+        }), t.load = function (t) {
             var e, n, o, r;
             e = 3e5, r = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
                     o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + r + "/" + t + ".js",
@@ -100,5 +115,6 @@
 <script>
     // driftt.identify(userId, { email: 'abcd@email.com' });
 </script>
-<!-- End of Async Drift Code -->
+<script src="//cdn.rawgit.com/EagerIO/EmbedBox/master/dist/embed-box.min.js"></script>
+
 </html>

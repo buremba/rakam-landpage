@@ -1477,12 +1477,14 @@ a[ng-click]:hover {
     list-style: none;
     padding: 7px;
 }
+.pricing li.title:before {
+    display: none;
+}
 .pricing li:before {
     content: url(//segment.com/build/public/client/icon/images/mini/icon-mini-done.svg);
     margin-right: 6px;
     width: 10px;
     height: 10px;
-    display: block;
 }
 .pricing big {
     font-size: 32px;
@@ -1495,9 +1497,6 @@ a[ng-click]:hover {
     font-size: 12px;
     color: #999;
     font-weight: normal;
-}
-.pricing li:nth-last-child(2) {
-    padding: 30px 13px;
 }
 .pricing button {
     width: auto;

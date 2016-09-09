@@ -7,8 +7,12 @@ angular.module('myApp.integration', ['ngRoute'])
 
     .controller('IntegrationCtrl', function ($http, $scope, $location) {
         var converter = new showdown.Converter();
+        var load = false;
 
         $scope.websiteIntegration = function() {
+            if(!window.EmbedBox) {
+                return load = true;
+            }
             var page = sourceAddress + "/buremba/rakam-javascript/master/README.md";
             $scope.promise = $http.get(page, {cache: true}).then(function (e) {
                 var div = document.createElement('div');
@@ -37,8 +41,15 @@ angular.module('myApp.integration', ['ngRoute'])
 
         }
 
-        console.log($location.search())
-        if($location.search().part == 'website') {
-            $scope.websiteIntegration();
-        }
+        var script = document.createElement('script');
+        script.src = '//cdn.rawgit.com/EagerIO/EmbedBox/master/dist/embed-box.min.js';
+        script.onload = function () {
+            document.head.appendChild(script);
+
+            if($location.search().part == 'website' || load) {
+                $scope.websiteIntegration();
+            }
+        };
+
+
     })

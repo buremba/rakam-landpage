@@ -106,6 +106,7 @@ angular.module('myApp.documentation', ['ngRoute'])
             scope: {content: '=markdownContent', parent: '=parent'},
             controller: function ($scope, $element) {
                 $scope.$watch('content', function (content) {
+                    content = content || "";
                     $element[0].innerHTML = content;
                     [].forEach.call($element[0].querySelectorAll('a'), function (a) {
                         var href = a.getAttribute("href");

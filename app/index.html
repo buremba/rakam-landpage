@@ -19,16 +19,17 @@
     <link href="/assets/bower_components/angular-loading-bar/build/loading-bar.min.css" media="all" rel="stylesheet">
     <link rel="stylesheet" href="/assets/bower_components/hint.css/hint.min.css">
     <link href="/assets/bower_components/angular-busy/dist/angular-busy.min.css" media="all" rel="stylesheet">
+    <link href="/assets/bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.min.css" media="all" rel="stylesheet">
     <meta name="google-site-verification" content="ou1HlyEke0_4TW2NpR5sVqb2L0Mugxq2H37U4KNAI6Q"/>
     <link href="assets/app.css" media="all" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 <body class="pages index" ng-app="myApp">
 <div class="landing">
-    <nav>
+    <nav ng-class="{dark: loadedTemplate == '/assets/js/landpage/landpage.html'}">
         <div class="center">
             <a href="/" id="logo-large">
-                <img src="https://avatars3.githubusercontent.com/u/18196166?v=3&amp;s=40" style="margin-right: 6px;">
+                <img src="/assets/logo1.png" style="margin-right: 6px;margin-top:4px;height:40px">
                 Rakam</a>
             <ul class="">
                 <li><a href="//blog.rakam.io">Blog</a></li>
@@ -38,8 +39,8 @@
                 <li><a href="/doc">Documentation</a></li>
                 <li><a href="/integrate">Integration</a></li>
                 <li><a href="/contact">Contact</a></li>
+                <li><a class="nice" href="https://app.rakam.io/login?project_name=istanbul_traffic&amp;api_url=https://rakam-production-webapp-203653584.us-east-1.aws.getrakam.com&amp;action&amp;email=local@demo.com&amp;password=demoAccount1">Demo</a></li>
                 <li><a class="nice" href="https://app.rakam.io/login">Login</a></li>
-                <li><a class="nice" href="https://app.rakam.io/register">Register</a></li>
             </ul>
         </div>
     </nav>
@@ -53,7 +54,7 @@
         <p>© Rakam.com 2015</p>
         <p><a href="/">Rakam.com</a> / <a href="/about">About</a>
         <p><a href="https://twitter.com/rakam" target="_blank">Twitter</a> / <a href="mailto:support@rakam.com">support@rakam.com</a>
-        </p>
+        <p>Esentepe Mah. Talatpasa Caddesi No: 5 Levent, ♥ Istanbul</p>
     </footer>
 </div>
 <script src="/assets/bower_components/angular/angular.min.js"></script>
@@ -61,6 +62,8 @@
 <script src="/assets/bower_components/angular-loading-bar/build/loading-bar.min.js"></script>
 <script src="/assets/bower_components/angular-busy/dist/angular-busy.min.js"></script>
 <script src="/assets/bower_components/angular-scroll/angular-scroll.min.js"></script>
+<script src="/assets/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script src="/assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 <script src="/assets/js/app.js"></script>
 <script src="/assets/js/landpage/landpage.js"></script>
 <script src="/assets/bower_components/Snap.svg/dist/snap.svg-min.js"></script>
@@ -70,51 +73,16 @@
 <script src="/assets/js/config/config.js"></script>
 <script src="/assets/js/documentation/documentation.js"></script>
 <script src="/assets/js/deploy/deploy.js"></script>
+<script src="/assets/bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.min.js"></script>
 <script src="/assets/bower_components/showdown/dist/showdown.min.js"></script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-49520110-1', 'auto');
-    ga('send', 'pageview');
-    //    ga('set', 'userId', {{USER_ID}});
-</script>
 </body>
 <script>
-    !function () {
-        var t;
-        return t = window.driftt = window.drift = window.driftt || [], t.init ? void 0 : t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-                t.methods = ["identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-                t.factory = function (e) {
-                    return function () {
-                        var n;
-                        return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-                    };
-                }, t.methods.forEach(function (e) {
-            t[e] = t.factory(e);
-        }), t.load = function (t) {
-            var e, n, o, r;
-            e = 3e5, r = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + r + "/" + t + ".js",
-                    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-        });
-    }();
-    drift.SNIPPET_VERSION = '0.2.0'
-    drift.load('wesv78st6kf2')
 </script>
-
-<script>
-    // driftt.identify(userId, { email: 'abcd@email.com' });
+<script type="text/javascript">
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+        analytics.load("YnDQk2XvnnDdpLNxUxRlQZFnpXx678mc");
+        analytics.page()
+    }}();
 </script>
-<script src="//cdn.rawgit.com/EagerIO/EmbedBox/master/dist/embed-box.min.js"></script>
-
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 </html>

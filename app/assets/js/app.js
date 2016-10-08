@@ -4,6 +4,7 @@
 var app = angular.module('myApp', [
     'ngRoute',
     'myApp.landpage',
+    'bootstrapLightbox',
     'myApp.documentation',
     'myApp.api',
     'myApp.deploy',
@@ -21,6 +22,7 @@ app.config(function ($routeProvider) {
 
 app.config(function ($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
+    $locationProvider.hashPrefix('!');
     $routeProvider
         .when('/pricing', {
             templateUrl: '/assets/js/pricing.html',
@@ -60,7 +62,12 @@ app.controller('ContactCtrl', [function () {
 }]);
 
 app.run(function ($rootScope, $route, $document, $timeout) {
+    Stripe.setPublishableKey('pk_live_z25q1wt0JWOQSLWxPTdyYguJ');
+
     $rootScope.$on('$viewContentLoaded', function () {
+
+        $rootScope.loadedTemplate = $route.current.loadedTemplateUrl;
+        console.log($route.current);
 
         if ($route.current.params.hash) {
             $timeout(function () {

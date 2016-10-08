@@ -4,7 +4,7 @@ var sourceAddress = "//rawgit.com";
 
 angular.module('myApp.deploy', ['ngRoute'])
 
-    .controller('DeployCtrl', function ($http, $scope, $sce) {
+    .controller('DeployCtrl', function ($http, $scope, $location, $sce) {
 
         $scope.tabs = [{
             title: 'Docker',
@@ -58,5 +58,10 @@ angular.module('myApp.deploy', ['ngRoute'])
             });
         }
 
-        $scope.currentTab = $scope.onClickTab($scope.tabs[0]);
+        var target = $location.search().target;
+        var tab = $scope.tabs.filter(function(tab) {
+            return tab.title == target;
+        })[0] || $scope.tabs[0];
+
+        $scope.onClickTab(tab);
     })

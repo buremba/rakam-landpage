@@ -72,8 +72,12 @@ body {
 section h3.nice-header {
     text-align: center;
     font-size: 28px;
-    padding-top: 15px;
+    padding-top: 30px;
 
+}
+
+.code-type-name {
+    -webkit-user-select: none;float:right;border-radius: 20px;padding: 1px 5px;margin-top: -5px;cursor: pointer;color: white;
 }
 
 h3:before {
@@ -86,6 +90,10 @@ h3:before {
     width: 1000px;
     margin: 0 auto;
     padding-top: 30px;
+}
+
+a.no-decoration:hover {
+    text-decoration: none;
 }
 
 #featured h4 {
@@ -105,12 +113,13 @@ h3:before {
 
 .feature-text {
     color: darkgray;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .big_buttons {
     text-align: center;
     margin: 20px 0 0 0;
+    clear: both;
 }
 
 .big_buttons .gmail {
@@ -138,19 +147,27 @@ h3:before {
 
 .landing #intro {
     box-sizing: border-box;
-    padding: 30px 0 283px;
+    padding: 20px 0 90px;
     background: #6199B5;
-    background: linear-gradient(to bottom, #00bff3 0%, #0098C1 100%);
+    background: linear-gradient(to top, #00bff3 0%, #0085a9 100%);
     position: relative;
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.23); */
 }
 
-button.subscribe-button {
+.btn.btn-primary {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 0 4px 4px 0 !important;
-    margin-left: 0px !important;
     border-color: rgba(0, 0, 0, 0.08);
+}
+button.subscribe-button {
+    margin-left: 0px !important;
     outline:none
+}
+
+@media screen and (max-width: 860px) {
+    #arrows {
+        display: none !important;
+    }
 }
 
 .landing #intro:after {
@@ -162,61 +179,8 @@ button.subscribe-button {
     bottom: 0;
 }
 
-#screenshots {
+.landing-dark {
     background: #374355;
-    -webkit-justify-content: center;
-    justify-content: center;
-    overflow: hidden;
-    padding-bottom: 25px;
-}
-
-#screenshots > img {
-    display: block;
-}
-
-@media (max-width: 750px) {
-    .center {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    nav.flex {
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-flex-direction: column;
-        flex-direction: column;
-    }
-
-    nav #logo-large {
-        margin: 0 auto;
-    }
-
-    #intro > div > .flex > .flex {
-        -webkit-justify-content: center;
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    #intro h2 {
-        margin-top: 35px;
-    }
-
-    #screenshots {
-        -webkit-flex-direction: column;
-        flex-direction: column;
-        -webkit-justify-content: center;
-        justify-content: center;
-        padding: 40px 0;
-    }
-
-    #screenshots > img {
-        margin: 20px auto;
-        height: auto !important;
-    }
-
-    #how-work {
-        padding-bottom: 30px;
-    }
 }
 
 @media (min-width: 1000px) {
@@ -256,26 +220,21 @@ button.subscribe-button {
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
-#map-landing {
-    width: 100%;
+.dark-landing {
     background: #374355;
-    background-size: 2000px 430px;
 }
 
-#analyze-spendings, #most-days {
-    padding-bottom: 50px;
-    width: 100%;
+.landing-light {
     background-color: #3d4d65;
 }
 
-#how-work {
-    background-color: #3d4d65;
-}
-
-#how-work > div {
+.landing-light > div {
     -webkit-justify-content: center;
     justify-content: center;
-    margin-top: 80px;
+}
+
+nav.dark {
+    background: #0085a9;
 }
 
 nav {
@@ -295,9 +254,61 @@ nav ul {
     /* float: right; */
 }
 
+.big-picture {
+    width: 59%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.45);
+    margin: 10px 0;
+}
+
+.btn-primary:hover {
+background: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.13);
+}
+
 nav ul li a:hover,
 nav ul li.active a {
     color: #fff !important;
+}
+
+.landing-item.active {
+    opacity:1;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    border-right: none;
+    border-left: none;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 2px 0 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+.landing-item {
+    margin: 2px 0 0 20%;
+    opacity: .6;
+    border: 1px solid transparent;
+    border-right: none;
+    border-left: none;
+    padding: 5% 8%;
+    cursor:pointer
+}
+
+
+.landing-item-reverse {
+    margin: 2px 20% 0 0;
+}
+
+
+.landing-item-reverse.active {
+    box-shadow: -2px 0 0px rgba(0, 0, 0, 0.16) inset;
+    border-radius: 0 10px 10px 0;
+}
+
+.landing-title {
+    font-size: 2em;
+    font-family: "Proxima-Nova", "Helvetica Neue", "Helvetica", Sans-Serif;
+    color: #fff;
+}
+
+.landing-description {
+    clear:both;  width:100%; line-height:1.2em; font-size: .95em;
 }
 
 nav ul li a {
@@ -306,7 +317,7 @@ nav ul li a {
     font-size: 12px;
     font-weight: 600;
     padding: 6px 8px;
-    color: rgba(255, 255, 255, 0.4) !important;
+    color: rgba(255, 255, 255, 0.73) !important;
     margin-top: -6px;
 }
 
@@ -1794,3 +1805,42 @@ a.fav-link {
 a.fav-link:hover {
     text-decoration: none;
 }
+.modal-content {
+    background: black;
+    border-radius: 5px;
+}
+
+/*
+
+    Name:       material
+    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
+
+    Original material color scheme by Mattia Astorino (https://github.com/equinusocio/material-theme)
+
+*/
+
+.cm-s-material {
+    font-weight: bold;
+    font-family: Consolas, monaco, monospace;
+    /* background-color: #263238; */
+    font-size: 13px;
+    line-height: 30px;
+    color: #FBFBFF;
+}
+
+
+.cm-s-material span.cm-comment { color: #8f5536; }
+.cm-s-material span.cm-atom { color: #aa759f; }
+.cm-s-material span.cm-number { color: #aa759f; }
+
+.cm-s-material span.cm-property, .cm-s-material span.cm-attribute {color: #0275d8;}
+.cm-s-material span.cm-keyword { color: #ac4142; }
+.cm-s-material span.cm-string {color: #FFE330;}
+
+.cm-s-material span.cm-variable {color: #A3FF2B;}
+.cm-s-material span.cm-variable-2 { color: #6a9fb5; }
+.cm-s-material span.cm-def { color: #d28445; }
+.cm-s-material span.cm-bracket { color: #202020; }
+.cm-s-material span.cm-tag { color: #ac4142; }
+.cm-s-material span.cm-link { color: #aa759f; }
+.cm-s-material span.cm-error { background: #ac4142; color: #505050; }

@@ -9,7 +9,7 @@ angular.module('myApp.config', ['ngRoute'])
                 controller: 'ConfigCtrl',
                 resolve : {
                     modules: function($http, $route) {
-                        return $http.get("https://gist.githubusercontent.com/buremba/0bade37ae72895fe0031/raw/4129efa704c86dda9ee2d0940a1f9cd64f8dbf41/rakam-registry.json").then(function(e) {
+                        return $http.get("https://gist.githubusercontent.com/buremba/0bade37ae72895fe0031/raw/rakam-registry.json").then(function(e) {
                             return e.data.modules;
                         });
                     }

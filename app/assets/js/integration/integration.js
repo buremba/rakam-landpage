@@ -43,9 +43,8 @@ angular.module('myApp.integration', ['ngRoute'])
 
         var script = document.createElement('script');
         script.src = '//cdn.rawgit.com/EagerIO/EmbedBox/master/dist/embed-box.min.js';
+        document.head.appendChild(script);
         script.onload = function () {
-            document.head.appendChild(script);
-
             if($location.search().part == 'website' || load) {
                 $scope.websiteIntegration();
             }

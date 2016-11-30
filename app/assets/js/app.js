@@ -62,12 +62,9 @@ app.controller('ContactCtrl', [function () {
 }]);
 
 app.run(function ($rootScope, $route, $document, $timeout) {
-    Stripe.setPublishableKey('pk_live_z25q1wt0JWOQSLWxPTdyYguJ');
-
     $rootScope.$on('$viewContentLoaded', function () {
 
         $rootScope.loadedTemplate = $route.current.loadedTemplateUrl;
-        console.log($route.current);
 
         if ($route.current.params.hash) {
             $timeout(function () {

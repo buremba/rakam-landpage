@@ -4,15 +4,15 @@
         <!--<img src="assets/images/test2.png" style="width: 240px;position: absolute;">-->
         <div class="col-md-7" style="margin-top: 21px">
             <h2>
-                <small>Powerful on-premise custom analytics platform.</small>
+                <small>Powerful custom analytics platform on your cloud</small>
                 <div style="font-size:.5em; opacity: .5; text-shadow: none; margin-top:5px">
-                    rakam is your own analytics stack. <br>it <a ng-click="scroll()" style="color:#fff"
-                                                                 class="fav-link">manages</a>
-                    your data and lets you to create insights. no coding required.
+                    rakam takes care of <a ng-click="scroll()" style="color:#fff" class="fav-link">etl + data
+                    warehousing + reporting</a> for you so that you can create insights from your data easily. no coding
+                    required.
                 </div>
             </h2>
             <div class="big_buttons">
-                <a class="gmail demo-button" ng-click="clickedDemo()"
+                <a class="gmail demo-button" ng-click="clickedRegister()"
                    href="https://app.rakam.io/register"><i
                         class="fa fa-desktop" aria-hidden="true"></i> Register <span style="font-size:7px"></span></a>
                 <a class="gmail" href="/deploy"> <i class="fa fa-cloud-upload" aria-hidden="true"></i> Deploy Rakam</a>
@@ -36,16 +36,16 @@
                  id="arrows">
                 <img src="https://cdn2.iconfinder.com/data/icons/arrow-5/512/arrow_pencil_left-large-128.png"
                      style="float: right;opacity: .6;width: 60px;margin: -24px 0px 0 10px">
-                <a class="code-type-name cm-s-material no-decoration" href="#analyze-spendings" style="color:#fff">{query
-                    api}</a>
+                <a class="code-type-name cm-s-material no-decoration" href="#analyze-spendings"
+                   style="transform: rotate(-4deg);color:#fff">{analyze api}</a>
 
                 <img src="https://cdn2.iconfinder.com/data/icons/arrow-5/512/arrow_pencil_left-small-128.png"
                      style="float: right;opacity: .6;width: 50px;margin: -5px 12px;">
                 <div style="float: right;cursor: pointer;position: relative">
                     <a href="#analyze-spendings" class="no-decoration code-type-name cm-s-material"
-                       style="position:relative; top:6px; color:#fff; margin-top:9px">
+                       style="position:relative;top:0px; color:#fff; margin-top:9px;transform: rotate(1deg);">
 
-                        {collect data}
+                        {collect data from anywhere you want}
                         <div style="display:none"><i class="fa fa-mobile"
                                                      style="font-size: 27px;position:absolute;left: 20px;top: -21px;"
                                                      aria-hidden="true"></i>,
@@ -68,7 +68,7 @@
             </div>
             <div class="clearfix"></div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 big-image-landpage">
             <a href="#richanalytical">
                 <img src="assets/images/iconic.png" style="z-index: 100;">
             </a>
@@ -109,7 +109,7 @@
         </div>
     </div>
 </section>
-<section class="landing-dark">
+<section class="landing-dark" id="workflow">
     <h3 class="nice-header" id="seeitinaction">Workflow</h3>
     <div class="animation" style="backface-visibility: hidden;">
         <div class="box-container" style="margin-top: 50px;">
@@ -205,7 +205,7 @@
 <section class="landing-light" style="padding-bottom:30px" ng-init="activePicture = 'event-explorer'" ng-if="true">
     <h3 class="nice-header" id="richanalytical">Rich analytical features</h3>
     <br>
-    <div style="float:left;width: 41%;margin-top:100px">
+    <div class="slick-text" style="float:left;width: 41%;margin-top:100px">
         <div class="landing-item" ng-class="{active: activePicture == 'event-explorer'}"
              ng-mouseover="activePicture = 'event-explorer'">
             <h3 class="landing-title">
@@ -227,7 +227,7 @@
         <div class="landing-item" ng-class="{active: activePicture == 'retention'}"
              ng-mouseover="activePicture = 'retention'">
             <h3 class="landing-title">
-                <div class="icon fa fa-filter"></div>
+                <div class="icon fa fa-magnet"></div>
                 Cohorts
             </h3>
             <div class="landing-description">Generate cohorts in order to understand how ofter your users use your
@@ -236,7 +236,7 @@
         </div>
     </div>
 
-    <div class="big-picture" style="float: right;background:rgba(0, 0, 0, 0.1)">
+    <div class="big-picture from-right" style="float: right;background:rgba(0, 0, 0, 0.1)">
         <img style="width:100%;background:black" my-src="/assets/images/landpage/{{activePicture}}.png">
     </div>
     <div class="clearfix"></div>
@@ -244,11 +244,11 @@
 <section class="landing-dark" style="padding-bottom:30px" ng-init="activePicture = 'sql-editor'" ng-if="true">
     <h3 class="nice-header" id="advancedbi">Advanced Business Intelligence (BI)</h3>
     <br><br>
-    <div style="float:right;width: 41%;margin-top:100px">
+    <div class="slick-text" style="float:right;width: 41%;margin-top:20px">
         <div class="landing-item landing-item-reverse" ng-class="{active: activePicture == 'sql-editor'}"
              ng-mouseover="activePicture = 'sql-editor'">
             <h3 class="landing-title">
-                <div class="icon fa fa-code"></div>
+                <div class="icon fa fa-code" style="width:32px;text-align: center"></div>
                 SQL Editor
             </h3>
             <div class="landing-description">Analyze your events in realtime with a simple interface.</div>
@@ -256,7 +256,7 @@
         <div class="landing-item landing-item-reverse" ng-class="{active: activePicture == 'query-builder'}"
              ng-mouseover="activePicture = 'query-builder'">
             <h3 class="landing-title">
-                <div class="icon fa fa-question"></div>
+                <div class="icon fa fa-question" style="width:32px;text-align: center"></div>
                 Query Builder
             </h3>
             <div class="landing-description">Create funnels from user actions and understand how your users use your
@@ -266,16 +266,26 @@
         <div class="landing-item landing-item-reverse" ng-class="{active: activePicture == 'dashboard'}"
              ng-mouseover="activePicture = 'dashboard'">
             <h3 class="landing-title">
-                <div class="icon fa fa-th"></div>
+                <div class="icon fa fa-th" style="width:32px;text-align: center"></div>
                 Dashboard
             </h3>
             <div class="landing-description">Generate cohorts in order to understand how ofter your users use your
                 product and find the potential problems in your product
             </div>
         </div>
+        <div class="landing-item landing-item-reverse" ng-class="{active: activePicture == 'report'}"
+             ng-mouseover="activePicture = 'report'">
+            <h3 class="landing-title">
+                <div class="icon fa fa-blind" style="width:32px;text-align: center"></div>
+                Recipes
+            </h3>
+            <div class="landing-description">Recipes are pre-build reports and dashboards. You may create your custom
+                analytics service depending on your needs with them or use our recipes for specific industries.
+            </div>
+        </div>
     </div>
 
-    <div class="big-picture" style="float: left;background:rgba(0, 0, 0, 0.1)">
+    <div class="big-picture left-right" style="float: left;background:rgba(0, 0, 0, 0.1)">
         <img style="width:100%" my-src="/assets/images/landpage/{{activePicture}}.png">
     </div>
     <div class="clearfix"></div>
@@ -291,54 +301,56 @@
             backend applications, IoT devices and
             gather data from device sensors, <a class="fav-link" href="/doc/buremba/rakam-twitter/master/README">social
                 media services</a> and <a class="fav-link" href="/doc/buremba/rakam-data-importer/master/README">third-party
-                analytics services</a>.
+                analytics services</a> <a href="/doc/buremba/rakam-wiki/master/Analyze-Data">Documentation</a>.
         </div>
 
-        <div class="col-md-4" style="text-align: right">
-            <h5 class="nice-header">
-                <div class="hint--top hint--large"
-                     aria-label="Rakam SDKs for both web and mobile platforms. They automatically collect data from your users based on their platforms and send data to Rakam.">
-                    <i style="font-size:11px;top: -3px; position: relative;" class="fa fa-question-circle"></i>
-                </div>
-                Integrations
-            </h5>
-            <ul class="no-decoration" style="font-size:90%">
-                <li><a href="/doc/rakam-javascript/master/README">Mixpanel</a></li>
-                <li><a href="/doc/rakam-android/master/README">Twitter</a></li>
-                <li>...</li>
-            </ul>
-        </div>
-        <div class="col-md-4" style="text-align: center">
-            <h5 class="nice-header">
-                <div class="hint--top hint--large"
-                     aria-label="Rakam SDKs for both web and mobile platforms. They automatically collect data from your users based on their platforms and send data to Rakam.">
-                    <i style="font-size:11px;top: -3px; position: relative;" class="fa fa-question-circle"></i>
-                </div>
-                Platform SDK
-            </h5>
-            <ul class="no-decoration" style="font-size:90%">
-                <li><a href="/doc/rakam-javascript/master/README">Web SDK (Javascript)</a></li>
-                <li><a href="/doc/rakam-android/master/README">Android SDK</a></li>
-                <!--<li><a href="/doc/rakam-ios/master/README">IOS SDK (Work in progress)</a></li>-->
-                <li>IOS SDK (Work in progress)</li>
-            </ul>
-        </div>
-        <div class="col-md-4" style="text-align:left">
-            <h5 class="nice-header"><i style="font-size:11px;top: -1px; position: relative;"
-                                       class="fa fa-question-circle"></i>
+        <div class="row">
+            <div class="col-md-4" style="text-align: right">
+                <h5 class="nice-header">
+                    <div class="hint--top hint--large"
+                         aria-label="Rakam SDKs for both web and mobile platforms. They automatically collect data from your users based on their platforms and send data to Rakam.">
+                        <i style="font-size:11px;top: -3px; position: relative;" class="fa fa-question-circle"></i>
+                    </div>
+                    Integrations
+                </h5>
+                <ul class="no-decoration" style="font-size:90%">
+                    <li><a href="/doc/buremba/rakam-javascript/master/README">Mixpanel</a></li>
+                    <li><a href="/doc/buremba/rakam-android/master/README">Twitter</a></li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="col-md-4" style="text-align: center">
+                <h5 class="nice-header">
+                    <div class="hint--top hint--large"
+                         aria-label="Rakam SDKs for both web and mobile platforms. They automatically collect data from your users based on their platforms and send data to Rakam.">
+                        <i style="font-size:11px;top: -3px; position: relative;" class="fa fa-question-circle"></i>
+                    </div>
+                    Platform SDK
+                </h5>
+                <ul class="no-decoration" style="font-size:90%">
+                    <li><a href="/doc/rakam-javascript/master/README">Web SDK (Javascript)</a></li>
+                    <li><a href="/doc/rakam-android/master/README">Android SDK</a></li>
+                    <!--<li><a href="/doc/rakam-ios/master/README">IOS SDK (Work in progress)</a></li>-->
+                    <li>IOS SDK (Work in progress)</li>
+                </ul>
+            </div>
+            <div class="col-md-4" style="text-align:left">
+                <h5 class="nice-header"><i style="font-size:11px;top: -1px; position: relative;"
+                                           class="fa fa-question-circle"></i>
 
-                <div class="hint--top hint--large"
-                     aria-label="Rakam libraries that allows you to send data to Rakam and analyze the data in Rakam cluster.">
-                    Client libraries
-                </div>
-            </h5>
-            <ul class="no-decoration" style="font-size:90%">
-                <li><a href="/doc/rakam-io/rakam-java-client/master/README">Java</a></li>
-                <li><a href="/doc/rakam-io/rakam-python-client/master/README">Python</a></li>
-                <li><a href="/doc/rakam-io/rakam-php-client/master/README">Php</a></li>
-                <li><a href="/doc/rakam-io/rakam-csharp-client/master/README">C#</a></li>
-                <li><a href="/doc/rakam-io/rakam-ruby-client/master/README">Ruby</a></li>
-            </ul>
+                    <div class="hint--top hint--large"
+                         aria-label="Rakam libraries that allows you to send data to Rakam and analyze the data in Rakam cluster.">
+                        Client libraries
+                    </div>
+                </h5>
+                <ul class="no-decoration" style="font-size:90%">
+                    <li><a href="/doc/rakam-io/rakam-java-client/master/README">Java</a></li>
+                    <li><a href="/doc/rakam-io/rakam-python-client/master/README">Python</a></li>
+                    <li><a href="/doc/rakam-io/rakam-php-client/master/README">Php</a></li>
+                    <li><a href="/doc/rakam-io/rakam-csharp-client/master/README">C#</a></li>
+                    <li><a href="/doc/rakam-io/rakam-ruby-client/master/README">Ruby</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="col-md-6">
@@ -349,14 +361,14 @@
             behavioural analysis queries such as funnel and retention easily. Better yet, we have another product <a
                     href="https://app.rakam.io">Rakam BI</a> which is highly-integrated with Rakam API. You can use it
             for creating custom reports, dashboards and performing admin operations.
-                <div  style="text-align:left">
-                    <br>
-                    <h5 class="nice-header">
-                       <a href="https://app.rakam.io">Rakam BI</a>
-                    </h5>
-                    <h5 class="nice-header">
-                        <a href="https://api.rakam.io">API documentation</a>
-                    </h5>
+            <div style="text-align:left">
+                <br>
+                <h5 class="nice-header">
+                    <a href="https://app.rakam.io">Rakam BI</a>
+                </h5>
+                <h5 class="nice-header">
+                    <a href="/doc/buremba/rakam-wiki/master/Analyze-Data">Documentation</a>
+                </h5>
             </div>
         </div>
     </div>

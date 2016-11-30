@@ -14,12 +14,13 @@
     <meta property="og:image" content="/">
     <meta property="og:locale" content="en_US">
     <link href="/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" media="all" rel="stylesheet">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" media="all"
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="all"
           rel="stylesheet">
     <link href="/assets/bower_components/angular-loading-bar/build/loading-bar.min.css" media="all" rel="stylesheet">
     <link rel="stylesheet" href="/assets/bower_components/hint.css/hint.min.css">
     <link href="/assets/bower_components/angular-busy/dist/angular-busy.min.css" media="all" rel="stylesheet">
-    <link href="/assets/bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.min.css" media="all" rel="stylesheet">
+    <link href="/assets/bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.min.css" media="all"
+          rel="stylesheet">
     <meta name="google-site-verification" content="ou1HlyEke0_4TW2NpR5sVqb2L0Mugxq2H37U4KNAI6Q"/>
     <link href="assets/app.css" media="all" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
@@ -31,7 +32,7 @@
             <a href="/" id="logo-large">
                 <img src="/assets/logo1.png" style="margin-right: 6px;margin-top:4px;height:40px">
                 Rakam</a>
-            <ul class="">
+            <ul class="big-menu-list">
                 <li><a href="//blog.rakam.io">Blog</a></li>
                 <li><a href="/pricing">Pricing</a></li>
                 <li><a href="//github.com/buremba/rakam" target="_blank"><i class="fa fa-github"></i> Github</a></li>
@@ -39,11 +40,26 @@
                 <li><a href="/doc">Documentation</a></li>
                 <li><a href="/integrate">Integration</a></li>
                 <li><a href="/contact">Contact</a></li>
-                <li><a class="nice" href="https://app.rakam.io/login?project_name=istanbul_traffic&amp;api_url=https://rakam-production-webapp-203653584.us-east-1.aws.getrakam.com&amp;action&amp;email=local@demo.com&amp;password=demoAccount1">Demo</a></li>
-                <li><a class="nice" href="https://app.rakam.io/login">Login</a></li>
+                <!--<li><a class="nice" href="https://app.rakam.io/login?project_name=hurriyet&api_url=https%3A%2F%2Fapp.rakam.io&action&email=local%40demo.com&password=demoAccount1">Demo</a></li>-->
+                <li style="display:inline-block !important" ><a class="nice login" href="https://app.rakam.io/login">Login</a>
+                </li>
+                <span id="small-menu" style="display:none;line-height:14px;font-size:30px;cursor:pointer;color: white;margin-left:10px;margin-right:15px;top: 4px; position: relative;" onclick="openNav()">&#9776;</span>
+
             </ul>
         </div>
     </nav>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <li><a onclick="closeNav()" href="//blog.rakam.io">Blog</a></li>
+        <li><a onclick="closeNav()" href="/pricing">Pricing</a></li>
+        <li><a onclick="closeNav()" href="//github.com/buremba/rakam" target="_blank"><i class="fa fa-github"></i>
+            Github</a></li>
+        <!--<li><a href="/support">Help &amp; Support</a></li>-->
+        <li><a onclick="closeNav()" href="/doc">Documentation</a></li>
+        <li><a onclick="closeNav()" href="/integrate">Integration</a></li>
+        <li><a onclick="closeNav()" href="/contact">Contact</a></li>
+    </div>
+
     <div ng-view style="min-height: 100px">
         <div style="text-align: center; margin-top:30px; font-size:1.1em">
             Loading..
@@ -53,7 +69,7 @@
     <footer>
         <p>© Rakam.com 2015</p>
         <p><a href="/">Rakam.com</a> / <a href="/about">About</a>
-        <p><a href="https://twitter.com/rakam" target="_blank">Twitter</a> / <a href="mailto:support@rakam.com">support@rakam.com</a>
+        <p><a href="https://twitter.com/rakam" target="_blank">Twitter</a> / <a href="mailto:support@rakam.com">emre@rakam.com</a>
         <p>Esentepe Mah. Talatpasa Caddesi No: 5 Levent, ♥ Istanbul</p>
     </footer>
 </div>
@@ -64,7 +80,7 @@
 <script src="/assets/bower_components/angular-scroll/angular-scroll.min.js"></script>
 <script src="/assets/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
 <script src="/assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-<script src="/assets/js/app.js"></script>
+<script src="/assets/js/app.js?06114"></script>
 <script src="/assets/js/landpage/landpage.js"></script>
 <script src="/assets/bower_components/Snap.svg/dist/snap.svg-min.js"></script>
 <script src="/assets/js/api/api.js"></script>
@@ -79,10 +95,43 @@
 <script>
 </script>
 <script type="text/javascript">
-    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
-        analytics.load("YnDQk2XvnnDdpLNxUxRlQZFnpXx678mc");
-        analytics.page()
-    }}();
+    !function () {
+        var analytics = window.analytics = window.analytics || [];
+        if (!analytics.initialize)if (analytics.invoked)window.console && console.error && console.error("Segment snippet included twice."); else {
+            analytics.invoked = !0;
+            analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "page", "once", "off", "on"];
+            analytics.factory = function (t) {
+                return function () {
+                    var e = Array.prototype.slice.call(arguments);
+                    e.unshift(t);
+                    analytics.push(e);
+                    return analytics
+                }
+            };
+            for (var t = 0; t < analytics.methods.length; t++) {
+                var e = analytics.methods[t];
+                analytics[e] = analytics.factory(e)
+            }
+            analytics.load = function (t) {
+                var e = document.createElement("script");
+                e.type = "text/javascript";
+                e.async = !0;
+                e.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js";
+                var n = document.getElementsByTagName("script")[0];
+                n.parentNode.insertBefore(e, n)
+            };
+            analytics.SNIPPET_VERSION = "3.1.0";
+            analytics.load("YnDQk2XvnnDdpLNxUxRlQZFnpXx678mc");
+            analytics.page()
+        }
+    }();
+
+    window.openNav = function () {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    window.closeNav = function () {
+        document.getElementById("mySidenav").style.width = "0";
+    }
 </script>
-<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 </html>

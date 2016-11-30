@@ -15,16 +15,25 @@ angular.module('myApp.landpage', ['ngRoute'])
                 var img, loadImage;
                 img = null;
 
-                loadImage = function () {
+                var placeholder = document.createElement('div');
+                placeholder.classList.add('placeholder');
+                placeholder.style.background = 'rgba(0, 0, 0, .2)';
+                placeholder.style.width = '100%';
+                placeholder.style.height = '550px';
+                placeholder.innerHTML = '<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw" style="font-size: 5em;margin-left: 45%;margin-top: 45%;"></i>'
 
-                    element[0].src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABHAAAAKACAAAAADRX9AlAAAHF0lEQVR42u3dzWscZQAH4E2bTdV8NTVh/WoT6YZut0LSlhC6KWmW7CJKsFaQKDYRqhQ91AbSLAoechAvfhTPSqmgaa4i9WRrIH9F/xt3ZvYj3XztJpMg9XlO72wml9/hx8w7876TSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwTGhLT06m2+QAHIJ0sSwtB+AQTAaFMykH4BAUQ3IADkJfNtu3U+GkcrmUlIA4pArFYiG1feEMzc3Pzw3JCYhBLuiXqeR2hXNsdr7sqpyAGOTDgslsVzjjQd/MfyAnIAYjYcEUurYunOPXw8KZkhMQg+5C2DAXty6cYtg3cyfkBMThbFQxA1sVzqmwb+YvSQmIRTKaxZlo21w4R65FMzjPSQmIx2DUMUObC+eN6AInKyMgJm3hk/FivqOxcJ7/MOybd4/ICIhLf1Qy5xoLZyK6wHlNQkB8zkePxnuCcX3x5otzYd9MywfYj1QuP9JdP+ycDhtnNBjXt6fIh31zvXfDv127/UlGekAr+oJ3bwpn6+sZzkSzOMGwvgFXNIMzVjvphTeXSqXS0kn5AS3IRhM1+cHqzn7tV4Ljhtdt3gn6ZrajcnRk7HYp9Jb8gNYLp1jM9Vd+GQjWjA88fdbJ8rKGuer1zOlPSyWFA+zxlipyvjP6qTeT6W08bWB8vFJIJ96v1o1bKqBFqala40yfad/t7GPTd2p984VJY6BFyUz9IufKwM7nDt+q1c2dolUOQOu6LtYap9C704kvL9X6ZrZfbsCeDExUG2fH26RitW5uDssM2Ku2oXzzhbMwflRiwD50nCvsekv1SjBjvPR2p7SAfeoZzV/abdL4xu33XpIUAAAAAMCzqLz9RHGDylYUOzs6s3x3g+UZT8iBZqSLDdK7/8/M3QYzcgSaMNlYOJO7/89yY+EsyxFQOIBbKuB/yaQxAAAAAADbaWJ7irHv7y2dlhSwT81swDW8srq6+uDz49IC9qG5LUZvrIbuX22XGLBXTW6iXimc1dWfxmQG7EnTn4lJr1QbZ/VrX90EWtfKh/DGfq41zsqNLtkBrWntU7+dH/9eq5xfLkkPaEVf/fLmQuXzL72ZzKYbq+zCQjYavfpVrXEeZOUHtCBbrZtc9du9A+UKKjTcWl1+tLb2+HLl4MLdauN8Jj+g9cLJD1ZXirdfCY4b7pbur5X9UZ20OTpzT+EAe7ylKpxN1n44ExVQMEwurq8vhn95GBTO2q3aST03g+dVK26pgJakcvmR7vph53RYOKPBePFJ2WIw+jYsnL9P1c8bWrz3g0ljYF8uRK/j9ATj9aBw1oNR5p+wcb6TDxCf/mhK51x48CQUDr8MC2fNNQ0Qm7ZcNIPT0Vg4J/4KC+c3i6iAuAxGFzhDicbCSXwUXeLMygiIRzJaMj7Rtrlwkith4Ty0NQUQj8pLOdW3/jYWTuJydImzJCUgDt3RMoeLia0KJ/FjWDiPh+UExGAkeiTetXXhvP4obJxv5ATEIN+wBdfThZNYiGZx5ATEIHwmPpXcrnB6/gwK51c5ATFIBevEU4ntCieRL79v/DgvJyAOfdlsX2L7wkmMlkqjUgIOwqbCATgo9cWbAAesvj0FwAGrb8AFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0X/AkHWCqdvrnuMAAAAAElFTkSuQmCC';
-                    element[0].style.opacity = '.4';
+                element[0].parentNode.appendChild(placeholder);
+
+                loadImage = function () {
+                    placeholder.style.display = 'block';
+                    element[0].style.display = 'none';
 
                     img = new Image();
                     img.src = attrs.mySrc;
 
                     img.onload = function () {
-                        element[0].style.opacity = '1';
+                        element[0].style.display = 'block';
+                        placeholder.style.display = 'none';
                         element[0].src = attrs.mySrc;
                     };
                 };
@@ -38,54 +47,19 @@ angular.module('myApp.landpage', ['ngRoute'])
         };
     })
 
-    .controller('LandPageCtrl', ['$scope', '$http', 'Lightbox', function ($scope, $http, Lightbox) {
+    .controller('LandPageCtrl', ['$scope', '$http', '$timeout', 'Lightbox', function ($scope, $http, $timeout, Lightbox) {
         $scope.Lightbox = Lightbox;
+
+        $timeout(function() {
+            ['dashboard', 'event-explorer', 'funnel', 'query-builder', 'report', 'retention', 'sql-editor'].forEach(function(name) {
+                var img = new Image();
+                img.src = '/assets/images/landpage/'+name+'.png';
+            });
+        }, 2000);
 
         $scope.scroll = function () {
             document.getElementById('seeitinaction').scrollIntoView();
         }
-
-        $scope.firstimages = [
-            {
-                thumbnail: '/assets/images/query-builder.png',
-                url: '/assets/images/query-builder-full.png',
-                title: 'Interactive Query Builder',
-                caption: 'Analyze event data without writing SQL queries, just use the interactive interface.'
-            },
-            {
-                thumbnail: '/assets/images/sql-editor.png',
-                url: '/assets/images/sql-editor-full.png',
-                title: 'SQL Editor',
-                caption: 'Write SQL queries, format result-set and generate charts.'
-            },
-            {
-                thumbnail: '/assets/images/dashboard.png',
-                url: '/assets/images/dashboard-full.png',
-                title: 'Dashboard',
-                caption: 'Create dashboards from your saved reports.'
-            },
-        ];
-
-        $scope.images = [
-            {
-                thumbnail: '/assets/images/event-explorer.png',
-                url: '/assets/images/event-explorer-full.png',
-                title: 'Event explorer',
-                caption: 'Analyze event data without writing SQL queries, just use the interactive interface.'
-            },
-            {
-                thumbnail: '/assets/images/funnel.png',
-                url: '/assets/images/funnel-full.png',
-                title: 'Funnel',
-                caption: 'Create funnels from user actions'
-            },
-            {
-                thumbnail: '/assets/images/retention.png',
-                url: '/assets/images/retention-full.png',
-                title: 'Retention',
-                caption: 'Generate retention tables and cohorts from user event data'
-            },
-        ];
 
         $scope.trustedby = [
             {thumbnail: '/assets/images/trustedby/bionluk.png', title: 'Bionluk'},
@@ -93,8 +67,8 @@ angular.module('myApp.landpage', ['ngRoute'])
             {thumbnail: '/assets/images/trustedby/scorp.png', title: 'Scorp'}
         ];
 
-        $scope.clickedDemo = function () {
-            analytics.track('Clicked demo');
+        $scope.clickedRegister = function () {
+            analytics.track('Click register');
         }
 
 

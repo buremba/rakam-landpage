@@ -1,4 +1,3 @@
-/*** uncss> filename: assets/style.css ***/
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
 
 div#repair-item3 {
@@ -8,55 +7,49 @@ div#repair-item3 {
     outline: 0;
     line-height: 1.5em;
     vertical-align: baseline;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
-footer,
-nav,
-section {
-    display: block;
+footer, nav, section {
+    display: block
 }
 
-a:hover,
-a:active {
-    outline: none;
+a:active, a:hover {
+    outline: 0
 }
 
-a, a:visited, a:focus {
+a, a:focus, a:visited {
     text-decoration: none;
-    color: #dad7d7;
+    color: #dad7d7
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%
 }
 
-html,
-body {
+body, html {
     font-family: Source Sans Pro, Arial, sans-serif;
     font-weight: 400;
     margin: 0;
-    /* color: #333; */
     padding: 0;
     width: 100%;
     height: 100%;
     font-size: 16px;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased
 }
 
 .landing {
-    overflow: hidden;
+    overflow: hidden
 }
 
-#analyze-spendings > img,
-#most-days > img {
+#analyze-spendings > img, #most-days > img {
     margin: 40px auto 0 auto;
-    display: block;
+    display: block
 }
 
 .nice-header {
     color: #00bff3;
-    font-weight: 300;
+    font-weight: 300
 }
 
 .nice-area {
@@ -65,15 +58,14 @@ body {
     border-radius: 4px;
     color: #fff;
     font-size: .9em;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-weight: 700;
+    text-transform: uppercase
 }
 
 section h3.nice-header {
     text-align: center;
     font-size: 28px;
-    padding-top: 30px;
-
+    padding-top: 30px
 }
 
 .code-type-name {
@@ -83,30 +75,30 @@ section h3.nice-header {
     padding: 1px 5px;
     margin-top: -5px;
     cursor: pointer;
-    color: white;
+    color: #fff
 }
 
 h3:before {
     content: '';
     display: block;
-    position: absolute;
+    position: absolute
 }
 
 #featured .row {
     width: 1000px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 30px
 }
 
 a.no-decoration:hover {
-    text-decoration: none;
+    text-decoration: none
 }
 
 #featured h4 {
     font-size: 1.1rem;
     color: #fff;
-    font-family: "Proxima-Nova", "Helvetica Neue", "Helvetica", Sans-Serif;
-    margin-bottom: 4px;
+    font-family: Proxima-Nova, "Helvetica Neue", Helvetica, Sans-Serif;
+    margin-bottom: 4px
 }
 
 #featured {
@@ -114,24 +106,24 @@ a.no-decoration:hover {
     min-height: 150px;
     font-size: .9em;
     background: #3d4d65;
-    color: #00bff3;
+    color: #00bff3
 }
 
 .feature-text {
-    color: darkgray;
-    font-size: 14px;
+    color: #a9a9a9;
+    font-size: 14px
 }
 
 .big_buttons {
     text-align: center;
     margin: 20px 0 0 0;
-    clear: both;
+    clear: both
 }
 
 .big_buttons .gmail {
     display: inline-block;
     color: #fff;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, .1);
     width: 160px;
     padding: 15px 10px;
     text-align: center;
@@ -141,39 +133,38 @@ a.no-decoration:hover {
     font-size: 15px;
     line-height: 1em;
     box-sizing: border-box;
-    border: 2px solid rgb(255, 255, 255);
-    -webkit-transition: all 0.1s ease-out;
-    transition: all 0.1s ease-out;
+    border: 2px solid #fff;
+    -webkit-transition: all .1s ease-out;
+    transition: all .1s ease-out
 }
 
 .big_buttons .gmail:hover {
     text-decoration: none;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, .2)
 }
 
 .landing #intro {
     box-sizing: border-box;
     padding: 20px 0 90px;
     background: #6199B5;
-    background: linear-gradient(to top, #00bff3 0%, #0085a9 100%);
-    position: relative;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.23); */
+    background: linear-gradient(to top, #00bff3 0, #0085a9 100%);
+    position: relative
 }
 
 .btn.btn-primary {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, .2);
     border-radius: 0 4px 4px 0 !important;
-    border-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, .08)
 }
 
 button.subscribe-button {
-    margin-left: 0px !important;
-    outline: none
+    margin-left: 0 !important;
+    outline: 0
 }
 
 @media screen and (max-width: 860px) {
     #arrows {
-        display: none !important;
+        display: none !important
     }
 }
 
@@ -183,108 +174,105 @@ button.subscribe-button {
     width: 100%;
     height: 100px;
     position: absolute;
-    bottom: 0;
+    bottom: 0
 }
 
 .landing-dark {
-    background: #374355;
+    background: #374355
 }
 
 @media (min-width: 1000px) {
     .center {
         width: 1000px;
-        margin: 0 auto;
+        margin: 0 auto
     }
 
     nav {
         -webkit-justify-content: space-between;
-        justify-content: space-between;
+        justify-content: space-between
     }
 
     #intro h2 {
-        margin-top: 20px;
+        margin-top: 20px
     }
 
     .landing #intro:after {
-        /* background-size: 100% 100px; */
-        background: rgba(0, 0, 0, 0) url(chart.svg) no-repeat -50px 0px;
+        background: rgba(0, 0, 0, 0) url(/8e62673b83fe1ecf30a7f0d80f8c28a6747e4c08/0974e/assets/chart.svg) no-repeat -50px 0
     }
 
     #how-work {
-        padding-bottom: 40px;
+        padding-bottom: 40px
     }
 }
 
 #logo-large {
     font-size: 2.2em;
-    font-weight: bold;
+    font-weight: 700;
     color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
     margin-top: -14px;
     float: left;
     background-size: 100px;
     display: block;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .6)
 }
 
 .dark-landing {
-    background: #374355;
+    background: #374355
 }
 
 .landing-light {
-    background-color: #3d4d65;
+    background-color: #3d4d65
 }
 
 .landing-light > div {
     -webkit-justify-content: center;
-    justify-content: center;
+    justify-content: center
 }
 
 nav.dark {
-    background: #0085a9;
+    background: #0085a9
 }
 
 nav {
     background: #00bff3;
     padding: 20px 0 5px;
     text-align: right;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .3)
 }
 
 .nav-tabs {
-    border-bottom-color: rgba(0, 0, 0, 0.22);
-    box-shadow: 0 1px 0px rgba(255, 255, 255, 0.05);
+    border-bottom-color: rgba(0, 0, 0, .22);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .05)
 }
 
 nav ul {
-    list-style: none;
-    /* float: right; */
+    list-style: none
 }
 
 .big-picture {
     width: 59%;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.45);
-    margin: 10px 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .45);
+    margin: 10px 0
 }
 
 .btn-primary:hover {
-    background: rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.13);
+    background: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .13)
 }
 
-nav ul li a:hover,
-nav ul li.active a {
-    color: #fff !important;
+nav ul li a:hover, nav ul li.active a {
+    color: #fff !important
 }
 
 .landing-item.active {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.17);
+    background: rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .17);
     border-right: none;
     border-left: none;
     border-radius: 10px 0 0 10px;
-    box-shadow: 2px 0 0px rgba(0, 0, 0, 0.16) inset;
+    box-shadow: 2px 0 0 rgba(0, 0, 0, .16) inset
 }
 
 .landing-item {
@@ -293,30 +281,30 @@ nav ul li.active a {
     border: 1px solid transparent;
     border-right: none;
     border-left: none;
-    padding: 5% 8%;
-    cursor: pointer
+    padding: 5% 7%;
+    cursor: pointer;
 }
 
 .landing-item-reverse {
-    margin: 2px 20% 0 0;
+    margin: 2px 17% 0 0;
 }
 
 .landing-item-reverse.active {
-    box-shadow: -2px 0 0px rgba(0, 0, 0, 0.16) inset;
-    border-radius: 0 10px 10px 0;
+    box-shadow: -2px 0 0 rgba(0, 0, 0, .16) inset;
+    border-radius: 0 10px 10px 0
 }
 
 .landing-title {
     font-size: 2em;
-    font-family: "Proxima-Nova", "Helvetica Neue", "Helvetica", Sans-Serif;
-    color: #fff;
+    font-family: Proxima-Nova, "Helvetica Neue", Helvetica, Sans-Serif;
+    color: #fff
 }
 
 .landing-description {
     clear: both;
     width: 100%;
-    line-height: 1.2em;
-    font-size: .95em;
+    line-height: 1.1em;
+    font-size: .90em;
 }
 
 nav ul li a {
@@ -325,8 +313,8 @@ nav ul li a {
     font-size: 12px;
     font-weight: 600;
     padding: 6px 8px;
-    color: rgba(255, 255, 255, 0.73) !important;
-    margin-top: -6px;
+    color: rgba(255, 255, 255, .73) !important;
+    margin-top: -6px
 }
 
 nav ul li a.nice {
@@ -336,16 +324,16 @@ nav ul li a.nice {
     font-weight: 600;
     margin-left: 10px;
     padding: 6px 22px;
-    color: rgba(255, 255, 255, 0.4) !important;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, .4) !important;
+    border: 1px solid rgba(255, 255, 255, .2);
     border-radius: 30px;
-    margin-top: -7px;
+    margin-top: -7px
 }
 
 nav ul li a.nice:hover {
-    color: white !important;
-    border-color: white;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.27);
+    color: #fff !important;
+    border-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .27)
 }
 
 footer {
@@ -356,32 +344,32 @@ footer {
     color: #7d7da9;
     font-weight: 300;
     text-transform: uppercase;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out
 }
 
 footer p {
-    margin: 10px 0;
+    margin: 10px 0
 }
 
 footer a {
     display: inline-block;
     padding: 0 5px;
-    color: #7d7da9;
+    color: #7d7da9
 }
 
 nav ul li a:hover {
-    text-decoration: none;
+    text-decoration: none
 }
 
 footer a:hover {
-    color: #46a9f5;
+    color: #46a9f5
 }
 
 #intro h2 {
     color: #fff;
-    text-shadow: 1px 0 1px rgba(0, 0, 0, 0.39);
-    text-align: center;
+    text-shadow: 1px 0 1px rgba(0, 0, 0, .39);
+    text-align: center
 }
 
 .animation .box-container {
@@ -389,8 +377,7 @@ footer a:hover {
     width: 80px;
     position: relative;
     float: left;
-    margin: 10px;
-
+    margin: 10px
 }
 
 .animation .box {
@@ -399,198 +386,194 @@ footer a:hover {
     clip: rect(auto, auto, auto, auto);
     position: relative;
     cursor: pointer;
-    opacity: 0.99;
-    color: rgba(0, 0, 0, 0.45);
+    opacity: .99;
+    color: rgba(0, 0, 0, .45);
     overflow: hidden;
     padding-top: 29px;
     text-align: center;
     background-color: #00bff3;
     border-radius: 40px;
-    box-shadow: -2px 3px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: -2px 3px 0 rgba(0, 0, 0, .16);
     font-size: 12px;
     transition: all .1s;
-    font-weight: bold;
+    font-weight: 700
 }
 
 .animation {
-    margin: 25px auto 0px;
+    margin: 25px auto 0;
     width: 501px;
-    height: 235px;
+    height: 235px
 }
 
 .animation .fa {
-    color: rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, .25);
     font-size: 27px;
-    float: left;
+    float: left
 }
 
 .animation .moving-linear {
     animation: moving 2s linear infinite;
     font-size: 32px;
-    color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, .1);
     position: absolute;
-    left: 0;
+    left: 0
 }
 
 @keyframes moving {
     from {
-        transform: translateX(0px);
+        transform: translateX(0)
     }
     to {
-        transform: translateX(70px);
+        transform: translateX(70px)
     }
 }
 
 .animation .box:hover {
-    box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: -3px 4px 0 rgba(0, 0, 0, .16)
 }
 
 .feature-text .more {
     color: gray;
     font-size: 11px;
-    padding: 0px 4px 1px;
-    font-weight: bold;
+    padding: 0 4px 1px;
+    font-weight: 700;
     border-radius: 9px;
-    background-color: #ddd;
+    background-color: #ddd
 }
 
 .demo-button {
-    animation: btnWiggle 5s infinite;
-
+    animation: btnWiggle 5s infinite
 }
 
-/* animation */
 @-webkit-keyframes btnWiggle {
     0% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0)
     }
     2% {
-        -webkit-transform: rotate(-1deg);
+        -webkit-transform: rotate(-1deg)
     }
     3.5% {
-        -webkit-transform: rotate(1deg);
+        -webkit-transform: rotate(1deg)
     }
     5% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0)
     }
     100% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0)
     }
 }
 
 @-o-keyframes btnWiggle {
     0% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0)
     }
     2% {
-        -webkit-transform: rotate(-1deg);
+        -webkit-transform: rotate(-1deg)
     }
     3.5% {
-        -webkit-transform: rotate(1deg);
+        -webkit-transform: rotate(1deg)
     }
     5% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0)
     }
     100% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0)
     }
 }
 
 @keyframes btnWiggle {
     0% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0)
     }
     2% {
-        -webkit-transform: rotate(-1deg);
+        -webkit-transform: rotate(-1deg)
     }
     3.5% {
-        -webkit-transform: rotate(1deg);
+        -webkit-transform: rotate(1deg)
     }
     5% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0)
     }
     100% {
-        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0)
     }
 }
 
 #repair-animation * {
-    position: absolute;
+    position: absolute
 }
 
 #repair-animation {
     position: absolute;
     top: 14px;
-    left: 12px;
+    left: 12px
 }
 
 #repair-item3 {
     width: 55px;
     height: 55px;
-    background: rgba(0, 0, 0, 0.06);
+    background: rgba(0, 0, 0, .06);
     animation: opacity100 linear 8s infinite;
-    opacity: 0;
+    opacity: 0
 }
 
 @keyframes dropitem {
     0% {
         opacity: 0;
-        transform: rotate(0deg);
-        margin: 0 0 0 100px;
+        transform: rotate(0);
+        margin: 0 0 0 100px
     }
     4% {
-        opacity: 1;
+        opacity: 1
     }
     37% {
         opacity: 1;
         margin: 0 0 0 100px;
-        transform: rotate(0deg);
+        transform: rotate(0)
     }
     47% {
-        opacity: 1;
+        opacity: 1
     }
     50% {
         opacity: 0;
         margin: 200px 0 0 0;
-        transform: rotate(-30deg);
+        transform: rotate(-30deg)
     }
     97% {
-        opacity: 0;
-    }
-    100% {
+        opacity: 0
     }
 }
 
 @keyframes opacity100 {
     0% {
-        opacity: 0;
+        opacity: 0
     }
     10% {
-        opacity: 1;
+        opacity: 1
     }
     96% {
-        opacity: 1;
+        opacity: 1
     }
 }
 
 .screw {
     width: 20px;
     height: 15px;
-    background: rgba(0, 0, 0, 0.10);
+    background: rgba(0, 0, 0, .1);
     position: absolute;
-    border-radius: 3px;
+    border-radius: 3px
 }
 
 .screw:before {
     content: "";
     position: absolute;
     top: -5px;
-    left: 0px;
+    left: 0;
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 5px solid rgba(0, 0, 0, 0.10);
+    border-bottom: 5px solid rgba(0, 0, 0, .1)
 }
 
 .screw:after {
@@ -602,201 +585,201 @@ footer a:hover {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 5px solid rgba(0, 0, 0, 0.10);
+    border-top: 5px solid rgba(0, 0, 0, .1)
 }
 
 @keyframes screw1 {
     62% {
-        transform: rotate(600deg) scale(.4);
+        transform: rotate(600deg) scale(.4)
     }
     96% {
         transform: rotate(600deg) scale(.4);
-        opacity: 1;
+        opacity: 1
     }
     100% {
-        transform: rotate(600deg) scale(.4);
+        transform: rotate(600deg) scale(.4)
     }
 }
 
 @keyframes screw2 {
     74% {
-        transform: rotate(500deg) scale(.4);
+        transform: rotate(500deg) scale(.4)
     }
     96% {
         transform: rotate(500deg) scale(.4);
-        opacity: 1;
+        opacity: 1
     }
     100% {
-        transform: rotate(600deg) scale(.4);
+        transform: rotate(600deg) scale(.4)
     }
 }
 
 @keyframes screw3 {
     86% {
-        transform: rotate(500deg) scale(.4);
+        transform: rotate(500deg) scale(.4)
     }
     96% {
         transform: rotate(500deg) scale(.4);
-        opacity: 1;
+        opacity: 1
     }
     100% {
-        transform: rotate(600deg) scale(.4);
+        transform: rotate(600deg) scale(.4)
     }
 }
 
 @keyframes screw4 {
     96% {
         transform: rotate(500deg) scale(.4);
-        opacity: 1;
+        opacity: 1
     }
     100% {
-        transform: rotate(600deg) scale(.4);
+        transform: rotate(600deg) scale(.4)
     }
 }
 
 .one {
     animation: screw1 8s infinite;
-    top: 0px;
+    top: 0;
     left: -2px;
-    opacity: 0;
+    opacity: 0
 }
 
 .two {
     animation: screw2 8s infinite;
     left: 38px;
-    top: 0px;
-    opacity: 0;
+    top: 0;
+    opacity: 0
 }
 
 .three {
     animation: screw3 8s infinite;
     top: 40px;
     left: -2px;
-    opacity: 0;
+    opacity: 0
 }
 
 .four {
     animation: screw4 8s infinite;
     left: 38px;
     top: 40px;
-    opacity: 0;
+    opacity: 0
 }
 
 .bar-c {
     overflow: hidden;
     height: 30px;
     width: 40px;
-    margin: 3px auto 0px;
+    margin: 3px auto 0;
     position: relative;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .bar {
     height: 1px;
     width: 3px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.06);
+    background-color: rgba(0, 0, 0, .06);
     bottom: 0;
     position: absolute;
-    -webkit-animation-duration: 1500ms;
+    -webkit-animation-duration: 1.5s;
     -webkit-animation-play-state: running;
     -webkit-animation-direction: alternate;
     -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite
 }
 
 .bar.noAnim {
     -webkit-animation: none;
-    -webkit-animation-name: none;
+    -webkit-animation-name: none
 }
 
 .bar#bar-1 {
     left: 0;
     -webkit-animation-name: danceHeight1;
-    -webkit-animation-delay: 0ms;
+    -webkit-animation-delay: 0s
 }
 
 .bar#bar-2 {
     left: 6px;
     -webkit-animation-name: danceHeight2;
-    -webkit-animation-delay: 300ms;
+    -webkit-animation-delay: .3s
 }
 
 .bar#bar-3 {
     left: 12px;
     -webkit-animation-name: danceHeight3;
-    -webkit-animation-delay: 600ms;
+    -webkit-animation-delay: .6s
 }
 
 .bar#bar-4 {
     left: 18px;
     -webkit-animation-name: danceHeight4;
-    -webkit-animation-delay: 900ms;
+    -webkit-animation-delay: .9s
 }
 
 .bar#bar-5 {
     left: 24px;
     -webkit-animation-name: danceHeight5;
-    -webkit-animation-delay: 1200ms;
+    -webkit-animation-delay: 1.2s
 }
 
 .bar#bar-6 {
     left: 30px;
     -webkit-animation-name: danceHeight6;
-    -webkit-animation-delay: 1500ms;
+    -webkit-animation-delay: 1.5s
 }
 
 @-webkit-keyframes danceHeight1 {
     from {
-        height: 1px;
+        height: 1px
     }
     to {
-        height: 22px;
+        height: 22px
     }
 }
 
 @-webkit-keyframes danceHeight2 {
     from {
-        height: 1px;
+        height: 1px
     }
     to {
-        height: 15px;
+        height: 15px
     }
 }
 
 @-webkit-keyframes danceHeight3 {
     from {
-        height: 1px;
+        height: 1px
     }
     to {
-        height: 30px;
+        height: 30px
     }
 }
 
 @-webkit-keyframes danceHeight4 {
     from {
-        height: 1px;
+        height: 1px
     }
     to {
-        height: 20px;
+        height: 20px
     }
 }
 
 @-webkit-keyframes danceHeight5 {
     from {
-        height: 1px;
+        height: 1px
     }
     to {
-        height: 15px;
+        height: 15px
     }
 }
 
 @-webkit-keyframes danceHeight6 {
     from {
-        height: 1px;
+        height: 1px
     }
     to {
-        height: 15px;
+        height: 15px
     }
 }
 
@@ -808,9 +791,9 @@ footer a:hover {
     opacity: 0;
     width: 26px;
     height: 26px;
-    background: rgba(16, 14, 14, 0.27);
-    -webkit-animation: show 0.88s step-end infinite alternate, pulse 0.88s linear infinite alternate;
-    animation: show 0.88s step-end infinite alternate, pulse 0.88s linear infinite alternate;
+    background: rgba(16, 14, 14, .27);
+    -webkit-animation: show .88s step-end infinite alternate, pulse .88s linear infinite alternate;
+    animation: show .88s step-end infinite alternate, pulse .88s linear infinite alternate
 }
 
 .loader-block:nth-child(1) {
@@ -818,8 +801,8 @@ footer a:hover {
     -ms-transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
-    -webkit-animation-delay: 0.065s;
-    animation-delay: 0.065s;
+    -webkit-animation-delay: 65ms;
+    animation-delay: 65ms
 }
 
 .loader-block:nth-child(2) {
@@ -827,8 +810,8 @@ footer a:hover {
     -ms-transform: translate(2em, 0);
     -webkit-transform: translate(2em, 0);
     transform: translate(2em, 0);
-    -webkit-animation-delay: 0.13s;
-    animation-delay: 0.13s;
+    -webkit-animation-delay: .13s;
+    animation-delay: .13s
 }
 
 .loader-block:nth-child(3) {
@@ -836,8 +819,8 @@ footer a:hover {
     -ms-transform: translate(4em, 0);
     -webkit-transform: translate(4em, 0);
     transform: translate(4em, 0);
-    -webkit-animation-delay: 0.195s;
-    animation-delay: 0.195s;
+    -webkit-animation-delay: 195ms;
+    animation-delay: 195ms
 }
 
 .loader-block:nth-child(4) {
@@ -845,8 +828,8 @@ footer a:hover {
     -ms-transform: translate(0, 2em);
     -webkit-transform: translate(0, 2em);
     transform: translate(0, 2em);
-    -webkit-animation-delay: 0.325s;
-    animation-delay: 0.325s;
+    -webkit-animation-delay: 325ms;
+    animation-delay: 325ms
 }
 
 .loader-block:nth-child(5) {
@@ -854,8 +837,8 @@ footer a:hover {
     -ms-transform: translate(2em, 2em);
     -webkit-transform: translate(2em, 2em);
     transform: translate(2em, 2em);
-    -webkit-animation-delay: 0.13s;
-    animation-delay: 0.13s;
+    -webkit-animation-delay: .13s;
+    animation-delay: .13s
 }
 
 .loader-block:nth-child(6) {
@@ -863,8 +846,8 @@ footer a:hover {
     -ms-transform: translate(4em, 2em);
     -webkit-transform: translate(4em, 2em);
     transform: translate(4em, 2em);
-    -webkit-animation-delay: 0.455s;
-    animation-delay: 0.455s;
+    -webkit-animation-delay: 455ms;
+    animation-delay: 455ms
 }
 
 .loader-block:nth-child(7) {
@@ -872,8 +855,8 @@ footer a:hover {
     -ms-transform: translate(0, 4em);
     -webkit-transform: translate(0, 4em);
     transform: translate(0, 4em);
-    -webkit-animation-delay: 0.39s;
-    animation-delay: 0.39s;
+    -webkit-animation-delay: .39s;
+    animation-delay: .39s
 }
 
 .loader-block:nth-child(8) {
@@ -881,147 +864,129 @@ footer a:hover {
     -ms-transform: translate(2em, 4em);
     -webkit-transform: translate(2em, 4em);
     transform: translate(2em, 4em);
-    -webkit-animation-delay: 0.26s;
-    animation-delay: 0.26s;
+    -webkit-animation-delay: .26s;
+    animation-delay: .26s
 }
 
 .loader-block:nth-child(9) {
     -moz-transform: translate(4em, 4em);
     -ms-transform: translate(4em, 4em);
     -webkit-transform: translate(4em, 4em);
-    transform: translate(4em, 4em);
+    transform: translate(4em, 4em)
 }
 
 @-webkit-keyframes pulse {
-    from,
-    40% {
-        background: #fdfdfd;
+    40%, from {
+        background: #fdfdfd
     }
     to {
-        background: #dadada;
+        background: #dadada
     }
 }
 
 @-webkit-keyframes show {
-    from, 40% {
-        opacity: 0;
+    40%, from {
+        opacity: 0
     }
     41%, to {
-        opacity: 1;
+        opacity: 1
     }
 }
 
 @keyframes pulse {
-    from,
-    40% {
-        background: rgba(16, 14, 14, 0.02);
+    40%, from {
+        background: rgba(16, 14, 14, .02)
     }
     to {
-        background: rgba(16, 14, 14, 0.08);
+        background: rgba(16, 14, 14, .08)
     }
 }
 
 @keyframes show {
-    from, 40% {
-        opacity: 0;
+    40%, from {
+        opacity: 0
     }
     41%, to {
-        opacity: 1;
+        opacity: 1
     }
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline-block
 }
 
 #logo-large:hover {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .section-left h4 {
-    font-size: 1.2em;
-}
-
-.section-left ul {
-    /* color: #909090 */
+    font-size: 1.2em
 }
 
 .docs-content {
-    font-size: 14px;
+    font-size: 14px
 }
 
 .docs-content h1 {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700;
     color: #fff;
-    /* color: #5F5F5F; */
-    margin-bottom: 14px;
+    margin-bottom: 14px
 }
 
 .section-right {
     padding-left: 25px;
-    /* border-left: 1px solid #eee; */
-    border-left: 1px solid rgba(0, 0, 0, 0.23);
-    box-shadow: -1px 0px 0px rgba(255, 255, 255, 0.03);
-    min-height: 300px;
+    border-left: 1px solid rgba(0, 0, 0, .23);
+    box-shadow: -1px 0 0 rgba(255, 255, 255, .03);
+    min-height: 300px
 }
 
-/*.docs-body h1,*/
-/*.docs-body h2,*/
-/*.docs-body h3,*/
-/*.docs-body h4,*/
-/*.docs-body h5,*/
-/*.docs-body h6 {*/
-/*color: #fff;*/
-/*}*/
-
 code {
-    background: rgba(0, 0, 0, 0.16);
+    background: rgba(0, 0, 0, .16);
     border-radius: 2px;
-    color: rgb(4, 190, 91);
-    padding: .1rem 0.3rem;
-    font-size: 80%;
+    color: #04be5b;
+    padding: .1rem .3rem;
+    font-size: 80%
 }
 
 .docs-body {
     font-size: 1.03em;
-    line-height: 1.6em;
-    /* color: #5D5D5D; */
+    line-height: 1.6em
 }
 
 .docs-body h1 {
     font-size: 1.8em;
-    line-height: 2.7em;
+    line-height: 2.7em
 }
 
 .docs-body h2 {
     font-size: 1.8em;
-    line-height: 2em;
+    line-height: 2em
 }
 
 .docs-body h3 {
     font-size: 1.6em;
-    line-height: 2.2em;
+    line-height: 2.2em
 }
 
 .docs-body h4 {
     font-size: 1.4em;
-    line-height: 1.7em;
+    line-height: 1.7em
 }
 
 .docs-body h5 {
     font-size: 1.3em;
-    line-height: 1.8em;
+    line-height: 1.8em
 }
 
 .docs-body h6 {
     font-size: 1.1em;
-    line-height: 1.5em;
+    line-height: 1.5em
 }
 
 .doc-sidebar {
     padding-left: 0;
-    font-size: 14px;
+    font-size: 14px
 }
 
 .doc-sidebar ul {
@@ -1030,26 +995,26 @@ code {
 }
 
 .margin-10 {
-    margin: 10px;
+    margin: 10px
 }
 
 .margin-10-vertical {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
 .padding-10 {
-    padding: 10px;
+    padding: 10px
 }
 
 .padding-10-vertical {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px
 }
 
 .padding-5-vertical {
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px
 }
 
 pre.search-result {
@@ -1060,85 +1025,83 @@ pre.search-result {
 }
 
 .search-result i {
-    background-color: yellow;
+    background-color: #ff0
 }
 
 a.search-result-heading {
     color: #4078c0;
     line-height: 2em;
-    font-weight: bold;
-    font-size: 1.1em;
+    font-weight: 700;
+    font-size: 1.1em
 }
 
 .doc-sidebar h3 {
-    /*color: #fff;*/
     color: #ddd;
     font-size: 17px;
     margin-left: -1px;
-    margin-top: 8px;
+    margin-top: 8px
 }
 
 .docs-header h1 {
-    /* border-bottom: 1px solid #eee; */
-    border-bottom: 1px solid rgba(0, 0, 0, 0.23);
-    box-shadow: 0 1px 0px rgba(255, 255, 255, 0.03);
-    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .23);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .03);
+    padding-bottom: 15px
 }
 
 .top-bar {
     background-color: #374355;
-    padding: 10px 0 10px;
+    padding: 10px 0 10px
 }
 
 a.hide-decoration:hover {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .box-container .box-text {
-    opacity: 0.04;
+    opacity: .04;
     left: 0;
-    transition: all 0.2s ease-out;
+    transition: all .2s ease-out
 }
 
 a.box:hover {
-    text-decoration: none;
+    text-decoration: none
 }
 
 a.box {
     margin: 10px 0;
-    cursor: pointer;
+    cursor: pointer
 }
 
 a.box > div {
-    border: 1px solid rgba(0, 0, 0, 0.18);
+    border: 1px solid rgba(0, 0, 0, .18);
     padding: 15px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 0 1px rgba(255, 255, 255, 0.11);
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .11)
 }
 
 a.box > div > i {
     font-size: 50px;
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 10px
 }
 
 .box-container:hover .box-text {
-    opacity: 1;
+    opacity: 1
 }
 
 .box-container:hover .box-text a {
-    color: white;
-    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    background: rgba(0, 0, 0, .25)
 }
 
 .box-text a:hover {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .box-text {
     position: absolute;
-    top: -25px;
+    top: -25px
 }
 
 .box-text a {
@@ -1147,35 +1110,35 @@ a.box > div > i {
     display: block;
     margin: 3px 0;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 700;
     color: transparent;
     text-align: center;
     border-radius: 4px;
     padding: 1px 5px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2)
 }
 
 .bd-callout-info {
-    border-left-color: #5bc0de;
+    border-left-color: #5bc0de
 }
 
 .bd-callout {
     padding: 1.25rem;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, .1);
     border-left-width: .15rem;
     border-radius: .25rem;
-    background: #374355;
+    background: #374355
 }
 
 .bd-callout-info h5 {
-    color: #5bc0de;
+    color: #5bc0de
 }
 
 .bd-callout h5 {
     margin-top: 0;
-    margin-bottom: .25rem;
+    margin-bottom: .25rem
 }
 
 .spin {
@@ -1187,47 +1150,46 @@ a.box > div > i {
     margin-top: -15px;
     margin-left: -15px;
     border: 3px solid #00BFF3;
-    border-radius: 50%;
+    border-radius: 50%
 }
 
-.spin:before,
-.spin:after {
+.spin:after, .spin:before {
     content: "";
     position: absolute;
     display: block;
     width: 3px;
     background-color: #00BFF3;
     border-radius: 1.5px;
-    transform-origin: 50% 0;
+    transform-origin: 50% 0
 }
 
 .cg-busy-backdrop {
-    background-color: black;
-    opacity: .2;
+    background-color: #000;
+    opacity: .2
 }
 
 .spin:before {
     height: 9px;
     left: 13.5px;
     top: 50%;
-    animation: spin 3000ms linear infinite;
+    animation: spin 3s linear infinite
 }
 
 @keyframes spin {
     to {
-        transform: rotate(360deg);
+        transform: rotate(360deg)
     }
 }
 
 .relative {
-    position: relative;
+    position: relative
 }
 
 .github-btn {
     height: 20px;
     overflow: hidden;
     font: 700 11px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .gh-btn, .gh-count, .gh-ico {
@@ -1357,95 +1319,83 @@ a.box > div > i {
     border-width: 7px 7px 7px 0
 }
 
-/* Bottom border of each suggestion */
 .algolia-docsearch-suggestion {
-    border-bottom-color: #ddd !important;
+    border-bottom-color: #ddd !important
 }
 
-/* Main category headers */
 .algolia-docsearch-suggestion--category-header {
-    background-color: #009AC3 !important;
+    background-color: #009AC3 !important
 }
 
-/* Highlighted search terms */
 .algolia-docsearch-suggestion--highlight {
-    color: #1c3652 !important;
+    color: #1c3652 !important
 }
 
-/* Highligted search terms in the main category headers */
 .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight {
-    background-color: #009AC3 !important;
+    background-color: #009AC3 !important
 }
 
-/* Currently selected suggestion */
 .aa-cursor .algolia-docsearch-suggestion--content {
-    color: #376fa6;
+    color: #376fa6
 }
 
 .aa-cursor .algolia-docsearch-suggestion {
-    background: #EBEBFB !important;
+    background: #EBEBFB !important
 }
 
-/* For bigger screens, when displaying results in two columns */
 @media (min-width: 768px) {
-    /* Bottom border of each suggestion */
     .algolia-docsearch-suggestion {
-        border-bottom-color: #ddd !important;
+        border-bottom-color: #ddd !important
     }
 
-    /* Left column, with secondary category header */
     .algolia-docsearch-suggestion--subcategory-column {
         border-right-color: #ddd !important;
         background-color: #eee !important;
-        color: #4E4726 !important;
+        color: #4E4726 !important
     }
 }
 
 span.aa-dropdown-menu {
     right: 0 !important;
     left: auto !important;
-    border-color: #c9c9c9 !important;
+    border-color: #c9c9c9 !important
 }
-
-/*.algolia-docsearch-footer {*/
-/*display: none !important;*/
-/*}*/
 
 pre {
     padding: 1rem;
-    margin: 1rem 0rem;
+    margin: 1rem 0;
     font-size: 80%;
     color: inherit;
-    background-color: rgba(0, 0, 0, 0.11);
+    background-color: rgba(0, 0, 0, .11)
 }
 
 .doc-sidebar a.active {
-    font-weight: bold;
+    font-weight: 700
 }
 
 .doc-sidebar h4.active {
-    font-weight: bold;
+    font-weight: 700
 }
 
 .label-default {
-    background-color: rgb(4, 190, 91);
+    background-color: #04be5b
 }
 
 .table-bordered td, .table-bordered th {
-    border: 1px solid transparent;
+    border: 1px solid transparent
 }
 
 .table thead th {
-    border-top-color: rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-color: rgba(0, 0, 0, .1);
+    border-bottom: 1px solid rgba(0, 0, 0, .1)
 }
 
 .table td, .table th {
-    border-top-color: rgba(0, 0, 0, 0.1);
+    border-top-color: rgba(0, 0, 0, .1)
 }
 
 .table-hover tbody tr:hover {
-    background-color: rgba(0, 0, 0, 0.09);
+    background-color: rgba(0, 0, 0, .09)
 }
 
 a:hover {
@@ -1453,21 +1403,21 @@ a:hover {
 }
 
 .docs-body h1, .docs-body h2, .docs-body h3, .docs-body h4, .docs-body h5, .docs-body h6 {
-    color: #fff;
+    color: #fff
 }
 
 .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-color: rgba(0, 0, 0, 0.11);
-    color: white;
+    background-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .11);
+    color: #fff
 }
 
 a.nav-link {
-    color: rgba(255, 255, 255, 0.57);
+    color: rgba(255, 255, 255, .57)
 }
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-    border-color: transparent;
+    border-color: transparent
 }
 
 a[ng-click]:hover {
@@ -1480,67 +1430,66 @@ a[ng-click]:hover {
     line-height: 1.6;
     position: relative;
     margin: 0 -10px;
-    padding: 20px 0px;
+    padding: 20px 0
 }
 
 .pricing {
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, .08);
     border-radius: 4px;
     font-size: 14px;
     padding-left: 0;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.11);
-    background-color: rgba(0, 0, 0, 0.15);
-    margin-bottom: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .11);
+    background-color: rgba(0, 0, 0, .15);
+    margin-bottom: 30px
 }
 
 .pricing img {
     display: block;
     margin: auto;
-    width: 32px;
+    width: 32px
 }
 
-.pricing li:first-child,
-.pricing li:last-child {
-    padding: 20px 13px;
+.pricing li:first-child, .pricing li:last-child {
+    padding: 20px 13px
 }
 
 .pricing li {
     list-style: none;
-    padding: 7px;
+    padding: 7px
 }
 
 .pricing li.title:before {
-    display: none;
+    display: none
 }
 
 .pricing li:before {
     content: url(//segment.com/build/public/client/icon/images/mini/icon-mini-done.svg);
     margin-right: 6px;
     width: 10px;
-    height: 10px;
+    height: 10px
 }
 
 .pricing big {
-    font-size: 32px;
+    font-size: 32px
 }
 
 .pricing h3 {
     margin-bottom: 0;
-    font-size: 36px;
+    font-size: 36px
 }
 
 .pricing span {
     font-size: 12px;
     color: #999;
-    font-weight: normal;
+    font-weight: 400
 }
 
 .pricing button {
     width: auto;
     margin: auto;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     border-radius: 50px;
     color: #fff;
     padding: 9px 24px;
@@ -1548,57 +1497,52 @@ a[ng-click]:hover {
     opacity: 1;
     transition: opacity .2s ease;
     border: none;
-    outline: none;
+    outline: 0
 }
 
 .pricing button:hover {
-    opacity: .9;
+    opacity: .9
 }
 
 .pricing button:active {
-    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, .1)
 }
 
-/* pricing color */
-.p-green big,
-.p-green h3 {
-    color: #4c7737;
+.p-green big, .p-green h3 {
+    color: #4c7737
 }
 
 .p-green button {
-    background: #4c7737;
+    background: #4c7737
 }
 
-.p-yel big,
-.p-yel h3 {
-    color: #ffbb42;
+.p-yel big, .p-yel h3 {
+    color: #ffbb42
 }
 
 .p-yel button {
-    background: #ffbb42;
+    background: #ffbb42
 }
 
-.p-red big,
-.p-red h3 {
-    color: #e13c4c;
+.p-red big, .p-red h3 {
+    color: #e13c4c
 }
 
 .p-red button {
-    background: #e13c4c;
+    background: #e13c4c
 }
 
-.p-blue big,
-.p-blue h3 {
-    color: #3f4bb8;
+.p-blue big, .p-blue h3 {
+    color: #3f4bb8
 }
 
 .p-blue button {
-    background: #3f4bb8;
+    background: #3f4bb8
 }
 
-html, body {
+body, html {
     background-color: #3d4d65;
-    color: #b1b9c3;
+    color: #b1b9c3
 }
 
 .switch {
@@ -1606,10 +1550,10 @@ html, body {
     margin: 20px auto;
     height: 26px;
     width: 142px;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, .25);
     border-radius: 3px;
-    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .3), 0 1px rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .3), 0 1px rgba(255, 255, 255, .1)
 }
 
 .switch-label {
@@ -1619,41 +1563,40 @@ html, body {
     width: 71px;
     line-height: 26px;
     font-size: 11px;
-    color: rgba(255, 255, 255, 0.35);
+    color: rgba(255, 255, 255, .35);
     text-align: center;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
-    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .45);
+    cursor: pointer
 }
 
 .switch-label:active {
-    font-weight: bold;
+    font-weight: 700
 }
 
 .switch-label-off {
-    padding-left: 2px;
+    padding-left: 2px
 }
 
 .switch-label-on {
-    padding-right: 2px;
+    padding-right: 2px
 }
 
 .switch-input {
-    display: none;
+    display: none
 }
 
 .switch-input:checked + .switch-label {
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.65);
-    text-shadow: 0 1px rgba(255, 255, 255, 0.25);
-    -webkit-transition: 0.15s ease-out;
-    -moz-transition: 0.15s ease-out;
-    -o-transition: 0.15s ease-out;
-    transition: 0.15s ease-out;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .65);
+    text-shadow: 0 1px rgba(255, 255, 255, .25);
+    -webkit-transition: .15s ease-out;
+    -moz-transition: .15s ease-out;
+    -o-transition: .15s ease-out;
+    transition: .15s ease-out
 }
 
 .switch-input:checked + .switch-label-on ~ .switch-selection {
-    /* Note: left: 50% doesn't transition in WebKit */
-    left: 69px;
+    left: 69px
 }
 
 .switch-selection {
@@ -1665,11 +1608,11 @@ html, body {
     width: 71px;
     height: 22px;
     border-radius: 3px;
-    box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
-    -webkit-transition: left 0.15s ease-out;
-    -moz-transition: left 0.15s ease-out;
-    -o-transition: left 0.15s ease-out;
-    transition: left 0.15s ease-out;
+    box-shadow: inset 0 1px rgba(255, 255, 255, .5), 0 0 2px rgba(0, 0, 0, .2);
+    -webkit-transition: left .15s ease-out;
+    -moz-transition: left .15s ease-out;
+    -o-transition: left .15s ease-out;
+    transition: left .15s ease-out
 }
 
 .switch-blue .switch-selection {
@@ -1677,21 +1620,21 @@ html, body {
     background-image: -webkit-linear-gradient(top, #4fc9ee, #3aa2d0);
     background-image: -moz-linear-gradient(top, #4fc9ee, #3aa2d0);
     background-image: -o-linear-gradient(top, #4fc9ee, #3aa2d0);
-    background-image: linear-gradient(to bottom, #4fc9ee, #3aa2d0);
+    background-image: linear-gradient(to bottom, #4fc9ee, #3aa2d0)
 }
 
 .grid a {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 5px;
     padding: 5px;
-    margin: 5px;
+    margin: 5px
 }
 
 .grid figure {
     position: relative;
     overflow: hidden;
     background: #333;
-    margin-bottom: 5px;
+    margin-bottom: 5px
 }
 
 .grid figure img {
@@ -1700,7 +1643,7 @@ html, body {
     width: 100%;
     opacity: .7;
     -webkit-transition: opacity .3s;
-    transition: opacity .3s;
+    transition: opacity .3s
 }
 
 .grid figcaption {
@@ -1743,7 +1686,7 @@ html, body {
     border: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: 700;
     -webkit-transition: opacity .3s, -webkit-transform .3s;
     transition: opacity .3s, transform .3s
 }
@@ -1762,7 +1705,7 @@ html, body {
 }
 
 .grid svg path {
-    fill: rgba(1, 1, 1, 0.41)
+    fill: rgba(1, 1, 1, .41)
 }
 
 .grid a:hover figure img {
@@ -1782,7 +1725,7 @@ html, body {
     top: 50%;
     left: 50%;
     border: 3px solid #fff;
-    background: transparent;
+    background: 0 0;
     color: #fff;
     opacity: 0;
     -webkit-transform: translateY(-50%) translateX(-50%) scale(.25);
@@ -1791,14 +1734,14 @@ html, body {
 
 .no-decoration {
     list-style: none;
-    padding-left: 0;
+    padding-left: 0
 }
 
 .feature-text a {
     font-size: 11px;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.64);
-    margin-left: 3px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .64);
+    margin-left: 3px
 }
 
 .grid a:hover figure button {
@@ -1809,144 +1752,134 @@ html, body {
 
 .grid figcaption, .grid figcaption h2, .grid figcaption p, .grid figure button {
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 body::-webkit-scrollbar-thumb {
     background-color: transparent;
-    border-radius: 3px;
+    border-radius: 3px
 }
 
 body::-webkit-scrollbar-track {
-    background-color: transparent;
+    background-color: transparent
 }
 
 body::-webkit-scrollbar {
     width: 7px;
     height: 3px;
-    background-color: transparent;
+    background-color: transparent
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.30);
-    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 5px
 }
 
 body::-webkit-scrollbar-track {
-    background-color: transparent;
+    background-color: transparent
 }
 
 a.fav-link {
-    border-bottom: 1px rgba(255, 255, 255, 0.26) dotted;
+    border-bottom: 1px rgba(255, 255, 255, .26) dotted
 }
 
 a.fav-link:hover {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .modal-content {
-    background: black;
-    border-radius: 5px;
+    background: #000;
+    border-radius: 5px
 }
 
-/*
-
-    Name:       material
-    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
-
-    Original material color scheme by Mattia Astorino (https://github.com/equinusocio/material-theme)
-
-*/
-
 .cm-s-material {
-    font-weight: bold;
+    font-weight: 700;
     font-family: Consolas, monaco, monospace;
-    /* background-color: #263238; */
     font-size: 13px;
     line-height: 30px;
-    color: #FBFBFF;
+    color: #FBFBFF
 }
 
 .cm-s-material span.cm-comment {
-    color: #8f5536;
+    color: #8f5536
 }
 
 .cm-s-material span.cm-atom {
-    color: #aa759f;
+    color: #aa759f
 }
 
 .cm-s-material span.cm-number {
-    color: #aa759f;
+    color: #aa759f
 }
 
-.cm-s-material span.cm-property, .cm-s-material span.cm-attribute {
-    color: #0275d8;
+.cm-s-material span.cm-attribute, .cm-s-material span.cm-property {
+    color: #0275d8
 }
 
 .cm-s-material span.cm-keyword {
-    color: #ac4142;
+    color: #ac4142
 }
 
 .cm-s-material span.cm-string {
-    color: #FFE330;
+    color: #FFE330
 }
 
 .cm-s-material span.cm-variable {
-    color: #A3FF2B;
+    color: #A3FF2B
 }
 
 .cm-s-material span.cm-variable-2 {
-    color: #6a9fb5;
+    color: #6a9fb5
 }
 
 .cm-s-material span.cm-def {
-    color: #d28445;
+    color: #d28445
 }
 
 .cm-s-material span.cm-bracket {
-    color: #202020;
+    color: #202020
 }
 
 .cm-s-material span.cm-tag {
-    color: #ac4142;
+    color: #ac4142
 }
 
 .cm-s-material span.cm-link {
-    color: #aa759f;
+    color: #aa759f
 }
 
 .cm-s-material span.cm-error {
     background: #ac4142;
-    color: #505050;
+    color: #505050
 }
 
 blockquote {
-    background: rgba(255, 255, 255, 0.04);
-    padding: 5px 15px;
+    background: rgba(255, 255, 255, .04);
+    padding: 5px 15px
 }
 
 @media screen and (max-width: 960px) {
     .feature {
-        padding-top: 15px;
+        padding-top: 15px
     }
 
     .big-picture.from-right {
         margin: 0 auto;
-        float: initial !important;
+        float: initial !important
     }
 
     .grid a {
         display: block;
-        margin-left: 0 !important;
+        margin-left: 0 !important
     }
 
     .big-picture.left-right {
         margin: 0 auto;
-        float: initial !important;
+        float: initial !important
     }
 
     nav {
-        padding-left: 35px;
+        padding-left: 35px
     }
 
     #analyze-spendings .col-md-6 .col-md-4 {
@@ -1955,7 +1888,7 @@ blockquote {
 
     .big-image-landpage {
         width: 84%;
-        margin: 30px auto -35px;
+        margin: 30px auto -35px
     }
 
     .animation {
@@ -1966,11 +1899,11 @@ blockquote {
     }
 
     .animation .box {
-        transform: rotate(-90deg);
+        transform: rotate(-90deg)
     }
 
     .slick-text {
-        display: none;
+        display: none
     }
 
     ul.big-menu-list li {
@@ -1978,7 +1911,7 @@ blockquote {
     }
 
     #small-menu {
-        display: inline-block !important;
+        display: inline-block !important
     }
 }
 
@@ -1990,23 +1923,23 @@ blockquote {
     top: 0;
     right: 0;
     background-color: #2c3a4e;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px #000;
     overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    transition: .5s;
+    padding-top: 60px
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: #fff;
     display: block;
-    transition: 0.3s
+    transition: .3s
 }
 
-.sidenav a:hover, .offcanvas a:focus {
-    color: #f1f1f1;
+.offcanvas a:focus, .sidenav a:hover {
+    color: #f1f1f1
 }
 
 .sidenav .closebtn {
@@ -2014,19 +1947,19 @@ blockquote {
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 50px
 }
 
 .sidenav li {
-    list-style: none;
+    list-style: none
 }
 
 @media screen and (max-height: 450px) {
     .sidenav {
-        padding-top: 15px;
+        padding-top: 15px
     }
 
     .sidenav a {
-        font-size: 18px;
+        font-size: 18px
     }
 }

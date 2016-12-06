@@ -197,7 +197,7 @@ button.subscribe-button {
     }
 
     .landing #intro:after {
-        background: rgba(0, 0, 0, 0) url(/8e62673b83fe1ecf30a7f0d80f8c28a6747e4c08/0974e/assets/chart.svg) no-repeat -50px 0
+        background: rgba(0, 0, 0, 0) url(/assets/chart.svg) no-repeat -50px 0
     }
 
     #how-work {
@@ -373,36 +373,43 @@ footer a:hover {
 }
 
 .animation .box-container {
-    height: 80px;
-    width: 80px;
-    position: relative;
+    /* height: 80px; */
+    /* width: 80px; */
+    /* position: relative; */
     float: left;
-    margin: 10px
+    /* margin: 10px 0; */
+    /* margin: 10px; */
 }
 
 .animation .box {
-    height: inherit;
-    width: inherit;
-    clip: rect(auto, auto, auto, auto);
+    /* height: inherit; */
+    /* width: inherit; */
+    /* clip: rect(auto,auto,auto,auto); */
     position: relative;
     cursor: pointer;
     opacity: .99;
-    color: rgba(0, 0, 0, .45);
-    overflow: hidden;
-    padding-top: 29px;
+    color: rgba(0,0,0,.45);
+    /* overflow: hidden; */
+    /* padding-top: 29px; */
+    margin: 5px 0;
     text-align: center;
+    padding: 17px 10px;
     background-color: #00bff3;
-    border-radius: 40px;
-    box-shadow: -2px 3px 0 rgba(0, 0, 0, .16);
-    font-size: 12px;
+    border-radius: 45px;
+    box-shadow: -2px 3px 0 rgba(0,0,0,.16);
+    font-size: .9em;
     transition: all .1s;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .animation {
     margin: 25px auto 0;
-    width: 501px;
-    height: 235px
+    width: 1000px;
+    padding-bottom: 30px;
+}
+
+a.no-decoration:hover {
+    text-decoration: none;
 }
 
 .animation .fa {
@@ -443,60 +450,6 @@ footer a:hover {
 
 .demo-button {
     animation: btnWiggle 5s infinite
-}
-
-@-webkit-keyframes btnWiggle {
-    0% {
-        -webkit-transform: rotate(0)
-    }
-    2% {
-        -webkit-transform: rotate(-1deg)
-    }
-    3.5% {
-        -webkit-transform: rotate(1deg)
-    }
-    5% {
-        -webkit-transform: rotate(0)
-    }
-    100% {
-        -webkit-transform: rotate(0)
-    }
-}
-
-@-o-keyframes btnWiggle {
-    0% {
-        -webkit-transform: rotate(0)
-    }
-    2% {
-        -webkit-transform: rotate(-1deg)
-    }
-    3.5% {
-        -webkit-transform: rotate(1deg)
-    }
-    5% {
-        -webkit-transform: rotate(0)
-    }
-    100% {
-        -webkit-transform: rotate(0)
-    }
-}
-
-@keyframes btnWiggle {
-    0% {
-        -webkit-transform: rotate(0)
-    }
-    2% {
-        -webkit-transform: rotate(-1deg)
-    }
-    3.5% {
-        -webkit-transform: rotate(1deg)
-    }
-    5% {
-        -webkit-transform: rotate(0)
-    }
-    100% {
-        -webkit-transform: rotate(0)
-    }
 }
 
 #repair-animation * {
@@ -586,83 +539,6 @@ footer a:hover {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 5px solid rgba(0, 0, 0, .1)
-}
-
-@keyframes screw1 {
-    62% {
-        transform: rotate(600deg) scale(.4)
-    }
-    96% {
-        transform: rotate(600deg) scale(.4);
-        opacity: 1
-    }
-    100% {
-        transform: rotate(600deg) scale(.4)
-    }
-}
-
-@keyframes screw2 {
-    74% {
-        transform: rotate(500deg) scale(.4)
-    }
-    96% {
-        transform: rotate(500deg) scale(.4);
-        opacity: 1
-    }
-    100% {
-        transform: rotate(600deg) scale(.4)
-    }
-}
-
-@keyframes screw3 {
-    86% {
-        transform: rotate(500deg) scale(.4)
-    }
-    96% {
-        transform: rotate(500deg) scale(.4);
-        opacity: 1
-    }
-    100% {
-        transform: rotate(600deg) scale(.4)
-    }
-}
-
-@keyframes screw4 {
-    96% {
-        transform: rotate(500deg) scale(.4);
-        opacity: 1
-    }
-    100% {
-        transform: rotate(600deg) scale(.4)
-    }
-}
-
-.one {
-    animation: screw1 8s infinite;
-    top: 0;
-    left: -2px;
-    opacity: 0
-}
-
-.two {
-    animation: screw2 8s infinite;
-    left: 38px;
-    top: 0;
-    opacity: 0
-}
-
-.three {
-    animation: screw3 8s infinite;
-    top: 40px;
-    left: -2px;
-    opacity: 0
-}
-
-.four {
-    animation: screw4 8s infinite;
-    left: 38px;
-    top: 40px;
-    opacity: 0
 }
 
 .bar-c {
@@ -1892,14 +1768,10 @@ blockquote {
     }
 
     .animation {
-        transform: rotate(90deg);
-        margin-top: 300px;
-        margin-left: -55px;
-        width: auto
-    }
-
-    .animation .box {
-        transform: rotate(-90deg)
+        overflow-x: visible;
+        width: 1000px;
+        height: auto;
+        margin-left: 0;
     }
 
     .slick-text {

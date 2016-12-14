@@ -47,7 +47,7 @@ angular.module('myApp.landpage', ['ngRoute'])
         };
     })
 
-    .controller('LandPageCtrl', ['$scope', '$http', '$timeout', 'Lightbox', function ($scope, $http, $timeout, Lightbox) {
+    .controller('LandPageCtrl', ['$scope', '$interval', '$http', '$timeout', 'Lightbox', function ($scope, $interval, $http, $timeout, Lightbox) {
         $scope.Lightbox = Lightbox;
 
         $timeout(function() {
@@ -71,6 +71,11 @@ angular.module('myApp.landpage', ['ngRoute'])
             analytics.track('Click register');
         }
 
+
+        $scope.active_text = 0;
+        $interval(function() {
+            $scope.active_text = ($scope.active_text + 1) % 6;
+        }, 2000);
 
         $scope.user = {};
         $scope.subscribe = function () {

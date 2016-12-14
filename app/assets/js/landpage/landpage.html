@@ -231,25 +231,29 @@
             <p ng-style="{background: tab == 'developer' ? 'rgba(0,0,0,0.14)' : 'transparent'}"
                ng-click="tab = 'developer'"
                style="display: inline-block; width:100px; text-align:center; padding: 8px 0px; border-radius: 4px 4px 0 0; margin: 0; cursor:pointer">
-                Developer</p>
+                How?</p>
             <p ng-style="{background: tab == 'business' ? 'rgba(0,0,0,0.14)' : 'transparent'}"
                ng-click="tab = 'business'"
                style="display: inline-block; width:100px; text-align:center; padding: 8px 0px;  border-radius: 4px 4px 0 0;margin: 0; cursor:pointer">
-                Business</p>
+                What?</p>
         </div>
         <div ng-show="tab == 'business'" style="background:rgba(0,0,0,0.14);padding-bottom:20px">
-            <h5 style="color: #fff; margin-bottom: 9px; padding-bottom: 12px; padding-top: 17px">No more unanswered questions.</h5>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28); margin: 0 10px; transform: rotate(-20deg)">website visitor data</div>
+            <h5 style="color: #fff; margin-bottom: 9px; padding-bottom: 10px; padding-top: 17px">No more unanswered questions.</h5>
+            <div style="height: 96px; padding-top: 20px; overflow: hidden;">
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-10deg)">error log data</div>
             <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(20deg)">mobile user actions</div>
             <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-10deg)">facebook ads</div>
             <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(10deg)">stripe</div>
             <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-20deg)">offline data</div>
             <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(10deg)">sensor data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-10deg)">error log data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28); margin: 0 10px; transform: rotate(-20deg)">website visitor data</div>
             <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(20deg)">business data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-20deg)"></div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-20deg)">google adwords</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(10deg)">mail data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-10deg)">real-time data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(10deg)">user attribution</div>
+            </div>
 
-            <div class="clearfix" style="height:30px"></div>
             <div ng-show="active_text == 0" style="font-weight:bold;line-height:2em">Did our Facebook ADS campaign worked well enough to increase our revenue?</div>
             <div ng-show="active_text == 1" style="font-weight:bold;line-height:2em">How often do our paid users use friend list feature in our product?</div>
             <div ng-show="active_text == 2" style="font-weight:bold;line-height:2em">Which type of customers churn from our SaaS product?</div>
@@ -257,7 +261,7 @@
             <div ng-show="active_text == 4" style="font-weight:bold;line-height:2em">What's the average temperature of our conference room?</div>
             <div ng-show="active_text == 5" style="font-weight:bold;line-height:2em">What's the percentage of users who are able to finish the level 5 in less than one hour?</div>
 
-            <h5 style="color:#fff; margin-top:10px">Start collecting all your data into Rakam and be able to see the big picture.</h5>
+            <h5 style="color:#fff; margin-top:20px">Start collecting all your data into Rakam and see the big picture of your company.</h5>
 
         </div>
         <div ng-show="tab == 'developer'" style="background:rgba(0,0,0,0.14);padding-bottom:20px">

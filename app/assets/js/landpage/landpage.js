@@ -72,6 +72,11 @@ angular.module('myApp.landpage', ['ngRoute'])
         }
 
 
+        $scope.logHowWhat = function (type) {
+            analytics.track('how & what landpage', {type: type});
+        }
+
+
         $scope.active_text = 0;
         $interval(function() {
             $scope.active_text = ($scope.active_text + 1) % 6;

@@ -1778,6 +1778,7 @@ blockquote {
 .cm-s-material pre {
     margin: 0;
     font-size: .9em;
+    overflow: initial;
     padding: 11px 0;
     background:transparent
 }

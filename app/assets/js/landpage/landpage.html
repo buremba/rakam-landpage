@@ -229,11 +229,11 @@
     <div class="cm-s-material" style="text-align:center" ng-init="tab = 'business'">
         <div style="border-bottom:3px solid rgba(0,0,0,0.14); ">
             <p ng-style="{background: tab == 'developer' ? 'rgba(0,0,0,0.14)' : 'transparent'}"
-               ng-click="tab = 'developer'"
+               ng-click="tab = 'developer'; logHowWhat('how')"
                style="display: inline-block; width:100px; text-align:center; padding: 8px 0px; border-radius: 4px 4px 0 0; margin: 0; cursor:pointer">
                 How?</p>
             <p ng-style="{background: tab == 'business' ? 'rgba(0,0,0,0.14)' : 'transparent'}"
-               ng-click="tab = 'business'"
+               ng-click="tab = 'business'; logHowWhat('what')"
                style="display: inline-block; width:100px; text-align:center; padding: 8px 0px;  border-radius: 4px 4px 0 0;margin: 0; cursor:pointer">
                 What?</p>
         </div>
@@ -287,11 +287,11 @@
                                                                                                  role="presentation">    </span><span
                                 class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-keyword">SELECT</span> _user, total_amount <span
                                 class="cm-keyword">FROM</span> <span
-                                class="link sdk-hover">collection.transaction</span></span></pre>
+                                class="link sdk-hover hint--bounce hint--top" data-hint="access your event data-set that you collected via sdk or restful api">collection.transaction</span></span></pre>
                     </div>
                     <div style="position: relative;">
                         <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  &nbsp;  <span
-                                class="cm-keyword">JOIN</span> <span class="link">mysqldb.users</span> <span
+                                class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top" data-hint="connect your remote databases at query time">mysqldb.users</span> <span
                                 class="cm-keyword">ON</span> (users.id = transaction._user)</span></pre>
                     </div>
                 </div>
@@ -299,18 +299,18 @@
                     <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; <span
                             class="cm-keyword">UNION</span> <span class="cm-keyword">ALL</span> <span
                             class="cm-keyword">SELECT</span> user_id, total_amount <span class="cm-keyword">FROM</span> <span
-                            class="link">remotefile.offlinesales</span></span></pre>
+                            class="link hint--bounce hint--top" data-hint="plug your remote CSV or JSON files as virtual tables">remotefile.offlinesales</span></span></pre>
                 </div>
                 <div style="position: relative;">
                     <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp; &nbsp;) <span
                             class="cm-keyword">WHERE</span> _user <span class="cm-keyword">IN</span> (<span
                             class="cm-keyword">SELECT</span> user_id <span class="cm-keyword">FROM</span> <span
-                            class="link">materialized.gold_users</span> <span class="cm-keyword">WHERE</span> <span
-                            class="link">clearbit_job = <span class="cm-string">'Doctor'</span></span>)</span></pre>
+                            class="link hint--bounce hint--top" data-hint="create your flow with materialized views and continuous queries">materialized.gold_users</span> <span class="cm-keyword">WHERE</span> <span
+                            class="link hint--bounce hint--top" data-hint="enrich your events with event mappers">clearbit_job = <span class="cm-string">'Doctor'</span></span>)</span></pre>
                 </div>
                 <div style="position: relative;">
                     <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">) orders <span
-                            class="cm-keyword">JOIN</span> <span class="link">fb_advertisement</span> fb <span
+                            class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top" data-hint="collect data from third-party services with webhook and and scheduled tasks">fb_advertisement</span> fb <span
                             class="cm-keyword">ON</span> (orders.day = fb.day)</span></pre>
                 </div>
             </div>

@@ -80,7 +80,7 @@ angular.module('myApp.landpage', ['ngRoute'])
         $scope.active_text = 0;
         $interval(function() {
             $scope.active_text = ($scope.active_text + 1) % 6;
-        }, 2000);
+        }, 5000);
 
         $scope.user = {};
         $scope.subscribe = function () {

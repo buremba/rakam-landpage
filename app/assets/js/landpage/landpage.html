@@ -237,32 +237,41 @@
                style="display: inline-block; width:100px; text-align:center; padding: 8px 0px;  border-radius: 4px 4px 0 0;margin: 0; cursor:pointer">
                 What?</p>
         </div>
-        <div ng-show="tab == 'business'" style="background:rgba(0,0,0,0.14);padding-bottom:20px">
-            <h5 style="color: #fff; margin-bottom: 9px; padding-bottom: 10px; padding-top: 17px">No more unanswered questions.</h5>
-            <div style="height: 96px; padding-top: 20px; overflow: hidden; opacity:.4">
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-10deg)">error log data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(20deg)">mobile user actions</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-10deg)">facebook ads</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(10deg)">stripe</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-20deg)">offline data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(10deg)">sensor data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28); margin: 0 10px; transform: rotate(-20deg)">website visitor data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(20deg)">business data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-20deg)">google adwords</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(10deg)">mail data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(-10deg)">real-time data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 0 10px; transform: rotate(10deg)">user attribution</div>
+        <div ng-show="tab == 'business'" class="row" style="background: rgba(0,0,0,0.14);padding:25px 0 30px">
+            <div  class="col-md-5">
+            <div class="bb">
+            <div  style="float:right;height: 270px; border: 1px solid black; padding-top: 20px; box-shadow: 0 0 1px rgba(255, 255, 255, 0.27) inset; overflow: hidden; opacity: .4; border-radius: 160px; width: 274px; margin: 0 auto;">
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-10deg)">error log data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(20deg)">mobile user actions</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-10deg)">facebook ads</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">stripe</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-20deg)">offline data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">sensor data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-20deg)">website visitor data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(20deg)">business data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-20deg)">google adwords</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">mail data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-10deg)">real-time data</div>
+            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">user attribution</div>
+            </div>
             </div>
 
-            <div ng-show="active_text == 0" style="font-weight:bold;line-height:2em">Did our Facebook ADS campaign worked well enough to increase our revenue?</div>
-            <div ng-show="active_text == 1" style="font-weight:bold;line-height:2em">How often do our paid users use friend list feature in our product?</div>
-            <div ng-show="active_text == 2" style="font-weight:bold;line-height:2em">Which type of customers churn from our SaaS product?</div>
-            <div ng-show="active_text == 3" style="font-weight:bold;line-height:2em">What's the basket abandonment rate of our e-commerce service?</div>
-            <div ng-show="active_text == 4" style="font-weight:bold;line-height:2em">What's the average temperature of our conference room?</div>
-            <div ng-show="active_text == 5" style="font-weight:bold;line-height:2em">What's the percentage of users who are able to finish the level 5 in less than one hour?</div>
+            </div>
 
-            <h5 style="color:#fff; margin-top:20px">Start collecting all your data into Rakam and see the big picture of your company.</h5>
+            <div class="col-md-7" style="text-align: left; padding-left: 20px; padding-top:30px">
+            <h5 style="color: #fff; margin-bottom: 9px; padding-bottom: 10px; padding-top: 17px">Do you have any of these questions?</h5>
 
+                <div style="margin-left:30px">
+            <li ng-show="active_text == 0" style="font-weight:bold;line-height:2em">Did our Facebook ADS campaign worked well enough to increase our revenue?</li>
+            <li ng-show="active_text == 1" style="font-weight:bold;line-height:2em">How often do our paid users use friend list feature in our product?</li>
+            <li ng-show="active_text == 2" style="font-weight:bold;line-height:2em">Which type of customers churn from our SaaS product?</li>
+            <li ng-show="active_text == 3" style="font-weight:bold;line-height:2em">What's the basket abandonment rate of our e-commerce service?</li>
+            <li ng-show="active_text == 4" style="font-weight:bold;line-height:2em">What's the average temperature of our conference room?</li>
+            <li ng-show="active_text == 5" style="font-weight:bold;line-height:2em">What's the percentage of users who are able to finish the level 5 in less than one hour?</li>
+                </div>
+            <h5 style="color:#fff; margin-top:60px">Start collecting all your data into Rakam and see the big picture of your company.</h5>
+            </div>
+            <div class="clearfix"></div>
         </div>
         <div ng-show="tab == 'developer'" style="background:rgba(0,0,0,0.14);padding-bottom:20px">
             <h5 style="color: #fff; margin-bottom: 9px; padding-bottom: 12px; padding-top: 17px">Did our Facebook ADS

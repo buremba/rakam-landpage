@@ -94,6 +94,12 @@ a.no-decoration:hover {
     text-decoration: none
 }
 
+.social-menu a img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
 #featured h4 {
     font-size: 1.1rem;
     color: #fff;
@@ -151,7 +157,7 @@ a.no-decoration:hover {
 
 .landing #intro {
     box-sizing: border-box;
-    padding: 20px 0 90px;
+    padding: 20px 0 100px;
     background: #6199B5;
     background: linear-gradient(to top, #00bff3 0, #0085a9 100%);
     position: relative
@@ -344,10 +350,9 @@ nav ul li a.nice:hover {
 
 footer {
     background: #23232d;
-    padding: 80px 0 90px 0;
+    padding: 20px 0 20px 0;
     text-align: center;
     font-size: 13px;
-    color: #7d7da9;
     font-weight: 300;
     text-transform: uppercase;
     -webkit-transition: all .2s ease-out;
@@ -358,7 +363,7 @@ footer p {
     margin: 10px 0
 }
 
-footer a {
+footer li a {
     display: inline-block;
     padding: 0 5px;
     color: #7d7da9
@@ -1851,7 +1856,7 @@ blockquote {
     opacity: 1;
 }
 .modal-strip {
-    padding: 18px 0;
+    padding: 5px 0;
     position: fixed;
     bottom: 1%;
     z-index: 200;

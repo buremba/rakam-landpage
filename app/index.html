@@ -21,7 +21,7 @@
     <link href="/assets/bower_components/angular-busy/dist/angular-busy.min.css" media="all" rel="stylesheet">
     <link href="/assets/bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.min.css" media="all"
           rel="stylesheet">
-    <meta name="google-site-verification" content="ou1HlyEke0_4TW2NpR5sVqb2L0Mugxq2H37U4KNAI6Q" />
+    <meta name="google-site-verification" content="ou1HlyEke0_4TW2NpR5sVqb2L0Mugxq2H37U4KNAI6Q"/>
     <link href="assets/app.css" media="all" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
@@ -41,9 +41,11 @@
                 <li><a href="/integrate">Integration</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <!--<li><a class="nice" href="https://app.rakam.io/login?project_name=hurriyet&api_url=https%3A%2F%2Fapp.rakam.io&action&email=local%40demo.com&password=demoAccount1">Demo</a></li>-->
-                <li style="display:inline-block !important" ><a class="nice login" href="https://app.rakam.io/login">Login</a>
+                <li style="display:inline-block !important"><a class="nice login" href="https://app.rakam.io/login">Login</a>
                 </li>
-                <span id="small-menu" style="display:none;line-height:14px;font-size:30px;cursor:pointer;color: white;margin-left:10px;margin-right:15px;top: 4px; position: relative;" onclick="openNav()">&#9776;</span>
+                <span id="small-menu"
+                      style="display:none;line-height:14px;font-size:30px;cursor:pointer;color: white;margin-left:10px;margin-right:15px;top: 4px; position: relative;"
+                      onclick="openNav()">&#9776;</span>
 
             </ul>
         </div>
@@ -67,10 +69,64 @@
         </div>
     </div>
     <footer>
-        <p>© Rakam.com 2017</p>
-        <p><a href="/">Rakam.com</a> / <a href="/about">About</a>
-        <p><a href="https://twitter.com/rakam" target="_blank">Twitter</a> / <a href="mailto:support@rakam.com">emre@rakam.com</a>
-        <p>Esentepe Mah. Talatpasa Caddesi No: 5 Levent, ♥ Istanbul</p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12" style="max-width:1000px; margin:0 17%;">
+                <div class="row right-menu">
+                    <div class="col-xs-12 col-sm-4">
+                        <span>New to Rakam?</span>
+                        <ul class="list-unstyled">
+                            <li><a href="/behavioral-analytics-platform?ref=footer">Event Explorer</a></li>
+                            <li><a href="/behavioral-cohorts?ref=footer">Behavioral Queries</a></li>
+                            <li><a href="/compass?ref=footer">SQL Editor</a></li>
+                            <li><a href="/microscope?ref=footer">User Explorer</a></li>
+                            <li><a href="/pathfinder?ref=footer">Dashboard</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4">
+                        <span style="margin-bottom:10px">Learn More</span>
+                        <ul class="list-unstyled">
+                            <li><a href="/pricing">Plans &amp; Pricing</a></li>
+                            <li><a href="https://blog.rakam.io">Blog</a></li>
+                            <li><a href="/solutions">Solutions</a></li>
+                            <li><a href="/integrate">Web Analytics Guide</a></li>
+                            <li><a href="/integrate">Mobile Analytics Guide</a></li>
+                            <li><a href="/doc">Documentation</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4">
+                        <span style="margin-bottom:10px">About Rakam</span>
+                        <ul class="list-unstyled">
+                            <li><a href="/customers?ref=footer">Customers</a></li>
+                            <li><a href="/careers?ref=footer">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12">
+            <p class="footer-intro">Esentepe Mah. Talatpasa Caddesi No: 5 Levent, ♥ Istanbul</p>
+
+            <div class="social-menu">
+                <a target="_blank" href="https://www.facebook.com/rakam.io"><img
+                        src="/assets/images/footer/facebook-icon.png"></a>
+                <a target="_blank" href="https://www.linkedin.com/company/rakamio"><img
+                        src="/assets/images/footer/linkedin-icon.png"></a>
+                <a target="_blank" href="https://twitter.com/iorakam"><img src="/assets/images/footer/twitter-icon.png"></a>
+                <a target="_blank" href="https://medium.com/@rakam"><img src="/assets/images/footer/m-icon.png"></a>
+            </div>
+
+            <div class="contact-menu">
+                <ul class="list-unstyled">
+                    <li><a href="/contact">Contact Us</a></li>
+                    <!--<li><a target="_blank" href="https://status.amplitude.com/">System Status</a></li>-->
+                </ul>
+            </div>
+        </div>
+        </div>
+
     </footer>
 </div>
 <script src="/assets/bower_components/angular/angular.min.js"></script>
@@ -97,7 +153,7 @@
 <script type="text/javascript">
     !function () {
         var analytics = window.analytics = window.analytics || [];
-        if (!analytics.initialize)if (analytics.invoked)window.console && console.error && console.error("Segment snippet included twice."); else {
+        if (!analytics.initialize)if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
             analytics.invoked = !0;
             analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "page", "once", "off", "on"];
             analytics.factory = function (t) {

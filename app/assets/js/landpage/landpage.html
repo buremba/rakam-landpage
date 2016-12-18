@@ -5,10 +5,9 @@
         <div class="col-md-7" style="margin-top: 21px">
             <h2>
                 <small>Powerful custom analytics platform on your cloud</small>
-                <div style="font-size:.5em; opacity: .5; text-shadow: none; margin-top:5px">
+                <div style="font-size: .5em; opacity: .9; text-shadow: none; margin-top: 17px; line-height: 1.6em;">
                     rakam takes care of <a ng-click="scroll()" style="color:#fff" class="fav-link">etl + data
-                    warehousing + reporting</a> for you so that you can create insights from your data easily. no coding
-                    required.
+                    warehousing + reporting</a> for you so that you can create insights from your data easily.
                 </div>
             </h2>
             <div class="big_buttons">
@@ -78,40 +77,54 @@
 </section>
 
 
-<section id="featured">
+<section id="featured" class="ng-scope">
     <div class="row">
         <div class="col-xs-12 col-md-4 center-xs right-md">
-            <div class="feature">
-                <h4><i class="fa fa-pie-chart"></i> BI & Rich Analytical features</h4>
-                <div class="feature-text">
-                    Retentions, Funnels, Event explorer, Event Stream,
-                    <span data-hint="run SQL queries and visualize them in various charts.">Advanced BI reporting tool</span>,
-                    Custom Dashboards etc. You have what you need in order to build your own custom analytics service.
-                </div>
+            <div class="feature" style="
+    text-align: right;
+">
+                <h4 class="hint--bounce hint--large hint--top"
+                    data-hint="Retentions, Funnels, Event explorer, Event Stream, Advanced BI reporting tool, Custom Dashboards etc. You have what you need in order to build your own custom analytics service.">
+                    BI &amp; Rich Analytical features</h4>
+
             </div>
         </div>
-        <div class="col-xs-12 col-md-4 center-xs left-md">
-            <div class="feature">
-                <h4><i class="fa fa-file-text-o"></i> Analytics API Gateway</h4>
-                <div class="feature-text">Rakam is an API that you can interact in order to develop your own front-end
-                    applications. You can either use our BI solution or implement your dashboards using Rakam API.
-                </div>
-            </div>
+        <div class="col-xs-12 col-md-4 center-xs left-md" style="
+    text-align: center;
+">
+
+            <div class="feature" style="
+    text-align: center;
+">
+
+
+                <h4 class="hint--bounce hint--large hint--top"
+                    data-hint="Rakam includes more than 10+ modules that you can install depending on your specific use-case.. You can install Rakam on your own hardware, monitor and scale it without hassle."
+                    style="
+"> Host on your servers</h4></div>
         </div>
         <div class="col-xs-12 col-md-4 center-xs left-md">
+
             <div class="feature">
-                <h4><i class="fa fa-server"></i> Customize & host on your servers</h4>
-                <div class="feature-text">Rakam includes more than 10+ modules that you can install depending on your
-                    specific use-case.. You can install Rakam on your own hardware, monitor and scale it without
-                    hassle.
-                </div>
+                <h4 class="hint--bounce hint--large hint--top"
+                    data-hint="Rakam is an API that you can interact in order to develop your own front-end applications. You can either use our BI solution or implement your dashboards using Rakam API.">
+                    Analytics API Gateway</h4>
+
             </div>
         </div>
     </div>
 </section>
+<section id="trustedby" style="padding-bottom: 80px;">
+    <h3 class="nice-header" style="margin: 5px 0 25px; padding-top:25px">Trusted by</h3><br>
+    <section class="grid clearfix">
+        <a class="col-md-3" style="opacity:.3;text-align:center;height:130px;{{$first ? 'margin-left:12.5%' : ''}}"
+           ng-repeat="image in trustedby">
+            <img style="max-height:120px" src="{{image.thumbnail}}">
+        </a>
+    </section>
+</section>
 <section class="landing-dark" id="workflow">
-    <h3 class="nice-header" id="seeitinaction">Rakam API <a href="//github.com/buremba/rakam" target="_blank"><i
-            class="fa fa-github"></i></a></h3>
+    <h3 class="nice-header" id="seeitinaction">Rakam API</h3>
     <div class="animation" style="
 ">
         <a href="/doc/buremba/rakam-wiki/master/Collecting-Events">
@@ -238,38 +251,76 @@
                 What?</p>
         </div>
         <div ng-show="tab == 'business'" class="row" style="background: rgba(0,0,0,0.14);padding:25px 0 30px">
-            <div  class="col-md-5">
-            <div class="bb">
-            <div  style="float:right;height: 270px; border: 1px solid black; padding-top: 20px; box-shadow: 0 0 1px rgba(255, 255, 255, 0.27) inset; overflow: hidden; opacity: .4; border-radius: 160px; width: 274px; margin: 0 auto;">
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-10deg)">error log data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(20deg)">mobile user actions</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-10deg)">facebook ads</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">stripe</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-20deg)">offline data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">sensor data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-20deg)">website visitor data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(20deg)">business data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-20deg)">google adwords</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">mail data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-10deg)">real-time data</div>
-            <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">user attribution</div>
-            </div>
-            </div>
+            <div class="col-md-5">
+                <div class="bb">
+                    <div style="float:right;height: 270px; border: 1px solid black; padding-top: 20px; box-shadow: 0 0 1px rgba(255, 255, 255, 0.27) inset; overflow: hidden; opacity: .4; border-radius: 160px; width: 274px; margin: 0 auto;">
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-10deg)">
+                            error log data
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(20deg)">
+                            mobile user actions
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-10deg)">
+                            facebook ads
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">
+                            stripe
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-20deg)">
+                            offline data
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">
+                            sensor data
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-20deg)">
+                            website visitor data
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(20deg)">
+                            business data
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-20deg)">
+                            google adwords
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">
+                            mail data
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(-10deg)">
+                            real-time data
+                        </div>
+                        <div style="display:inline-block; text-shadow:0 6px 1px rgba(0, 0, 0, 0.28);margin: 10px 10px; transform: rotate(10deg)">
+                            user attribution
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
             <div class="col-md-7" style="text-align: left; padding-left: 20px; padding-top:30px">
-            <h5 style="color: #fff; margin-bottom: 9px; padding-bottom: 10px; padding-top: 17px">Do you have any of these questions?</h5>
+                <h5 style="color: #fff; margin-bottom: 9px; padding-bottom: 10px; padding-top: 17px">Do you have any of
+                    these questions?</h5>
 
                 <div style="margin-left:30px">
-            <li ng-show="active_text == 0" style="font-weight:bold;line-height:2em">Did our Facebook ADS campaign worked well enough to increase our revenue?</li>
-            <li ng-show="active_text == 1" style="font-weight:bold;line-height:2em">How often do our paid users use friend list feature in our product?</li>
-            <li ng-show="active_text == 2" style="font-weight:bold;line-height:2em">Which type of customers churn from our SaaS product?</li>
-            <li ng-show="active_text == 3" style="font-weight:bold;line-height:2em">What's the basket abandonment rate of our e-commerce service?</li>
-            <li ng-show="active_text == 4" style="font-weight:bold;line-height:2em">What's the average temperature of our conference room?</li>
-            <li ng-show="active_text == 5" style="font-weight:bold;line-height:2em">What's the percentage of users who are able to finish the level 5 in less than one hour?</li>
+                    <li ng-show="active_text == 0" style="font-weight:bold;line-height:2em">Did our Facebook ADS
+                        campaign worked well enough to increase our revenue?
+                    </li>
+                    <li ng-show="active_text == 1" style="font-weight:bold;line-height:2em">How often do our paid users
+                        use friend list feature in our product?
+                    </li>
+                    <li ng-show="active_text == 2" style="font-weight:bold;line-height:2em">Which type of customers
+                        churn from our SaaS product?
+                    </li>
+                    <li ng-show="active_text == 3" style="font-weight:bold;line-height:2em">What's the basket
+                        abandonment rate of our e-commerce service?
+                    </li>
+                    <li ng-show="active_text == 4" style="font-weight:bold;line-height:2em">What's the average
+                        temperature of our conference room?
+                    </li>
+                    <li ng-show="active_text == 5" style="font-weight:bold;line-height:2em">What's the percentage of
+                        users who are able to finish the level 5 in less than one hour?
+                    </li>
                 </div>
-            <h5 style="color:#fff; margin-top:60px">Start collecting all your data into Rakam and see the big picture of your company.</h5>
+                <h5 style="color:#fff; margin-top:60px">Start collecting all your data into Rakam and see the big
+                    picture of your company.</h5>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -296,11 +347,13 @@
                                                                                                  role="presentation">    </span><span
                                 class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-keyword">SELECT</span> _user, total_amount <span
                                 class="cm-keyword">FROM</span> <span
-                                class="link sdk-hover hint--bounce hint--top" data-hint="access your event data-set that you collected via sdk or restful api">collection.transaction</span></span></pre>
+                                class="link sdk-hover hint--bounce hint--top"
+                                data-hint="access your event data-set that you collected via sdk or restful api">collection.transaction</span></span></pre>
                     </div>
                     <div style="position: relative;">
                         <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  &nbsp;  <span
-                                class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top" data-hint="connect your remote databases at query time">mysqldb.users</span> <span
+                                class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top"
+                                                                     data-hint="connect your remote databases at query time">mysqldb.users</span> <span
                                 class="cm-keyword">ON</span> (users.id = transaction._user)</span></pre>
                     </div>
                 </div>
@@ -308,18 +361,23 @@
                     <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; <span
                             class="cm-keyword">UNION</span> <span class="cm-keyword">ALL</span> <span
                             class="cm-keyword">SELECT</span> user_id, total_amount <span class="cm-keyword">FROM</span> <span
-                            class="link hint--bounce hint--top" data-hint="plug your remote CSV or JSON files as virtual tables">remotefile.offlinesales</span></span></pre>
+                            class="link hint--bounce hint--top"
+                            data-hint="plug your remote CSV or JSON files as virtual tables">remotefile.offlinesales</span></span></pre>
                 </div>
                 <div style="position: relative;">
                     <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp; &nbsp;) <span
                             class="cm-keyword">WHERE</span> _user <span class="cm-keyword">IN</span> (<span
                             class="cm-keyword">SELECT</span> user_id <span class="cm-keyword">FROM</span> <span
-                            class="link hint--bounce hint--top" data-hint="create your flow with materialized views and continuous queries">materialized.gold_users</span> <span class="cm-keyword">WHERE</span> <span
-                            class="link hint--bounce hint--top" data-hint="enrich your events with event mappers">clearbit_job = <span class="cm-string">'Doctor'</span></span>)</span></pre>
+                            class="link hint--bounce hint--top"
+                            data-hint="create your flow with materialized views and continuous queries">materialized.gold_users</span> <span
+                            class="cm-keyword">WHERE</span> <span
+                            class="link hint--bounce hint--top" data-hint="enrich your events with event mappers">clearbit_job = <span
+                            class="cm-string">'Doctor'</span></span>)</span></pre>
                 </div>
                 <div style="position: relative;">
                     <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">) orders <span
-                            class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top" data-hint="collect data from third-party services with webhook and and scheduled tasks">fb_advertisement</span> fb <span
+                            class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top"
+                                                                 data-hint="collect data from third-party services with webhook and and scheduled tasks">fb_advertisement</span> fb <span
                             class="cm-keyword">ON</span> (orders.day = fb.day)</span></pre>
                 </div>
             </div>
@@ -506,12 +564,67 @@
     </div>
     <div class="clearfix"></div>
 </section>
-<section id="trustedby" style="padding-bottom: 80px;" class="landing-dark">
-    <h3 class="nice-header" style="margin: 5px 0 25px; padding-top:25px">Trusted by</h3><br>
-    <section class="grid clearfix">
-        <a class="col-md-3" style="opacity:.3;text-align:center;height:130px;{{$first ? 'margin-left:12.5%' : ''}}"
-           ng-repeat="image in trustedby">
-            <img style="max-height:120px" src="{{image.thumbnail}}">
-        </a>
-    </section>
+
+<section id="scheduledemo" style="padding-bottom:40px">
+    <h3 class="nice-header" style="margin: 5px 0 15px">Schedule a Demo</h3>
+
+    <div class="">
+        <form id="schedule-demo-form"
+              data-success="Your demo schedule request has been successfully received. We will contact you."
+              data-error="Please fill all fields correctly.">
+            <div class="col-sm-6">
+                <input name="name" type="text" required class="form-control-nice form-control"
+                       placeholder="First Name*">
+                <input name="email" type="email" required class="form-control-nice form-control"
+                       placeholder="Work Email*">
+                <input name="company" type="text" required class="form-control-nice form-control"
+                       placeholder="Company Name*">
+                <textarea name="detail" class="form-control-nice form-control"
+                          placeholder="Anything else? Maybe you want to mention the analytics services you're using?"
+                          rows="3"></textarea>
+            </div>
+            <div class="col-sm-6">
+                <input name="lastname" type="text" class="form-control-nice form-control" placeholder="Last Name*">
+                <div class="select-option">
+                    <i class="ti-angle-down"></i>
+                    <select name="job" required style="height:38px" class="form-control-nice form-control">
+                        <option selected="" value="Default">Job Function*</option>
+                        <option value="businessdev">Business Development</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="product">Product</option>
+                        <option value="strategy">Strategy</option>
+                        <option value="finance">Finance</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="press">Press</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div style="margin-left:5px">
+                    <span>Would you like to find out about future updates to our platform?</span>
+                    <div style="display:inline-block">
+                        <input type="checkbox" style="position: relative; top: 9px;"
+                               class="form-control-nice form-control" name="hearmore" value="Checkbox">
+                    </div>
+                    <div class="clearfix"></div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Schedule</button>
+                </div>
+            </div>
+        </form>
+        <div class="clearfix"></div>
+    </div>
 </section>
+
+<div class="modal-strip bg-white reveal-modal" style="background: rgba(0, 0, 0, 0.84); border-radius: 3px;">
+<div class="row">
+    <div class="col-sm-10 col-sm-offset-1 overflow-hidden">
+        <i class="fa fa-bullhorn pull-left color-primary" style="color: #0275d8; margin-right: 14px; font-size: 2em;"></i>
+        <p class="mb0 pull-left">
+            Learn exactly how Rakam can help you!
+        </p>
+        <a class="btn btn-primary btn-sm" style="float:right" href="#scheduledemo">Schedule
+            a Demo</a>
+    </div>
+</div>
+<i class="ti-close close-modal"></i></div>

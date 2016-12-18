@@ -102,11 +102,17 @@ a.no-decoration:hover {
 }
 
 #featured {
-    padding: 0 0 35px;
-    min-height: 150px;
+    padding: 0 0 15px;
     font-size: .9em;
     background: #3d4d65;
     color: #00bff3
+}
+
+.form-control-nice {
+    background: rgba(255, 255, 255, 0.13);
+    margin: 5px;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.31);
 }
 
 .feature-text {
@@ -151,7 +157,7 @@ a.no-decoration:hover {
     position: relative
 }
 
-.btn.btn-primary {
+form.subscribe .btn.btn-primary {
     background: rgba(0, 0, 0, .2);
     border-radius: 0 4px 4px 0 !important;
     border-color: rgba(0, 0, 0, .08)
@@ -1836,4 +1842,29 @@ blockquote {
     75% {
         clip: rect(0px, 220px, 220px, 218px);
     }
+}
+
+.modal-strip.reveal-modal {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+.modal-strip {
+    padding: 18px 0;
+    position: fixed;
+    bottom: 1%;
+    z-index: 200;
+    width: 720px;
+    left: calc(50% - 360px);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate3d(0, 100px, 0);
+    -webkit-transform: translate3d(0, 100px, 0);
+    -moz-transform: translate3d(0, 100px, 0);
+    opacity: 0;
 }

@@ -50,10 +50,10 @@ angular.module('myApp.landpage', ['ngRoute'])
     .controller('LandPageCtrl', ['$scope', '$interval', '$http', '$timeout', 'Lightbox', function ($scope, $interval, $http, $timeout, Lightbox) {
         $scope.Lightbox = Lightbox;
 
-        $timeout(function() {
-            ['dashboard', 'event-explorer', 'funnel', 'query-builder', 'report', 'retention', 'sql-editor'].forEach(function(name) {
+        $timeout(function () {
+            ['dashboard', 'event-explorer', 'funnel', 'query-builder', 'report', 'retention', 'sql-editor'].forEach(function (name) {
                 var img = new Image();
-                img.src = '/assets/images/landpage/'+name+'.png';
+                img.src = '/assets/images/landpage/' + name + '.png';
             });
         }, 2000);
 
@@ -76,9 +76,27 @@ angular.module('myApp.landpage', ['ngRoute'])
             analytics.track('how & what landpage', {type: type});
         }
 
+        $scope.sendDemoRequest = function (email, first_name, last_name, job, company, message) {
+            $http.post("https://mp3ssd6ej8.execute-api.us-east-1.amazonaws.com/prod/rakam-landing-send-email", {
+                email: email,
+                subject: '[Rakam.io] Demo Request',
+                message: {
+                    first_name: first_name,
+                    last_name: last_name,
+                    job: job,
+                    company: company,
+                    message: message
+                }
+            }).then(function () {
+                alert('We received your message and get back soon, thanks!');
+                $scope.disableDemo = true;
+            }, function (e) {
+                alert('An error occurred, you can send message directly to emre@rakam.io. ' + e);
+            });
+        }
 
         $scope.active_text = 0;
-        $interval(function() {
+        $interval(function () {
             $scope.active_text = ($scope.active_text + 1) % 6;
         }, 5000);
 

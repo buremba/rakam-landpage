@@ -76,6 +76,7 @@ angular.module('myApp.landpage', ['ngRoute'])
             analytics.track('how & what landpage', {type: type});
         }
 
+        window.$http = $http;
         $scope.sendDemoRequest = function (email, first_name, last_name, job, company, message) {
             $http.post("https://mp3ssd6ej8.execute-api.us-east-1.amazonaws.com/prod/rakam-landing-send-email", {
                 email: email,

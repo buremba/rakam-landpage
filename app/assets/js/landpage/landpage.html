@@ -80,7 +80,7 @@
     <section class="grid clearfix">
         <a class="col-md-3" style="opacity:.5;text-align:center;height:130px;{{$first ? 'margin-left:12%' : ''}}"
            ng-repeat="image in trustedby">
-            <img style="max-height:120px" src="{{image.thumbnail}}">
+            <img style="max-height:100px" src="{{image.thumbnail}}">
         </a>
     </section>
 </section>
@@ -97,7 +97,7 @@
                style="display: inline-block; width:100px; text-align:center; padding: 8px 0px;  border-radius: 4px 4px 0 0;margin: 0; cursor:pointer">
                 What?</p>
         </div>
-        <div ng-show="tab == 'business'" class="row" style="background: rgba(0,0,0,0.14);padding:25px 0 30px">
+        <div ng-show="tab == 'business'" class="row landing-dark" style="padding:25px 0 30px">
             <div class="col-md-5">
                 <div class="bb">
                     <div style="float:right;height: 270px; border: 1px solid black; padding-top: 20px; box-shadow: 0 0 1px rgba(255, 255, 255, 0.27) inset; overflow: hidden; opacity: .4; border-radius: 160px; width: 274px; margin: 0 auto;">
@@ -171,7 +171,7 @@
             </div>
             <div class="clearfix"></div>
         </div>
-        <div ng-show="tab == 'developer'" style="background:rgba(0,0,0,0.14);padding-bottom:20px">
+        <div ng-show="tab == 'developer'" class="landing-dark" style="padding-bottom:20px">
             <h5 style="color: #fff; margin-bottom: 9px; padding-bottom: 12px; padding-top: 17px">Did our Facebook ADS
                 campaign worked well enough to increase our revenue?</h5>
             <div style="display: inline-block; text-align: left">
@@ -231,7 +231,7 @@
         </div>
     </div>
 
-    <div class="landing-dark">
+    <div style="border-top:1px solid rgba(0,0,0,0.43)" class="landing-dark">
     <h3 class="nice-header" id="seeitinaction">Rakam API</h3>
     <div class="animation" style="
 ">
@@ -381,8 +381,8 @@
     </div>
     <div class="clearfix"></div>
 </section>
-<section class="landing-dark" style="padding-bottom:30px" ng-init="activePicture = 'sql-editor'" ng-if="true">
-    <h4 style="text-align: center; padding-top: 20px; color: rgba(255, 255, 255, 0.42);" class="nice-header"
+<section class="landing-dark" style="padding-bottom:30px" ng-init="activePicture = 'sql-editor'">
+    <h4 class="nice-header"
         id="advancedbi">Advanced Business Intelligence just for your Rakam API</h4>
     <br><br>
     <div class="slick-text" style="float:right;width: 41%;margin-top:20px">

@@ -1521,7 +1521,6 @@ body, html {
 }
 
 .grid a {
-    border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 5px;
     padding: 5px;
     margin: 5px

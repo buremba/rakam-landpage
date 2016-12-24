@@ -76,16 +76,17 @@
     </div>
 </section>
 <section id="trustedby">
-    <h3 class="nice-header" style="padding-top:0">Trusted by</h3>
-    <section class="grid clearfix">
+    <h3 class="nice-header trustedby" style="display:none">Trusted by</h3>
+    <section class="grid clearfix" style="padding: 10px 0">
         <a class="col-md-3" style="opacity:.5;text-align:center;height:130px;{{$first ? 'margin-left:12%' : ''}}"
            ng-repeat="image in trustedby">
+            <div class="trustedbysmall" style="position: absolute; color: rgba(0, 0, 0, 0.59); font-weight: bold; margin-left: -4.5em; margin-top: 55px;" ng-show="$first">trusted by</div>
             <img style="max-height:100px" src="{{image.thumbnail}}">
         </a>
     </section>
 </section>
 
-<section id="workflow" style="padding-top:30px">
+<section id="workflow">
     <div class="cm-s-material" style="text-align:center" ng-init="tab = 'business'">
         <div style="border-bottom:3px solid rgba(0,0,0,0.14); ">
             <p ng-style="{background: tab == 'developer' ? 'rgba(0,0,0,0.14)' : 'transparent'}"
@@ -231,7 +232,7 @@
         </div>
     </div>
 
-    <div style="border-top:1px solid rgba(0,0,0,0.43)" class="landing-dark">
+    <div style="margin-top:10px" class="landing-dark">
     <h3 class="nice-header" id="seeitinaction">Rakam API</h3>
     <div class="animation" style="
 ">
@@ -342,7 +343,7 @@
     </div>
 </section>
 <section class="landing-light" style="padding-bottom:30px" ng-init="activePicture = 'event-explorer'" ng-if="true">
-    <h3 class="nice-header" id="richanalytical">Rakam User Interface (UI) <a href="//app.rakam.io" target="_blank"><i
+    <h3 class="nice-header" id="richanalytical">Event Analytics<a href="//app.rakam.io" target="_blank"><i
             class="fa fa-app"></i></a></h3>
     <br>
     <div class="slick-text" style="float:left;width: 41%;margin-top:100px">
@@ -382,8 +383,8 @@
     <div class="clearfix"></div>
 </section>
 <section class="landing-dark" style="padding-bottom:30px" ng-init="activePicture = 'sql-editor'">
-    <h4 class="nice-header"
-        id="advancedbi">Advanced Business Intelligence just for your Rakam API</h4>
+    <h3 class="nice-header"
+        id="advancedbi">Custom Analytics</h3>
     <br><br>
     <div class="slick-text" style="float:right;width: 41%;margin-top:20px">
         <div class="landing-item landing-item-reverse" ng-class="{active: activePicture == 'sql-editor'}"

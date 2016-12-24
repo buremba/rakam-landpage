@@ -341,7 +341,7 @@
             openDropdown(this);
         }, false);
         el.addEventListener('mouseleave', function () {
-//            return startCloseTimeout();
+            return startCloseTimeout();
         }, false);
     });
     menuSubs.forEach(function (el) {
@@ -349,7 +349,7 @@
             return stopCloseTimeout();
         }, false);
         el.addEventListener('mouseleave', function () {
-//            return startCloseTimeout();
+            return startCloseTimeout();
         }, false);
     });
 </script>

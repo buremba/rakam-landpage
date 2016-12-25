@@ -30,8 +30,8 @@
     <nav ng-class="{dark: loadedTemplate == '/assets/js/landpage/landpage.html'}">
         <div class="center">
             <a href="/" id="logo-large">
-            <img src="/assets/logo1.png" style="margin-right: 6px;margin-top:4px;height:40px">
-            Rakam</a>
+                <img src="/assets/logo1.png" style="margin-right: 6px;margin-top:4px;height:40px">
+                Rakam</a>
 
             <!--<ul class="big-menu-list">-->
             <!--<li><a href="//blog.rakam.io">Blog</a></li>-->
@@ -67,17 +67,18 @@
                                         <ul>
                                             <li><a href="">
                                                 <h3 class="menu-title">Event Analytics</h3>
-                                                <p> Event Explorer, Funnel, Retention..</p></a>
+                                                <p>Event Explorer, Funnel, Retention for analyzing event data-sets.</p></a>
                                             </li>
                                             <li><a href="">
                                                 <h3 class="menu-title">Custom Analytics</h3>
-                                                <p> SQL Editor, Custom Dashboards..</p></a>
+                                                <p> SQL Editor, Query builder and Custom Dashboards for you to create tour custom analytics service</p></a>
                                             </li>
                                         </ul>
                                         <ul>
                                             <li><a href="">
                                                 <h3 class="menu-title">Analytics Front-end</h3>
-                                                <p> Connect your database and create custom dashboards for your analytics frontend</p></a></li>
+                                                <p> Connect your database and create dashboards for your
+                                                    analytics frontend</p></a></li>
                                             <li><a href="">
                                                 <h3 class="menu-title">Pre-defined analytics</h3>
                                                 <p> Ads Analytics, Gaming Analytics, Web analytics solutions</p></a>
@@ -163,42 +164,38 @@
         </div>
     </div>
     <footer>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12" style="max-width:1000px; margin:0 17%;">
-                <div class="row right-menu">
-                    <div class="col-xs-12 col-sm-4">
-                        <span style="line-height:2.5em;font-size:1.2em">New to Rakam?</span>
-                        <ul class="list-unstyled">
-                            <li><a href="/behavioral-analytics-platform?ref=footer">Event Explorer</a></li>
-                            <li><a href="/behavioral-cohorts?ref=footer">Behavioral Queries</a></li>
-                            <li><a href="/compass?ref=footer">SQL Editor</a></li>
-                            <li><a href="/microscope?ref=footer">User Explorer</a></li>
-                            <li><a href="/pathfinder?ref=footer">Dashboard</a></li>
-                        </ul>
-                    </div>
+            <div class="row right-menu" style="max-width:1000px;margin:0 auto">
+                <div class="col-xs-12 col-sm-4">
+                    <span style="line-height: 2.5em; padding: 3px 7px; font-size: 1.2em; border-bottom: 1px solid rgba(255, 255, 255, 0.09);">New to Rakam?</span>
+                    <ul class="list-unstyled">
+                        <li><a href="/behavioral-analytics-platform?ref=footer">Event Explorer</a></li>
+                        <li><a href="/behavioral-cohorts?ref=footer">Behavioral Queries</a></li>
+                        <li><a href="/compass?ref=footer">SQL Editor</a></li>
+                        <li><a href="/microscope?ref=footer">User Explorer</a></li>
+                        <li><a href="/pathfinder?ref=footer">Dashboard</a></li>
+                    </ul>
+                </div>
 
-                    <div class="col-xs-12 col-sm-4">
-                        <span style="line-height:2.5em;font-size:1.2em">Learn More</span>
-                        <ul class="list-unstyled">
-                            <li><a href="/pricing">Plans &amp; Pricing</a></li>
-                            <li><a href="https://blog.rakam.io">Blog</a></li>
-                            <li><a href="/solutions">Solutions</a></li>
-                            <li><a href="/integrate">Web Analytics Guide</a></li>
-                            <li><a href="/integrate">Mobile Analytics Guide</a></li>
-                            <li><a href="/doc">Documentation</a></li>
-                        </ul>
-                    </div>
+                <div class="col-xs-12 col-sm-4">
+                    <span style="line-height: 2.5em; padding: 3px 7px; font-size: 1.2em; border-bottom: 1px solid rgba(255, 255, 255, 0.09);">Learn More</span>
+                    <ul class="list-unstyled">
+                        <li><a href="/pricing">Plans &amp; Pricing</a></li>
+                        <li><a href="https://blog.rakam.io">Blog</a></li>
+                        <li><a href="/solutions">Solutions</a></li>
+                        <li><a href="/integrate">Web Analytics Guide</a></li>
+                        <li><a href="/integrate">Mobile Analytics Guide</a></li>
+                        <li><a href="/doc">Documentation</a></li>
+                    </ul>
+                </div>
 
-                    <div class="col-xs-12 col-sm-4">
-                        <span style="line-height:2.5em;font-size:1.2em">About Rakam</span>
-                        <ul class="list-unstyled">
-                            <li><a href="/customers?ref=footer">Customers</a></li>
-                            <li><a href="/careers?ref=footer">Careers</a></li>
-                        </ul>
-                    </div>
+                <div class="col-xs-12 col-sm-4">
+                    <span style="line-height: 2.5em; padding: 3px 7px; font-size: 1.2em; border-bottom: 1px solid rgba(255, 255, 255, 0.09);">About Rakam</span>
+                    <ul class="list-unstyled">
+                        <li><a href="/customers?ref=footer">Customers</a></li>
+                        <li><a href="/careers?ref=footer">Careers</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
         <div class="row">
             <div class="col-xs-12 col-sm-12">
                 <p class="footer-intro">Esentepe Mah. Talatpasa Caddesi No: 5 Levent, ♥ Istanbul</p>
@@ -221,7 +218,6 @@
                 </div>
             </div>
         </div>
-
     </footer>
 
 </div>
@@ -292,6 +288,8 @@
     }, stopCloseTimeout = function stopCloseTimeout() {
         clearTimeout(closeDropdownTimeout);
     }, openDropdown = function openDropdown(el) {
+        subCnt.style.display = 'block';
+
         var menuId = el.getAttribute('data-sub');
         var menuSub = document.querySelector('.dropdown-main-menu[data-sub="' + menuId + '"]');
         var menuSubCnt = menuSub.querySelector('.dropdown-main-menu__content');
@@ -330,6 +328,7 @@
             el.classList.remove('active');
             el.style.opacity = 0;
         });
+        subCnt.style.display = 'none';
         subBg.style.opacity = 0;
         subArr.style.opacity = 0;
         selectedMenu = undefined;

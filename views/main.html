@@ -1,0 +1,230 @@
+<div ng-controller="mainController">
+    <div class="blue-area">
+        <div class="container">
+            <div class="header row">
+                <div class="col-md-3">
+                    <a href="#" class="logo"><img width="120" src="images/logo.png"/></a>
+                </div>
+                <div class="col-md-6">
+                    <ul class="menu">
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="login"><button class="btn-md s-button-o">Login</button></a>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <p class="subtitle">Analytics
+                    infrastructure
+                    on your cloud</p>
+                </div>
+                <div class="col-md-6 center-block">
+                
+                    <a href="#" class="try-button"><button  class="btn-lg s-button">Try It Free</button></a>
+                    <a href="#" class="schedule-button"><button  class="btn-lg s-button">Schedule a Demo</button></a>
+                    <!--Integrate in seconds. Free signup.-->
+                </div>
+            </div>
+
+        </div>
+
+        <div class="graph"></div>
+    </div>
+    <div class="trust-area">
+        <div class="in">
+            <p class="title">Trusted by</p>
+        </div>
+        <div class="in">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img  src="images/trusted_bionluk.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img  src="images/trusted_polo.png"/>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="#">
+                        <img  src="images/trusted_scorp.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img  src="images/trusted_twentify.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img  src="images/trusted_panda.png"/>
+                    </a>
+                </li>
+
+
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="products-area">
+        <div class="container">
+            <h1>Products</h1>
+            <uib-tabset active="3">
+                <uib-tab index="0" heading="Rakam Api">Justified content</uib-tab>
+                <uib-tab index="1" heading="Rakam IO">Short Labeled Justified content</uib-tab>
+                <uib-tab index="2" heading="Rakam Ads" select="onProductSelect(2)">Long Labeled Justified content</uib-tab>
+                <uib-tab index="3" heading="Rakam Dashboard">
+                    <div class="tab-content">
+                        <div class="col-md-6 context">
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                            </p>
+                        </div>
+                        <div class="col-md-6 img-content">
+                            <img src="images/dashboard.jpg" width="100%"/>
+                        </div>
+                    </div>
+
+                </uib-tab>
+            </uib-tabset>
+        </div>
+
+    </div>
+
+    <div class="demo-area">
+
+        <div class="container">
+            <div class="col-md-12 p0">
+                <div class="col-md-6 p0">
+                    <div class="schedule">
+                        <h1>Schedule a Demo</h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 p0">
+                    <div class="form-area">
+                        <img class="email-icon" src="images/email.png"/>
+                        <form class="">
+
+                            <div class="form-group">
+                                <div class="icon-addon addon-md">
+                                    <input type="text" placeholder="Name Surname" class="form-control" id="name">
+                                    <label for="name" class="glyphicon glyphicon-user" rel="tooltip" title="name"></label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="icon-addon addon-md">
+                                    <input type="text" placeholder="Email Address" class="form-control" id="email">
+                                    <label for="email" class="glyphicon glyphicon-envelope" rel="tooltip" title="email"></label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="icon-addon addon-md">
+                                    <input type="text" placeholder="Phone Number" class="form-control" id="phone">
+                                    <label for="phone" class="glyphicon glyphicon-phone" rel="tooltip" title="phone"></label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea placeholder="Anything else?"></textarea>
+                            </div>
+                        
+                                
+                        
+                        </form>
+
+                            <div class="form-group">
+                                <button type="submit" class="demo-btn">Schedule</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="container p0">
+            <div class="col-md-12 p0">
+
+                <div class="col-md-3 about p0 pr-30">
+                    <h1>About rakam</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                </div>
+
+                <div class="col-md-3 p0 pr-30">
+                    <h1>New to rakam?</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Event Explorer</a>
+                            <a href="#">Behavioral Queries</a>
+                            <a href="#">SQL Editor</a>
+                            <a href="#">User Explorer</a>
+                            <a href="#">Dashboard</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-md-3 p0 pr-30">
+                    <h1>Learn More</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Plans & Pricing</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Solutions</a>
+                            <a href="#">Web Analytics Guide</a>
+                            <a href="#">Documentation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 p0 pr-30">
+                    <h1>rakam</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Customers</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Contact Us</a>
+                        
+                        </li>
+                    </ul>
+                </div>
+
+                
+
+            </div>
+
+        <ul class="socials">
+            <li>
+                <a href="#"><img src="images/social_facebook.png"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/social_twitter.png"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/social_github.png"/></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/social_medium.png"/></a>
+            </li>
+        </ul>
+        </div>
+
+
+    </div>
+</div>

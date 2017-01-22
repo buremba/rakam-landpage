@@ -1,0 +1,17 @@
+{
+  "name": "rakam.io",
+  "authors": [
+    "Yakup Çilesiz <yakupcilesiz@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "lib",
+    "test",
+    "tests"
+  ]  
+}

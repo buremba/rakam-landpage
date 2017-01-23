@@ -831,7 +831,7 @@ p {
     -moz-border-radius: 5px;
     border-radius: 5px;
     width: 100%;
-    height: 601px; }
+    height: 510px; }
     .pricing-area .price-box h2 {
       text-align: center;
       padding: 20px 0px;
@@ -867,6 +867,154 @@ p {
       right: 0; }
     .pricing-area .price-box button {
       padding: 10px 22px;
-      margin: 20px 0px; }
+      margin: 30px 0px; }
+  .pricing-area .features {
+    width: 100%; }
+    .pricing-area .features th {
+      height: 60px;
+      color: #ffffff;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      background-color: #ffffff;
+      width: 22.413793103448%;
+      vertical-align: middle;
+      text-align: center;
+      border-bottom: 2px solid #dde6e9; }
+      .pricing-area .features th:first-of-type {
+        width: 32.758620689655%;
+        background: #fff;
+        text-align: left; }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .pricing-area .features th {
+          padding: 0;
+          line-height: 50px;
+          width: 50px;
+          height: 120px;
+          font-size: 16px; }
+          .pricing-area .features th:first-of-type {
+            width: auto; } }
+      .pricing-area .features th:nth-child(2) {
+        background: #919aa3; }
+      .pricing-area .features th:nth-child(3) {
+        background: #5f6c7a; }
+      .pricing-area .features th:nth-child(4) {
+        background: #405060; }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .pricing-area .features th .relative-wrapper {
+          position: relative;
+          line-height: 50px; } }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .pricing-area .features th span {
+          text-align: center;
+          width: 120px;
+          position: absolute;
+          top: -23px;
+          left: -35px;
+          -moz-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); } }
+    .pricing-area .features td {
+      width: 22.413793103448%;
+      vertical-align: middle;
+      text-align: center;
+      height: 40px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      color: #2c3e50;
+      font-weight: 400;
+      border-top: 1px solid #cedbdf; }
+      .pricing-area .features td:first-of-type {
+        width: 32.758620689655%;
+        background: #fff;
+        text-align: left; }
+      .pricing-area .features td:nth-child(2) {
+        background: #f0f3f4; }
+      .pricing-area .features td:nth-child(3) {
+        background: #dde6e9; }
+      .pricing-area .features td:nth-child(4) {
+        background: #f0f3f4; }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .pricing-area .features td {
+          width: 50px;
+          font-size: 12px;
+          padding: 6px 0; }
+          .pricing-area .features td:first-of-type {
+            width: auto;
+            padding-left: 0;
+            padding-right: 6px; } }
+    .pricing-area .features .row-title td {
+      background: #fff;
+      color: #2c3e50;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      height: 60px; }
+    .pricing-area .features .row-label {
+      color: #2c3e50;
+      font-weight: 300; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .pricing-area .features .bottom-row {
+        display: none; } }
+    .pricing-area .features td.bottom-container {
+      height: 158px;
+      background: #41c3e6;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      position: relative;
+      border: 0;
+      vertical-align: top; }
+      .pricing-area .features td.bottom-container .inner {
+        color: #fff;
+        height: 158px;
+        width: 100%;
+        padding: 37px 8px 30px 8px;
+        display: block; }
+        .pricing-area .features td.bottom-container .inner p {
+          color: #ffffff;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 15px;
+          font-weight: 300; }
+      .pricing-area .features td.bottom-container:nth-child(3) {
+        background: #02afde; }
+      .pricing-area .features td.bottom-container .btn-wrapper {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%); }
+    .pricing-area .features .mobile {
+      display: none; }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .pricing-area .features .mobile {
+          display: inline; } }
+    .pricing-area .features tfoot th {
+      border-top: 3px solid #e8e8e8;
+      border-bottom: 0; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .pricing-area .features tfoot {
+        display: none; } }
+    .pricing-area .features .fa-check {
+      color: #67C1E2; }
+  .pricing-area .fixed-table-header {
+    position: fixed;
+    left: 0;
+    top: 90px;
+    display: none;
+    width: 100%;
+    z-index: 10; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .pricing-area .fixed-table-header {
+        display: none !important; } }
+    .pricing-area .fixed-table-header .wrapper-mask {
+      background: #fff;
+      padding-top: 20px; }
+  .pricing-area .features-title {
+    color: #c3c8cc;
+    text-align: center;
+    padding: 20px 0px; }
 
 /*# sourceMappingURL=main.css.map */

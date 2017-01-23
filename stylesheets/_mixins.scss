@@ -83,3 +83,24 @@ $desktop-width: 1024px;
     @content;
   }
 }
+
+@mixin first-child() {
+  &:first-of-type {
+    @content
+  }
+}
+
+@mixin first($num) {
+
+  @if $num == 1 {
+    &:first-child {
+      @content;
+    }
+  }
+
+  @else {
+    &:nth-child(#{$num}) {
+      @content;
+    }
+  }
+}

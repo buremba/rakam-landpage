@@ -663,13 +663,15 @@ p {
         padding-top: 100px;
         padding-right: 30px; } }
     .schedule-area .schedule h1 {
-      font-size: 40px; }
+      font-size: 40px;
+      color: #ffffff; }
     .schedule-area .schedule p {
       padding-right: 20px;
       font-family: 'Open Sans', sans-serif;
       font-size: 18px;
       font-weight: 300;
-      line-height: 30px; }
+      line-height: 30px;
+      color: #ffffff; }
   .schedule-area .form-area {
     text-align: center;
     background-color: #ffffff;

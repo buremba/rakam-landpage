@@ -24,6 +24,15 @@ angular.module('app')
                   controller: 'mainController'
 
               })
+              .state('app.product', {
+                  abstract:true ,
+                  url: '/product',
+                  template: '<ui-view></ui-view>',
+              })
+              .state('app.product.dashboard', {
+                  url: '/dashboard',
+                  templateUrl: 'views/product_dashboard.html'
+              })
 
       
 

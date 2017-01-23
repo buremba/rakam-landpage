@@ -116,6 +116,9 @@
 .mb-10 {
   margin-bottom: 10px !important; }
 
+.lh-30 {
+  line-height: 30px !important; }
+
 .icon-addon {
   position: relative;
   color: #555;
@@ -182,7 +185,8 @@
   color: #2580db; }
 
 .body {
-  font-family: 'Varela Round', sans-serif !important; }
+  font-family: 'Varela Round', sans-serif !important;
+  color: #616e7c; }
 
 button, textarea, input {
   outline: none; }
@@ -190,6 +194,30 @@ button, textarea, input {
     outline: none; }
   button:focus, textarea:focus, input:focus {
     outline: none; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Varela Round', sans-serif !important;
+  color: #13b5e0; }
+
+p {
+  color: #616e7c;
+  font-style: normal;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif; }
+
+.i-circle {
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: none;
+  width: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #13b5e0;
+  text-align: center;
+  color: #ffffff; }
 
 .p-button {
   -webkit-border-radius: 50px;
@@ -426,6 +454,24 @@ button, textarea, input {
     transform: translateY(-10px); }
   0% {
     transform: translateY(-10px) rotate(45deg); } }
+  .blue-header .middle-block {
+    display: block !important; }
+    .blue-header .middle-block .subtitle {
+      text-align: center !important; }
+    .blue-header .middle-block .subcontent {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 25px;
+      line-height: 30px;
+      font-weight: 300;
+      color: #ffffff;
+      text-align: center;
+      padding: 0px 20px; }
+      @media (min-width: 1024px) {
+        .blue-header .middle-block .subcontent {
+          font-size: 40px;
+          line-height: 50px;
+          text-align: center;
+          padding: 0px 50px; } }
   .blue-header .middle {
     padding-top: 30px; }
     @media (min-width: 1024px) {
@@ -721,5 +767,9 @@ button, textarea, input {
         .footer .socials li a:hover {
           background-color: #2c3e50;
           color: #ffffff; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .footer .socials {
+        display: table;
+        margin: 20px auto; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,6 +3,7 @@
 @import 'helpers';
 .body{
     font-family: 'Varela Round', sans-serif !important;
+    color:#616e7c;
 }
 
 
@@ -16,6 +17,29 @@ button,textarea,input{
     }
 }
 
+h1,h2,h3,h4,h5{
+    font-family: 'Varela Round', sans-serif !important;
+    color:#13b5e0;
+}
+p{
+    color:#616e7c;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.i-circle{
+    margin-right:10px;
+    text-decoration: none;
+    cursor:none;
+    width: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    @include roundedCorners(30);
+    background-color:#13b5e0;
+    text-align: center;
+    color:#ffffff;
+}
 .p-button{
     @include roundedCorners(50);
     background-color:#02afde;
@@ -328,6 +352,35 @@ button,textarea,input{
     .container{
     }
 
+    .middle-block{
+        display:block!important; 
+        .subtitle{
+            text-align: center!important;
+        }
+        .subcontent{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 25px;
+            line-height: 30px;
+            font-weight: 300;
+            color:#ffffff;
+           
+             text-align: center;
+             padding:0px 20px;
+             @include desktop {
+                font-size: 40px;
+                line-height: 50px;
+                 text-align: center;
+                 padding:0px 50px;
+               
+            }
+       
+        
+       
+       }
+    
+    }
+
+
     .middle{
          padding-top:30px; 
         @include desktop {
@@ -337,9 +390,6 @@ button,textarea,input{
         }
        
    
-       
-        
-
         .subtitle{
             font-family: 'Varela Round', sans-serif;
             font-size: 35px;
@@ -357,6 +407,7 @@ button,textarea,input{
         
        
        }
+    
        .try-area{
            text-align:center;
            p{
@@ -744,6 +795,10 @@ button,textarea,input{
                    color:#ffffff;
                 }
             }
+        }
+        @include mobile{
+            display: table;
+            margin:20px auto;
         }
     }
 }

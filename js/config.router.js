@@ -34,6 +34,11 @@ angular.module('app')
                   templateUrl: 'views/product_dashboard.html'
               })
 
+              .state('app.pricing', {
+                  url: '/pricing',
+                  templateUrl: 'views/pricing.html'
+              })
+
       
 
           function load(srcs, callback) {

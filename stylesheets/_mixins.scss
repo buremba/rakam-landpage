@@ -15,6 +15,13 @@
         border-radius: $size + px;  
 }
 
+
+@mixin roundedCornersExpanded($top,$right,$bottom,$left){
+    -webkit-border-radius: $top + px $right + px $bottom + px $left + px;
+        -moz-border-radius: $top + px $right + px $bottom + px $left + px;
+        border-radius: $top + px $right + px $bottom + px $left + px;  
+}
+
 @mixin clearfix {
   &:after {
     content: "";

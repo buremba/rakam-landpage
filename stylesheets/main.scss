@@ -408,11 +408,11 @@ button,textarea,input{
         }
         background: url(../images/graph1.png) center repeat-x;
         background-size: auto 100%;
-        animation: animatedBackground 40s linear infinite;
-        -moz-animation: animatedBackground 40s linear infinite;
-        -webkit-animation: animatedBackground 40s linear infinite;
-        -ms-animation: animatedBackground 40s linear infinite;
-        -o-animation: animatedBackground 40s linear infinite;
+        animation: animatedBackground 80s linear infinite;
+        -moz-animation: animatedBackground 80s linear infinite;
+        -webkit-animation: animatedBackground 80s linear infinite;
+        -ms-animation: animatedBackground 80s linear infinite;
+        -o-animation: animatedBackground 80s linear infinite;
     }
 
 
@@ -427,11 +427,11 @@ button,textarea,input{
         }
         background: url(../images/graph2.png) center repeat-x;
         background-size: auto 100%;
-        animation: animatedBackground 30s linear infinite;
-        -moz-animation: animatedBackground 30s linear infinite;
-        -webkit-animation: animatedBackground 30s linear infinite;
-        -ms-animation: animatedBackground 30s linear infinite;
-        -o-animation: animatedBackground 30s linear infinite;
+        animation: animatedBackground 100s linear infinite;
+        -moz-animation: animatedBackground 100s linear infinite;
+        -webkit-animation: animatedBackground 100s linear infinite;
+        -ms-animation: animatedBackground 100s linear infinite;
+        -o-animation: animatedBackground 100s linear infinite;
     }
 
 }
@@ -621,7 +621,7 @@ button,textarea,input{
             width:70px;
         }
 
-        form{
+        .contact-form{
             width:100%;
             border:1px solid #dde6e9;
             border-top:0px;

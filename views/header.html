@@ -1,0 +1,34 @@
+<div class="header row">
+    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-3">
+        <a href="#" class="logo"><img width="120" src="images/logo.png"/></a>
+    </div>
+    <div class=" col-md-7 col-lg-6 hidden-xs hidden-sm">
+        <ul class="menu">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class=" col-md-3 col-lg-3 hidden-xs hidden-sm">
+        <a href="#" class="login"><button class="btn-md s-button-o">Login</button></a>
+    </div>
+
+    <div class="col-xs-6 col-sm-6 hidden-lg hidden-md">
+        <div class="MobileMenu"  ng-class="{'active': active,'inactive':!active}" ng-click="active = !active">
+            <span class="MobileMenu-top"></span>
+            <span class="MobileMenu-middle"></span>
+                <span class="MobileMenu-bottom"></span>
+        </div>
+    </div>
+    <div class="Drawer" ng-class="{'open': active}">
+        <ul class="mobile-menu">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</div>

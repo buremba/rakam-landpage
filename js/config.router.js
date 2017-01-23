@@ -11,7 +11,7 @@ angular.module('app')
     [          '$stateProvider', '$urlRouterProvider', 'JQ_CONFIG', 'MODULE_CONFIG',
       function ($stateProvider,   $urlRouterProvider, JQ_CONFIG, MODULE_CONFIG ) {
          $urlRouterProvider
-              .otherwise('/home');
+              .otherwise('/main');
           $stateProvider
               .state('app', {
                   abstract: true,
@@ -25,12 +25,7 @@ angular.module('app')
 
               })
 
-              .state('app.home', {
-                  url: '/home',
-                  templateUrl: 'views/home.html',
-                  controller: 'mainController'
-
-              })
+      
 
           function load(srcs, callback) {
             return {

@@ -472,11 +472,11 @@ button, textarea, input {
     margin-bottom: -100px;
     background: url(../images/graph1.png) center repeat-x;
     background-size: auto 100%;
-    animation: animatedBackground 40s linear infinite;
-    -moz-animation: animatedBackground 40s linear infinite;
-    -webkit-animation: animatedBackground 40s linear infinite;
-    -ms-animation: animatedBackground 40s linear infinite;
-    -o-animation: animatedBackground 40s linear infinite; }
+    animation: animatedBackground 80s linear infinite;
+    -moz-animation: animatedBackground 80s linear infinite;
+    -webkit-animation: animatedBackground 80s linear infinite;
+    -ms-animation: animatedBackground 80s linear infinite;
+    -o-animation: animatedBackground 80s linear infinite; }
     @media (min-width: 1024px) {
       .blue-header .graph1 {
         height: 300px;
@@ -487,11 +487,11 @@ button, textarea, input {
     height: 100px;
     background: url(../images/graph2.png) center repeat-x;
     background-size: auto 100%;
-    animation: animatedBackground 30s linear infinite;
-    -moz-animation: animatedBackground 30s linear infinite;
-    -webkit-animation: animatedBackground 30s linear infinite;
-    -ms-animation: animatedBackground 30s linear infinite;
-    -o-animation: animatedBackground 30s linear infinite; }
+    animation: animatedBackground 100s linear infinite;
+    -moz-animation: animatedBackground 100s linear infinite;
+    -webkit-animation: animatedBackground 100s linear infinite;
+    -ms-animation: animatedBackground 100s linear infinite;
+    -o-animation: animatedBackground 100s linear infinite; }
     @media (min-width: 1024px) {
       .blue-header .graph2 {
         height: 300px; } }
@@ -631,32 +631,32 @@ button, textarea, input {
     .schedule-area .form-area .email-icon {
       padding-bottom: 20px;
       width: 70px; }
-    .schedule-area .form-area form {
+    .schedule-area .form-area .contact-form {
       width: 100%;
       border: 1px solid #dde6e9;
       border-top: 0px; }
-      .schedule-area .form-area form:after {
+      .schedule-area .form-area .contact-form:after {
         content: "";
         display: table;
         clear: both; }
-      .schedule-area .form-area form .form-group {
+      .schedule-area .form-area .contact-form .form-group {
         margin: 0px;
         border-top: 1px solid #dde6e9;
         padding: 10px 5px; }
-        .schedule-area .form-area form .form-group .form-control {
+        .schedule-area .form-area .contact-form .form-group .form-control {
           border: 0px;
           -webkit-box-shadow: none;
           -moz-box-shadow: none;
           box-shadow: none; }
-      .schedule-area .form-area form input:hover, .schedule-area .form-area form textarea:hover {
+      .schedule-area .form-area .contact-form input:hover, .schedule-area .form-area .contact-form textarea:hover {
         color: #2c3e50 !important; }
-      .schedule-area .form-area form textarea {
+      .schedule-area .form-area .contact-form textarea {
         height: 150px;
         width: 100%;
         padding: 10px;
         border: none;
         outline: none; }
-      .schedule-area .form-area form .icon-addon label {
+      .schedule-area .form-area .contact-form .icon-addon label {
         color: #919aa3; }
     .schedule-area .form-area .demo-btn {
       margin: 10px 0px;

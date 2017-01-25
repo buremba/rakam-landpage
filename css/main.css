@@ -757,33 +757,6 @@ p {
     .schedule-area .form-area .email-icon {
       padding-bottom: 20px;
       width: 70px; }
-    .schedule-area .form-area .contact-form {
-      width: 100%;
-      border: 1px solid #dde6e9;
-      border-top: 0px; }
-      .schedule-area .form-area .contact-form:after {
-        content: "";
-        display: table;
-        clear: both; }
-      .schedule-area .form-area .contact-form .form-group {
-        margin: 0px;
-        border-top: 1px solid #dde6e9;
-        padding: 10px 5px; }
-        .schedule-area .form-area .contact-form .form-group .form-control {
-          border: 0px;
-          -webkit-box-shadow: none;
-          -moz-box-shadow: none;
-          box-shadow: none; }
-      .schedule-area .form-area .contact-form input:hover, .schedule-area .form-area .contact-form textarea:hover {
-        color: #2c3e50 !important; }
-      .schedule-area .form-area .contact-form textarea {
-        height: 150px;
-        width: 100%;
-        padding: 10px;
-        border: none;
-        outline: none; }
-      .schedule-area .form-area .contact-form .icon-addon label {
-        color: #919aa3; }
     .schedule-area .form-area .demo-btn {
       margin: 10px 0px;
       width: 100%;
@@ -795,6 +768,34 @@ p {
       outline: none; }
       .schedule-area .form-area .demo-btn:hover {
         background-color: #41c3e6; }
+
+.contact-form {
+  width: 100%;
+  border: 1px solid #dde6e9;
+  border-top: 0px; }
+  .contact-form:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .contact-form .form-group {
+    margin: 0px;
+    border-top: 1px solid #dde6e9;
+    padding: 10px 5px; }
+    .contact-form .form-group .form-control {
+      border: 0px;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+  .contact-form input:hover, .contact-form textarea:hover {
+    color: #2c3e50 !important; }
+  .contact-form textarea {
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none; }
+  .contact-form .icon-addon label {
+    color: #919aa3; }
 
 .footer {
   padding: 20px 0px; }

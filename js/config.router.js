@@ -42,6 +42,10 @@ angular.module('app')
                   url: '/about',
                   templateUrl: 'views/about.html'
               })
+              .state('app.contact', {
+                  url: '/contact',
+                  templateUrl: 'views/contact.html'
+              })
 
               .state('app.documents', {
                   url: '/documents',

@@ -774,45 +774,7 @@ p{
             width:70px;
         }
 
-        .contact-form{
-            width:100%;
-            border:1px solid #dde6e9;
-            border-top:0px;
-            @include clearfix;
-            .form-group{
-                    margin:0px;
-                  border-top:1px solid #dde6e9;
-                  padding:10px 5px;
-                .form-control{
-                    border:0px;
-                    -webkit-box-shadow: none;
-                    -moz-box-shadow: none;
-                    box-shadow: none;
-                  
-                }
-            }
-
-            input,textarea{
-                &:hover{
-                    color:#2c3e50!important;
-                }
-            }
-            
-            textarea{
-                height:150px;
-                width:100%;
-                padding:10px;
-                border:none;
-                outline:none
-            }
-
-            .icon-addon {
-                label{
-                    color:#919aa3;
-                }
-            }
-
-        }
+        
 
         .demo-btn{
             margin:10px 0px;
@@ -830,6 +792,47 @@ p{
     }
 }
 
+
+
+.contact-form{
+    width:100%;
+    border:1px solid #dde6e9;
+    border-top:0px;
+    @include clearfix;
+    .form-group{
+            margin:0px;
+            border-top:1px solid #dde6e9;
+            padding:10px 5px;
+        .form-control{
+            border:0px;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            
+        }
+    }
+
+    input,textarea{
+        &:hover{
+            color:#2c3e50!important;
+        }
+    }
+    
+    textarea{
+        height:150px;
+        width:100%;
+        padding:10px;
+        border:none;
+        outline:none
+    }
+
+    .icon-addon {
+        label{
+            color:#919aa3;
+        }
+    }
+
+}
 
 .footer{
     padding:20px 0px;

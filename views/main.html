@@ -103,33 +103,7 @@
 
                 <div class="form-area">
                     <img class="email-icon" src="images/email.png"/>
-                    <div class="contact-form">
-                    <form   ng-submit="submitForm()">
-
-                        <div class="form-group">
-                            <div class="icon-addon addon-md">
-                                <input type="text" placeholder="Name Surname" class="form-control" id="name" ng-model="form.name" required>
-                                <label for="name" class="fa fa-user-o" rel="tooltip" title="name"></label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="icon-addon addon-md">
-                                <input type="email" placeholder="Email Address" class="form-control" id="email" ng-model="form.email" required>
-                                <label for="email" class="fa fa-envelope-o" rel="tooltip" title="email"></label>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="icon-addon addon-md">
-                                <input type="text" placeholder="Phone Number" class="form-control" id="phone" ng-model="form.phone">
-                                <label for="phone" class="fa fa-phone" rel="tooltip" title="phone"></label>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <textarea placeholder="Anything else?" ng-model="form.message"></textarea>
-                        </div>
-                    </div>
+                    <div ng-include src="'views/includes/form.html'"></div>
                     
                     <div class="form-group">
                         <button type="submit" class="demo-btn">Schedule</button>

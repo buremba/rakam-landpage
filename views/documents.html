@@ -1,0 +1,41 @@
+<div ng-controller="mainController">
+    <div class="blue-header ">
+        <div class="container">
+            <div ng-include src="'views/includes/header.html'"></div>
+            <div class="">
+                <div class="row documents-header">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1>Documents</h1>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p0">
+                        <p>  <a href="#"><button class="s-button"><i class="fa fa-github pr-5"></i>Fork</button></a> and contribute the docs!</p>
+                        </div>
+                    
+                    </div>
+            
+            
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+
+
+
+    <div class="container">
+
+        <div class="clearfix documents-area">
+            <div class="col-md-3 sidebar">
+            <h4 id="documents">Documents</h4>
+            <!--<div ng-bind-html="sidebar"></div>-->
+              <div markdown-content="sidebar" markdown-sidebar></div>
+            </div>
+            <div class="col-md-12">
+                <div markdown-content="content"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>

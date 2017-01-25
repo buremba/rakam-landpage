@@ -39,6 +39,18 @@ angular.module('app')
                   templateUrl: 'views/pricing.html'
               })
 
+              .state('app.documents', {
+                  url: '/documents',
+                  templateUrl: 'views/documents.html',
+                  controller: 'docsController'
+              })
+              .state('app.documents.title', {
+                  url: '/:name/:repo/*page',
+                  templateUrl: 'views/documents.html',
+                  controller: 'docsController'
+              })
+              
+
       
 
           function load(srcs, callback) {

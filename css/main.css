@@ -1127,4 +1127,20 @@ p {
       font-size: 15px;
       font-weight: 300; }
 
+.integrate-area {
+  background: #E37C54;
+  display: flex;
+  align-items: center; }
+  .integrate-area h1, .integrate-area h2, .integrate-area h3, .integrate-area h4 {
+    color: #fff;
+    padding-left: 30px; }
+  .integrate-area .s-button {
+    color: #E37C54;
+    padding: 10px 22px; }
+    .integrate-area .s-button:hover {
+      color: #fff; }
+
+.about h1, h2, h3, h4 {
+  color: #c3c8cc; }
+
 /*# sourceMappingURL=main.css.map */

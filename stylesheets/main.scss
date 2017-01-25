@@ -1268,3 +1268,27 @@ p{
         }
     }
 }
+
+.integrate-area{
+    background:#E37C54;
+    display:flex;
+    align-items:center;
+    h1,h2,h3,h4{
+        color:#fff;
+        padding-left:30px;
+    }
+    .s-button{
+        color:#E37C54;
+        padding:10px 22px;
+        &:hover{
+            color:#fff;
+        }
+    }
+
+    .vertical-middle{
+  
+    }
+}
+.about h1,h2,h3,h4{
+    color:#c3c8cc;
+}

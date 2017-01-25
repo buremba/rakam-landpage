@@ -38,6 +38,10 @@ angular.module('app')
                   url: '/pricing',
                   templateUrl: 'views/pricing.html'
               })
+              .state('app.about', {
+                  url: '/about',
+                  templateUrl: 'views/about.html'
+              })
 
               .state('app.documents', {
                   url: '/documents',

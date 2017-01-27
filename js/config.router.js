@@ -55,7 +55,18 @@ angular.module('app')
               .state('app.documents.title', {
                   url: '/:name/:repo/*page',
                   templateUrl: 'views/documents.html',
-                  controller: 'docsController'
+                  controller: 'docsController',
+                  resolve:{
+                    content:  function($http,$stateParams){
+                      console.log($stateParams);
+                      var page = sourceAddress + "/" + ($stateParams.name + "/" + ($stateParams.repo || 'rakam-wiki')) +
+                            "/" + $stateParams.page + ".md";
+                      return $http.get(page, {cache: true})
+                        .then (function (data) {
+                            return data;
+                        });
+                    },                   
+                  }
               })
               
 

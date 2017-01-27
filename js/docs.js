@@ -1,23 +1,18 @@
-app.controller('docsController', ['$scope', '$http','$sce','$stateParams','$state', function($scope, $http, $sce, $stateParams, $state) {
+
+
+
+app.controller('docsController',  function($scope, $http, $sce, $stateParams, $state,content) {
     
-    console.log($stateParams);
-    console.log($state.params);
+    console.log(content);
     $scope.converter = new showdown.Converter({tables: true});
     $http.get(sourceAddress + "/buremba/rakam-wiki/master/_Sidebar.md", {cache: false})
     .then(function (e) {
         $scope.sidebar = $sce.trustAsHtml($scope.converter.makeHtml(e.data));
     });
 
-    var page = sourceAddress + "/" + ($state.params.name + "/" + ($state.params.repo || 'rakam-wiki')) +
-                            "/" + $state.params.page + ".md";
-    return $http.get(page, {cache: true}).then(function (e) {
-        $scope.content = $sce.trustAsHtml($scope.converter.makeHtml(e.data));
-    }, function () {
-        return "Document not found :(";
-    });
-  
+
     
-}])
+})
 
 .directive('markdownContent', function () {
         var r = new RegExp('^(?:[a-z]+:)?//', 'i');

@@ -1141,7 +1141,7 @@ p {
     .integrate-area .s-button:hover {
       color: #fff; }
 
-.about h1, h2, h3, h4 {
+.about h1, .about h2, .about h3, .about h4 {
   color: #c3c8cc; }
 
 /*# sourceMappingURL=main.css.map */

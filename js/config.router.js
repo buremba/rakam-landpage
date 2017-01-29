@@ -34,6 +34,20 @@ angular.module('app')
                   templateUrl: 'views/product_dashboard.html'
               })
 
+               .state('app.product.api', {
+                  url: '/api',
+                  templateUrl: 'views/product_api.html'
+              })
+               .state('app.product.ui', {
+                  url: '/ui',
+                  templateUrl: 'views/product_ui.html'
+              })
+               .state('app.product.prebuilt', {
+                  url: '/prebuilt',
+                  templateUrl: 'views/product_prebuilt.html'
+              })
+
+
               .state('app.pricing', {
                   url: '/pricing',
                   templateUrl: 'views/pricing.html'
@@ -50,23 +64,14 @@ angular.module('app')
               .state('app.documents', {
                   url: '/documents',
                   templateUrl: 'views/documents.html',
-                  controller: 'docsController'
+                  controller: 'docsController',
+
               })
               .state('app.documents.title', {
                   url: '/:name/:repo/*page',
                   templateUrl: 'views/documents.html',
-                  controller: 'docsController',
-                  resolve:{
-                    content:  function($http,$stateParams){
-                      console.log($stateParams);
-                      var page = sourceAddress + "/" + ($stateParams.name + "/" + ($stateParams.repo || 'rakam-wiki')) +
-                            "/" + $stateParams.page + ".md";
-                      return $http.get(page, {cache: true})
-                        .then (function (data) {
-                            return data;
-                        });
-                    },                   
-                  }
+                  controller: 'docsController'
+                 
               })
               
 

@@ -755,28 +755,29 @@ p {
       font-weight: 300;
       line-height: 30px;
       color: #ffffff; }
-  .schedule-area .form-area {
+
+.form-area {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px; }
+  .form-area .email-icon {
+    padding-bottom: 20px;
+    width: 70px; }
+  .form-area .form-success {
+    display: none; }
+  .form-area .form-error {
+    display: none; }
+  .form-area .demo-btn {
+    margin: 10px 0px;
+    width: 100%;
+    background-color: #02afde;
+    color: #ffffff;
+    padding: 10px;
     text-align: center;
-    background-color: #ffffff;
-    padding: 30px; }
-    .schedule-area .form-area .email-icon {
-      padding-bottom: 20px;
-      width: 70px; }
-    .schedule-area .form-area .form-success {
-      display: none; }
-    .schedule-area .form-area .form-error {
-      display: none; }
-    .schedule-area .form-area .demo-btn {
-      margin: 10px 0px;
-      width: 100%;
-      background-color: #02afde;
-      color: #ffffff;
-      padding: 10px;
-      text-align: center;
-      border: none;
-      outline: none; }
-      .schedule-area .form-area .demo-btn:hover {
-        background-color: #41c3e6; }
+    border: none;
+    outline: none; }
+    .form-area .demo-btn:hover {
+      background-color: #41c3e6; }
 
 .contact-form {
   width: 100%; }

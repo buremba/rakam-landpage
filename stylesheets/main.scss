@@ -673,6 +673,7 @@ p{
                      
                    }
             a{
+                text-align: center;
                 color:#02afde;
                 font-family: 'Open Sans', sans-serif;
                 font-size:20px;
@@ -698,6 +699,7 @@ p{
         }
         .active{
             a{
+                text-align: center;
                  border:0px !important;
                  border-bottom: 3px solid #dde6e9 !important;
                 &:hover {
@@ -1855,6 +1857,9 @@ $primary-font: 'Open Sans', sans-serif;
                 padding:0px;
                 margin:0px;
                 list-style:none;
+                @include desktop{
+                    margin-right:10px;
+                }
                 li{
                     list-style:none;
                      width:100%;

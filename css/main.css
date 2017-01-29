@@ -685,6 +685,7 @@ p {
     .products-area ul li {
       width: 25%; }
       .products-area ul li a {
+        text-align: center;
         color: #02afde;
         font-family: 'Open Sans', sans-serif;
         font-size: 20px;
@@ -703,6 +704,7 @@ p {
           .products-area ul li a i {
             width: 100%; } }
     .products-area ul .active a {
+      text-align: center;
       border: 0px !important;
       border-bottom: 3px solid #dde6e9 !important; }
       .products-area ul .active a:hover {
@@ -1521,6 +1523,9 @@ p {
   padding: 0px;
   margin: 0px;
   list-style: none; }
+  @media (min-width: 1024px) {
+    .menuSpecial ul {
+      margin-right: 10px; } }
   .menuSpecial ul li {
     list-style: none;
     width: 100%; }

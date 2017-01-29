@@ -624,7 +624,8 @@ p {
         height: 300px; } }
 
 .trusted-area {
-  background-color: #edf2f5; }
+  background-color: #edf2f5;
+  overflow: auto; }
   .trusted-area .title {
     vertical-align: middle;
     color: #c3c8cc;

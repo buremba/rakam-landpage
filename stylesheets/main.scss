@@ -1717,12 +1717,13 @@ $primary-font: 'Open Sans', sans-serif;
 		}
 
 		.content {
-			padding: 2.2em 1.8em;
+			padding: 0px;
 			transition: transform .3s;
 			text-align: left;
 
 			> ul {
 				@include clearfix;
+                padding:10px 20px;
 			}
 
 			> ul > li {
@@ -1751,10 +1752,19 @@ $primary-font: 'Open Sans', sans-serif;
 			margin-top: 0;
 		}
 
-		.developers .content,
-		.button .content {
-			width: 390px;
+		.developers .content{
+			width: 500px;
 		}
+        .company .content{
+			width: 450px;
+		}
+        .resources .content{
+			width: 480px;
+		}
+
+
+
+
 
 		.links-list a {
 			font-size: 1.6rem;
@@ -1833,7 +1843,9 @@ $primary-font: 'Open Sans', sans-serif;
             ul{
                 padding:0px;
                 margin:0px;
+                list-style:none;
                 li{
+                    list-style:none;
                      width:100%;
                     a{
                         font-family: 'Open Sans', sans-serif;
@@ -1844,6 +1856,10 @@ $primary-font: 'Open Sans', sans-serif;
                        
                         &:hover{
                             color:#2d3e50;
+                            h3{
+                                color:#24BAE3;
+                            }
+                            text-decoration:none;
                         }
                     }
                 }

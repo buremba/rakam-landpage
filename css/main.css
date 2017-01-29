@@ -1425,13 +1425,15 @@ p {
         /* hide the label on bigger devices */
         display: none; }
       .cd-morph-dropdown .content {
-        padding: 2.2em 1.8em;
+        padding: 0px;
         transition: transform .3s;
         text-align: left; }
-        .cd-morph-dropdown .content > ul::after {
-          clear: both;
-          content: "";
-          display: block; }
+        .cd-morph-dropdown .content > ul {
+          padding: 10px 20px; }
+          .cd-morph-dropdown .content > ul::after {
+            clear: both;
+            content: "";
+            display: block; }
         .cd-morph-dropdown .content > ul > li {
           width: 48%;
           float: left;
@@ -1448,9 +1450,12 @@ p {
           margin-bottom: 1.8em; }
       .cd-morph-dropdown .links .content > ul > li {
         margin-top: 0; }
-      .cd-morph-dropdown .developers .content,
-      .cd-morph-dropdown .button .content {
-        width: 390px; }
+      .cd-morph-dropdown .developers .content {
+        width: 500px; }
+      .cd-morph-dropdown .company .content {
+        width: 450px; }
+      .cd-morph-dropdown .resources .content {
+        width: 480px; }
       .cd-morph-dropdown .links-list a {
         font-size: 1.6rem;
         margin-left: 0; }
@@ -1508,8 +1513,10 @@ p {
       color: #2d3e50; }
 .menuSpecial ul {
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+  list-style: none; }
   .menuSpecial ul li {
+    list-style: none;
     width: 100%; }
     .menuSpecial ul li a {
       font-family: 'Open Sans', sans-serif;
@@ -1518,6 +1525,9 @@ p {
       color: #616e7c;
       display: block; }
       .menuSpecial ul li a:hover {
-        color: #2d3e50; }
+        color: #2d3e50;
+        text-decoration: none; }
+        .menuSpecial ul li a:hover h3 {
+          color: #24BAE3; }
 
 /*# sourceMappingURL=main.css.map */

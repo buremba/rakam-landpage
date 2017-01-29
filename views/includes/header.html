@@ -1,9 +1,179 @@
 <div class="header row">
-    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-3">
-        <a href="#" class="logo"><img width="120" src="images/logo.png"/></a>
-    </div>
-    <div class=" col-md-7 col-lg-6 hidden-xs hidden-sm">
-        <ul class="menu">
+ 
+    
+    <header class="cd-morph-dropdown" ng-controller="menuController">
+
+		<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
+		
+		<nav class="main-nav">
+			<ul>
+				<li class="has-dropdown gallery" data-content="products">
+					<a href="#0">Products</a>
+				</li>
+
+				<li class="has-dropdown links" data-content="developers">
+					<a href="#0">Developers</a>
+				</li>
+
+				<li class="has-dropdown button" data-content="company">
+					<a href="#0">Company</a>
+				</li>
+                <li class="has-dropdown button" data-content="resources">
+					<a href="#0">Resources</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div class="morph-dropdown-wrapper">
+			<div class="dropdown-list">
+				<ul>
+					<li id="products" class="dropdown products menuSpecial">
+						<a href="#0" class="label"></a>
+						
+						<div class="content">	
+							 <div class="top-section clearfix">
+                            <ul class="clearfix col-md-6">
+                                <li><a href="#!/product/api">
+                                    <h3>Rakam API</h3>
+                                    <p>Event Explorer, Funnel, Retention for analyzing event data-sets.</p></a>
+                                </li>
+                                <li ><a href="#!/product/ui">
+                                    <h3>Rakam UI/BI</h3>
+                                    <p> Create your custom analytics service with SQL using Rakam UI</p></a>
+                                </li>
+                            </ul>
+                            <ul class="clearfix col-md-6">
+                                <li><a href="#!/product/dashboard">
+                                    <h3>Rakam Dashboard</h3>
+                                    <p> Connect your database and create dashboards for your
+                                        analytics frontend</p></a></li>
+                                <li><a href="#!/product/prebuilt">
+                                    <h3>Rakam Pre-Built Analytics</h3>
+                                    <p> Ads, Gaming, Web, Mobile, IoT and many more analytics solutions</p></a>
+                                </li>                              
+                            </ul>
+
+                        </div>
+                        <div class="bottom-section">
+                            <ul class="pull-right">
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Works with Rakam</a></li>
+
+                            </ul>
+                        </div>
+						</div>
+					</li>
+
+					<li id="developers" class="dropdown developers menuSpecial">
+	
+						<div class="content">
+							<div class="top-section clearfix">
+                            <ul class="clearfix col-md-6">
+                                <li><a href="#!/documents">
+                                    <h3>Documentation</h3>
+                                    <p>Event Explorer, Funnel, Retention for analyzing event data-sets.</p></a>
+                                </li>
+                                <li><a href="#!/documents">
+                                    <h3>API documentation</h3>
+                                    <p>Event Explorer, Funnel, Retention for analyzing event data-sets.</p></a>
+                                </li>
+                                 <ul class="clearfix col-md-6">
+                                <li><a href="#!/documents">
+                                    <h3>Config Reference</h3>
+                                    <p>Interested in joining us?</p></a></li>                             
+                            </ul>            
+                        </div>
+                        <div class="bottom-section">
+                            <ul class="pull-right">
+                                    <li><a href="https://github.com/rakam-io/rakam"><i class="fa fa-github"></i> Github</a></li>
+                            </ul>
+                        </div>
+						</div>
+					</li>
+
+					<li id="company" class="dropdown button">
+	
+						
+						<div class="content">	
+							<div class="top-section clearfix">
+                            <ul class="clearfix col-md-6">
+                                <li><a href="#!/about">
+                                    <h3>About Rakam</h3>
+                                    <p>What's Rakam and who we are?</p></a>
+                                </li>
+                                <li ><a href="">
+                                    <h3>Customers</h3>
+                                    <p>We're working graet companies all around the world.</p></a>
+                                </li>
+                            </ul>
+                            <ul class="clearfix col-md-6">
+                                <li><a href="">
+                                    <h3>Careers</h3>
+                                    <p>Interested in joining us?</p></a></li>
+                                <li><a href="">
+                                    <h3>Blog</h3>
+                                    <p>Some tips and product updates.</p></a>
+                                </li>                              
+                            </ul>
+
+                            </div>
+						</div>
+					</li>
+                    	<li id="resources" class="dropdown button">
+						
+						<div class="content">	
+						<div class="top-section clearfix">
+                            <ul class="clearfix col-md-6">
+                                <li><a href="#!/contact">
+                                    <h3>Support & Contact</h3>
+                                    <p>Let us know if you have any questions.</p></a>
+                                </li>
+                                <li><a href="">
+                                    <h3>Github</h3>
+                                    <p>Deploy Rakam right away.</p></a>
+                                </li>
+                                </ul>
+                                 <ul class="clearfix col-md-6">
+
+                                 <li><a href="#!/integrations">
+                                    <h3>Integration</h3>
+                                    <p>How to integrate Rakam?</p></a>
+                                </li>
+                                <li><a href="">
+                                    <h3>Solutions</h3>
+                                    <p>Learn more around our Solutions</p></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom-section">
+                            <ul class="pull-right">
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms of Service</a></li>
+                                <li><a href="">Guideline</a></li>
+
+                            </ul>
+                        </div>
+						</div>
+					</li>
+				</ul>
+
+				<div class="bg-layer" aria-hidden="true"></div>
+			</div> <!-- dropdown-list -->
+		</div> <!-- morph-dropdown-wrapper -->
+
+    
+
+        
+	</header>
+
+        <div class="col-xs-6 col-sm-6 col-md-2 col-lg-3">
+                    <a href="#" class="logo"><img width="120" src="images/logo.png"/></a>
+        </div>
+        <div class=" col-md-7 col-lg-6 hidden-xs hidden-sm"></div>
+        <div class=" col-md-3 col-lg-3 hidden-xs hidden-sm">
+             <a href="#" class="login"><button class="btn-md s-button-o">Login</button></a>
+        </div>
+        <!--<ul class="menu">
             <li drop-menu>
                 <a href="#">Products</a>
                 <div class="drop-content">
@@ -144,12 +314,8 @@
                 </div>
                 
             </li> 
-                    </ul>
-    </div>
-    <div class=" col-md-3 col-lg-3 hidden-xs hidden-sm">
-        <a href="#" class="login"><button class="btn-md s-button-o">Login</button></a>
-    </div>
-
+                    </ul>-->
+ 
     <div class="col-xs-6 col-sm-6 hidden-lg hidden-md">
         <div class="MobileMenu"  ng-class="{'active': active,'inactive':!active}" ng-click="active = !active">
             <span class="MobileMenu-top"></span>

@@ -63,15 +63,85 @@ angular.module('app')
 
               .state('app.documents', {
                   url: '/documents',
+                  reloadOnSearch: false,
+                  resolve: {
+                        markdown: function ($http, $location) {
+                            var page = sourceAddress + "/buremba/rakam/master/README.md";
+                            return $http.get(page, {cache: true}).then(function (e) {
+                                return e.data
+                            }, function () {
+                                $location.path('/404');
+                            });
+                        },
+                        sidebar: function ($http) {
+                            return $http.get(sourceAddress + "/buremba/rakam-wiki/master/_Sidebar.md", {cache: true}).then(function (e) {
+                                return e.data
+                            });
+                        },
+                        parent: function () {
+                            return "buremba/rakam-wiki";
+                        }
+                  },
                   templateUrl: 'views/documents.html',
                   controller: 'docsController',
 
               })
-              .state('app.documents.title', {
-                  url: '/:name/:repo/*page',
+              .state('app.document', {
+                  url: '/document/:name/:repo/*page',
                   templateUrl: 'views/documents.html',
-                  controller: 'docsController'
-                 
+                  controller: 'docsController',
+                  reloadOnSearch: false,
+                  resolve: {
+                    markdown: function ($http, $stateParams,$state, $location) {
+                        
+                        var page = sourceAddress + "/" + ($stateParams.name + "/" + ($stateParams.repo || 'rakam-wiki')) +
+                            "/" + $stateParams.page + ".md";
+                        return $http.get(page, {cache: true}).then(function (e) {
+                            return e.data
+                        }, function () {
+                            return "Document not found :(";
+                        });
+                    },
+                    sidebar: function ($http) {
+                        return $http.get(sourceAddress + "/buremba/rakam-wiki/master/_Sidebar.md", {cache: true}).then(function (e) {
+                            return e.data
+                        });
+                    },
+                    parent: function ($stateParams) {
+                        return $stateParams.name +  "/" + ($stateParams.repo || 'rakam-wiki');
+                    }
+                }
+                
+              })
+
+              .state('app.integration', {
+                  url: '/integration',
+                  templateUrl: 'views/integrate.html',
+                  controller: 'integrateController',
+                  resolve: {
+                        markdown: function ($http) {
+                            return ""
+                        },
+                  }
+
+              })
+
+              .state('app.integrate', {
+                  url: '/integrate/:name/:repo/*page',
+                  templateUrl: 'views/integrate.html',
+                  controller: 'integrateController',
+                  resolve: {
+                    markdown: function ($http, $stateParams,$state, $location) {
+                        var page = sourceAddress + "/" + ($stateParams.name + "/" + ($stateParams.repo || 'rakam-wiki')) +
+                            "/" + $stateParams.page + ".md";
+                        return $http.get(page, {cache: true}).then(function (e) {
+                            return e.data
+                        }, function () {
+                            return "Document not found :(";
+                        });
+                    }
+                   }
+
               })
               
 

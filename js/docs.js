@@ -1,35 +1,19 @@
 
 
 
-app.controller('docsController',  function($scope, $http, $sce, $stateParams, $state) {
-   
-    $scope.converter = new showdown.Converter({tables: true});
-    $http.get(sourceAddress + "/buremba/rakam-wiki/master/_Sidebar.md", {cache: false})
-    .then(function (e) {
-        $scope.sidebar = $sce.trustAsHtml($scope.converter.makeHtml(e.data));
-    });
+app.controller('docsController', function ($http, $scope, $sce, sidebar, markdown, $q, parent) {
 
-    
+    var converter = new showdown.Converter({tables: true});
+    window.converter = converter;
+    $scope.promise = null;
 
+    $scope.sidebar = $sce.trustAsHtml(converter.makeHtml(sidebar));
+    $scope.content = $sce.trustAsHtml(converter.makeHtml(markdown));
+    $scope.parent = parent;
 
-    var page = sourceAddress + "/" + ($state.params.name + "/" + ($state.params.repo || 'rakam-wiki')) +
-                                "/" + $state.params.page + ".md";
-    var page = sourceAddress + "/buremba/rakam/master/README.md";
-
-    $scope.loadContent = function(page){
-        return $http.get(page, {cache: true}).then(function (e) {
-        $scope.content = $sce.trustAsHtml($scope.converter.makeHtml(e.data));
-        }, function () {
-            // $location.path('/404');
-        });
-    }
-
-    $scope.changePage = function(){
-        console.log("ha");
-
-    }
-    
 })
+
+
 
 
 .directive('markdownContent', function () {
@@ -46,11 +30,11 @@ app.controller('docsController',  function($scope, $http, $sce, $stateParams, $s
 
                         if (!r.test(href)) {
                             var path = a.pathname.replace(/.md$/, '') + a.search + a.hash;
-                             a.setAttribute("href", "#!/documents/" + $scope.parent + "/master/" + path);
+                             a.setAttribute("href", "#!/document/" + $scope.parent + "/master/" + path);
          
 
                         } else if (href.match(/^\/\/github.com\/buremba/) || href.match(/^\/\/github.com\/rakam-io/)) {
-                             a.setAttribute("href", "#!/documents/" + href.replace(/^\/\/github.com\//, ""));
+                             a.setAttribute("href", "#!/document/" + href.replace(/^\/\/github.com\//, ""));
      
                         }
                     });

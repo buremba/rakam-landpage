@@ -105,8 +105,9 @@ p{
                 float:left;
                 font-size:16px;
                 cursor:pointer;
+                margin:5px 15px;
                 a{
-                    padding:10px;
+                    padding:0px;
                     display:block;
                     text-decoration: none;
                     color:#e1f8ff;
@@ -350,6 +351,7 @@ p{
             position: absolute;
             display: none;
             width:100%;
+            margin-top:10px;
             
             $color: rgba(0,0,0,.3);
             @include box-shadow(0, 4px, 6px,$color );
@@ -665,8 +667,9 @@ p{
         margin:20px 0px 0px 0px;
         border-color:#dde6e9;
         li{
+            width:25%;
              @include mobile{
-                     width:25%;
+                     
                    }
             a{
                 color:#02afde;
@@ -773,6 +776,12 @@ p{
             padding-bottom:20px;
             width:70px;
         }
+        .form-success{
+            display: none;
+        }
+        .form-error{
+            display: none;
+        }
 
         
 
@@ -796,8 +805,8 @@ p{
 
 .contact-form{
     width:100%;
-    border:1px solid #dde6e9;
-    border-top:0px;
+ 
+  
     @include clearfix;
     .form-group{
             margin:0px;
@@ -811,6 +820,13 @@ p{
             
         }
     }
+
+    .inputs{
+        border:1px solid #dde6e9;
+        border-top:0px;
+  
+    }
+
 
     input,textarea{
         &:hover{
@@ -1296,4 +1312,69 @@ p{
     h1,h2,h3,h4{
         color:#c3c8cc;
     }
+}
+
+
+.integrate{
+    .box{
+        cursor:pointer;
+        color:#fff;
+        text-decoration:none;
+        display:block;
+        width: 100%;
+        div{
+            text-align: center;
+            padding:30px;
+        
+            color:#fff;
+            text-decoration: none;
+            i{
+                font-size:50px;
+                display: block;
+                padding-bottom:10px;
+                color:#919aa3;
+            }
+        }
+
+        
+       
+    }
+    
+    .rounded{
+   
+        @include roundedCorners(10);
+         background: #5f6c7a;
+         cursor:pointer;
+
+         &:hover{
+            background: #667482;
+        }
+    }
+}
+
+
+.integrates-header{
+    padding:0px 0px 50px 0px;
+    @include mobile{
+      padding:0px 0px 30px 0px;
+      text-align: center;
+    }
+    h1{
+        color:#fff;
+        
+    }
+      .s-button{
+        color:#5f6c7a;
+        
+    }
+    p{
+        color:#fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size:18px;
+        font-weight: 300;
+    }
+}
+
+.surface{
+    width:100% !important;
 }

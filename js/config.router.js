@@ -60,6 +60,15 @@ angular.module('app')
                   url: '/contact',
                   templateUrl: 'views/contact.html'
               })
+              .state('app.privacy', {
+                  url: '/privacy',
+                  templateUrl: 'views/privacy.html'
+              })
+
+              .state('app.terms', {
+                  url: '/terms',
+                  templateUrl: 'views/terms.html'
+              })
 
               .state('app.documents', {
                   url: '/documents',

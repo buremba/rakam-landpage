@@ -805,6 +805,17 @@ p {
     outline: none; }
   .contact-form .icon-addon label {
     color: #919aa3; }
+  .contact-form .demo-btn {
+    margin: 10px 0px;
+    width: 100%;
+    background-color: #02afde;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    outline: none; }
+    .contact-form .demo-btn:hover {
+      background-color: #41c3e6; }
 
 .footer {
   padding: 20px 0px; }

@@ -318,7 +318,8 @@ p {
         content: "";
         display: block; }
     .blue-header .header .login {
-      float: right; }
+      float: right;
+      margin-right: 10px; }
     .blue-header .header .MobileMenu {
       width: 30px;
       height: 24px;
@@ -1219,7 +1220,7 @@ p {
     .cd-morph-dropdown .nav-trigger span, .cd-morph-dropdown .nav-trigger span::after, .cd-morph-dropdown .nav-trigger span::before {
       /* these are the 3 lines of the menu icon */
       position: absolute;
-      background-color: #1A1A1A;
+      background-color: #FFFFFF;
       height: 3px;
       width: 26px; }
     .cd-morph-dropdown .nav-trigger span {
@@ -1258,7 +1259,12 @@ p {
   .cd-morph-dropdown.nav-open .morph-dropdown-wrapper {
     display: block; }
   .cd-morph-dropdown .dropdown-list > ul > li {
-    margin-bottom: 3.3em; }
+    margin-bottom: 3.3em;
+    list-style: none; }
+  .cd-morph-dropdown .dropdown-list ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
   .cd-morph-dropdown .label {
     display: block;
     font-size: 2.2rem;
@@ -1529,5 +1535,11 @@ p {
         text-decoration: none; }
         .menuSpecial ul li a:hover h3 {
           color: #24BAE3; }
+
+.logo-mobile {
+  position: absolute;
+  padding: 5px; }
+  .logo-mobile img {
+    margin: 15px 0px 0px 15px; }
 
 /*# sourceMappingURL=main.css.map */

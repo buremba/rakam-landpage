@@ -3,7 +3,9 @@
     
     <header class="cd-morph-dropdown" ng-controller="menuController">
 
-		<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
+        <a href="#" class="logo-mobile hidden-md hidden-lg"><img width="120" src="images/logo.png"/></a>
+		<a href="#0" class="nav-trigger">Open Nav
+            <span aria-hidden="true"></span></a>
 		
 		<nav class="main-nav">
 			<ul>
@@ -166,12 +168,13 @@
         
 	</header>
 
-        <div class="col-xs-6 col-sm-6 col-md-2 col-lg-3">
-                    <a href="#" class="logo"><img width="120" src="images/logo.png"/></a>
+        <div class="col-xs-6 col-sm-6 col-md-2 col-lg-3 hidden-xs hidden-sm">
+            <a href="#" class="logo"><img width="120" src="images/logo.png"/></a>
         </div>
         <div class=" col-md-7 col-lg-6 hidden-xs hidden-sm"></div>
         <div class=" col-md-3 col-lg-3 hidden-xs hidden-sm">
-             <a href="#" class="login"><button class="btn-md s-button-o">Login</button></a>
+             <a href="https://app.rakam.io/login" class="login"><button class="btn-md s-button-o">Login</button></a>
+             <a href="https://app.rakam.io/register" class="login"><button class="btn-md s-button-o">Register</button></a>
         </div>
         <!--<ul class="menu">
             <li drop-menu>
@@ -314,8 +317,9 @@
                 </div>
                 
             </li> 
-                    </ul>-->
- 
+                    </ul>
+                    
+                     
     <div class="col-xs-6 col-sm-6 hidden-lg hidden-md">
         <div class="MobileMenu"  ng-class="{'active': active,'inactive':!active}" ng-click="active = !active">
             <span class="MobileMenu-top"></span>
@@ -332,4 +336,6 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </div>
+                    -->
+
 </div>

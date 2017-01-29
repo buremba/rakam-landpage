@@ -126,6 +126,7 @@ p{
 
         .login{
             float:right;
+            margin-right:10px;
         }
 
         .MobileMenu {
@@ -1418,11 +1419,13 @@ $primary-font: 'Open Sans', sans-serif;
 		text-indent: 100%;
 		white-space: nowrap;
 		color: transparent;
+     
+        
 
 		span, span::after, span::before {
 			/* these are the 3 lines of the menu icon */
 			position: absolute;
-			background-color: $color-1;
+			background-color: $color-3;
 			height: 3px;
 			width: 26px;
 		}
@@ -1481,7 +1484,15 @@ $primary-font: 'Open Sans', sans-serif;
 
 	.dropdown-list  > ul > li {
 		margin-bottom: 3.3em;
+        list-style:none;
 	}
+    .dropdown-list{
+        ul{
+        margin:0px;
+        padding:0px;
+        list-style:none;
+        }
+    }
 
 	.label {
 		display: block;
@@ -1867,3 +1878,13 @@ $primary-font: 'Open Sans', sans-serif;
 }
 
 
+
+.logo-mobile{ 
+    position:absolute;
+
+    padding: 5px;
+    img{
+        margin:15px 0px 0px 15px;
+    }
+       
+}

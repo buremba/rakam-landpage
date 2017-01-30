@@ -52,6 +52,11 @@ angular.module('app')
                   url: '/pricing',
                   templateUrl: 'views/pricing.html'
               })
+
+              .state('app.careers', {
+                  url: '/careers',
+                  templateUrl: 'views/careers.html'
+              })
               .state('app.about', {
                   url: '/about',
                   templateUrl: 'views/about.html'

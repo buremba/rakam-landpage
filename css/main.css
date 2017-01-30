@@ -669,6 +669,8 @@ p {
           .trusted-area ul li a img {
             width: 120px;
             height: auto; } }
+        .trusted-area ul li a:hover {
+          background-color: #415161; }
     .trusted-area ul::after {
       clear: both;
       content: "";

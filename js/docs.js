@@ -30,11 +30,11 @@ app.controller('docsController', function ($http, $scope, $sce, sidebar, markdow
 
                         if (!r.test(href)) {
                             var path = a.pathname.replace(/.md$/, '') + a.search + a.hash;
-                             a.setAttribute("href", "#!/document/" + $scope.parent + "/master/" + path);
+                             a.setAttribute("href", "/document/" + $scope.parent + "/master/" + path);
          
 
                         } else if (href.match(/^\/\/github.com\/buremba/) || href.match(/^\/\/github.com\/rakam-io/)) {
-                             a.setAttribute("href", "#!/document/" + href.replace(/^\/\/github.com\//, ""));
+                             a.setAttribute("href", "/document/" + href.replace(/^\/\/github.com\//, ""));
      
                         }
                     });

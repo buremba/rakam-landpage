@@ -1562,4 +1562,22 @@ p {
   .logo-mobile img {
     margin: 15px 0px 0px 15px; }
 
+.config-area {
+  border: 1px solid #cedbdf;
+  border-top: 0px solid #cedbdf; }
+  .config-area .config-box-0 {
+    padding: 20px;
+    background: #f0f3f4;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid #cedbdf; }
+  .config-area .config-box-1 {
+    padding: 20px;
+    background: #dde6e9;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid #cedbdf; }
+  .config-area .table tr td {
+    border-top: 1px solid #cedbdf; }
+  .config-area .table tr th {
+    border-bottom: 2px solid #cedbdf; }
+
 /*# sourceMappingURL=main.css.map */

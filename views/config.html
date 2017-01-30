@@ -1,0 +1,56 @@
+<div class="blue-header ">
+    <div class="container">
+        <div ng-include src="'views/includes/header.html'"></div>
+        <div class="">
+            <div class="clearfix">
+             
+              <div class="row documents-header">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1>Configuration Reference</h1>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p0">
+                        <!--<p> Designed for companies that cares about <b>Data Driven</b></p>-->
+                        </div>
+                    
+                    </div>
+            
+            
+                </div>
+            </div>
+         </div>
+    
+    </div>
+
+ </div>
+<div class="container pt-40">
+    <div class="config-area">
+        <div ng-repeat="module in modules" class="config-box-{{modules.indexOf(module)%2}}" id="{{module.className}}">
+            <h4 class="pull-left" ng-bind="module.name"></h4>
+
+            <div class="condition pull-right"  ng-if="module.condition">
+                <span ng-bind="module.condition.property" class="label label-default"></span>
+                {{module.condition.expectedValue ? '=' : ''}}
+                <span class="label label-success" ng-bind="module.condition.expectedValue"
+                    ng-if="module.condition.expectedValue"></span>
+                <i class="label label-success" ng-if="!module.condition.expectedValue">is set</i>
+            </div>
+            <div class="clearfix"></div>
+            <div ng-bind="module.description"></div>
+            <table class="table table-sm table-hover" style="margin:20px 0 0 0" ng-if="module.properties.length > 0">
+                <thead>
+                <th>property</th>
+                <th>default value</th>
+                <th>description</th>
+                </thead>
+                <tbody>
+                <tr ng-repeat="config in module.properties">
+                    <td ng-bind="config.property"></td>
+                    <td ng-bind="config.defaultValue"></td>
+                    <td ng-bind="config.description" style="font-size:0.9em"></td>
+                </tr>
+                </tbody>
+                <tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

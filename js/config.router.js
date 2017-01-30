@@ -47,6 +47,8 @@ angular.module('app')
                   templateUrl: 'views/product_prebuilt.html'
               })
 
+            
+
 
               .state('app.pricing', {
                   url: '/pricing',
@@ -73,6 +75,21 @@ angular.module('app')
               .state('app.terms', {
                   url: '/terms',
                   templateUrl: 'views/terms.html'
+              })
+
+              .state('app.config', {
+                  url: '/config',
+                  reloadOnSearch: false,
+                  resolve: {
+                       modules: function($http) {
+                        return $http.get("https://gist.githubusercontent.com/buremba/0bade37ae72895fe0031/raw/rakam-registry.json").then(function(e) {
+                            return e.data.modules;
+                        });
+                    }
+                  },
+                  templateUrl: 'views/config.html',
+                  controller: 'configController',
+
               })
 
               .state('app.documents', {

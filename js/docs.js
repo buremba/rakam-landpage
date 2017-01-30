@@ -14,6 +14,12 @@ app.controller('docsController', function ($http, $scope, $sce, sidebar, markdow
 })
 
 
+.controller('configController', function($http, $scope, modules, $document) {
+        $scope.modules = modules;
+        //console.log($routeParams.clazz, document.getElementById($routeParams.clazz))
+    })
+
+
 
 
 .directive('markdownContent', function () {

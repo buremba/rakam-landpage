@@ -1,8 +1,8 @@
 var app =
 angular.module('app')
   .config(
-    [        '$controllerProvider', '$compileProvider', '$filterProvider', '$provide',
-    function ($controllerProvider,   $compileProvider,   $filterProvider,   $provide) {
+    [        '$controllerProvider', '$compileProvider', '$filterProvider', '$provide','$locationProvider',
+    function ($controllerProvider,   $compileProvider,   $filterProvider,   $provide,$locationProvider) {
 
         // lazy controller, directive and service
         app.controller = $controllerProvider.register;
@@ -12,6 +12,8 @@ angular.module('app')
         app.service    = $provide.service;
         app.constant   = $provide.constant;
         app.value      = $provide.value;
+      
+        $locationProvider.html5Mode(true);        
     }
   ])
   .constant('JQ_CONFIG', {

@@ -649,7 +649,7 @@ p {
     margin: 0px;
     list-style-type: none;
     white-space: nowrap;
-    overflow-x: scroll; }
+    overflow-x: auto; }
     @media (min-width: 320px) and (max-width: 767px) {
       .trusted-area ul {
         padding: 0px 5px; } }

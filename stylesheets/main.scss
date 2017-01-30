@@ -622,7 +622,7 @@ p{
         margin:0px;
         list-style-type:none;
         white-space:nowrap;
-        overflow-x:scroll;
+        overflow-x:auto;
           @include mobile {
             padding:0px 5px;  
           }

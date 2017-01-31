@@ -650,7 +650,7 @@ p{
                 }
 
                 &:hover{
-                    background-color: #415161; 
+                  //background-color: #415161; 
                 }
             }
             
@@ -1940,5 +1940,26 @@ $primary-font: 'Open Sans', sans-serif;
                 border-bottom: 2px solid #cedbdf;
             }
         }
+    }
+}
+
+
+.deploy-area{
+    padding:20px 0px;
+    .nav-tabs{
+        .nav-item{
+            .nav-link{
+                cursor:pointer;
+
+            }
+            .active{
+                background: #F5F5F5;
+            }
+        }
+    }
+
+    .content{
+        padding:20px 0px;
+
     }
 }

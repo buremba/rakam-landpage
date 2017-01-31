@@ -77,6 +77,13 @@ angular.module('app')
                   templateUrl: 'views/terms.html'
               })
 
+              .state('app.deploy', {
+                  url: '/deploy',
+                  templateUrl: 'views/deploy.html',
+                  controller: 'deployController'
+              })
+
+
               .state('app.config', {
                   url: '/config',
                   reloadOnSearch: false,

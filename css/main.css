@@ -669,8 +669,6 @@ p {
           .trusted-area ul li a img {
             width: 120px;
             height: auto; } }
-        .trusted-area ul li a:hover {
-          background-color: #415161; }
     .trusted-area ul::after {
       clear: both;
       content: "";
@@ -1579,5 +1577,12 @@ p {
     border-top: 1px solid #cedbdf; }
   .config-area .table tr th {
     border-bottom: 2px solid #cedbdf; }
+
+.deploy-area {
+  padding: 20px 0px; }
+  .deploy-area .nav-tabs .nav-item .nav-link {
+    cursor: pointer; }
+  .deploy-area .nav-tabs .nav-item .active {
+    background: #F5F5F5; }
 
 /*# sourceMappingURL=main.css.map */

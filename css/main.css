@@ -669,6 +669,38 @@ p {
           .trusted-area ul li a img {
             width: 120px;
             height: auto; } }
+@-webkit-keyframes padding-animate {
+  0% {
+    padding: 10px 5px; }
+  100% {
+    padding: 3px 5px; } }
+@-moz-keyframes padding-animate {
+  0% {
+    padding: 10px 5px; }
+  100% {
+    padding: 3px 5px; } }
+@-ms-keyframes padding-animate {
+  0% {
+    padding: 10px 5px; }
+  100% {
+    padding: 3px 5px; } }
+@-o-keyframes padding-animate {
+  0% {
+    padding: 10px 5px; }
+  100% {
+    padding: 3px 5px; } }
+@keyframes padding-animate {
+  0% {
+    padding: 10px 5px; }
+  100% {
+    padding: 3px 5px; } }
+        .trusted-area ul li a:hover {
+          -webkit-animation: padding-animate 0.3s 1;
+          -moz-animation: padding-animate 0.3s 1;
+          -ms-animation: padding-animate 0.3s 1;
+          -o-animation: padding-animate 0.3s 1;
+          animation: padding-animate 0.3s 1;
+          padding: 3px 5px; }
     .trusted-area ul::after {
       clear: both;
       content: "";
@@ -1584,5 +1616,7 @@ p {
     cursor: pointer; }
   .deploy-area .nav-tabs .nav-item .active {
     background: #F5F5F5; }
+  .deploy-area .content {
+    padding: 20px 0px; }
 
 /*# sourceMappingURL=main.css.map */

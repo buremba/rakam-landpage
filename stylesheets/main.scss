@@ -632,6 +632,7 @@ p{
             display: inline-block;
             zoom:1;
             padding:10px 5px;
+          
         
 
     
@@ -648,10 +649,16 @@ p{
                     }
                
                 }
-
-                &:hover{
-                  //background-color: #415161; 
+               @include keyframes(padding-animate) {
+                    0% { padding: 10px 5px; }
+                    100% { padding: 3px 5px; }
+                
                 }
+                &:hover{
+                    @include animation('padding-animate 0.3s 1');
+                    padding: 3px 5px;
+                }
+
             }
             
         }   

@@ -1970,3 +1970,68 @@ $primary-font: 'Open Sans', sans-serif;
 
     }
 }
+
+
+.ss-area{
+    background:#fff;
+    .table-row{
+        display:table;width:100%;margin:0 auto;
+        .custom{
+            background: #f0f3f4;
+            padding:20px !important;
+     
+            $color: rgba(0,0,0,.2);
+             @include box-shadow(0, 3px, 8px,$color );
+             @include mobile{
+                 padding: 20px !important;
+                 position:relative;
+                 z-index:2 !important;
+                 display: block !important;
+                 @include box-shadow(0, 0px, 0px,$color );
+             }
+        }
+        .custom, .image-col{
+            padding:20px 0px;
+            float:none;
+            float:none;
+            display:table-cell;
+            vertical-align:top;
+ 
+            h1{
+                color:#2c3e50;
+            }
+            p{
+                color:#616e7c;
+                font-style: normal;
+                font-weight: 300;
+                font-family: 'Open Sans', sans-serif;  
+                padding-top:10px;
+            }
+            .icon{
+                color: #dde6e9;
+                position: absolute;
+                text-align: center;
+                left: 50%;
+                font-size: 14em;
+                bottom: 20px;
+                transform: translate(-50%, 0);
+                @include mobile{
+                    display:none;
+                }
+
+            }
+        }
+
+        .image-col{
+
+           @include mobile{
+            padding:0px;
+            margin-top:-23px;
+            position:relative;
+            z-index:1;
+            display: block !important;
+           }
+             
+        }
+    }
+}

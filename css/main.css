@@ -2,29 +2,35 @@
   0% {
     background-position: 0 0; }
   100% {
-    background-position: -3000px 0; } }
+    background-position: -4694px 0; } }
 @-moz-keyframes animatedBackground {
   0% {
     background-position: 0 0; }
   100% {
-    background-position: -3000px 0; } }
+    background-position: -4694px 0; } }
 @-webkit-keyframes animatedBackground {
   0% {
     background-position: 0 0; }
   100% {
-    background-position: -3000px 0; } }
+    background-position: -4694px 0; } }
 @-ms-keyframes animatedBackground {
   0% {
     background-position: 0 0; }
   100% {
-    background-position: -3000px 0; } }
+    background-position: -4694px 0; } }
 @-o-keyframes animatedBackground {
   0% {
     background-position: 0 0; }
   100% {
-    background-position: -3000px 0; } }
+    background-position: -4694px 0; } }
 .p0 {
   padding: 0px; }
+
+.pl-0 {
+  padding-left: 0px; }
+
+.pr-0 {
+  padding-right: 0px; }
 
 .p5 {
   padding: 5px !important; }
@@ -118,6 +124,9 @@
 
 .lh-30 {
   line-height: 30px !important; }
+
+.lh-60 {
+  line-height: 60px !important; }
 
 .icon-addon {
   position: relative;
@@ -1618,5 +1627,59 @@ p {
     background: #F5F5F5; }
   .deploy-area .content {
     padding: 20px 0px; }
+
+.ss-area {
+  background: #fff; }
+  .ss-area .table-row {
+    display: table;
+    width: 100%;
+    margin: 0 auto; }
+    .ss-area .table-row .custom {
+      background: #f0f3f4;
+      padding: 20px !important;
+      -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); }
+      @media (min-width: 320px) and (max-width: 767px) {
+        .ss-area .table-row .custom {
+          padding: 20px !important;
+          position: relative;
+          z-index: 2 !important;
+          display: block !important;
+          -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2); } }
+    .ss-area .table-row .custom, .ss-area .table-row .image-col {
+      padding: 20px 0px;
+      float: none;
+      float: none;
+      display: table-cell;
+      vertical-align: top; }
+      .ss-area .table-row .custom h1, .ss-area .table-row .image-col h1 {
+        color: #2c3e50; }
+      .ss-area .table-row .custom p, .ss-area .table-row .image-col p {
+        color: #616e7c;
+        font-style: normal;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 10px; }
+      .ss-area .table-row .custom .icon, .ss-area .table-row .image-col .icon {
+        color: #dde6e9;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        font-size: 14em;
+        bottom: 20px;
+        transform: translate(-50%, 0); }
+        @media (min-width: 320px) and (max-width: 767px) {
+          .ss-area .table-row .custom .icon, .ss-area .table-row .image-col .icon {
+            display: none; } }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .ss-area .table-row .image-col {
+        padding: 0px;
+        margin-top: -23px;
+        position: relative;
+        z-index: 1;
+        display: block !important; } }
 
 /*# sourceMappingURL=main.css.map */

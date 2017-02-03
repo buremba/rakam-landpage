@@ -1,6 +1,6 @@
 { 
   "name": "rakam-landpage",
-  "private": true,
+  "private": false,
   "description": "rakam.io",
   "repository": {
     "type": "git",

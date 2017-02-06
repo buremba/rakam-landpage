@@ -12,12 +12,13 @@
     "http-server": "^0.6.1"
   },
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower install && node-sass --include-path stylesheets stylesheets/main.scss css/main.css",
     "prestart": "npm install",
     "start": "node server",
     "pretest": "npm install"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "node-sass": "4.5.0"
   }
 }

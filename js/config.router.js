@@ -100,7 +100,7 @@ angular.module('app')
               })
 
               .state('app.documents', {
-                  url: '/documents',
+                  url: '/docs',
                   reloadOnSearch: false,
                   resolve: {
                         markdown: function ($http, $location) {
@@ -125,7 +125,7 @@ angular.module('app')
 
               })
               .state('app.document', {
-                  url: '/document/:name/:repo/*page',
+                  url: '/doc/:name/:repo/*page',
                   templateUrl: 'views/documents.html',
                   controller: 'docsController',
                   reloadOnSearch: false,

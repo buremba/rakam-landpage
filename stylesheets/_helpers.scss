@@ -215,3 +215,39 @@ $L:     1000px;
   width: 100% * $percentage;
   float: $float-direction;
 }
+
+$color-soir : #8C74A5; 
+$color-sand: #D6815D;
+.bg-soir{
+    background:$color-soir !important;
+}
+
+.color-soir{
+    color:$color-soir !important;
+    &:hover{
+        color:white !important;
+    }
+}
+
+.color-soir-wh{
+    color:$color-soir !important;
+}
+
+
+.bg-sand{
+    background:$color-sand !important;
+}
+
+.color-sand{
+    color:$color-sand !important;
+    &:hover{
+        color:white !important;
+    }
+}
+.color-sand-wh{
+    color:$color-sand !important;
+  
+}
+.flat-header{
+    background:#02afde !important;
+}

@@ -18,7 +18,7 @@ button,textarea,input{
 }
 
 h1,h2,h3,h4,h5{
-    font-family: 'Varela Round', sans-serif !important;
+    font-family: 'Varela Round', sans-serif;
     color:#13b5e0;
 }
 p{
@@ -26,6 +26,8 @@ p{
     font-style: normal;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    line-height: 28px;
 }
 
 .i-circle{
@@ -41,6 +43,7 @@ p{
     color:#ffffff;
 }
 .p-button{
+    transition: background-color 0.4s ease;
     @include roundedCorners(50);
     background-color:#02afde;
     color:#ffffff;
@@ -77,6 +80,8 @@ p{
     font-family: 'Open Sans', sans-serif;
     padding:5px 22px;
     display:inline-block;
+    transition: background-color 0.4s ease;
+
     &:hover {
         background-color: #ffffff;
         color:#02afde;
@@ -150,8 +155,10 @@ p{
             transform-origin: 15px 2px;
             animation-fill-mode: forwards;
             width: 30px;
+            transition: background-color 0.4s ease;
             background-color: #e1f8ff;
             &:hover{
+                
                 background-color:#ffffff;
             }
             
@@ -528,6 +535,7 @@ p{
             button{
                 font-weight: 400;
                 padding:10px 20px;
+                transition: background-color 0.4s ease;
                 @include desktop {
                   padding:15px 40px;
                
@@ -541,6 +549,7 @@ p{
             button{
                 font-weight: 400;
                  padding:10px 20px;
+                 transition: background-color 0.4s ease;
                 @include desktop {
                   padding:15px 40px;
                
@@ -681,6 +690,7 @@ p{
         border-color:#dde6e9;
         li{
             width:33%;
+            margin-bottom:-32px;
              @include mobile{
                      
                    }
@@ -692,6 +702,8 @@ p{
                 border: 0px;
                 padding-left:0px;
                 padding-right:20px;
+                background-color:transparent !important;
+                transition: background-color 0.4s ease;
                  @include mobile{
                      text-align: center;
                      font-size:17px;
@@ -699,7 +711,7 @@ p{
                    }
                 &:hover {
                  color:#048fb5;
-                 background-color:transparent;
+                 background-color:transparent !important;
                }
                i{
                    @include mobile{
@@ -713,11 +725,12 @@ p{
             a{
                 text-align: center;
                  border:0px !important;
-                 border-bottom: 3px solid #dde6e9 !important;
+                
+                 background-color:transparent !important;
                 &:hover {
                  border:0px !important; 
-                 border-bottom: 3px solid #dde6e9 !important;
-                 background-color:transparent;
+              
+                 background-color:transparent !important;
                }
             }
         }
@@ -725,15 +738,18 @@ p{
 
     .tab-content{
         padding:20px 0px;
+        @include mobile{
+            padding:10px 0px;
+        }
         .context{
-            padding: 00px 0px;
+            padding: 0px 0px;
             p{
                 font-family: 'Open Sans', sans-serif;
                 font-size:18px;
                 font-weight: 300;
                 color:#616e7c;
                 line-height: 30px;
-                padding-right: 20px;
+                padding-right: 40px;
             }
        }
        button{
@@ -756,7 +772,7 @@ p{
 
 .schedule-area{
     background-color:#f27649;
-    padding:60px 0px;
+    padding:80px 0px;
 
     .schedule{
      
@@ -790,6 +806,9 @@ p{
         background-color:#ffffff;
         padding:30px;
 
+        @include mobile{
+            padding:30px 15px;
+        }
         .email-icon{
             padding-bottom:20px;
             width:70px;
@@ -810,8 +829,10 @@ p{
             color:#ffffff;
             padding:10px;
             text-align: center;
-            border:none; 
             outline:none;
+            @include roundedCorners(50);
+            border:1px solid #02afde;
+            transition: background-color 0.4s ease;
             &:hover{
                 background-color:#41c3e6;
             }
@@ -821,7 +842,7 @@ p{
 
 .contact-form{
     width:100%;
- 
+    font-family: 'Open Sans', sans-serif !important;
   
     @include clearfix;
     .form-group{
@@ -833,6 +854,7 @@ p{
             -webkit-box-shadow: none;
             -moz-box-shadow: none;
             box-shadow: none;
+            font-family: 'Open Sans', sans-serif !important;
             
         }
     }
@@ -869,7 +891,7 @@ p{
             width:100%;
             background-color:#02afde;
             color:#ffffff;
-            padding:10px;
+            padding:20px;
             text-align: center;
             border:none; 
             outline:none;
@@ -881,7 +903,8 @@ p{
 }
 
 .footer{
-    padding:20px 0px;
+    border-top:1px solid #DDE6E9;
+    padding:40px 0px;
     h1{
         color:#666a79;
             font-family: 'Varela Round', sans-serif;
@@ -948,7 +971,7 @@ p{
             }
         }
         @include mobile{
-            display: table;
+          //  display: table;
             margin:20px auto;
         }
     }
@@ -997,6 +1020,7 @@ p{
                      font-size:17px;
                      padding-right: 0px;
                    }
+                transition: background-color 0.4s ease;
                 &:hover {
                  color:#048fb5;
                  background-color:transparent;
@@ -1013,6 +1037,7 @@ p{
             a{
                  border:0px !important;
                  border-bottom: 3px solid #dde6e9 !important;
+                 transition: background-color 0.4s ease;
                 &:hover {
                  border:0px !important; 
                  border-bottom: 3px solid #dde6e9 !important;
@@ -1025,10 +1050,11 @@ p{
 
 
     .price-box{
+        font-family: 'Open Sans', sans-serif;
         background-color:#02afde;
         @include roundedCorners(5);
         width:100%;
-        height:510px;
+        height:550px;
         h2{
             text-align: center;
             padding:20px 0px;
@@ -1070,6 +1096,7 @@ p{
         button{
             padding:10px 22px;
             margin:30px 0px;
+            font-weight: 300;
         }
     }
 
@@ -1282,6 +1309,12 @@ p{
     }
       .s-button{
         color:#5f6c7a;
+        &:hover{
+            color:#fff;
+            i{
+                color:#fff;
+            }
+        }
         
     }
     p{
@@ -1299,6 +1332,8 @@ p{
         padding:30px;
         h1,h2,h3,h4{
             color:#5f6c7a;
+            margin-bottom:5px;
+            margin-top:20px;
         }
        
         ul{
@@ -1375,7 +1410,7 @@ p{
         @include roundedCorners(10);
          background: #5f6c7a;
          cursor:pointer;
-
+         transition: background 0.4s ease;
          &:hover{
             background: #667482;
         }
@@ -1569,7 +1604,7 @@ $primary-font: 'Open Sans', sans-serif;
 			font-size: 1.4rem;
 			color: shade($color-3, 35%);
 		}
-
+        transition: background-color 0.4s ease;
 		&:hover::before {
 			background-color: $color-1;
 		}
@@ -1822,7 +1857,7 @@ $primary-font: 'Open Sans', sans-serif;
 			line-height: 60px;
 			background: $color-2;
 			@include font-smoothing;
-
+            transition: background 0.4s ease;
 			&:hover {
 				background: $color-1;
 				color: $color-3;
@@ -1861,7 +1896,10 @@ $primary-font: 'Open Sans', sans-serif;
 }
 
 .menuSpecial{
-    
+     font-family: 'Open Sans', sans-serif !important;
+     h1,h2,h3,h4,h5,p{
+          font-family: 'Open Sans', sans-serif !important; 
+     }
      .top-section{
                 padding:20px;
             }
@@ -2034,4 +2072,13 @@ $primary-font: 'Open Sans', sans-serif;
              
         }
     }
+}
+
+
+hr {
+  height: .35rem;
+  width: 100%;
+  margin-top: 25px;
+  background: #dde6e9;
+  border: none;
 }

@@ -1642,7 +1642,9 @@ $primary-font: 'Open Sans', sans-serif;
 		background-color: $color-3;
         z-index: 99999 !important;
         .dropdown-list{
-            padding:20px 0px;
+            @include mobile{
+              padding:20px 0px;
+            }
         }
        
 	}

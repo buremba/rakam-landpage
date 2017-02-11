@@ -22,29 +22,19 @@ app.controller('docsController', function ($http, $scope, $sce, sidebar, markdow
 .controller('pricingController', function($http, $scope) {
 
     $scope.pricingTabSelect = function(el){
-        // var w =$(".underline").parent().parent().parent().width();
-        // $(".underline").width(w);
+
         var navOffset = $(".nav-tabs").find(".uib-tab").eq(el).offset();
         var lineOffset = $(".underline2").offset();
         var currentMargin = $(".underline2").margin();
-        console.log("currentMargin:");
-        console.log(currentMargin);
-        console.log("navOffset:");
-        console.log(navOffset);
-        console.log("lineOffset:");
-        console.log(lineOffset);
+
         if( navOffset && lineOffset ){
             var diff = currentMargin.left+navOffset.left - lineOffset.left;
-            console.log("diff:");
             console.log(diff);
              $(".underline2").animate({
               marginLeft: diff+'px'
             }, 300);
         }
        
-
-        // console.log($(".nav-tabs").find(".uib-tab").eq(el).offset());
-        // console.log($(".underline").offset().left);
     }
 
 })

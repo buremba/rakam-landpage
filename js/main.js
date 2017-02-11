@@ -6,10 +6,8 @@ app.controller('mainController', ['$scope', '$http', '$state', function($scope, 
         var navOffset = $(".nav-tabs").find(".uib-tab").eq(el).offset();
         var lineOffset = $(".underline").offset();
         var currentMargin = $(".underline").margin();
-        console.log(currentMargin);
         if( navOffset && lineOffset ){
             var diff = currentMargin.left+navOffset.left - lineOffset.left;
-            console.log(diff);
              $(".underline").animate({
               marginLeft: diff+'px'
             }, 300);

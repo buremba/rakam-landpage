@@ -226,3 +226,11 @@ $desktop-width: 1024px;
   -o-animation: #{$str};
   animation: #{$str};      
 }
+
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}  
+}

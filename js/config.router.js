@@ -52,7 +52,8 @@ angular.module('app')
 
               .state('app.pricing', {
                   url: '/pricing',
-                  templateUrl: 'views/pricing.html'
+                  templateUrl: 'views/pricing.html',
+                  controller: 'pricingController'
               })
 
               .state('app.careers', {

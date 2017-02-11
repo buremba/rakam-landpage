@@ -216,8 +216,8 @@ $L:     1000px;
   float: $float-direction;
 }
 
-$color-soir : #8C74A5; 
-$color-sand: #D6815D;
+$color-soir : #9171A9; 
+$color-sand: #E37C54;
 .bg-soir{
     background:$color-soir !important;
 }
@@ -250,4 +250,10 @@ $color-sand: #D6815D;
 }
 .flat-header{
     background:#02afde !important;
+}
+
+.hover-black{
+     &:hover{
+        color:#2F3E4E!important;
+      }
 }

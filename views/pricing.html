@@ -24,8 +24,12 @@
     <div class="container">
 
         <uib-tabset active="0">
-            <uib-tab index="0" heading="PaaS" >
-
+            <uib-tab index="0" heading="PaaS" select="pricingTabSelect(0)">
+                <uib-tab-heading>
+                    <i class="glyphicon glyphicon-list-alt"></i> PaaS
+                    <hr class="underline2" />
+                </uib-tab-heading>
+                <div class="tab-content">
                 <div class="clearfix">
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <div class="price-box">
@@ -207,16 +211,22 @@
 
 
                 </div>
+                </div>
             </uib-tab>
             
-            <uib-tab index="1" heading="SaaS">
+            <uib-tab index="1" heading="SaaS" select="pricingTabSelect(1)">
+                <uib-tab-heading>
+                    <i class="glyphicon glyphicon-list-alt"></i> SaaS
+            
+                </uib-tab-heading>
+                <div class="tab-content">
 
-              <div class="form-area col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
-                <div class="form-area col-xs-12 col-sm-12 col-md-6 col-lg-6 pt-40">
-                    <div ng-include src="'views/includes/form.html'"></div>
-                </div>
-             <div class="form-area col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
-
+                    <div class="form-area col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
+                        <div class="form-area col-xs-12 col-sm-12 col-md-6 col-lg-6 pt-40">
+                            <div ng-include src="'views/includes/form.html'"></div>
+                        </div>
+                    <div class="form-area col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
+                  </div>
             </uib-tab>
 
                         

@@ -31,15 +31,30 @@
               <div markdown-content="sidebar" markdown-sidebar></div>
             </div>
             <div class="col-md-9 pt-30 pl-30 pb-30">
-              <div class="search-box form-group">
+
+
+                <div class="search-box form-group">
                     <div class="icon-addon addon-md">
                         <input type="text" placeholder="Search" class="form-control" id="search-icon" ng-model="q"   ng-keydown="$event.which === 13 && search(q)" >
                         <label for="search-icon" class="fa fa-search" rel="tooltip" title="search-icon"></label>
                     </div>
                </div>
 
-                <div markdown-content="content"></div>
+                <div class="docs-content">
+                    <div class="docs-header">
+                        <span class="pull-right" style="margin-top:6px">{{result.total_count}} results found</span>
+                        <h1 class="">Search Results for '{{query}}'</h1>
+                    </div>
+                    <div class="docs-body">
+                        <div ng-repeat="item in result.items">
+                            <a class="search-result-heading" ng-href="/doc{{item.path.substring(0, item.name.length-2)}}">{{item.name.substring(0, item.name.length-3).replace("-", " ")}}</a>
+                            <pre highlight-indice="match" class="search-result" ng-repeat="match in item.text_matches"></pre>
+                        </div>
+                    </div>
+                    <a ng-if="result.incomplete_results">More</a>
+                </div>
             </div>
+
 
         </div>
 

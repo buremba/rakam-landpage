@@ -1841,4 +1841,21 @@ hr.underline2 {
   background: #dde6e9;
   border: none; }
 
+.search-box .fa-search {
+  padding: 10px 0px !important;
+  font-size: 18px !important;
+  margin-left: 5px !important;
+  color: #C4C8CC; }
+.search-box input {
+  padding: 20px 40px !important;
+  border-color: #C4C8CC; }
+  .search-box input::-webkit-input-placeholder {
+    color: #C4C8CC; }
+  .search-box input:-moz-placeholder {
+    color: #C4C8CC; }
+  .search-box input::-moz-placeholder {
+    color: #C4C8CC; }
+  .search-box input:-ms-input-placeholder {
+    color: #C4C8CC; }
+
 /*# sourceMappingURL=main.css.map */

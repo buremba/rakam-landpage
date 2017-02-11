@@ -153,6 +153,29 @@ angular.module('app')
                 
               })
 
+            .state('app.doc-search', {
+                url: '/doc-search?query',
+                templateUrl: 'views/documents-search.html',
+                controller: 'docsSearchController',
+                resolve: {
+                    result: function ($http, $stateParams,$state) {
+
+                        return $http.get("//api.github.com/search/code?q=" + encodeURI($stateParams.query) + "+in%3afile+language%3amd+repo%3aburemba/rakam-wiki",
+                            {
+                                headers: {
+                                    "Accept": "application/vnd.github.v3.text-match+json"
+                                }
+                            }).then(function (e) {
+                            return e.data
+                        });
+                    },
+                    sidebar: function ($http) {
+                        return $http.get(sourceAddress + "/buremba/rakam-wiki/master/_Sidebar.md").then(function (e) {
+                            return e.data
+                        });
+                    }
+                }
+             })
               .state('app.integration', {
                   url: '/integration',
                   templateUrl: 'views/integrate.html',

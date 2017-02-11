@@ -2210,3 +2210,21 @@ hr.underline2 {
   background: #dde6e9;
   border: none;
 }
+
+.search-box{
+    .fa-search{
+        padding: 10px 0px !important;
+        font-size: 18px !important;
+        margin-left: 5px !important;
+        color: #C4C8CC;
+    }
+    input{
+        padding: 20px 40px !important;
+        @include placeholder{
+            color: #C4C8CC;
+        }
+        border-color: #C4C8CC;
+    }
+
+
+}

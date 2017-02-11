@@ -1,7 +1,7 @@
 
 
 
-app.controller('docsController', function ($http, $scope, $sce, sidebar, markdown, $q, parent) {
+app.controller('docsController', function ($http,$state, $scope, $sce, sidebar, markdown, $q, parent) {
 
     var converter = new showdown.Converter({tables: true});
     window.converter = converter;
@@ -10,9 +10,25 @@ app.controller('docsController', function ($http, $scope, $sce, sidebar, markdow
     $scope.sidebar = $sce.trustAsHtml(converter.makeHtml(sidebar));
     $scope.content = $sce.trustAsHtml(converter.makeHtml(markdown));
     $scope.parent = parent;
+    $scope.search = function(q){
+     
+        $state.go('app.doc-search', { 'query':q });
+    }
 
 })
 
+
+.controller('docsSearchController', function ($http, $scope, $sce, $state,$stateParams, sidebar, result) {
+
+    var converter = new showdown.Converter();
+    $scope.sidebar = $sce.trustAsHtml(converter.makeHtml(sidebar));
+    $scope.result = result;
+    $scope.query = $stateParams.query;
+    $scope.search = function(q){
+     
+        $state.go('app.doc-search', { 'query':q });
+    }
+})
 
 .controller('configController', function($http, $scope, modules, $document) {
         $scope.modules = modules;
@@ -162,4 +178,22 @@ app.controller('docsController', function ($http, $scope, $sce, sidebar, markdow
                 });
             }
         }
+    })
+
+    
+
+    .directive('highlightIndice', function () {
+        return {
+            scope: {match: '=highlightIndice'},
+            controller: function ($scope, $element) {
+                var html = "", cursor = 0;
+                $scope.match.matches.forEach(function (match) {
+                    html += $scope.match.fragment.substring(cursor, match.indices[0]);
+                    html += "<i>" + match.text + "</i>";
+                    cursor = match.indices[1]
+                });
+                html += $scope.match.fragment.substring(cursor);
+                $element[0].innerHTML = html;
+            }
+        };
     })

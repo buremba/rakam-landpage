@@ -199,12 +199,12 @@ app.controller('mainController', ['$scope', '$http', '$state', function($scope, 
                     name: "Rakam web tracker",
                     theme: {
                         accentColor: "#00bff3",
-                        backgroundColor: "#374355",
+                        backgroundColor: "#5f6c7a",
                         textColor: "#fff"
                     },
                     beforeContent: "Do you have a running Rakam cluster? If not, you can setup using <a href='/deploy' target='_blank'>our deployment guide</a>.",
                     templateVars: {
-                        registerURL: "http://example.com/register"
+                        registerURL: "http://app.rakam.io/register"
                     },
                     afterContent: "You just installed Rakam web tracker. You can track your events and learn more about our web tracker in " +
                     "<a href='/doc/buremba/rakam-javascript/master/README' target='_blank'>our documentation</a>.",

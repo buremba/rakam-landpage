@@ -1,32 +1,24 @@
 <div class="blue-header ">
     <div class="container">
         <div ng-include src="'views/includes/header.html'"></div>
-        <div class="">
+        <div class="clearfix">
             <div class="middle row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <p class="subtitle">Analytics infrastructure on your cloud</p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="hidden-xs hidden-sm">
-                        <div class="pull-left try-area">
-                            <a href="https://demo.rakam.io/login?project_name=demo_ecommerce&api_url=https://rakam-trial-webapp-1979847320.us-east-1.aws.getrakam.com&action&email=local@demo.com&password=demoAccount1&utm_source=land_tryitfree" class="try-button"><button  class="btn-lg s-button">View Demo</button></a>
-                            <p>Integrate in seconds. Free sign-up</p>
-                        </div>
-                        <div class="pull-left">
-                            <a href="/#scheduleDemo" class="schedule-button"><button  class="btn-lg s-button">Schedule a Demo</button></a>
-                        </div>
-                    </div>
-                    <div class="hidden-md hidden-lg">
-                        <div class="pt-10">
-                            <div class="col-xs-6 col-sm-6 text-center  try-area">
-                                <a href="https://demo.rakam.io/login?project_name=demo_ecommerce&api_url=https://rakam-trial-webapp-1979847320.us-east-1.aws.getrakam.com&action&email=local@demo.com&password=demoAccount1&utm_source=land_tryitfree" class="try-button p0"><button  class="btn-sm s-button">View Demo</button></a>
-                                <p>Integrate in seconds. Free signup</p>
+                    <div class="">
+                        <div class="text-center">
+                            <div class="try-area">
+                                <a href="https://demo.rakam.io/login?project_name=demo_ecommerce&api_url=https://rakam-trial-webapp-1979847320.us-east-1.aws.getrakam.com&action&email=local@demo.com&password=demoAccount1&utm_source=land_tryitfree" class="try-button"><button  class="btn-lg s-button">View Demo</button></a>
                             </div>
-                            <div class="col-xs-6 col-sm-6 text-center">
-                                <a href="/#scheduleDemo" class="schedule-button p0"><button  class="btn-sm s-button">Schedule a Demo</button></a>
+                            <div class="schedule-button-area">
+                                <a href="/#scheduleDemo" class="schedule-button"><button  class="btn-lg s-button">Schedule a Demo</button></a>
                             </div>
                         </div>
+                        <p class="text-center header-subtitle">Integrate in seconds. Free sign-up</p>
                     </div>
+    
                 </div>
         
             </div>
@@ -46,7 +38,7 @@
             <uib-tabset active="0">
                 <uib-tab index="0" heading="Rakam API"  select="tabSelect(0)">
                     <uib-tab-heading>
-                        <i class="glyphicon glyphicon-list-alt"></i> <span class="hidden-xs">Rakam</span> API
+                        <img src="images/icon_api.png" height="27" class="tab-icon"/> <span class="hidden-xs text-blue">Rakam</span> <span class="text-blue">API</span>
                         <hr class="underline" />
                     </uib-tab-heading>
 						<div class="tab-content">
@@ -69,7 +61,7 @@
                 
                 <uib-tab index="1" heading="Rakam UI" select="tabSelect(1)">
                     <uib-tab-heading>
-                        <i class="glyphicon glyphicon-signal"></i> <span class="hidden-xs">Rakam</span> UI
+                        <img src="images/icon_ui.png" height="27" class="tab-icon"/><span class="hidden-xs color-sand-wh">Rakam</span> <span class="color-sand-wh">UI</span>
                     </uib-tab-heading>
 					<div class="tab-content">
                         <div class="col-sm col-md-6 col-lg-6 context">
@@ -90,7 +82,7 @@
                     </uib-tab>
                 <uib-tab index="2" heading="Rakam Pre-built Analytics " select="tabSelect(2)">
                     <uib-tab-heading>
-                        <i class="glyphicon glyphicon-thumbs-up"></i> Pre-built Analytics
+                        <img src="images/icon_analytics.png" height="27" class="tab-icon"/> <span class="color-soir-wh hidden-xs ">Pre-built</span> <span class="color-soir-wh"> Analytics</span>
                     </uib-tab-heading>
 					<div class="tab-content">
                         <div class="col-sm col-md-6 col-lg-6 context">

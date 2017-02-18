@@ -216,8 +216,9 @@ $L:     1000px;
   float: $float-direction;
 }
 
-$color-soir : #9171A9; 
-$color-sand: #E37C54;
+$color-soir : #986ead; 
+$color-sand: #f27649;
+$color-blue : #02afde;
 .bg-soir{
     background:$color-soir !important;
 }
@@ -249,11 +250,19 @@ $color-sand: #E37C54;
   
 }
 .flat-header{
-    background:#02afde !important;
+    background:$color-blue !important;
 }
 
 .hover-black{
      &:hover{
         color:#2F3E4E!important;
       }
+}
+
+.text-blue{
+    color:$color-blue;
+}
+
+.noborder{
+    border:none !important;
 }

@@ -523,14 +523,21 @@ p{
     
        .try-area{
            text-align:center;
-           p{
-               padding:10px 0px;
+           display:inline-block;
+ 
+       }
+        .schedule-button-area{
+            display:inline-block;
+        }
+        .header-subtitle{
+              padding:10px 0px;
                 color:#fff;
                 font-family: 'Open Sans', sans-serif;
                 font-style: normal;
                 font-weight: 300;
-           }
-       }
+        }
+       
+
 
   
 
@@ -647,7 +654,6 @@ p{
           
         
 
-    
             a{
                 text-align:center;
                 padding:10px 5px;
@@ -661,15 +667,7 @@ p{
                     }
                
                 }
-               @include keyframes(padding-animate) {
-                    0% { padding: 10px 5px; }
-                    100% { padding: 3px 5px; }
-                
-                }
-                &:hover{
-                    @include animation('padding-animate 0.3s 1');
-                    padding: 3px 5px;
-                }
+ 
 
             }
             
@@ -716,9 +714,16 @@ p{
                  color:#048fb5;
                  background-color:transparent !important;
                }
-               i{
-                   @include mobile{
-                     width:100%;
+               .tab-icon{
+                   margin-right:5px;
+              
+               }
+               uib-tab-heading{
+                   span{
+                       @include mobile{
+                           width:100%;
+                           display:block;
+                       }
                    }
                }
             }
@@ -948,6 +953,7 @@ p{
     .container{
          border-top:1px solid #DDE6E9;
     }
+    
     padding:40px 0px;
     h1{
         color:#666a79;
@@ -1455,7 +1461,7 @@ p{
 }
 
 .integrate-area{
-    background:#E37C54;
+    background:$color-sand;
     display:flex;
     align-items:center;
     h1,h2,h3,h4{
@@ -1464,7 +1470,7 @@ p{
     }
     .s-button{
         transition: color 0.4s ease;
-        color:#E37C54;
+        color:$color-sand;
         padding:10px 22px;
         &:hover{
             color:#fff;

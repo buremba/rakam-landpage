@@ -1356,7 +1356,7 @@ p, ul li {
 }
 
 .integrate-area {
-  background: #E37C54;
+  //background: #E37C54;
   display: flex;
   align-items: center;
   h1, h2, h3, h4 {
@@ -1365,7 +1365,7 @@ p, ul li {
   }
   .s-button {
     transition: color 0.4s ease;
-    color: #E37C54;
+    //color: #E37C54;
     padding: 10px 22px;
     &:hover {
       color: #fff;
@@ -2142,4 +2142,24 @@ hr.underline2 {
 }
 a.no-decoration:hover {
   text-decoration: none;
+}
+
+h1 .anchor,
+h2 .anchor,
+h3 .anchor
+{
+  position: absolute;
+  margin-left: -20px;
+  visibility: hidden;
+}
+
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor
+{
+  visibility: visible;
+}
+
+.nav-tabs>li>a {
+  border-bottom-color: #ddd;
 }

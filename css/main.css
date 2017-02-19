@@ -1262,7 +1262,6 @@ p, ul li {
       font-weight: 300; }
 
 .integrate-area {
-  background: #E37C54;
   display: flex;
   align-items: center; }
   .integrate-area h1, .integrate-area h2, .integrate-area h3, .integrate-area h4 {
@@ -1270,7 +1269,6 @@ p, ul li {
     padding-left: 30px; }
   .integrate-area .s-button {
     transition: color 0.4s ease;
-    color: #E37C54;
     padding: 10px 22px; }
     .integrate-area .s-button:hover {
       color: #fff; }
@@ -1841,5 +1839,20 @@ hr.underline2 {
 
 a.no-decoration:hover {
   text-decoration: none; }
+
+h1 .anchor,
+h2 .anchor,
+h3 .anchor {
+  position: absolute;
+  margin-left: -20px;
+  visibility: hidden; }
+
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor {
+  visibility: visible; }
+
+.nav-tabs > li > a {
+  border-bottom-color: #ddd; }
 
 /*# sourceMappingURL=main.css.map */

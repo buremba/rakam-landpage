@@ -11,14 +11,15 @@ app.directive('markdownContent', function () {
                     [].forEach.call($element[0].querySelectorAll('a'), function (a) {
                         var href = a.getAttribute("href");
 
+                        if(href[0] == '#') {
+                            return;
+                        }
+
                         if (!r.test(href)) {
                             var path = a.pathname.replace(/.md$/, '') + a.search + a.hash;
                              a.setAttribute("href", "/doc/" + $scope.parent + "/master/" + path);
-         
-
                         } else if (href.match(/^\/\/github.com\/buremba/) || href.match(/^\/\/github.com\/rakam-io/)) {
                              a.setAttribute("href", "/doc/" + href.replace(/^\/\/github.com\//, ""));
-     
                         }
                     });
                     [].forEach.call($element[0].querySelectorAll('img'), function (a) {

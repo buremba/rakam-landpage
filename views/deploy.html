@@ -1,4 +1,4 @@
-<div class="blue-header flat-header">
+<div class="blue-header bg-soir">
     <div class="container">
         <div ng-include src="'views/includes/header.html'"></div>
         <div class="">
@@ -11,8 +11,6 @@
                         </div>
                     
                     </div>
-            
-            
                 </div>
             </div>
          </div>
@@ -24,7 +22,7 @@
     <div>
         <ul class="nav nav-tabs" style="margin-bottom:10px">
             <li class="nav-item" ng-repeat="tab in tabs">
-                <a class="nav-link" ng-class="{active: selected == tab}"  ng-click="onClickTab(tab)">{{tab.title}}</a>
+                <a class="nav-link" ng-class="{active: selected == tab}"  style="font-weight:bold" ng-click="onClickTab(tab)">{{tab.title}}</a>
             </li>
         </ul>
         <div id="content">

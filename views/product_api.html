@@ -1,4 +1,4 @@
-<div class="blue-header flat-header">
+<div class="blue-header bg-soir">
     <div class="container">
         <div ng-include src="'views/includes/header.html'"></div>
         <div class="">
@@ -18,7 +18,6 @@
                             <div class="text-center try-area">
                                 <a href="https://github.com/rakam-io/rakam" class="try-button p0"><button  class="btn-sm s-button">Deploy Rakam</button></a>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -48,17 +47,17 @@
          </div>
          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pb-20 pr-30">
                <h4><i class="fa fa-rocket i-circle pull-left"></i>
-                    <span class="lh-30">One-click installation to AWS, Heroku, Digitalocean or Docker</span>
+                    <span class="lh-30">One-click installation to AWS, Heroku, DO and Docker</span>
                </h4>
          </div>
          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pb-20 pr-30">
                <h4><i class="fa fa-rocket i-circle pull-left"></i>
-                    <span class="lh-30">Designed to handle your events concurrently at any scale. Both horizontally and vertically scalable.</span>
+                    <span class="lh-30">Designed to handle event data concurrently at any scale.</span>
                </h4>
          </div>
          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pb-20 pr-30">
                <h4><i class="fa fa-rocket i-circle pull-left"></i>
-                    <span class="lh-30">It's modular, enable the features that you want to use or develop custom modules for your needs.</span>
+                    <span class="lh-30">It's modular, develop custom modules and customize the API.</span>
                </h4>
          </div>
 
@@ -71,8 +70,77 @@
             <p>A single Rakam API server can handle more than 50K events concurrently, it's based on Java 8, Netty and Jackson. We use our custom JSON parsers in order to use lower memory footprint and CPU, Netty allows us to handle thousands of requests concurrently without any problem. You can also scale your Rakam API by adding new nodes to the cluster, we provide extra tools for scaling your Rakam API cluster using your favorite cloud provider.</p>
         </div>
      </div>
-     
 
+
+     <div class="clearfix pb-30">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>Rich query API</h1>
+            <p>We provide</p>
+        </div>
+     </div>
+
+     <div class="clearfix pb-30">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cm-s-material">
+            <h1>Embedded SQL</h1>
+
+            <h3>Did our Facebook ADS
+                campaign worked well enough to increase our revenue?</h3>
+            <div style="background: #374355; padding: 10px; border-radius: 2px;">
+                <div style="position: relative;">
+                    <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span
+                            class="cm-keyword">SELECT</span> total_order_amount / fb.spent_amount_total <span
+                            class="cm-keyword">AS</span> revenue_ads_ratio <span class="cm-keyword">FROM</span> (</span></pre>
+                </div>
+                <div style="position: relative;">
+                    <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab"
+                                                                                             role="presentation">    </span><span
+                            class="cm-keyword">SELECT</span> <span class="cm-builtin">cast</span>(_time <span
+                            class="cm-keyword">AS</span> <span class="cm-keyword">date</span>) day, <span
+                            class="cm-builtin">sum</span>(total_amount) <span class="cm-keyword">AS</span> total_order_amount <span
+                            class="cm-keyword">FROM</span> (</span></pre>
+                </div>
+                <div class="show-on-hover">
+                    <div style="position: relative;">
+                        <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-tab"
+                                                                                                 role="presentation">    </span><span
+                                class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-keyword">SELECT</span> _user, total_amount <span
+                                class="cm-keyword">FROM</span> <span
+                                class="link sdk-hover hint--bounce hint--top"
+                                data-hint="access your event data-set that you collected via sdk or restful api">collection.transaction</span></span></pre>
+                    </div>
+                    <div style="position: relative;">
+                        <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp;  &nbsp;  <span
+                                class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top"
+                                                                     data-hint="connect your remote databases at query time">mysqldb.users</span> <span
+                                class="cm-keyword">ON</span> (users.id = transaction._user)</span></pre>
+                    </div>
+                </div>
+                <div style="position: relative;">
+                    <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; <span
+                            class="cm-keyword">UNION</span> <span class="cm-keyword">ALL</span> <span
+                            class="cm-keyword">SELECT</span> user_id, total_amount <span class="cm-keyword">FROM</span> <span
+                            class="link hint--bounce hint--top"
+                            data-hint="plug your remote CSV or JSON files as virtual tables">remotefile.offlinesales</span></span></pre>
+                </div>
+                <div style="position: relative;">
+                    <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"> &nbsp; &nbsp;) <span
+                            class="cm-keyword">WHERE</span> _user <span class="cm-keyword">IN</span> (<span
+                            class="cm-keyword">SELECT</span> user_id <span class="cm-keyword">FROM</span> <span
+                            class="link hint--bounce hint--top"
+                            data-hint="create your flow with materialized views and continuous queries">materialized.gold_users</span> <span
+                            class="cm-keyword">WHERE</span> <span
+                            class="link hint--bounce hint--top" data-hint="enrich your events with event mappers">clearbit_job = <span
+                            class="cm-string">'Doctor'</span></span>)</span></pre>
+                </div>
+                <div style="position: relative;">
+                    <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">) orders <span
+                            class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top"
+                                                                 data-hint="collect data from third-party services with webhook and and scheduled tasks">fb_advertisement</span> fb <span
+                            class="cm-keyword">ON</span> (orders.day = fb.day)</span></pre>
+                </div>
+            </div>
+        </div>
+     </div>
 
     <div class="pt-40 pb-40 clearfix integrate-area">
         <div class="col-md-6">
@@ -80,7 +148,7 @@
         </div>
         <div class="col-md-6 text-center">
             <div class="vercital-middle">
-             <a href="http://rakam.io/register"><button class="s-button">Get started now!</button>
+             <a href="http://app.rakam.io/register"><button class="s-button">Get started now!</button>
             </div>
         </div>
 

@@ -176,26 +176,28 @@ angular.module('app')
                     }
                 }
              })
-              .state('app.integration', {
-                  url: '/integration',
-                  templateUrl: 'views/integrate.html',
-                  controller: 'integrateController',
-                  resolve: {
-                        markdown: function ($http) {
-                            return ""
-                        },
-                  }
 
-              })
 
               .state('app.integrate', {
                   url: '/integrate/:name/:repo/*page',
                   templateUrl: 'views/integrate.html',
                   controller: 'integrateController',
+                  params: {
+                      name: {value: "buremba", squash: true},
+                      repo: {value: "rakam-javascript", squash: true},
+                      page: {value: null, squash: true}
+                  },
                   resolve: {
-                    markdown: function ($http, $stateParams,$state, $location) {
-                        var page = sourceAddress + "/" + ($stateParams.name + "/" + ($stateParams.repo || 'rakam-wiki')) +
-                            "/" + $stateParams.page + ".md";
+                    markdown: function ($http, $stateParams) {
+                        var name = $stateParams.name;
+                        var repo = $stateParams.repo;
+
+                        if(name != 'buremba' && name != 'rakam') {
+                            return "";
+                        }
+
+                        var page = sourceAddress + "/" + (name + "/" + (repo || 'rakam-wiki')) +
+                            "/" + ($stateParams.page || 'master/README') + ".md";
                         return $http.get(page, {cache: true}).then(function (e) {
                             return e.data
                         }, function () {
@@ -205,9 +207,6 @@ angular.module('app')
                    }
 
               })
-              
-
-      
 
           function load(srcs, callback) {
             return {

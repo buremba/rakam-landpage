@@ -3,104 +3,109 @@
         <div ng-include src="'views/includes/header.html'"></div>
         <div class="">
             <div class="clearfix">
-             
-              <div class="row integrates-header">
+                <div class="row integrates-header">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <h1>Integration</h1>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p0">
-                        <p> Build your data lake with Rakam. <br>Integrate your company data, third party services that you use internally, user event-data and any data source you want.</p>
+                            <p> Build your data lake with Rakam. <br>Integrate your company data, third party services that you use internally, user event-data and any data source
+                                you want.</p>
                         </div>
                     </div>
                 </div>
             </div>
-         </div>
-    
+        </div>
+
     </div>
 
- </div>
- <div class="container integrate clearfix pt-20">
+</div>
+<div style="background: #3D4D65;padding-bottom:20px">
+    <div class="container integrate clearfix pt-20">
+        <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
+            <div class="rounded" ng-class="{selected: param == 'buremba/rakam-javascript'}">
+                <a href="/integrate/buremba/rakam-javascript/master/README"
+                   aria-label="Collect data from websites" class="box">
+                    <!--<a ng-click="websiteIntegration()" class="box">-->
+                    <div>
+                        <i class="fa fa-list-alt"></i> Website
+                    </div>
+                </a>
+            </div>
+        </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
-        <div class="rounded">
-            <a href="/integrate/buremba/rakam-javascript/master/README"
-               aria-label="Collect data from websites" class="box">
-            <!--<a ng-click="websiteIntegration()" class="box">-->
-                <div>
-                    <i class="fa fa-list-alt"></i>  Website
-                </div>
-            </a>
-         </div>
-   </div>
+        <!--<div class="col-xs-12 col-sm-12 col-md-2 col-l2">-->
+            <!--<div class="rounded">-->
+                <!--<a href="/integrate/buremba/rakam-twitter/master/README"-->
+                   <!--aria-label="Collect data from Twitter API to Rakam" class="box">-->
+                    <!--<div>-->
+                        <!--<i class="fa fa-twitter"></i> Twitter-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
 
-    <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
-        <div class="rounded">
-            <a href="/integrate/buremba/rakam-twitter/master/README"
-       aria-label="Collect data from Twitter API to Rakam" class="box">
-                <div>
-                    <i class="fa fa-twitter"></i>  Twitter
-                </div>
-            </a>
-         </div>
-   </div>
-
-    <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
-        <div class="rounded">
-            <a href="/integrate/buremba/rakam-android/master/README"
-       aria-label="Track your visitors activities on your Android app" class="box">
-                <div>
-                    <i class="fa fa-android"></i>  Android
-                </div>
-            </a>
-         </div>
-   </div>
-
-
-    <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
-        <div class="rounded">
-            <a href="/integrate/buremba/rakam-ios/master/README"
-       aria-label="Track your visitors activities on your IOS app" class="box">
-                <div>
-                    <i class="fa fa-apple"></i>  IOS
-                </div>
-            </a>
-         </div>
-   </div>
-
-    <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
-        <div class="rounded">
-            <a  href="/documents#clientlibraries"
-       aria-label="Send data to Rakam using your favorite programming language" class="box">
-                <div>
-                    <i class="fa fa-code"></i>  API Libraries
-                </div>
-            </a>
-         </div>
-   </div>
-
-    <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
-        <div class="rounded">
-            <a href="/integrate/buremba/rakam-data-importer/master/README"
-       aria-label="Import data to Rakam from third party services" class="box">
-                <div>
-                    <i class="fa fa-cloud-download"></i>  Import Data
-                </div>
-            </a>
-         </div>
-   </div>
-  
+        <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
+            <div class="rounded" ng-class="{selected: param == 'buremba/rakam-android'}">
+                <a href="/integrate/buremba/rakam-android/master/README"
+                   aria-label="Track your visitors activities on your Android app" class="box">
+                    <div>
+                        <i class="fa fa-android"></i> Android
+                    </div>
+                </a>
+            </div>
+        </div>
 
 
+        <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
+            <div class="rounded" ng-class="{selected: param == 'buremba/rakam-ios'}">
+                <a href="/integrate/buremba/rakam-ios/master/README"
+                   aria-label="Track your visitors activities on your IOS app" class="box">
+                    <div>
+                        <i class="fa fa-apple"></i> IOS
+                    </div>
+                </a>
+            </div>
+        </div>
 
+        <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
+            <div class="rounded">
+                <a href="/documents#clientlibraries"
+                   aria-label="Send data to Rakam using your favorite programming language" class="box">
+                    <div>
+                        <i class="fa fa-code"></i> Third-party
+                    </div>
+                </a>
+            </div>
+        </div>
 
+        <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
+            <div class="rounded">
+                <a href="/documents#clientlibraries"
+                   aria-label="Send data to Rakam using your favorite programming language" class="box">
+                    <div>
+                        <i class="fa fa-code"></i> API Libraries
+                    </div>
+                </a>
+            </div>
+        </div>
 
+        <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
+            <div class="rounded" ng-class="{selected: param == 'buremba/rakam-data-importer'}">
+                <a href="/integrate/buremba/rakam-data-importer/master/README"
+                   aria-label="Import data to Rakam from third party services" class="box">
+                    <div>
+                        <i class="fa fa-cloud-download"></i> Import Data
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
 
- </div>
-
-  <div class="container clearfix pt-40">
-
-       <div class="embedbox" markdown-content="content"></div>
-
-   </div>
+<div class="container clearfix pt-20">
+    <div class="embedbox" markdown-content="content"></div>
+</div>
 
 
 

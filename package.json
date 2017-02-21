@@ -15,7 +15,8 @@
     "postinstall": "bower install && node-sass --include-path stylesheets stylesheets/main.scss css/main.css",
     "prestart": "npm install",
     "start": "node server",
-    "pretest": "npm install"
+    "pretest": "npm install",
+    "auto-reload": " sass  --watch stylesheets/main.scss:css/main.css"
   },
   "dependencies": {
     "express": "^4.13.3",

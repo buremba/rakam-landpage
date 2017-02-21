@@ -20,10 +20,12 @@
     top: -27px;
     left:-30px;
     background: rgba(0, 0, 0, 0.09);
-    border-radius: 17px;
+    border-radius: 5px;
     padding: 3px 7px;
     box-shadow: -1px 2px 0px rgba(0, 0, 0, 0.15);
-">old way
+">
+                            <!--<i class="fa fa-map-pin" style="position:relative; top:-6px;left:4px;color: rgba(0, 0, 0, 0.15);position:absolute"></i> -->
+                            old way
                         </div>
                         <img src="/images/old_way_analytics1.png" style="width:460px;margin-top:-20px;margin-left:-30px;margin-bottom: 45px;" class="old-way">
                     </div>
@@ -75,10 +77,10 @@
     font-weight: bold;
     top: 4px;
     position: relative;
-    background: rgba(0, 0, 0, 0.09);
     border-radius: 17px;
     padding: 3px 7px;
-    box-shadow: -1px 2px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
     margin-right: 10px;
 ">new way
                         </div>
@@ -260,8 +262,36 @@
     <div style="transform: rotate(1deg);width:102%;margin-left:-2%;padding-left:2%;padding-bottom:40px">
         <div class="container" style="transform: rotate(-1deg)">
             <h2 style="margin-top:40px"> Testimonials</h2>
-            <div class="tab-content">
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="tcb-quote-carousel">
+                            <div class="quote"><i class=" fa fa-quote-left fa-4x"></i></div>
+                            <div class="carousel slide carousel-fade" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                                <!-- Carousel indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#fade-quote-carousel" ng-click="activeSlide = 0" class="active"></li>
+                                    <li data-target="#fade-quote-carousel" ng-click="activeSlide = 1"></li>
+                                </ol>
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="item" ng-class="{active: activeSlide == 0}">
+                                        <div class="profile-circle"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt=""></div>
+                                        <blockquote>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="item" ng-class="{active: activeSlide == 1}">
+                                        <div class="profile-circle"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt=""></div>
+                                        <blockquote>
+                                            <p>Lorem sf sdfsd fipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

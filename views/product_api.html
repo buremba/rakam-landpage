@@ -88,6 +88,7 @@
             <p>We provide you the most common analysis features required for an analytics service. Event analytics is easy with event explorer and real-time features and behavioral
                 analytics queries can be run via funnel and retention features. <br>
                 You can also run SQL queries via Query API, integrate your custom databases and remote files and merge data to build your own reports.
+                <br> Since Rakam stores the raw data, we provide some some features to be able to create summary tables, OLAP cubes, stream processing rule for pre-aggregating the data and accessing the the data faster.
                 <br>See <a href="/doc/buremba/rakam-wiki/master/Analyze-Data">analyze data</a> section in documentation.</p>
         </div>
     </div>
@@ -95,8 +96,16 @@
     <div class="clearfix pb-30 row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>Customizable ETL</h1>
-            <p>The ETL process in Rakam API is completely transparent. We have both native and custom event mappers, you can write custom modules that implements native event
-                mappers with Java for stateful and
+            <p>The ETL process in Rakam API is completely transparent.
+                We have both native and custom event mappers,
+                you can write <a href="/doc/buremba/rakam-wiki/master/Developing-Modules">modules</a> that implements native event
+                mappers in Java for stateful and fast ETL tasks and inject it to your Rakam API event collection process.<br>
+                However writing Java modules are not an easy task so we have custom event mappers with Javascript embedded in Rakam.
+                You can basically write Javascript mappers and let Rakam to invoke them when a new event arrives.
+                They may enrich your event data or sanitize bad inputs, it's up to you.<br>
+<br>
+                In fact, in most cases you won't need to write event mappers because Rakam provides a set of event mappers for different use-cases.
+                However, it's important for us to provide you the ways to enrich and sanitize your event data so that you can embed your event pipeline inside Rakam without hassle.
                 <br>See <a href="/doc/buremba/rakam-wiki/master/Event-Mappers">event mappers</a> section in documentation.
             </p>
         </div>
@@ -105,7 +114,11 @@
     <div class="clearfix pb-30 row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>Collect data from anywhere</h1>
-            <p>We provide you the most common analytics types</p>
+            <p>Rakam is data agnostic, you can send any kind of event data-set as long as it's immutable.
+                You can just use the SDKs in order to ingegrate your application with Rakam easily or use the RESTFul API. We also provice embedded scheduled tasks, webhooks and some high level features for you to collect data from third party services.
+                You can basically embed your scripts in Rakam and let it collect data for you. No cron-jobs, no manual process and no extra work after you setup the tasks.
+                <br>See <a href="/rakam.io/doc/buremba/rakam-wiki/master/Collecting-Events">collecting events</a> section in documentation.
+            </p>
         </div>
     </div>
 
@@ -115,7 +128,7 @@
 
             <h3>Did our Facebook ADS
                 campaign worked well enough to increase our revenue?</h3>
-            <div style="background: #374355; padding: 10px; border-radius: 2px;">
+            <div style="padding: 10px; border-radius: 2px;">
                 <div style="position: relative;">
                     <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span
                             class="cm-keyword">SELECT</span> total_order_amount / fb.spent_amount_total <span

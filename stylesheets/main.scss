@@ -2108,7 +2108,6 @@ hr.underline2 {
   font-size: .9em;
   overflow: initial;
   border:none;
-  color:#fff;
   padding: 11px 0;
   background:transparent
 }
@@ -2162,4 +2161,57 @@ h3:hover .anchor
 
 .nav-tabs>li>a {
   border-bottom-color: #ddd;
+}
+
+
+.tcb-quote-carousel{
+  margin-top: 10px;
+  .quote{
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .carousel {
+    padding-bottom: 60px;
+    .carousel-indicators > li {
+      background-color: #e84a64;
+      border: none;
+    }
+  }
+  blockquote {
+    margin-top: 15px;
+    text-align: center;
+    border: none;
+  }
+  .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+}
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      transition-property: opacity;
+    }
+    .item,
+    .active.left,
+    .active.right {
+      opacity: 0;
+    }
+    .active,
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+    .next,
+    .prev,
+    .active.left,
+    .active.right {
+      left: 0;
+      transform: translate3d(0, 0, 0);
+    }
+  }
 }

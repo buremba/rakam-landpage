@@ -28,6 +28,10 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
         }
     }
 
+    $scope.sendMessageIntercom = function () {
+        Intercom('showNewMessage');
+    }
+
     $scope.activeSlide = 0;
     $interval(function () {
         $scope.activeSlide = ($scope.activeSlide + 1) % 2;

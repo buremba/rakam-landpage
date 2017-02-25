@@ -59,17 +59,16 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
             message: ""
         }
         $scope.submitForm = function () {
-
-
             $scope.isLoading = true;
             $scope.complete = false;
             $http.post("https://mp3ssd6ej8.execute-api.us-east-1.amazonaws.com/prod/rakam-landing-send-email", {
                 email: $scope.form.email,
-                phone: $scope.form.phone,
+                // phone: $scope.form.phone,
                 subject: '[Rakam.io] Contact form message',
                 message: {
                     name: $scope.form.name,
-                    message: $scope.form.message
+                    message: $scope.form.message,
+                    email: $scope.form.email
                 }
             }).then(function () {
                 $scope.isLoading = false;

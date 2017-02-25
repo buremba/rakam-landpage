@@ -16,7 +16,7 @@
     "prestart": "npm install",
     "start": "node server",
     "pretest": "npm install",
-    "auto-reload": " sass  --watch stylesheets/main.scss:css/main.css"
+    "auto-reload": "sass  --watch stylesheets/main.scss:css/main.css"
   },
   "dependencies": {
     "express": "^4.13.3",

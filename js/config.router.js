@@ -33,6 +33,11 @@ angular.module('app')
                   url: '/dashboard',
                   templateUrl: 'views/product_dashboard.html'
               })
+              .state('app.demo', {
+                  url: '/demo',
+                  controller: 'demoController',
+                  templateUrl: 'views/demo.html'
+              })
 
                .state('app.product.api', {
                   url: '/api',

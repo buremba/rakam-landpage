@@ -127,6 +127,18 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
 
     })
 
+    .controller('demoController', ['$http', '$rootScope', '$scope', function ($http, $rootScope, $scope) {
+        document.body.style.overflow = 'hidden';
+        $rootScope.hiddenFooter = true;
+
+        $scope.submitEmail = function(email) {
+            if(window.Intercom) {
+                window.Intercom('update', {email: email});
+            }
+            window.location = 'https://app.rakam.io/?demo=187&email='+email
+        }
+    }])
+
     .controller('deployController', function ($http, $scope, $location, $sce) {
 
         $scope.tabs = [{

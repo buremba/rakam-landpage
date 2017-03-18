@@ -135,7 +135,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
             if(window.Intercom) {
                 window.Intercom('update', {email: email});
             }
-            window.location = 'https://app.rakam.io/?demo=187&email='+email
+            window.location = 'https://app.rakam.io/login?demo=187&email='+email
         }
     }])
 

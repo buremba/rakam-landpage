@@ -133,7 +133,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
 
         $scope.submitEmail = function(email) {
             if(window.Intercom) {
-                window.Intercom('update', {email: email});
+                window.Intercom('update', {email: email, visited_demo: true});
             }
             window.location = 'https://app.rakam.io/login?demo=187&email='+email
         }

@@ -35,7 +35,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
     $scope.activeSlide = 0;
     $interval(function () {
         $scope.activeSlide = ($scope.activeSlide + 1) % 2;
-    }, 4000);
+    }, 10000);
 }])
 
     .controller('docsController', function ($http, $state, $scope, $sce, sidebar, markdown, $q, parent) {

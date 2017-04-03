@@ -1,15 +1,21 @@
 
-app.directive('markdownContent', function () {
+app.directive('markdownContent', function ($compile) {
     var r = new RegExp('^(?:[a-z]+:)?//', 'i');
 
     return {
-        scope: {content: '=markdownContent', parent: '=parent'},
+        scope: {content: '=markdownContent', parent: '=', afterLoaded: '='},
         controller: function ($scope, $element) {
             $scope.$watch('content', function (content) {
                 content = content || "";
-                $element[0].innerHTML = content;
+
+                var content = $compile(content)($scope.$parent);
+                $element.append(content);
+
                 [].forEach.call($element[0].querySelectorAll('a'), function (a) {
                     var href = a.getAttribute("href");
+                    if(href.startsWith('#')) {
+                        return a.setAttribute("href", document.location.pathname + href);
+                    }
 
                     if (!r.test(href)) {
                         var path = a.pathname.replace(/.md$/, '') + a.search + a.hash;
@@ -33,6 +39,7 @@ app.directive('markdownContent', function () {
                     a.classList.add('table-bordered');
                 });
 
+                $scope.afterLoaded($element);
             })
         }
     };

@@ -12,7 +12,7 @@ showdown.extension('header-anchors', function () {
 });
 var converter = new showdown.Converter({tables: true, extensions: ['header-anchors']});
 
-app.controller('mainController', ['$scope', '$http', '$interval', '$state', function ($scope, $http, $interval, $state) {
+app.controller('mainController', ['$scope', '$http', '$interval', function ($scope, $http, $interval) {
 
     $scope.tabSelect = function (el) {
         // var w =$(".underline").parent().parent().parent().width();
@@ -63,7 +63,6 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
             $scope.complete = false;
             $http.post("https://mp3ssd6ej8.execute-api.us-east-1.amazonaws.com/prod/rakam-landing-send-email", {
                 email: $scope.form.email,
-                // phone: $scope.form.phone,
                 subject: '[Rakam.io] Contact form message',
                 message: {
                     name: $scope.form.name,
@@ -131,15 +130,15 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
         document.body.style.overflow = 'hidden';
         $rootScope.hiddenFooter = true;
 
-        $scope.submitEmail = function(email) {
-            if(window.Intercom) {
+        $scope.submitEmail = function (email) {
+            if (window.Intercom) {
                 window.Intercom('update', {email: email, visited_demo: true});
             }
-            window.location = 'https://app.rakam.io/login?demo=187&email='+email
+            window.location = 'https://app.rakam.io/login?demo=187&email=' + email
         }
     }])
 
-    .controller('deployController', function ($http, $scope, $location, $sce) {
+    .controller('deployController', function ($compile, $http, $scope, $location, $sce) {
 
         $scope.tabs = [{
             title: 'Docker',
@@ -201,9 +200,29 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
         $scope.onClickTab(tab);
     })
 
+    .controller('integrateController', function ($compile, $http, $scope, $sce, $stateParams, markdown, $q, $location) {
+        // $scope.project = $scope.me.projects[0];
 
-    .controller('integrateController', function ($http, $scope, $sce, $stateParams, markdown, $q, $location) {
-        $scope.content = $sce.trustAsHtml(converter.makeHtml(markdown));
+        $scope.callback = function ($element) {
+            [].forEach.call($element[0].querySelectorAll('pre'), function (pre) {
+                if (pre.innerHTML.indexOf('YOUR_PROJECT_API_URL') === -1) {
+                    return;
+                }
+
+                var content = '<div class="configuration-item">Showing configuration for project <select ng-model="project" ng-options="project.name group by project.apiUrl for project in me.projects" class="form-control" style="color: rgb(0, 0, 0); border:none; margin-left:10px;' +
+                    ' display: inline-block; width: auto; max-width: 500px;"></select></div>';
+
+                var newVar = $compile(content)($scope);
+                $(pre).before(newVar)
+            });
+        }
+
+        var value = converter.makeHtml(markdown);
+        value = value.replace(/YOUR_PROJECT_API_URL/g, '{{project.apiUrl || "YOUR_PROJECT_API_URL"}}', '');
+        value = value.replace(/YOUR_PROJECT_WRITE_KEY/g, '{{project.apiKeys[0].write_key}}', '');
+        value = value.replace(/USER_ID_HERE/g, '<abbr title="user identifier for your application. pass null if user is not known." class="pointed">USER_ID_HERE</abbr>');
+
+        $scope.content = value;
         $scope.param = $stateParams.name + "/" + $stateParams.repo;
 
         var load;
@@ -222,7 +241,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
                     name: "Rakam web tracker",
                     theme: {
                         accentColor: "#00bff3",
-                        backgroundColor: "#5f6c7a",
+                        backgroundColor: "#3D4D65",
                         textColor: "#fff"
                     },
                     beforeContent: "Do you have a running Rakam cluster? If not, you can setup using <a href='/deploy' target='_blank'>our deployment guide</a>.",
@@ -249,6 +268,21 @@ app.controller('mainController', ['$scope', '$http', '$interval', '$state', func
                 $scope.websiteIntegration();
             }
         };
+
+        $scope.custom = function () {
+
+        }
+
+        if ($stateParams.name) {
+            $scope.promise = $http.get("https://app.rakam.io/ui/scheduled-task/list").then(function (data) {
+                $scope.scheduledTasks = data.data;
+                $scope.promise = null;
+            });
+            $scope.promise = $http.get("https://app.rakam.io/ui/webhook/list").then(function (data) {
+                $scope.webhooks = data.data;
+                $scope.promise = null;
+            });
+        }
     })
 
 

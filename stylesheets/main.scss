@@ -1417,8 +1417,11 @@ p, ul li {
   }
 }
 
+.form-control:focus {
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
 .integrates-header {
-  padding: 0px 0px 50px 0px;
   margin-bottom: 20px;
 
   @include mobile {
@@ -2000,8 +2003,8 @@ $primary-font: 'Open Sans', sans-serif;
 }
 
 pre {
-  border-radius: 2px;
-  border: 1px solid rgba(204, 204, 204, 0.34)
+  border-radius: 0px;
+  border-color: transparent;
 }
 
 .ss-area {
@@ -2147,8 +2150,10 @@ h1 .anchor,
 h2 .anchor,
 h3 .anchor
 {
-  position: absolute;
-  margin-left: -20px;
+  float: left;
+  margin-left: -19px;
+  padding-right: 3px;
+  margin-right: 0;
   visibility: hidden;
 }
 
@@ -2218,4 +2223,14 @@ h3:hover .anchor
 
 div[markdown-content] img {
   max-width: 100%;
+}
+
+.custom-item {
+  display:inline-block;text-align: center;padding:10px 25px
+}
+
+.configuration-item {
+  padding:5px;
+  background:#3D4D65;
+  color:#fff;
 }

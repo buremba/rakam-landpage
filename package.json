@@ -1,4 +1,4 @@
-{ 
+{
   "name": "rakam-landpage",
   "private": false,
   "description": "rakam.io",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "express": "^4.13.3",
-    "node-sass": "4.5.0"
+    "node-sass": "4.5.0",
+    "showdown": "^1.6.4"
   }
 }

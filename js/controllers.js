@@ -208,6 +208,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
                 if (pre.innerHTML.indexOf('YOUR_PROJECT_API_URL') === -1) {
                     return;
                 }
+                return;
 
                 var content = '<div class="configuration-item">Showing configuration for project <select ng-model="project" ng-options="project.name group by project.apiUrl for project in me.projects" class="form-control" style="color: rgb(0, 0, 0); border:none; margin-left:10px;' +
                     ' display: inline-block; width: auto; max-width: 500px;"></select></div>';

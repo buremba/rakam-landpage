@@ -210,9 +210,26 @@ angular.module('app')
                         });
                     }
                    }
-
               })
 
+
+              .state('app.integration', {
+                  url: '/integration/:type',
+                  templateUrl: 'views/integrate.html',
+                  controller: 'integrateController',
+                  resolve: {
+                    markdown: function ($http, $stateParams) {
+                        var links = {
+                          amp: sourceAddress + '/buremba/rakam-wiki/master/AMP-tracker.md'
+                        }
+                        return $http.get(links[$stateParams.type], {cache: true}).then(function (e) {
+                            return e.data
+                        }, function () {
+                            return "Document not found :(";
+                        });
+                    }
+                   }
+              })
           function load(srcs, callback) {
             return {
                 deps: ['$ocLazyLoad', '$q',

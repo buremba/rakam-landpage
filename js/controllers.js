@@ -41,8 +41,8 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
     .controller('docsController', function ($http, $state, $scope, $sce, sidebar, markdown, $q, parent) {
         $scope.promise = null;
 
-        $scope.sidebar = $sce.trustAsHtml(converter.makeHtml(sidebar));
-        $scope.content = $sce.trustAsHtml(converter.makeHtml(markdown));
+        $scope.sidebar = converter.makeHtml(sidebar);
+        $scope.content = converter.makeHtml(markdown);
         $scope.parent = parent;
         $scope.search = function (q) {
 
@@ -92,7 +92,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
 
     .controller('docsSearchController', function ($http, $scope, $sce, $state, $stateParams, sidebar, result) {
 
-        $scope.sidebar = $sce.trustAsHtml(converter.makeHtml(sidebar));
+        $scope.sidebar = (converter.makeHtml(sidebar));
         $scope.result = result;
         $scope.query = $stateParams.query;
         $scope.search = function (q) {
@@ -188,7 +188,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
                     element = element.nextElementSibling;
                 }
 
-                $scope.content = $sce.trustAsHtml(html);
+                $scope.content = (html);
             });
         }
 

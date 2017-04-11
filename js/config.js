@@ -29,4 +29,4 @@ angular.module('app')
         modules: MODULE_CONFIG
     });
   }])
-var sourceAddress = "//raw.githubusercontent.com/";
+var sourceAddress = "//raw.githubusercontent.com";

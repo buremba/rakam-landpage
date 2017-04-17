@@ -710,7 +710,7 @@ p, ul li {
         border-radius: 5px; }
         @media (min-width: 320px) and (max-width: 767px) {
           .trusted-area ul li a img {
-            width: 150px;
+            width: 180px;
             height: auto; } }
 @-webkit-keyframes padding-animate {
   0% {

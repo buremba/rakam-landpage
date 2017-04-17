@@ -702,7 +702,7 @@ p, ul li {
       padding: 10px 5px; }
       .trusted-area ul li a {
         text-align: center;
-        padding: 10px 5px;
+        padding: 10px 0px;
         cursor: default;
         display: block;
         -webkit-border-radius: 5px;

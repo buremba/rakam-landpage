@@ -695,11 +695,11 @@ p, ul li {
     overflow-x: auto; }
     @media (min-width: 320px) and (max-width: 767px) {
       .trusted-area ul {
-        padding: 0px 5px; } }
+        padding: 0px 0px; } }
     .trusted-area ul li {
       display: inline-block;
       zoom: 1;
-      padding: 10px 5px; }
+      padding: 10px 0px; }
       .trusted-area ul li a {
         text-align: center;
         padding: 10px 0px;

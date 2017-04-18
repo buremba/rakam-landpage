@@ -197,7 +197,7 @@ angular.module('app')
                         var name = $stateParams.name;
                         var repo = $stateParams.repo;
 
-                        if(name != 'buremba' && name != 'rakam') {
+                        if(name != 'buremba' && name != 'rakam-io') {
                             return "";
                         }
 

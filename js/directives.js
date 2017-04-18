@@ -7,8 +7,10 @@ app.directive('markdownContent', function ($compile) {
         controller: function ($scope, $element) {
             $scope.$watch('content', function (content) {
                 content = content || "";
+                if(!content) return;
 
                 var content = $compile(content)($scope.$parent);
+                $element.html("");
                 $element.append(content);
 
                 [].forEach.call($element[0].querySelectorAll('a'), function (a) {
@@ -39,7 +41,7 @@ app.directive('markdownContent', function ($compile) {
                     a.classList.add('table-bordered');
                 });
 
-                $scope.afterLoaded($element);
+                $scope.afterLoaded && $scope.afterLoaded($element);
             })
         }
     };

@@ -188,7 +188,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
                     element = element.nextElementSibling;
                 }
 
-                $scope.content = (html);
+                $scope.content = html;
             });
         }
 
@@ -201,8 +201,6 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
     })
 
     .controller('integrateController', function ($compile, $http, $scope, $sce, $stateParams, markdown, $q, $location) {
-        // $scope.project = $scope.me.projects[0];
-
         $scope.callback = function ($element) {
             [].forEach.call($element[0].querySelectorAll('pre'), function (pre) {
                 if (pre.innerHTML.indexOf('YOUR_PROJECT_API_URL') === -1) {
@@ -270,10 +268,6 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
             }
         };
 
-        $scope.custom = function () {
-
-        }
-
         if ($stateParams.name) {
             $scope.promise = $http.get("https://app.rakam.io/ui/scheduled-task/list").then(function (data) {
                 $scope.scheduledTasks = data.data;
@@ -285,7 +279,6 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
             });
         }
     })
-
 
     .controller('menuController', function ($http, $scope) {
 

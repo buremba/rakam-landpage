@@ -47,7 +47,7 @@
                     </div>
                     <div class="docs-body">
                         <div ng-repeat="item in result.items">
-                            <a class="search-result-heading" ng-href="/doc{{item.path.substring(0, item.name.length-2)}}">{{item.name.substring(0, item.name.length-3).replace("-", " ")}}</a>
+                            <a class="search-result-heading" ng-href="/doc#{{item.path.substring(0, item.name.length-2)}}">{{item.name.substring(0, item.name.length-3).replace("-", " ")}}</a>
                             <pre highlight-indice="match" class="search-result" ng-repeat="match in item.text_matches"></pre>
                         </div>
                     </div>

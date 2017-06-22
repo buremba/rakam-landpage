@@ -30,13 +30,7 @@
             <!--<div ng-bind-html="sidebar"></div>-->
               <div markdown-content="sidebar" markdown-sidebar></div>
             </div>
-            <div class="col-md-9 pt-30 pl-30 pb-30">
-              <div class="search-box form-group">
-                    <div class="icon-addon addon-md">
-                        <input type="text" placeholder="Search" class="form-control" id="search-icon" ng-model="q"   ng-keydown="$event.which === 13 && search(q)" >
-                        <label for="search-icon" class="fa fa-search" rel="tooltip" title="search-icon"></label>
-                    </div>
-               </div>
+            
 
                 <div markdown-content="content" parent="parent"></div>
             </div>

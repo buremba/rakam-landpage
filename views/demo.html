@@ -17,16 +17,20 @@
                         <div class="col-xs-12 text-center">
                             <h1 class="section-title">You're one step away from exploring Rakam</h1>
                             <p class="bigger">Dive into your data with Rakam</p>
+                            <div class="alert alert-warning" ng-show="error">Are you sure that your email is valid? We will promise that we won't share your e-mail address with anyone or spam you. 🙏</div>
                         </div>
 
-                        <form ng-submit="submitEmail(email)">
+                        <form ng-submit="verify(email)">
                             <div class="form-group">
                                 <label for="email">Work Email</label>
-                                <input type="email" class="form-control" id="email" required ng-model="email" placeholder="matt@companyname.com">
+                                <input type="email" class="form-control" ng-change="verify(email)" id="email" required ng-model="email" placeholder="matt@companyname.com">
                             </div>
 
                             <div style="text-align: center;margin-bottom:20px">
-                                <button type="submit" class="btn-extra-padding btn btn-lg btn-primary blue-header btn-solid btn-round"><span>Explore Demo</span></button>
+                                <button type="submit" class="btn-extra-padding btn btn-lg btn-primary blue-header btn-solid btn-round">
+                                    <span ng-show="!error">Explore Demo</span>
+                                    <span ng-show="error" ng-click="submitEmail(email)">Yes, take me to the demo</span>
+                                </button>
                             </div>
 
                             <!--<p class="text-center">By clicking 'Explore Demo', you confirm that you've read and agree to the<br><a target="_blank" href="/terms">Terms of-->

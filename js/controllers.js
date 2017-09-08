@@ -136,6 +136,17 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
             }
             window.location = 'https://app.rakam.io/login?demo=187&email=' + email
         }
+
+        $scope.verify = function (email) {
+            $http.get("https://api.hunter.io/trial/v2/email-verifier?format=json&email=" + email).then(function (data) {
+                $scope.error = data.result.score >= 7;
+                if(!$scope.error) {
+                    $scope.submitEmail(email);
+                }
+            }, function (error) {
+               console.error(error);
+            });
+        }
     }])
 
     .controller('deployController', function ($compile, $http, $scope, $location, $sce) {

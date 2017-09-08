@@ -139,8 +139,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
 
         $scope.verify = function (email) {
             $http.get("https://api.hunter.io/trial/v2/email-verifier?format=json&email=" + email).then(function (data) {
-                debugger;
-                $scope.error = data.result.score >= 7;
+                $scope.error = data.data.result.score <= 40;
                 if(!$scope.error) {
                     $scope.submitEmail(email);
                 }

@@ -3,26 +3,31 @@
     background-position: 0 0; }
   100% {
     background-position: -4694px 0; } }
+
 @-moz-keyframes animatedBackground {
   0% {
     background-position: 0 0; }
   100% {
     background-position: -4694px 0; } }
+
 @-webkit-keyframes animatedBackground {
   0% {
     background-position: 0 0; }
   100% {
     background-position: -4694px 0; } }
+
 @-ms-keyframes animatedBackground {
   0% {
     background-position: 0 0; }
   100% {
     background-position: -4694px 0; } }
+
 @-o-keyframes animatedBackground {
   0% {
     background-position: 0 0; }
   100% {
     background-position: -4694px 0; } }
+
 .p0 {
   padding: 0px; }
 
@@ -428,6 +433,7 @@ p, ul li {
       visibility: visible;
       pointer-events: auto;
       transform: translateY(0); }
+
 @keyframes MobileMenu-top-active {
   0% {
     transform: translateY(0); }
@@ -440,6 +446,7 @@ p, ul li {
   100% {
     transform: translateY(10px);
     opacity: 0; } }
+
 @keyframes MobileMenu-top-inactive {
   100% {
     transform: translateY(0); }
@@ -464,6 +471,7 @@ p, ul li {
       animation-name: MobileMenu-middle-active; }
     .blue-header .header .MobileMenu.active .MobileMenu-bottom {
       animation-name: MobileMenu-bottom-active; }
+
 @keyframes MobileMenu-middle-active {
   0% {
     transform: rotate(0); }
@@ -471,6 +479,7 @@ p, ul li {
     transform: rotate(0); }
   100% {
     transform: rotate(-45deg); } }
+
 @keyframes MobileMenu-middle-inactive {
   100% {
     transform: rotate(0); }
@@ -480,6 +489,7 @@ p, ul li {
     transform: rotate(-45deg); } }
     .blue-header .header .MobileMenu-middle {
       z-index: 2; }
+
 @keyframes MobileMenu-bottom-active {
   0% {
     transform: translateY(0); }
@@ -489,6 +499,7 @@ p, ul li {
     transform: translateY(-10px); }
   100% {
     transform: translateY(-10px) rotate(45deg); } }
+
 @keyframes MobileMenu-bottom-inactive {
   100% {
     transform: translateY(0); }
@@ -677,7 +688,7 @@ p, ul li {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 90px;
     margin: 0px;
     padding: 0px; }
     @media (min-width: 320px) and (max-width: 767px) {
@@ -695,14 +706,14 @@ p, ul li {
     overflow-x: auto; }
     @media (min-width: 320px) and (max-width: 767px) {
       .trusted-area ul {
-        padding: 0px 0px; } }
+        padding: 0px 5px; } }
     .trusted-area ul li {
       display: inline-block;
       zoom: 1;
-      padding: 10px 0px; }
+      padding: 10px 5px; }
       .trusted-area ul li a {
         text-align: center;
-        padding: 10px 0px;
+        padding: 10px 5px;
         cursor: default;
         display: block;
         -webkit-border-radius: 5px;
@@ -710,28 +721,33 @@ p, ul li {
         border-radius: 5px; }
         @media (min-width: 320px) and (max-width: 767px) {
           .trusted-area ul li a img {
-            width: 180px;
+            width: 120px;
             height: auto; } }
+
 @-webkit-keyframes padding-animate {
   0% {
     padding: 10px 5px; }
   100% {
     padding: 3px 5px; } }
+
 @-moz-keyframes padding-animate {
   0% {
     padding: 10px 5px; }
   100% {
     padding: 3px 5px; } }
+
 @-ms-keyframes padding-animate {
-  0% {
+  .trusted-area ul li a 0% {
     padding: 10px 5px; }
-  100% {
+  .trusted-area ul li a 100% {
     padding: 3px 5px; } }
+
 @-o-keyframes padding-animate {
   0% {
     padding: 10px 5px; }
   100% {
     padding: 3px 5px; } }
+
 @keyframes padding-animate {
   0% {
     padding: 10px 5px; }
@@ -1284,7 +1300,7 @@ p, ul li {
   width: 100%; }
   .integrate .box div {
     text-align: center;
-    padding: 30px 0;
+    padding: 30px;
     color: #fff;
     text-decoration: none; }
     .integrate .box div i {
@@ -1292,6 +1308,7 @@ p, ul li {
       display: block;
       padding-bottom: 10px;
       color: #919aa3; }
+
 .integrate .rounded {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1789,6 +1806,7 @@ hr.underline2 {
   font-size: 18px !important;
   margin-left: 5px !important;
   color: #C4C8CC; }
+
 .search-box input {
   padding: 20px 40px !important;
   border-color: #C4C8CC; }
@@ -1882,14 +1900,17 @@ h3:hover .anchor {
 
 .carousel-fade .carousel-inner .item {
   transition-property: opacity; }
+
 .carousel-fade .carousel-inner .item,
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   opacity: 0; }
+
 .carousel-fade .carousel-inner .active,
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1; }
+
 .carousel-fade .carousel-inner .next,
 .carousel-fade .carousel-inner .prev,
 .carousel-fade .carousel-inner .active.left,
@@ -1910,4 +1931,137 @@ div[markdown-content] img {
   background: #3D4D65;
   color: #fff; }
 
-/*# sourceMappingURL=main.css.map */
+section#api-header.container {
+  padding-top: 33px;
+  background-image: url(../images/top-bg.svg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  background-size: auto;
+  padding-left: 123px; }
+
+section#api-header .cd-morph-dropdown {
+  top: 24px; }
+
+section#api-header .s-button-o {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: left;
+  color: #02afde;
+  top: -5px;
+  position: relative;
+  border: none;
+  background: none; }
+
+section#api-header .header div:nth-child(4) {
+  text-align: right; }
+
+section#api-header .header .cd-morph-dropdown .main-nav > ul > li > a {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.11;
+  text-align: left;
+  color: #646782; }
+
+section#api-header .box {
+  margin-top: 114px; }
+  section#api-header .box h1 {
+    font-family: "Open Sans";
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    color: #646782; }
+  section#api-header .box p {
+    font-family: "Open Sans";
+    font-size: 21px;
+    line-height: 1.71;
+    color: #9092a7;
+    padding-bottom: 32px; }
+  section#api-header .box a {
+    display: block;
+    width: 262px;
+    height: 60px;
+    padding-top: 18px;
+    border-radius: 100px;
+    background: #ffe269;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ffe269 0%, #fd8440 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffe269 0%, #fd8440 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ffe269 0%, #fd8440 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=1 );
+    /* IE6-9 */
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none; }
+    section#api-header .box a:hover {
+      background-color: #fd8c43;
+      transform: translateY(-1px);
+      -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+      -moz-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
+  section#api-header .box img {
+    margin-top: 126px; }
+
+section#api_oneClick.container {
+  padding-left: 123px;
+  top: 30px;
+  position: relative; }
+
+section#api_oneClick ul {
+  padding: 0;
+  list-style: none; }
+  section#api_oneClick ul li {
+    text-align: center; }
+    section#api_oneClick ul li img {
+      width: 100px;
+      height: 100px; }
+    section#api_oneClick ul li p {
+      font-family: "Open Sans";
+      font-size: 18px;
+      line-height: 1.33;
+      text-align: left;
+      color: #646782;
+      margin-top: 9px; }
+    section#api_oneClick ul li:nth-child(3) img {
+      margin-left: -17px; }
+    section#api_oneClick ul li:nth-child(4) img {
+      margin-left: 6px; }
+
+section#api_oneClick h2 {
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #646782;
+  margin-top: 125px;
+  margin-bottom: 42px; }
+
+section#api_oneClick p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #646782;
+  margin-bottom: 24px;
+  padding-right: 30px; }
+
+section#api_fastAndScalable.container {
+  padding-top: 235px;
+  background-image: url(../images/bg-section@3x.svg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  background-size: auto;
+  min-height: 1100px; }
+
+section#api_fastAndScalable .box_pl {
+  padding-left: 110px; }

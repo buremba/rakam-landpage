@@ -9,6 +9,16 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
 
+
+@mixin linearGradientLeftRight($left, $right){
+  background: $left; /* Old browsers */
+  background: -moz-linear-gradient(left, $left 0%, $right 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, $left 0%,$right 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, $left 0%,$right 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+}
+
+
 @mixin roundedCorners($size){
     -webkit-border-radius: $size + px;
         -moz-border-radius: $size + px;
@@ -115,6 +125,18 @@ $desktop-width: 1024px;
     -webkit-box-shadow: $top $left $blur $color;
     -moz-box-shadow: $top $left $blur $color;
     box-shadow: $top $left $blur $color;
+  }
+}
+
+@mixin box-shadow-two($top, $left, $blur, $color, $color2, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color, $color2;
+    -moz-box-shadow:inset $top $left $blur $color, $color2;
+    box-shadow:inset $top $left $blur $color, $color2;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color, $color2;
+    -moz-box-shadow: $top $left $blur $color, $color2;
+    box-shadow: $top $left $blur $color, $color2;
   }
 }
 

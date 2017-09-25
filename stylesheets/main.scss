@@ -2236,10 +2236,9 @@ div[markdown-content] img {
 }
 
 
+
 // PRODUCT-API
-
 section#api_header{
-
   &.container{
     padding-top: 33px;
     background-image: url(../images/top-bg.svg);
@@ -2293,7 +2292,7 @@ section#api_header{
   }
 
   .s-button-o{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.25;
@@ -2312,12 +2311,12 @@ section#api_header{
   }
 
   .header .cd-morph-dropdown .main-nav > ul > li > a{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.11;
     text-align: left;
-    color: $color_api_h;
+    color: $color_product_h;
   }
 
 
@@ -2325,19 +2324,19 @@ section#api_header{
     margin-top: 114px;
 
     h1{
-      font-family: $font_family_api;
+      font-family: $font_family_product;
       font-size: 50px;
       font-weight: bold;
       line-height: 1.2;
-      color: $color_api_h;
+      color: $color_product_h;
     }
     p{
-      font-family: $font_family_api;
+      font-family: $font_family_product;
       padding-bottom: 32px;
       padding-left: 4px;
       font-size: 18px;
       line-height: 1.94;
-      color: $color_api_p;
+      color: $color_product_p;
       @media (max-width: 767px){
         padding-right: 250px;
       }
@@ -2355,7 +2354,7 @@ section#api_header{
       padding-top: 18px;
       border-radius: 100px;
       @include linearGradientLeftRight(#ffe269, #fd8440);
-      font-family: $font_family_api;
+      font-family: $font_family_product;
       font-size: 16px;
       font-weight: bold;
       letter-spacing: 0.5px;
@@ -2377,7 +2376,6 @@ section#api_header{
       max-width: 100%;
     }
   }
-
 }
 
 section#api_oneClick{
@@ -2403,11 +2401,11 @@ section#api_oneClick{
         height: 100px;
       }
       p{
-        font-family: $font_family_api;
+        font-family: $font_family_product;
         font-size: 18px;
         line-height: 1.33;
         text-align: left;
-        color: $color_api_h;
+        color: $color_product_h;
         margin-top: 9px;
         @media (max-width: 767px){
           padding: 0 200px;
@@ -2432,19 +2430,19 @@ section#api_oneClick{
   }
 
   h2{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 30px;
     font-weight: bold;
     line-height: 1.6;
-    color: $color_api_h;
+    color: $color_product_h;
     margin-top: 125px;
     margin-bottom: 42px;
   }
   p{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 16px;
     line-height: 1.5;
-    color: $color_api_h;
+    color: $color_product_h;
     margin-bottom: 24px;
     padding-right: 30px;
   }
@@ -2525,18 +2523,18 @@ section#api_fastAndScalable{
 
 
   h2{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
-    color: $color_api_h;
+    color: $color_product_h;
     margin-bottom: 27px;
   }
   p{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 16px;
     line-height: 1.5;
-    color: $color_api_h;
+    color: $color_product_h;
   }
 
 }
@@ -2669,21 +2667,21 @@ section#api_sql{
   }
 
   h2{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 30px;
     font-weight: bold;
-    color: $color_api_h;
+    color: $color_product_h;
     margin-bottom: 10px;
   }
   h2+p{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 21px;
     line-height: 1.62;
-    color: #9092a7;
+    color: $color_product_p;
   }
 
   h3{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
@@ -2693,14 +2691,17 @@ section#api_sql{
   }
 
   h3+p{
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 16px;
     line-height: 1.5;
     color: #ffffff;
   }
 }
+// END-PRODUCT-API
 
-section#api_footer{
+
+// NEW-FOOTER-PRODUCT
+section#new-footer-product{
     &.container{
     margin-top: 128px;
     padding-left: 123px;
@@ -2722,7 +2723,7 @@ section#api_footer{
     padding-bottom: 37px;
 
     h2{
-      font-family: $font_family_api;
+      font-family: $font_family_product;
       font-size: 24px;
       font-weight: bold;
       line-height: 1.5;
@@ -2758,7 +2759,7 @@ section#api_footer{
       padding-top: 18px;
       border-radius: 100px;
       @include linearGradientLeftRight(#ffe269, #fd8440);
-      font-family: $font_family_api;
+      font-family: $font_family_product;
       font-size: 16px;
       font-weight: bold;
       letter-spacing: 0.5px;
@@ -2800,7 +2801,7 @@ section#api_footer{
     }
 
     &>div>div>ul:nth-child(1) li a{
-      font-family: $font_family_api;
+      font-family: $font_family_product;
       font-size: 16px;
       font-weight: bold;
       line-height: 1;
@@ -2808,19 +2809,19 @@ section#api_footer{
     }
 
     &>div>div>ul:nth-child(2) li a{
-      font-family: $font_family_api;
+      font-family: $font_family_product;
       font-size: 16px;
       line-height: 1;
       color: $color_footer_ul;
     }
 
     .address{
-      font-family: $font_family_api;
+      font-family: $font_family_product;
       font-size: 16px;
       font-weight: bold;
       line-height: 1.5;
       text-align: right;
-      color: $color_api_h;
+      color: $color_product_h;
       padding-right: 15px;
       @media (max-width: 767px){
         margin-top: 50px;
@@ -2883,7 +2884,6 @@ section#api_footer{
     }
   }
 
-
   .copy{
     margin-top: 108px;
     margin-left: -123px;
@@ -2896,7 +2896,7 @@ section#api_footer{
     background-position-y: bottom;
     background-size: auto;
     text-align: center;
-    font-family: $font_family_api;
+    font-family: $font_family_product;
     font-size: 12px;
     font-weight: 600;
     color: white;
@@ -2913,3 +2913,4 @@ section#api_footer{
     }
   }
 }
+// END-NEW-FOOTER-PRODUCT

@@ -1,246 +1,171 @@
-<div class="blue-header bg-sand">
-    <div class="container">
-        <div ng-include src="'views/includes/header.html'"></div>
-        <div class="">
-            <div class="row middle middle-block">
+<section class="container" id="ui_header">
 
-                <p class="subtitle text-center">Rakam UI</p>
+    <div ng-include src="'views/includes/new-header-product.html'"></div>
 
-                <p class="subcontent text-center">It's your BI tool. Connect your Rakam API and create your custom analytics service that powers your company's BI. </p>
-                <div class=" pt-40 pb-40">
-                    <div class="hidden-xs hidden-sm">
-                        <div class="text-center try-area">
-                            <a href="#" class="try-button">
-                                <button class="btn-lg s-button color-sand">Try It Free</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="hidden-md hidden-lg">
-                        <div class="pt-10">
-                            <div class="text-center try-area">
-                                <a href="https://app.rakam.io/login?project_name=orsan_parca&api_url=https://app.rakam.io&action&email=local@demo.com&password=demoAccount1&utm_source=land_bi"
-                                   class="try-button p0">
-                                    <button class="btn-sm s-button">Try It Free</button>
-                                </a>
-                            </div>
+    <div class="row box">
+        <div class="col-xs-12 col-sm-5 col-lg-5">
+            <h1>Rakam UI</h1>
+            <p> 
+                It's your BI tool. Connect your Rakam API and create custom analytics service that powers your company's BI.
+            </p>
+            <a href="#">Try It Free</a>
+        </div>
+        <div class="hidden-xs col-sm-7 col-lg-7">
+            <img src="../images/IllustrationUi.png" alt="">
+        </div>
+    </div>
+</section>
 
-                        </div>
-                    </div>
+<section class="container" id="ui_advanced">
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+            <ul>
+                <li>
+                    <img src="images/bussines.svg" alt="">
+                    <p>Simple and powerful business intelligence.</p>
+                </li>
+                <li>
+                    <img src="images/security.svg" alt="">
+                    <p>Security is not a feature, it's state of mind.</p>
+                </li>
+                <li>
+                    <img src="images/visualization.svg" alt="">
+                    <p>Advanced visualization techniques.</p>
+                </li>
+                <li>
+                    <img src="images/flexible.svg" alt="">
+                    <p>Customize for your needs, it's flexible.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-offset-1 col-md-7 col-lg-offset-1 col-lg-7">
+            <div class="row">
+                <h2 class="col-lg-12">
+                    Advanced BI for<br>
+                    Rakam API
+                </h2>
+                <p class="col-lg-10">Rakam UI is the frontend of your Rakam API, it connects your Rakam API and visualize the data for you. It allows you to run event explorer, funnel, retention queries on your event data-set collected via Rakam API and also allows you to create custom reports, dashboards with advanced SQL editor and simple query builder interface.</p>
+                <p class="col-lg-10">You can create your custom analytics service without writing any single code with Rakam UI. The developers and analytsts can create custom reports and dashboards and share them with the teams in your company.</p>
+                <p class="col-lg-10">We take security seriously. Rakam UI doesn't actually have accesss to your Rakam APIs, your browser executes the AJAX requests directly on your Rakam API. Rakam UI can only store metadata of your reports, not your data.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="ui_security">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8">
+            <h2>Security is not a feature,<br class="hidden-xs"> it's state of mind.</h2>
+            <p>Rakam UI is not just a website, it works as an application. Your Rakam API may be behind a firewall or even your localhost, You can use Rakam UI if your computer is able to connect your Rakam API but it't not accessible from outside because Rakam UI uses your browser to connect Rakam API via AJAX requests. It just stores metadata of your reports, not data.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="ui_tabsProductBusiness">
+    <div ng-controller="tabsProductBusiness" class="row">
+        <h2>Business Intelligence and Analytics</h2> 
+        <uib-tabset active="active">
+
+            <uib-tab index="0" heading="Event Explorer">
+                <div class="col-xs-6 col-sm-6 col-md-5">
+                    <h3>Event Explorer</h3>
+                    <p>Analyze your events in realtime with a simple interface.</p>
+                    <a href="#">Read More</a>
                 </div>
-
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-<div class="container">
-    <div class=" pt-40 pb-40 clearfix row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <h1 class="color-sand-wh">Advanced BI for Rakam API</h1>
-            <p>Rakam UI is the frontend of your Rakam API, it connects your Rakam API and visualize the data for you. It allows you to run event explorer, funnel, retention queries
-                on your event data-set collected via Rakam API and also allows you to create custom reports, dashboards with advanced SQL editor and simple query builder
-                interface.</p>
-            <p>You can create your custom analytics service without writing any single code with Rakam UI. The developers and analytsts can create custom reports and dashboards and
-                share them with the teams in your company.</p>
-            <p>We take security seriously. Rakam UI doesn't actually have accesss to your Rakam APIs, your browser executes the AJAX requests directly on your Rakam API. Rakam UI
-                can only store metadata of your reports, not your data.</p></div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <img src="/images/custom.png" style="margin-top:30px" width="100%">
-        </div>
-    </div>
-
-    <div class="clearfix pb-30 row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pb-20 pr-30">
-            <h4 class="color-sand-wh"><i class="fa fa-rocket i-circle pull-left bg-sand"></i>
-                <span class="lh-60">Simple and powerful business intelligence</span>
-            </h4>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pb-20 pr-30">
-            <h4 class="color-sand-wh"><i class="fa fa-battery-4 i-circle pull-left bg-sand"></i>
-                <span class="lh-60">Advanced visualization techniques</span>
-            </h4>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pb-20 pr-30">
-            <h4 class="color-sand-wh"><i class="fa fa-lock i-circle pull-left bg-sand"></i>
-                <span class="lh-60">Security is not a feature, it's state of mind</span>
-            </h4>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pb-20 pr-30">
-            <h4 class="color-sand-wh"><i class="fa fa-expand i-circle pull-left bg-sand"></i>
-                <span class="lh-60">Customize for your needs, it's flexible</span>
-            </h4>
-        </div>
-
-    </div>
-
-
-    <div class="clearfix pb-30 row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1 class="color-sand-wh">Security is not a feature, it's state of mind.</h1>
-            <p>Rakam UI is not just a website, it works as an application. Your Rakam API may be behind a firewall or even your localhost, You can use Rakam UI if your computer is
-                able to connect your Rakam API but it't not accessible from outside because Rakam UI uses your browser to connect Rakam API via AJAX requests. It just stores
-                metadata of your reports, not data.</p>
-        </div>
-    </div>
-
-</div>
-
-<div class="container-fluid ss-area">
-    <h2 class="container">Business Intelligence and Analytics</h2>
-
-    <div class="container clearfix pt-20 pb-20" id="event-explorer">
-        <div class="row table-row">
-
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 image-col">
-                <img src="images/event-explorer.png" width="100%"/>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 custom">
-                <h1>Event Explorer</h1>
-                <p>Analyze your events in realtime with a simple interface.</p>
-                <div class="icon">
-                    <i class="fa fa-hand-o-up"></i>
+                <div class="col-xs-6 col-sm-6 col-md-7">
+                    <img src="../images/event-imageUI.png" alt="">
                 </div>
-            </div>
-        </div>
-    </div>
+            </uib-tab>
 
-    <div class="container clearfix pt-20 pb-20" id="dashboard">
-        <div class="row table-row">
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 custom">
-                <h1>Dashboard</h1>
-                <p>Create custom dashboards from your saved reports, you can customize the layout and the charts as you wish and get the summary of your reports in one picture.</p>
-                <div class="icon">
-                    <i class="fa fa-th"></i>
+            <uib-tab index="1" heading="Dashboard">
+                <div class="col-xs-6 col-sm-6 col-md-5">
+                    <h3>Dashboard</h3>
+                    <p>Create custom dashboards from your saved reports, you can customize the layout and the charts as you wish and get the summary of your reports in one picture.</p>
+                    <a href="#">Read More</a>
                 </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 image-col">
-                <img src="images/dashboard.png" width="100%"/>
-            </div>
-
-
-        </div>
-    </div>
-
-    <div class="container clearfix pt-20 pb-20" id="sql-editor">
-        <div class="row table-row">
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 custom">
-                <h1>SQL Editor</h1>
-                <p>Run ANSI SQL queries on your event data-set, plug your external databases and remote files, integrate it with third-party services such as Facebook Ads and
-                    Intercom.io and join the data via SQL.</p>
-                <div class="icon">
-                    <i class="fa fa-code"></i>
+                <div class="col-xs-6 col-sm-6 col-md-7">
+                    <img src="../images/dashboard-imageUI.png" alt="">
                 </div>
-            </div>
+            </uib-tab>
 
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 image-col">
-                <img src="images/sql-editor.png" width="100%"/>
-            </div>
-
-        </div>
-    </div>
-
-
-    <div class="container clearfix pt-20 pb-20">
-        <div class="row table-row">
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 custom">
-                <h1>Query Builder</h1>
-                <p>You don't always need to write complex SQL queries, in that case just use your simple query builder interface.</p>
-                <div class="icon">
-                    <i class="fa fa-question"></i>
+            <uib-tab index="2" heading="SQL Editor">
+                <div class="col-xs-6 col-sm-6 col-md-5">
+                    <h3>SQL Editor</h3>
+                    <p>Run ANSI SQL queries on your event data-set, plug your external databases and remote files, integrate it with third-party services such as Facebook Ads and Intercom.io and join the data via SQL.</p>
+                    <a href="#">Read More</a>
                 </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 image-col">
-                <img src="images/query-builder.png" width="100%"/>
-            </div>
-
-
-        </div>
-    </div>
-
-
-    <h2 class="container" id="behavioral">Behavioral Analytics</h2>
-
-
-    <div class="container clearfix pt-20 pb-20">
-        <div class="row table-row">
-
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 image-col">
-                <img src="images/funnel.png" width="100%"/>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 custom">
-                <h1>Funnels</h1>
-                <p>Create funnels from user actions and understand how your users use your product.</p>
-                <div class="icon">
-                    <i class="fa fa-filter"></i>
+                <div class="col-xs-6 col-sm-6 col-md-7">
+                    <img src="../images/sql-imageUI.png" alt="">
                 </div>
-            </div>
-        </div>
-    </div>
+            </uib-tab>
 
-    <div class="container clearfix pt-20 pb-20">
-        <div class="row table-row">
-
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 image-col">
-                <img src="images/retention.png" width="100%"/>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 custom">
-                <h1>Cohorts</h1>
-                <p>Generate cohorts in order to understand how often your users use your product and find the potential problems of the user flow quickly.</p>
-                <div class="icon">
-                    <i class="fa fa-magnet"></i>
+            <uib-tab index="3" heading="Query Builder">
+                <div class="col-xs-6 col-sm-6 col-md-5">
+                    <h3>Query Builder</h3>
+                    <p>You don't always need to write complex SQL queries, in that case just use your simple query builder interface.</p>
+                    <a href="#">Read More</a>
                 </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-
-
-    <div class="container clearfix pt-20 pb-20">
-        <div class="row table-row">
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 custom">
-                <h1>Recipes</h1>
-                <p>Recipes are pre-build reports and dashboards. We can provide you pre-built dashboards and reports for your industry so that you can start fast and customize it
-                    your your needs.</p>
-                <div class="icon">
-                    <i class="fa fa-blind"></i>
+                <div class="col-xs-6 col-sm-6 col-md-7">
+                    <img src="../images/query-imageUI.png" alt="">
                 </div>
-            </div>
+            </uib-tab>
 
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 image-col">
-                <img src="images/report.png" width="100%"/>
-            </div>
+        </uib-tabset>
 
-
-        </div>
     </div>
+</section>
 
+<section class="container" id="ui_tabsProductBehavioral">
+    <div ng-controller="tabsProductBehavioral" class="row">
+        <h2>Behavioral Analytics</h2> 
+        <uib-tabset active="active">
 
-</div>
+            <uib-tab index="0" heading="Funnels">
+                <div class="col-xs-5 col-sm-5 col-md-6">
+                    <img src="../images/event-imageUI2.png" alt="">
+                </div>
+                <div class="col-xs-7 col-sm-7 col-md-5">
+                    <h3>Funnels</h3>
+                    <p>Create funnels from user actions and understand how your users use your product.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="../images/event-imageUI2.png" alt="">
+                </div>
+            </uib-tab>
 
-<div class="container">
-    <hr>
+            <uib-tab index="1" heading="Cohorts">
+                <div class="col-xs-5 col-sm-5 col-md-6">
+                    <img src="../images/macbookUI2.png" alt="">
+                </div>
+                <div class="col-xs-7 col-sm-7 col-md-5">
+                    <h3>Cohorts</h3>
+                    <p>Generate cohorts in order to understand how often your users use your product and find the potential problems of the user flow quickly.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="../images/macbookUI2.png" alt="">
+                </div>
+            </uib-tab>
 
-    <div class="pt-40 pb-40 clearfix integrate-area blue-header">
-        <div class="col-md-8">
-            <h3 style="color:#ffffff">Integrate in seconds.</h3>
-        </div>
-        <div class="col-md-4 text-center">
-            <div class="vercital-middle">
-                <a href="http://app.rakam.io/register">
-                    <button style="width:160px" class="s-button">Register Rakam</button>
-                </a>
-            </div>
-        </div>
+            <uib-tab index="2" heading="Recipes">
+                <div class="col-xs-5 col-sm-5 col-md-6">
+                    <img src="../images/recipesUI.png" alt="">
+                </div>
+                <div class="col-xs-7 col-sm-7 col-md-5">
+                    <h3>Recipes</h3>
+                    <p>Recipes are pre-build reports and dashboards. We can provide you pre-built dashboards and reports for your industry so that you can start fast and customize it your your needs.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="../images/recipesUI.png" alt="">
+                </div>
+            </uib-tab>
+
+        </uib-tabset>
+
     </div>
-</div>
+</section>
+
+
+<div ng-include src="'views/includes/new-footer-product.html'"></div>

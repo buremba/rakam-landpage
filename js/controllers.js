@@ -443,3 +443,12 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
 
     })
 
+
+    .controller('tabsProductBusiness', function ($scope, $window) {
+
+    })
+
+    .controller('tabsProductBehavioral', function ($scope, $window) {
+
+    })
+

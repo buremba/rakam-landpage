@@ -1262,7 +1262,7 @@ p, ul li {
       font-weight: 300; }
 
 .calendly-badge-content span {
-  display:none
+  display: none !important;
 }
 
 .integrate-area {

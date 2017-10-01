@@ -1261,6 +1261,10 @@ p, ul li {
       font-size: 15px;
       font-weight: 300; }
 
+.calendly-badge-content span {
+  display:none
+}
+
 .integrate-area {
   display: flex;
   align-items: center; }

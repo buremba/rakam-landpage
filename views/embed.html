@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.7.4/showdown.min.js"></script>
   <title>Markdown</title>
 </head>
 <body>
@@ -22,8 +22,9 @@
 
     $.get({url: getParameterByName('url'), 
            cache: false,
-           success: function(returnhtml){    
-             $('#preview')[0].innerHTML = markdown.toHTML(returnhtml);
+           success: function(returnhtml){  
+             var converter = new showdown.Converter()
+             $('#preview')[0].innerHTML = converter.makeHtml(returnhtml); 
            }           
     });    
 

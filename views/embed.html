@@ -10,7 +10,17 @@
 <body>
   <div id="preview"></div>
   <script>
-    $.get({url: "https://raw.githubusercontent.com/buremba/rakam-android/master/README.md", 
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    $.get({url: getParameterByName('url'), 
            cache: false,
            success: function(returnhtml){    
              $('#preview')[0].innerHTML = markdown.toHTML(returnhtml);
@@ -19,5 +29,13 @@
 
 
   </script>
+  <style>
+    body {
+      font-family: 'Proxima Nova','Open Sans',sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      color: #747c84;
+    }
+  </style>
 </body>
 </html>

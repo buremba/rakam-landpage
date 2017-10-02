@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="85px" viewBox="0 0 86 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>94054DC9-9BAF-413D-948E-491502E29D5D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="149.460671%" y2="71.875%" id="linearGradient-1">
+            <stop stop-color="#00EAF8" offset="0%"></stop>
+            <stop stop-color="#6D42EF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-757.095493%" y1="-66.9453282%" x2="1051.41268%" y2="200.294318%" id="linearGradient-2">
+            <stop stop-color="#00EAF8" offset="0%"></stop>
+            <stop stop-color="#6D42EF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_10-Rakam-Pre-Build" transform="translate(-468.000000, -1634.000000)">
+            <g id="Products1" transform="translate(0.000000, 1519.000000)">
+                <g id="Group" transform="translate(456.000000, 115.000000)">
+                    <g id="1">
+                        <g id="ic/advertisement" transform="translate(12.000000, 0.000000)">
+                            <g>
+                                <ellipse id="Oval-4" fill="#FFFFFF" cx="43" cy="42.5" rx="43" ry="42.5"></ellipse>
+                                <path d="M51.363965,47.8015933 L52.5,48.9244186 L53,48.4302326 L58,52.3837209 C59.324484,53.790779 59.3898494,55.9866939 58,57.3255814 C56.6453609,58.6992698 54.4236117,58.6346644 53,57.3255814 L49,52.3837209 L49.5,51.8895349 L48.363965,50.7667096 C46.0580046,52.4165322 43.1818919,53.372093 40,53.372093 C33.0441773,53.372093 27,47.3981968 27,39.5348837 C27,32.6599427 33.0441773,26.6860465 40,26.6860465 C47.9558227,26.6860465 54,32.6599427 54,39.5348837 C54,42.6797769 53.0331973,45.5224464 51.363965,47.8015933 Z M40,30.6395349 C35.253261,30.6395349 31,34.8433394 31,39.5348837 C31,45.2147394 35.253261,49.4186047 40,49.4186047 C45.7466775,49.4186047 50,45.2147394 50,39.5348837 C50,34.8433394 45.7466775,30.6395349 40,30.6395349 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                                <polygon id="Fill-7" fill="url(#linearGradient-2)" points="43 44.4767442 45 44.4767442 45 34.5930233 43 34.5930233"></polygon>
+                                <polygon id="Fill-8" fill="url(#linearGradient-2)" points="39 44.4767442 41 44.4767442 41 36.5697674 39 36.5697674"></polygon>
+                                <polygon id="Fill-9" fill="url(#linearGradient-2)" points="35 44.4767442 37 44.4767442 37 38.5465116 35 38.5465116"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

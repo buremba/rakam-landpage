@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>949DAC4F-E25A-4810-95AB-3485C10D3CC9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="58" cy="45" r="35"></circle>
+        <filter x="-37.1%" y="-31.4%" width="174.3%" height="174.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.254901961   0 0 0 0 0.458823529   0 0 0 0 0.647058824  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="149.460671%" y2="71.875%" id="linearGradient-3">
+            <stop stop-color="#00EAF8" offset="0%"></stop>
+            <stop stop-color="#6D42EF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/mobile" fill-rule="nonzero">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M20,21 C19.4477153,21 19,21.4477153 19,22 L19,72 C19,72.5522847 19.4477153,73 20,73 L52,73 C52.5522847,73 53,72.5522847 53,72 L53,22 C53,21.4477153 52.5522847,21 52,21 L20,21 Z M20,18 L52,18 C54.209139,18 56,19.790861 56,22 L56,72 C56,74.209139 54.209139,76 52,76 L20,76 C17.790861,76 16,74.209139 16,72 L16,22 C16,19.790861 17.790861,18 20,18 Z M19,29 L19,32 L53,32 L53,29 L19,29 Z M25.5,24 C24.6715729,24 24,24.6715729 24,25.5 C24,26.3284271 24.6715729,27 25.5,27 L36.5,27 C37.3284271,27 38,26.3284271 38,25.5 L38,25.5 C38,24.6715729 37.3284271,24 36.5,24 L25.5,24 Z M42.5,24 C41.6715729,24 41,24.6715729 41,25.5 C41,26.3284271 41.6715729,27 42.5,27 L46.5,27 C47.3284271,27 48,26.3284271 48,25.5 L48,25.5 C48,24.6715729 47.3284271,24 46.5,24 L42.5,24 Z M19,62 L19,65 L53,65 L53,62 L19,62 Z M36,71 C37.1045695,71 38,70.1045695 38,69 C38,67.8954305 37.1045695,67 36,67 C34.8954305,67 34,67.8954305 34,69 C34,70.1045695 34.8954305,71 36,71 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+        </g>
+    </g>
+</svg>

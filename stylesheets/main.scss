@@ -2849,6 +2849,7 @@ section#ui_advanced{
     padding-left: 123px;
     top: 30px;
     position: relative;
+    margin-bottom: 100px;
     @media (max-width: 1199px){
       width: 100%;
       padding-left: 61px;
@@ -2859,22 +2860,23 @@ section#ui_advanced{
   }
   div:nth-child(1){
     @media (min-width: 1200px){
-      margin-left: 0.8%;
+      margin-left: 0.2%;
     }
     ul{
       padding: 0;
       list-style: none;
       li{
         text-align: center;
+        margin-bottom: 30px;
         img{
-          width: 115px;
-          height: 100px;
+          width: 120px;
+          height: 120px;
         }
         p{
           font-family: $font_family_product;
           font-size: 18px;
           line-height: 1.33;
-          text-align: left;
+          text-align: center;
           color: $color_product_h;
           margin-top: 9px;
           padding: 0;
@@ -2912,67 +2914,6 @@ section#ui_advanced{
     margin-bottom: 24px;
     padding-right: 30px;
   }
-}
-
-
-section#ui_security{
-  &.container{
-    padding-top: 33px;
-    background-image: url(../images/security_bg.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 225px;
-    min-height: 500px;
-    margin-top: 70px;
-    @media (max-width: 1199px){
-      width: 100%;
-      padding-left: 200px;
-    }
-    @media (max-width: 800px){
-      padding-left: 130px;
-    }
-    @media (max-width: 767px){
-      padding-left: 15px;
-      background: none;
-      min-height: auto;
-    }
-  }
-
-  .row>div{
-    margin-top: 65px;
-    @media (min-width: 900px){
-      padding-right: 8.3%;
-    }
-    @media (max-width: 1000px){
-      margin-top: 30px;
-    }
-    @media (max-width: 767px){
-      margin-top: 0;
-    }
-  }
-
-  h2{
-    font-family: $font_family_product;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 1.6;
-    color: $color_product_h;
-    margin-bottom: 18px;
-  }
-
-  p{
-    font-family: $font_family_product;
-    font-size: 16px;
-    line-height: 1.5;
-    color: $color_product_h;
-    @media (max-width: 1199px){
-      padding-right: 40px;
-    }
-    @media (max-width: 1000px){
-      padding-right: 0;
-    }
-  }
-
 }
 
 
@@ -3060,7 +3001,7 @@ section#ui_tabsProductBusiness{
     @media (max-width: 560px){
       color: transparent;
     }
-    @media (max-width: 380px){
+    @media (max-width: 410px){
       padding: 0;
     }
   }
@@ -3260,6 +3201,9 @@ section#ui_tabsProductBehavioral{
       padding-right: 0;
       padding-left: 0;
     }
+    @media (max-width: 370px){
+      max-width: 100%;
+    }
   }
   .nav-tabs::before,
   .nav-tabs::after{
@@ -3408,6 +3352,46 @@ section#ui_tabsProductBehavioral{
         display: block;
       }
     }
+  }
+
+}
+
+section#ui_recipes{
+  &.container{
+    background-image: url(../images/bg_recipies.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: auto;
+    min-height: 640px;
+    padding-left: 123px;
+    padding-top: 100px;
+    margin-top: 100px;
+    max-width: 100%;
+    overflow-x: hidden;
+    @media (max-width: 1199px){
+      width: 100%;
+      padding-left: 61px;
+    }
+    @media (max-width: 800px){
+      padding-left: 15px;
+    }
+  }
+
+  h2,
+  p{
+    color: white;
+  }
+
+  h2{
+    margin-bottom: 35px;
+  }
+  p{
+    padding-right: 19px;
+  }
+
+  .box{
+    margin-top: 90px;
   }
 
 }
@@ -3596,8 +3580,8 @@ section#prebuilt_start{
         text-align: center;
         margin-bottom: 60px;
         img{
-          width: 115px;
-          height: 100px;
+          width: 120px;
+          height: 120px;
         }
         p{
           font-family: $font_family_product;

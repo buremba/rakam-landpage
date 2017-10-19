@@ -3209,7 +3209,8 @@ section#prebuilt_tab .nav-tabs {
   padding-left: 15px;
   padding-right: 15px;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 40px; }
 
 section#prebuilt_tab .nav-tabs > li.active > a,
 section#prebuilt_tab .nav-tabs > li.active > a:focus,
@@ -3221,9 +3222,12 @@ section#prebuilt_tab .nav-tabs::after {
   display: none;
   content: none; }
 
-@media (max-width: 560px) {
-  section#prebuilt_tab .nav-tabs > li {
-    width: 50%; } }
+section#prebuilt_tab .nav-tabs > li {
+  margin: 0 45px -1px; }
+  @media (max-width: 560px) {
+    section#prebuilt_tab .nav-tabs > li {
+      width: 50%;
+      margin: 0; } }
 
 section#prebuilt_tab .nav-tabs > li > a {
   text-align: center;
@@ -3264,7 +3268,8 @@ section#prebuilt_tab .nav > li > a:hover {
   background: none; }
 
 section#prebuilt_tab .nav-tabs > li.active > a:before {
-  box-shadow: none; }
+  box-shadow: none;
+  border: none; }
 
 section#prebuilt_tab .nav-tabs > li:nth-child(1) > a:before {
   background-image: url(../images/advePrebuild.svg); }

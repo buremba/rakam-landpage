@@ -3672,6 +3672,7 @@ section#prebuilt_tab{
     padding-right: 15px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 40px;
   }
   .nav-tabs>li.active>a,
   .nav-tabs>li.active>a:focus,
@@ -3685,8 +3686,10 @@ section#prebuilt_tab{
   }
 
   .nav-tabs>li{
+    margin: 0 45px -1px;
     @media (max-width: 560px){
       width: 50%;
+      margin: 0;
     }
   }
 
@@ -3728,6 +3731,7 @@ section#prebuilt_tab{
   }
   .nav-tabs>li.active>a:before{
     box-shadow: none;
+    border: none;
   }
 
 

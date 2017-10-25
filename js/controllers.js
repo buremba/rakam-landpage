@@ -473,3 +473,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
         }
       ];
     })
+
+    .controller('mainTabs', function ($scope, $window) {
+
+    })

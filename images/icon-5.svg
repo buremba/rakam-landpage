@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>5AB8BAF8-BFDF-4A9D-9C91-3585EF0754DB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="149.460671%" y2="71.875%" id="linearGradient-1">
+            <stop stop-color="#00EAF8" offset="0%"></stop>
+            <stop stop-color="#6D42EF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-624.000000, -587.000000)">
+            <g id="icon5" transform="translate(624.000000, 587.000000)">
+                <g>
+                    <g>
+                        <circle id="Oval-4-Copy" fill="#FFFFFF" cx="43" cy="43" r="43"></circle>
+                        <path d="M38.8322222,46.812 L47.18,51.588" id="Shape" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M47.1677778,38.412 L38.8322222,43.188" id="Shape" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M50.3333333,40.2 C48.3082893,40.2 46.6666667,38.5882251 46.6666667,36.6 C46.6666667,34.6117749 48.3082893,33 50.3333333,33 C52.3583774,33 54,34.6117749 54,36.6 C54,38.5882251 52.3583774,40.2 50.3333333,40.2 Z M35.6666667,48.6 C33.6416226,48.6 32,46.9882251 32,45 C32,43.0117749 33.6416226,41.4 35.6666667,41.4 C37.6917107,41.4 39.3333333,43.0117749 39.3333333,45 C39.3333333,46.9882251 37.6917107,48.6 35.6666667,48.6 Z M50.3333333,57 C48.3082893,57 46.6666667,55.3882251 46.6666667,53.4 C46.6666667,51.4117749 48.3082893,49.8 50.3333333,49.8 C52.3583774,49.8 54,51.4117749 54,53.4 C54,55.3882251 52.3583774,57 50.3333333,57 Z" id="Combined-Shape" stroke="url(#linearGradient-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

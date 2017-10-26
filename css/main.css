@@ -4301,7 +4301,8 @@ section#main_pricing .box_testimonials .tcb-quote-carousel blockquote {
   text-align: left;
   padding: 0;
   margin: 0;
-  padding-right: 26%; }
+  padding-right: 26%;
+  min-height: 168px; }
   section#main_pricing .box_testimonials .tcb-quote-carousel blockquote p {
     font-family: "Open Sans";
     font-size: 16px;

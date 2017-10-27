@@ -3476,6 +3476,20 @@ section#main_header .box {
       -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
       -moz-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
       box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
+  section#main_header .box .box_animation {
+    overflow: hidden;
+    min-height: 590px; }
+    section#main_header .box .box_animation .img_1 {
+      position: absolute;
+      left: -28px;
+      top: -32px;
+      z-index: 1; }
+    section#main_header .box .box_animation .img_2 {
+      position: absolute;
+      left: 81px;
+      top: 59px;
+      min-width: 499px;
+      max-height: 345px; }
 
 section#main_header .box + div > div {
   margin-top: -90px; }

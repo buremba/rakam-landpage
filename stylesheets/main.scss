@@ -3975,6 +3975,24 @@ section#main_header{
       }
     }
 
+    .box_animation{
+      overflow: hidden;
+      min-height: 590px;
+      .img_1{
+        position: absolute;
+        left: -28px;
+        top: -32px;
+        z-index: 1;
+      }
+      .img_2{
+        position: absolute;
+        left: 81px;
+        top: 59px;
+        min-width: 499px;
+        max-height: 345px;
+      }
+    }
+
     // img{
     //   margin-left: -64px;
     // }

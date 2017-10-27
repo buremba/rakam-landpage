@@ -3476,8 +3476,6 @@ section#main_header .box {
       -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
       -moz-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
       box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
-  section#main_header .box img {
-    margin-left: -64px; }
 
 section#main_header .box + div > div {
   margin-top: -90px; }

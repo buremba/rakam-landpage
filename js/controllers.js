@@ -134,7 +134,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
             if (window.Intercom) {
                 window.Intercom('update', {email: email, visited_demo: true});
             }
-            window.location = 'https://app.rakam.io/login?demo=187&email=' + email
+            window.location = 'https://app.rakam.io/login?demo=907&email=' + email
         }
 
         $scope.verify = function (email) {

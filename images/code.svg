@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="359px" height="158px" viewBox="0 0 359 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>2316F722-9911-42E7-9976-0F15F7767F1A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-5" transform="translate(-214.000000, -485.000000)">
+            <g id="Products1" transform="translate(214.000000, 287.000000)">
+                <g id="Code" transform="translate(0.000000, 198.000000)">
+                    <rect id="bg-card" fill="#FFFFFF" x="0" y="0" width="359" height="158"></rect>
+                    <rect id="side-bg" fill="#CAF4FF" x="0" y="0" width="44" height="158"></rect>
+                    <g id="txt" transform="translate(18.000000, 25.000000)" font-size="12" line-spacing="12">
+                        <text id="5" font-family="Menlo-Bold, Menlo" font-weight="bold" fill="#02AFDE">
+                            <tspan x="0" y="107">5</tspan>
+                        </text>
+                        <text id="4" font-family="Menlo-Bold, Menlo" font-weight="bold" fill="#02AFDE">
+                            <tspan x="0" y="83">4</tspan>
+                        </text>
+                        <text id="3" font-family="Menlo-Bold, Menlo" font-weight="bold" fill="#02AFDE">
+                            <tspan x="0" y="60">3</tspan>
+                        </text>
+                        <text id="2" font-family="Menlo-Bold, Menlo" font-weight="bold" fill="#02AFDE">
+                            <tspan x="0" y="35">2</tspan>
+                        </text>
+                        <text id="trakam.logEvent(‘tra" font-family="Menlo-Regular, Menlo" font-weight="normal">
+                            <tspan x="49" y="11.1230469" fill="#646782">trakam.logEvent</tspan>
+                            <tspan x="158.716797" y="11" font-family="Menlo-Bold, Menlo" font-weight="bold" fill="#646782">(</tspan>
+                            <tspan x="165.941406" y="11" font-family="Menlo-Bold, Menlo" font-weight="bold" fill="#FD8C43">‘transaction’</tspan>
+                            <tspan x="259.861328" y="11" font-family="Menlo-Bold, Menlo" font-weight="bold" fill="#646782">,{</tspan>
+                        </text>
+                        <text id="name:-‘Small-Desk’," font-family="Menlo-Bold, Menlo" font-weight="bold">
+                            <tspan x="69" y="35" fill="#02AFDE">name</tspan>
+                            <tspan x="96.5507812" y="35.1230469" font-family="Menlo-Regular, Menlo" font-weight="normal" fill="#646782">: ‘Small Desk’,</tspan>
+                        </text>
+                        <text id="quantity:-1," font-family="Menlo-Bold, Menlo" font-weight="bold">
+                            <tspan x="69" y="59" fill="#02AFDE">quantity</tspan>
+                            <tspan x="125.449219" y="59.1230469" font-family="Menlo-Regular, Menlo" font-weight="normal" fill="#646782">: 1,</tspan>
+                        </text>
+                        <text id="price:-130" font-family="Menlo-Bold, Menlo" font-weight="bold">
+                            <tspan x="69" y="82" fill="#02AFDE">price</tspan>
+                            <tspan x="103.775391" y="82.1230469" font-family="Menlo-Regular, Menlo" font-weight="normal" fill="#646782">: 130</tspan>
+                        </text>
+                        <text id="})" font-family="Menlo-Bold, Menlo" font-weight="bold" fill="#646782">
+                            <tspan x="49" y="106">})</tspan>
+                        </text>
+                        <text id="1" font-family="Menlo-Bold, Menlo" font-weight="bold" fill="#02AFDE">
+                            <tspan x="0" y="11">1</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

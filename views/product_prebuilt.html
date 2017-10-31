@@ -16,60 +16,32 @@
     </div>
 </section>
 
-<section class="container" id="prebuilt_start">
-    <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-            <ul>
-                <li>
-                    <img src="images/advertPrebuilt.svg" alt="">
-                    <p>Advertisement Analytics</p>
-                </li>
-                <li>
-                    <img src="images/web.svg" alt="">
-                    <p>Website Analytics</p>
-                </li>
-                <li>
-                    <img src="images/game.svg" alt="">
-                    <p>Gaming Analytics</p>
-                </li>
-                <li>
-                    <img src="images/mobile.svg" alt="">
-                    <p>Mobile Analytics</p>
-                </li>
-            </ul>
-        </div>
-        <div class="col-xs-12 col-sm-7 col-md-offset-1 col-md-7 col-lg-offset-1 col-lg-7">
-            <div class="row">
-                <h2 class="col-lg-12">
-                    Start easy, extend<br>
-                    when you need
-                </h2>
-                <p class="col-lg-10">If you're in a specific industry, we can help you to bootstrap your analytics service with our pre-defined recipes. The pre-defined recipes turn your generic Rakam projects into real analytics services with many pre-built reports and dashboards.</p>
-                <p class="col-lg-10">You can create new reports based on your needs, modify the existing one or just delete the reports and dashboard that you don't want to use. You don't need to buy service from a gaming analytics solution if you're in gaming industry or use Google Analytics for your websites. You can define your own metrics or alter the existing ones that we have defined for you. The current analytics services serve a generic purpose and you can't modify the metrics that they have defined.</p>
+<section class="container" id="prebuilt_tab">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box_pl">
+                <h2>Website</h2>
+                <p>You can integrate our JS SDK in a minute and start collecting data from your website. We provide most common metrics based on the data collected via JS tracker and give you the basic insights. Since your raw data is in Rakam from the beginning, you can create custom reports and dashboards when you need. Your data, your rules. 
+See comparison with Google Analytics.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <img src="images/macbookPrebuildWeb.png" alt="">
             </div>
         </div>
     </div>
-</section>
-
-<section class="container" id="prebuilt_tab">
-    <div ng-controller="tabsPrebuilt" class="row">
-
-        <uib-tabset active="active">
-
-            <uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}">
-                <div class="col-xs-5 col-sm-5 col-md-6">
-                    <img src="{{tab.imgUrl}}" alt="">
-                </div>
-                <div class="col-xs-7 col-sm-7 col-md-5">
-                    <h3>{{tab.title}}</h3>
-                    <p>{{tab.content}}</p>
-                </div>
-                <div class="box">
-                    <img src="{{tab.imgUrl}}" alt="">
-                </div>
-            </uib-tab>
-
-        </uib-tabset>
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 ta_c">
+                <img src="images/macbookPrebuildAdvertisement.png" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box_pr">
+                <h2>Advertisement</h2>
+                <p>Start analyzing your ads data with our prebuilt analytics service for advertisement and SEO services. You can analyze your both real-time and historical data-sets, join them with your different data-sets and create custom reports and dashboards for your needs..</p>
+            </div>
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg col-md-6 col-lg-6 ta_c">
+                <img src="images/macbookPrebuildAdvertisement.png" alt="">
+            </div>
+        </div>
     </div>
 </section>
 

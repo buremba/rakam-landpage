@@ -452,28 +452,10 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
 
     })
 
-    .controller('tabsPrebuilt', function ($scope, $window) {
-      $scope.tabs = [
-        { 
-            title:'Advertisement',
-            content:`Start analyzing your ads data with our prebuilt analytics service
-                     for advertisement and SEO services. You can analyze your both real-time
-                        and historical data-sets, join them with your different data-sets
-                         and create custom reports and dashboards for your needs.`,
-            imgUrl: `../images/macbookPrebuildAdvertisement.png`
-        },
-        {
-            title:'Website',
-            content: `You can integrate our JS SDK in a minute and start collecting data
-                     from your website. We provide most common metrics based on the data collected
-                      via JS tracker and give you the basic insights. Since your raw data is in Rakam
-                       from the beginning, you can create custom reports and dashboards when you need.
-                        Your data, your rules. See comparison with Google Analytics.`,
-            imgUrl: `../images/macbookPrebuildWeb.png`
-        }
-      ];
+    .controller('mainTabs', function ($scope, $window) {
+
     })
 
-    .controller('mainTabs', function ($scope, $window) {
+    .controller('apiTabs', function ($scope, $window) {
 
     })

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="359px" height="475px" viewBox="0 0 359 475" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>F98F15C5-78C7-44DA-B998-7420365FFBED</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-5" transform="translate(-994.000000, -485.000000)">
+            <g id="Products1" transform="translate(214.000000, 287.000000)">
+                <g id="3" transform="translate(780.000000, 198.000000)">
+                    <polygon id="bg-card" fill="#FFFFFF" points="0 0 359 0 359 475 0 475"></polygon>
+                    <text id="Scheduled-task" font-family="Menlo-Bold, Menlo" font-size="14" font-weight="bold" line-spacing="12" fill="#02AFDE">
+                        <tspan x="45" y="37">Scheduled task</tspan>
+                    </text>
+                    <path d="M28.6928135,32.1139433 L24.9970301,32.1139433 C24.4463856,32.1139433 24,31.6700785 24,31.1139433 C24,30.5616586 24.4530363,30.1139433 24.9970301,30.1139433 L28.8334541,30.1139433 L27.2704221,28.7552204 C26.8539125,28.3931541 26.8074663,27.7646524 27.1723238,27.3449318 C27.5346552,26.9281172 28.163735,26.8817395 28.5825402,27.2458013 L32.1853048,30.3776368 C32.4212594,30.582749 32.5384505,30.8733676 32.5293803,31.1630951 C32.5504935,31.4869882 32.4133024,31.8146252 32.1330003,32.0258479 L28.3205461,34.8987383 C27.8797946,35.2308683 27.2553704,35.1456267 26.9206799,34.7014774 C26.5883066,34.2604032 26.6737354,33.6354278 27.116916,33.3014673 L28.6928135,32.1139433 Z" id="Combined-Shape" fill="#02AFDE" transform="translate(28.265748, 31.050404) scale(-1, 1) translate(-28.265748, -31.050404) "></path>
+                    <g id="rakam" transform="translate(24.000000, 66.000000)">
+                        <text id="Name" font-family="Menlo-Regular, Menlo" font-size="12" font-weight="normal" line-spacing="12" fill="#646782">
+                            <tspan x="0" y="11">Name</tspan>
+                        </text>
+                        <rect id="Rectangle-4" stroke="#E0E0E0" x="0.5" y="22.5" width="310" height="23"></rect>
+                        <rect id="Rectangle-4" stroke="#44C56E" x="0.5" y="56.5" width="155" height="33" rx="2"></rect>
+                        <text id="Facebook-Ads" font-family="Menlo-Regular, Menlo" font-size="12" font-weight="normal" line-spacing="12" fill="#646782">
+                            <tspan x="10" y="39">Facebook Ads</tspan>
+                        </text>
+                        <text id="Login-with-Facebook" font-family="Menlo-Regular, Menlo" font-size="12" font-weight="normal" line-spacing="12" fill="#44C56E">
+                            <tspan x="9" y="78">Login with Facebook</tspan>
+                        </text>
+                    </g>
+                    <g id="port" transform="translate(14.000000, 200.000000)">
+                        <rect id="Rectangle-7" fill="#FAFAFA" x="0" y="0" width="331" height="75"></rect>
+                        <text id="collection" font-family="Menlo-Bold, Menlo" font-size="10" font-weight="bold" line-spacing="12" fill="#646782">
+                            <tspan x="10" y="17">collection</tspan>
+                        </text>
+                        <rect id="Rectangle-4" stroke="#E0E0E0" x="10.5" y="28.5" width="310" height="23"></rect>
+                        <text id="facebook_ads" font-family="Menlo-Regular, Menlo" font-size="12" font-weight="normal" line-spacing="12" fill="#646782">
+                            <tspan x="20" y="45">facebook_ads</tspan>
+                        </text>
+                        <text id="The-collection-name" font-family="Menlo-Regular, Menlo" font-size="8" font-weight="normal" line-spacing="12" fill="#9092A7">
+                            <tspan x="20" y="62">The collection name for result data</tspan>
+                        </text>
+                    </g>
+                    <g id="port" transform="translate(14.000000, 285.000000)">
+                        <rect id="Rectangle-7" fill="#FAFAFA" x="0" y="0" width="331" height="75"></rect>
+                        <text id="start_date" font-family="Menlo-Bold, Menlo" font-size="10" font-weight="bold" line-spacing="12" fill="#646782">
+                            <tspan x="10" y="17">start_date</tspan>
+                        </text>
+                        <rect id="Rectangle-4" stroke="#E0E0E0" x="10.5" y="28.5" width="310" height="23"></rect>
+                        <text id="2016-12-01" font-family="Menlo-Regular, Menlo" font-size="12" font-weight="normal" line-spacing="12" fill="#646782">
+                            <tspan x="20" y="45">2016-12-01</tspan>
+                        </text>
+                        <text id="The-start-date-for-f" font-family="Menlo-Regular, Menlo" font-size="8" font-weight="normal" line-spacing="12" fill="#9092A7">
+                            <tspan x="20" y="62">The start date for facebook ads data</tspan>
+                        </text>
+                    </g>
+                    <text id="customize-integratio" font-family="Menlo-Regular, Menlo" font-size="12" font-weight="normal" line-spacing="12" fill="#646782">
+                        <tspan x="24" y="380">customize integration</tspan>
+                    </text>
+                    <g id="rakam" transform="translate(24.000000, 405.000000)">
+                        <text id="Interval" font-family="Menlo-Regular, Menlo" font-size="12" font-weight="normal" line-spacing="12" fill="#646782">
+                            <tspan x="0" y="11">Interval</tspan>
+                        </text>
+                        <rect id="Rectangle-4" stroke="#E0E0E0" x="0.5" y="22.5" width="310" height="23"></rect>
+                        <path d="M246.5,22.5 L246.5,45.5" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                        <text id="24" font-family="Menlo-Regular, Menlo" font-size="12" font-weight="normal" line-spacing="12" fill="#646782">
+                            <tspan x="10" y="39">24</tspan>
+                        </text>
+                        <text id="hours" font-family="Menlo-Regular, Menlo" font-size="12" font-weight="normal" line-spacing="12" fill="#646782">
+                            <tspan x="256" y="39">hours</tspan>
+                        </text>
+                        <polygon id="Path-3" fill="#D8D8D8" points="297 33 303 33 300 36"></polygon>
+                    </g>
+                    <text id="Parameters" font-family="Menlo-Bold, Menlo" font-size="12" font-weight="bold" line-spacing="12" fill="#646782">
+                        <tspan x="24" y="191">Parameters</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -6,9 +6,7 @@
         <div class="col-xs-12 col-sm-5 col-lg-5">
             <h1>Rakam API</h1>
             <p> 
-                It's your analytics backend.
-                Setup Rakam API with just one click
-                and power your business intelligence.
+                This is your company-wide data and analytics platform. Easy to install, addictive to use.
             </p>
             <a href="#">Try It Free</a>
         </div>
@@ -19,65 +17,71 @@
 </section>
 
 <section class="container" id="api_oneClick">
-    <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <ul>
-                <li>
-                    <img src="images/endpoint@3x.svg" alt="">
-                    <p>Rich analytical features with more than 100 endpoints.</p>
-                </li>
-                <li>
-                    <img src="images/scale@3x.svg" alt="">
-                    <p>Designed to handle your event data at any scale.</p>
-                </li>
-                <li>
-                    <img src="images/click.svg" alt="">
-                    <p>One-Click installation to DO AWS, Heroku, and Docker</p>
-                </li>
-                <li>
-                    <img src="images/icon@3x.svg" alt="">
-                    <p>It's modular, develop custom modules when you need.</p>
-                </li>
-            </ul>
-        </div>
-        <div class="col-xs-12 col-sm-7 col-md-offset-1 col-md-7 col-lg-offset-1 col-lg-7">
-            <h2 class="col-lg-12">
-                One-Click<br>
-                Analytics Backend
-            </h2>
-            <p class="col-lg-10">Rakam API is an open-source analytics backend with more then 100 endpoints. It exposes a RESTFul API with more than 100 endpoints for both collecting and analyzing data.</p>
-            <p class="col-lg-10">We use Swagger for defining API endpoints so Rakam API can be integrated into your current infrastructure. You can also develop custom modules and implement new endpoints and features depending on your needs.</p>
-            <p class="col-lg-10">You can directly connect your Rakam API via RESTFul API or Rakam API client library for your favorite programming language. Our SDKs are also built on top of Rakam API so you can easily set your Rakam API and send your data directly to your Rakam API Cluster.</p>
-        </div>
+    <div ng-controller="apiTabs" class="row box">
+        <uib-tabset active="active">
+
+            <uib-tab index="0" heading="Rich analytical features with more than 60 endpoints">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_1">
+                    <h3>Rich analytical features with more than 60 endpoints</h3>
+                    <p>Rakam API is a RESTFul API with more than 60 endpoints. You send your data, integrate your data sources using this API and you will also be using this API in order to analyze your data and run SQL queries. We use Swagger as API framework and provide both mobile and web SDKs for you to integrate Rakam into your applications.</p>
+                </div>
+                <div class="hidden-xs col-sm-3">
+                    <img src="../images/api1.svg" alt="">
+                </div>
+            </uib-tab>
+
+            <uib-tab index="1" heading="Designed to handle your event-data at any scale">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_2">
+                    <h3>Designed to handle your event-data at any scale</h3>
+                    <p>It's developed in Java 8 and Javascript V8 and designed for big-data. A simple 2GB server can handle +10K events per second, our customers process more than 30B events monthly with Rakam API</p>
+                </div>
+                <div class="hidden-xs col-sm-3">
+                    <img src="../images/api2.svg" alt="">
+                </div>
+            </uib-tab>
+
+            <uib-tab index="2" heading="One-click installers to your cloud provider">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_3">
+                    <h3>One-click installers to your cloud provider</h3>
+                    <p>We also provide one click installers to cloud providers such as AWS, Heroku, Digitalocean. They take care of load balancing and help you deployment and scaling the cluster. You don’t need a data engineer.</p>
+                </div>
+                <div class="hidden-xs col-sm-3">
+                    <img src="../images/api3.svg" alt="">
+                </div>
+            </uib-tab>
+
+            <uib-tab index="3" heading="Customizable, it scales with your company">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_4">
+                    <h3>Customizable, it scales with your company</h3>
+                    <p>We’re aware that your analytics needs change when your company grows but your analytics services doesn’t grow with your company and in fact, that’s why we created Rakam. You can enrich your data with your custom logic, create your own modules and build your own solutions such as recommendation, fraud detection using the data collected via Rakam.</p>
+                </div>
+                <div class="hidden-xs col-sm-3">
+                    <img src="../images/api4.svg" alt="">
+                </div>
+            </uib-tab>
+
+        </uib-tabset>
+
     </div>
 </section>
 
 <section class="container" id="api_fastAndScalable">
-    <div class="col-xs-12">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box_pl">
-                <h2>Fast and scalable</h2>
-                <p>A single Rakam API server can handle more than 50K events concurrently, it's based on Java 8, Netty and Jackson. We use our custom JSON parsers in order to use lower memory footprint and CPU, Netty allows us to handle thousands of requests concurrently without any problem. You can also scale your Rakam API by adding new nodes to the cluster, we provide extra tools for scaling your Rakam API cluster using your favorite cloud provider.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <img src="images/macbook.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="col-xs-12">
-        <div class="row">
-            <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 ta_c">
-                <img src="images/macbook2.png" alt="">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box_pr">
-                <h2>Rich Query API</h2>
-                <p>We provide you the most common analysis features required for an analytics service. Event analytics is easy with event explorer and real-time features and behavioral analytics queries can be run via funnel and retention features. 
-                You can also run SQL queries via Query API, integrate your custom databases and remote files and merge data to build your own reports.
-                <br> 
-                Since Rakam stores the raw data, we provide some some features to be able to create summary tables, OLAP cubes, stream processing rule for pre-aggregating the data and accessing the the data faster.</p>
-            </div>
-            <div class="col-xs-12 hidden-sm hidden-md hidden-lg col-md-6 col-lg-6 ta_c">
-                <img src="images/macbook2.png" alt="">
+    <div class="row">
+        <h2>Data collection</h2>
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 box">
+                    <h3>RESTFul API and SDKs</h3>
+                    <img src="images/code.svg" alt="">
+                </div>
+                <div class="col-sm-12 col-md-4 box">
+                    <h3>External data sources</h3>
+                    <img src="images/code2.svg" alt="">
+                </div>
+                <div class="col-sm-12 col-md-4 box">
+                    <h3>Third-party data sources</h3>
+                    <img src="images/code3.svg" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -87,8 +91,9 @@
     <div class="row box">
         <div class="col-xs-12">
             <div class="row">
-                <h2 class="col-xs-12">Embedded SQL</h2>
-                <p class="col-xs-12 col-sm-7">Did our Facebook ADS campaign worked well enough to increase our revenue? SQL</p>
+                <h2 class="col-xs-12">Pro tip</h2>
+                <p class="col-xs-12 col-sm-9">If you have billions of data and want to power your dashboards using complex queries, we also provide ways to create summary tables from your raw data with materialialized views. We pre-process your data incrementally and allow you to create workflows with SQL.</p>
+                <h2 class="col-xs-12" style="margin-top: 50px;">Data analysis</h2>
             </div>
         </div>
     </div>
@@ -170,7 +175,7 @@
                 <div>
                     <a href="#">
                         <div class="demo">
-                            visit demo
+                            Visit Demo
                         </div>
                     </a>
                 </div>
@@ -179,17 +184,20 @@
     </div>
 
     <div class="row box">
-        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div class="row">
                 <h3 class="col-lg-12">Customizable ETL</h3>
-                <p class="col-lg-10">The ETL process in Rakam API is completely transparent. We have both native and custom event mappers, you can write modules that implements native event mappers in Java for stateful and fast ETL tasks and inject it to your Rakam API event collection process.
-        However writing Java <a href="/doc/buremba/rakam-wiki/master/Developing-Modules" style="color: white; text-decoration-line: underline;">modules</a> are not an easy task so we have custom <a href="/doc/buremba/rakam-wiki/master/Event-Mappers" style="color: white; text-decoration-line: underline;">event mappers</a> with Javascript embedded in Rakam. You can basically write Javascript mappers and let Rakam to invoke them when a new event arrives. They may enrich your event data or sanitize bad inputs, it's up to you.</p>
+                <p class="col-lg-11">The ETL process in Rakam API is completely transparent. We have both native and custom event mappers, you can write modules that implements native event mappers in Java for stateful and fast ETL tasks and inject it to your Rakam API event collection process.<br>
+However writing Java <a href="/doc/buremba/rakam-wiki/master/Developing-Modules" style="color: white; text-decoration-line: underline;">modules</a> are not an easy task so we have custom event mappers with Javascript embedded in Rakam. You can basically write Javascript mappers and let Rakam to invoke them when a new event arrives. They may enrich your event data or sanitize bad inputs, it's up to you.<br><br>
 
-                <h3 class="col-lg-12" style="line-height: 1.33; margin-top: 57px;">Collect data from anywhere</h3>
-                <p class="col-lg-10">Rakam is data agnostic, you can send any kind of event data-set as long as it's immutable. You can just use the SDKs in order to ingegrate your application with Rakam easily or use the RESTFul API. We also provice embedded scheduled tasks, webhooks and some high level features for you to collect data from third party services. You can basically embed your scripts in Rakam and let it collect data for you. No cron-jobs, no manual process and no extra work after you setup the tasks. See <a href="/" style="color: white; text-decoration-line: underline;">collecting events</a> section in documentation.</p>
+In fact, in most cases you won't need to write event mappers because Rakam provides a set of <a href="/doc/buremba/rakam-wiki/master/Event-Mappers" style="color: white; text-decoration-line: underline;">event mappers</a> for different use-cases. However, it's important for us to provide you the ways to enrich and sanitize your event data so that you can embed your event pipeline inside Rakam without hassle.<br> 
+See event mappers section in documentation.</p>
+
+                <h3 class="col-lg-12" style="line-height: 1.33; margin-top: 57px;">Collect Data from<br> Anywhere</h3>
+                <p class="col-lg-11">Rakam is data agnostic, you can send any kind of event data-set as long as it's immutable. You can just use the SDKs in order to ingegrate your application with Rakam easily or use the RESTFul API. We also provice embedded scheduled tasks, webhooks and some high level features for you to collect data from third party services. You can basically embed your scripts in Rakam and let it collect data for you. No cron-jobs, no manual process and no extra work after you setup the tasks.<br> See <a href="/" style="color: white; text-decoration-line: underline;">collecting events</a> section in documentation.</p>
             </div>
         </div>
-        <div class="hidden-xs col-sm-7 col-md-7 col-lg-7">
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6" style="text-align: center;">
             <div class="row">
                 <img src="images/macbook3.png" alt="">
             </div>

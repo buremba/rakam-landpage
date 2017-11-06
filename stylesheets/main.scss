@@ -4874,8 +4874,6 @@ section#main_testimonials{
   &.container{
     padding-left: 123px;
     padding-right: 123px;
-    // min-height: 780px;
-    padding-bottom: 105px;
     margin-top: 50px;
     @media (max-width: 1199px){
       width: 100%;
@@ -4908,10 +4906,6 @@ section#main_testimonials{
     .carousel-control.left{
       display: none;
     }
-
-    // .carousel-inner{
-    //   @include box-shadow(0, 6px, 30px, rgba(65, 117, 165, 0.24), $inset: false);
-    // }
 
     .item{
       background-color: white;
@@ -4969,13 +4963,6 @@ section#main_testimonials{
     .tcb-quote-carousel .carousel{
       padding: 0;
     }
-    // .carousel-indicators{
-    //   width: 100%;
-    //   left: 0;
-    //   margin: 0;
-    //   top: 40%;
-    //   z-index: 0;
-    // }
 
     .tcb-quote-carousel .carousel .carousel-indicators > li{
       background-color: #D2DCE7;
@@ -4988,57 +4975,6 @@ section#main_testimonials{
     .tcb-quote-carousel .carousel .carousel-indicators .active{
       background-color: #677897;
     }
-    .tcb-quote-carousel .carousel .carousel-indicators > li:nth-child(1){
-      // position: absolute;
-      // top: 0;
-      // left: -55px;
-      // background: url(../images/l-arrow.svg);
-      // width: 23px;
-      // height: 48px;
-      // margin-right: 10px;
-    }
-    .tcb-quote-carousel .carousel .carousel-indicators > li:nth-child(2){
-      // position: absolute;
-      // top: 0;
-      // left: calc(100% + 28px);
-      // background: url(../images/r-arrow.svg);
-      // width: 25px;
-      // height: 48px;
-      // margin-left: 10px;
-    }
-
-    // @media (max-width: 800px){
-    //     h2{
-    //       margin-bottom: 78px;
-    //     }
-    //     .carousel-indicators{
-    //       top: -68px;
-    //     }
-    //     .tcb-quote-carousel .carousel .carousel-indicators > li:nth-child(1){
-    //       left: calc(48% - 40px);
-    //     }
-    //     .tcb-quote-carousel .carousel .carousel-indicators > li:nth-child(2){
-    //       left: calc(52% + 17px);
-    //     }
-    // }
-    // @media (max-width: 564px){
-    //     .carousel-fade .carousel-inner .active{
-    //       padding: 15px;
-    //       display: flex;
-    //       flex-direction: column-reverse;
-    //     }
-    //     .tcb-quote-carousel blockquote{
-    //       padding: 0;
-    //       margin-bottom: 10px;
-    //     }
-    //     .item .box{
-    //       float: left;
-    //       margin-bottom: 15px;
-    //     }
-    //     .item .profile-circle{
-    //       float: left;
-    //     }
-    // }
 
   }
 }

@@ -1,54 +1,55 @@
-<section class="container" id="main_header">
+<section class="container-fluid" id="main_header">
+    <div class="container">
+        <div ng-include src="'views/includes/new-header-product.html'"></div>
 
-    <div ng-include src="'views/includes/new-header-product.html'"></div>
-
-    <div class="row box">
-        <div class="col-xs-12 col-sm-5 col-lg-5">
-            <h1>Unified Analytical Platform</h1>
-            <p> 
-                Analytical window into your internal and external insight 
-            </p>
-            <a href="#">View Demo</a>
+        <div class="row box">
+            <div class="col-xs-12 col-sm-5 col-lg-5">
+                <h1>Unified Analytical Platform</h1>
+                <p> 
+                    Analytical window into your internal and external insight 
+                </p>
+                <a href="#">View Demo</a>
+            </div>
+            <div class="hidden-xs col-sm-7 col-lg-7 box_animation">
+                <img src="../images/animation_mocup_rakam.png" alt="" class="img_1">
+                <img src="../images/group-main-2.gif" alt="" class="img_2">
+                <img src="../images/group-main-3.png" alt="" class="img_3">
+            </div>
         </div>
-        <div class="hidden-xs col-sm-7 col-lg-7 box_animation">
-            <img src="../images/animation_mocup_rakam.png" alt="" class="img_1">
-            <img src="../images/group-main-2.gif" alt="" class="img_2">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <p>Trusted by such Companies</p>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="../images/Companies1.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../images/Companies2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../images/Companies3.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../images/Companies4.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../images/Companies5.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-xs-12">
-            <p>Trusted by such Companies</p>
-            <ul>
-                <li>
-                    <a href="">
-                        <img src="../images/Companies1.png" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="../images/Companies2.png" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="../images/Companies3.png" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="../images/Companies4.png" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="../images/Companies5.png" alt="">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
 </section>
 
 
@@ -110,59 +111,61 @@
 </section>
 
 
-<section class="container" id="main_our_products">
-    <div class="row row_h2">
-        <h2>Our Products</h2>
-    </div>
+<section class="container-fluid" id="main_our_products">
+    <div class="container">
+        <div class="row row_h2">
+            <h2>Our Products</h2>
+        </div>
 
-    <div class="row box">
-        <div class="col-sm-6">
-            <h3>Rakam API</h3>
-            <p>Takes care of collecting, enriching (No more complex ETL!) and storing the data on data warehouse. One-click installation to your AWS, Heroku, Digitalocean accounts or on-premise servers via Docker.</p>
-            <ul>
-                <li>Open source, deploy it at your premise or in the cloud.</li>
-                <li>Scalable, our customers currently store +30B events monthly</li>
-                <li>Feature-rich and customizable with more than +50 endpoints</li>
-                <li>Store data on your servers</li>
-            </ul>
-            <a href="#">Read More</a>
+        <div class="row box">
+            <div class="col-sm-6">
+                <h3>Rakam API</h3>
+                <p>Takes care of collecting, enriching (No more complex ETL!) and storing the data on data warehouse. One-click installation to your AWS, Heroku, Digitalocean accounts or on-premise servers via Docker.</p>
+                <ul>
+                    <li>Open source, deploy it at your premise or in the cloud.</li>
+                    <li>Scalable, our customers currently store +30B events monthly</li>
+                    <li>Feature-rich and customizable with more than +50 endpoints</li>
+                    <li>Store data on your servers</li>
+                </ul>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col-sm-5 img_center">
+                <img src="../images/homeOurProducts1.png" alt="">
+            </div>
         </div>
-        <div class="col-sm-5 img_center">
-            <img src="../images/homeOurProducts1.png" alt="">
-        </div>
-    </div>
 
-    <div class="row box">
-        <div class="hidden-xs col-sm-5">
-            <img src="../images/homeOurProducts2.svg" alt="">
+        <div class="row box">
+            <div class="hidden-xs col-sm-5">
+                <img src="../images/homeOurProducts2.svg" alt="">
+            </div>
+            <div class="col-sm-7">
+                <h3>Rakam UI</h3>
+                <p>Visualize and analyze your data within seconds. A simple and intuitive user interface for business users and data scientists.</p>
+                <ul>
+                    <li>Create your custom reports using SQL with dynamic variable support.</li>
+                    <li>Create your dashboards and customize the layout for your use-case</li>
+                    <li>Run funnels, retention and segmentation reports easily with drag & drop.</li>
+                </ul>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col-sm-5 hidden-sm hidden-md hidden-lg img_center">
+                <img src="../images/homeOurProducts2.svg" alt="">
+            </div>
         </div>
-        <div class="col-sm-7">
-            <h3>Rakam UI</h3>
-            <p>Visualize and analyze your data within seconds. A simple and intuitive user interface for business users and data scientists.</p>
-            <ul>
-                <li>Create your custom reports using SQL with dynamic variable support.</li>
-                <li>Create your dashboards and customize the layout for your use-case</li>
-                <li>Run funnels, retention and segmentation reports easily with drag & drop.</li>
-            </ul>
-            <a href="#">Read More</a>
-        </div>
-        <div class="col-sm-5 hidden-sm hidden-md hidden-lg img_center">
-            <img src="../images/homeOurProducts2.svg" alt="">
-        </div>
-    </div>
 
-    <div class="row box" id="recipes">
-        <div class="col-sm-6">
-            <h3>Analytics with Recipes</h3>
-            <p>Do you need to act fast and you don't have time for additional settings? Rakam provides Pre-Built templates with all needed data and metrics according to your line of work. We already predicted what data will be needed during your work process, but if you need some extra features they can be easily set up by several clicks!</p>
-            <ul>
-                <li>Turn Rakam into a marketing analytics solution by connecting Facebook Ads, Google Adwords and Google Webmaster recipes.</li>
-                <li>We created e-commerce analytics solutions for you. Install the recipe and use the e-commerce metrics</li>
-            </ul>
-            <a href="#">Read More</a>
-        </div>
-        <div class="col-sm-5 img_center">
-            <img src="../images/homeOurProducts3.svg" alt="">
+        <div class="row box" id="recipes">
+            <div class="col-sm-6">
+                <h3>Analytics with Recipes</h3>
+                <p>Do you need to act fast and you don't have time for additional settings? Rakam provides Pre-Built templates with all needed data and metrics according to your line of work. We already predicted what data will be needed during your work process, but if you need some extra features they can be easily set up by several clicks!</p>
+                <ul>
+                    <li>Turn Rakam into a marketing analytics solution by connecting Facebook Ads, Google Adwords and Google Webmaster recipes.</li>
+                    <li>We created e-commerce analytics solutions for you. Install the recipe and use the e-commerce metrics</li>
+                </ul>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col-sm-5 img_center">
+                <img src="../images/homeOurProducts3.svg" alt="">
+            </div>
         </div>
     </div>
 </section>
@@ -170,7 +173,7 @@
 
 <section class="container" id="main_why_do">
     <div class="row">
-        <h2 class="col-xs-12">Why do I need Rakam?</h2>
+        <h2 class="col-xs-12">Why should I use Rakam?</h2>
     </div>
     <div class="row">
         <ul>
@@ -186,7 +189,7 @@
             </li>
             <li>
                 <img src="../images/homeWhyDo3.svg" alt="">
-                <h3>I am a Business Man</h3>
+                <h3>I am a Business User</h3>
                 <p>A magnet fitting all your data sources into a single view to enable you to make informed decisions</p>
             </li>
         </ul>
@@ -194,83 +197,72 @@
 </section>
 
 
-<section class="container" id="main_pricing">
-    <div class="row box_header">
-        <h2>Pricing Of Our Company</h2>
-        <p>Let’s create your company-wide analytics platform together.</p>
-    </div>
+<section class="container-fluid" id="main_pricing">
+    <div class="container">
+        <div class="row box_header">
+            <h2>Pricing Of Our Company</h2>
+            <p>Let’s create your company-wide analytics platform together.</p>
+        </div>
 
-    <div class="row box_content">
-        <div class="col-sm-6">
-            <h3>Open-source</h3>
-            <ul>
-                <li>* On-premise Rakam, full control over your data</li>
-                <li>* Postgresql data warehouse, good for up to 1B data points</li>
-                <li>* Event Mappers</li>
-                <li>* Third party data integration</li>
-                <li>* External data integration</li>
-            </ul>
-            <a href="" class="home_more">Learn More</a>
-            <a href="" class="home_btn">Get started</a>
-        </div>
-        <div class="col-sm-6">
-            <h3>Premium</h3>
-            <ul>
-                <li>* All the features of open-source version.</li>
-                <li>* One click installers to your cloud provider</li>
-                <li>* Scalable for +1B data points</li>
-                <li>* Premium support</li>
-                <li>* External data integration</li>
-                <li>* Optional managed Rakam cluster</li>
-            </ul>
-            <a href="" class="home_more">Learn More</a>
+        <div class="row box_content">
+            <div class="col-sm-6">
+                <h3>Open-source</h3>
+                <ul>
+                    <li>* On-premise Rakam, full control over your data</li>
+                    <li>* Postgresql data warehouse, good for up to 1B data points</li>
+                    <li>* Event Mappers</li>
+                    <li>* Third party data integration</li>
+                    <li>* External data integration</li>
+                </ul>
+                <a href="" class="home_more">Learn More</a>
+                <a href="" class="home_btn">Get started</a>
+            </div>
+            <div class="col-sm-6">
+                <h3>Premium</h3>
+                <ul>
+                    <li>* All the features of open-source version.</li>
+                    <li>* One click installers to your cloud provider</li>
+                    <li>* Scalable for +1B data points</li>
+                    <li>* Premium support</li>
+                    <li>* External data integration</li>
+                    <li>* Optional managed Rakam cluster</li>
+                </ul>
+                <a href="" class="home_more">Learn More</a>
+            </div>
         </div>
     </div>
+</section>
+
+<section class="container" id="main_testimonials">
 
     <div class="row box_testimonials">
         <h2>Testimonials</h2>
         <div class="col-md-10 col-md-offset-1">
-            <div class="tcb-quote-carousel">
 
-                <div class="carousel slide carousel-fade" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
-                    <!-- Carousel indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#fade-quote-carousel" ng-click="activeSlide = 0" class="active"></li>
-                        <li data-target="#fade-quote-carousel" ng-click="activeSlide = 1"></li>
-                    </ol>
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        <div class="item" ng-class="{active: activeSlide == 0}">
-                            <blockquote>
-                                <p>With Rakam.io we're able to process our custom event data with ease. Being able to write our own custom reports allows us to created detailed reports. We can segment users based on complicated action history and see user engagements and retention for each user segment. The rakam BI panel allows us to create useful reports with graphs and tables easily which saves us the trouble of developing extra analytics panel.</p>
-                            </blockquote>
-                            <div class="box">
-                                <h3>Kaan Uğurlu</h3>
-                                <p>Co-Founder | Scorp</p>
-                            </div>
-                            <div class="profile-circle">
-                                <img class="img-responsive " src="/images/kaan_ugurlu.jpg" alt="Kaan Uğurlu">
-                            </div>
-                        </div>
+            <div ng-controller="CarouselCtrl">
+              <div class="tcb-quote-carousel">
+                <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
 
-                        <div class="item" ng-class="{active: activeSlide == 1}">
-                            <blockquote>
-                                <p>Before that we’ve used default Facebook and Google reporting tools and were hard to combine all data. With Rakam we’re able to combine and analyze all details, at this moment we’re using pre-built analytics for our customers and happy to dive into data without any missing points for ads.</p>
-                            </blockquote>
-                            <div class="box">
-                                <h3>Osman Erdoğan</h3>
-                                <p>Managing Partner | Clickteller Digital Marketing Agency</p>
-                            </div>
-                            <div class="profile-circle">
-                                <img class="img-responsive " src="/images/osman1.png" alt="">
-                            </div>
-                        </div>
+                  <div class="item" uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+                    <div class="profile-circle">
+                        <img class="img-responsive" ng-src="{{slide.image}}" alt="{{slide.altImage}}">
                     </div>
-                </div>
+                    <div class="box">
+                        <h3>{{slide.title}}</h3>
+                        <p>{{slide.title2}}</p>
+                    </div>
+                    <blockquote>
+                        <p>{{slide.text}}</p>
+                    </blockquote>
+                  </div>
 
+                </div>
+              </div>
             </div>
+            
         </div>
     </div>
+
 </section>
 
 

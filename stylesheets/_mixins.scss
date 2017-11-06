@@ -256,3 +256,9 @@ $desktop-width: 1024px;
   &::-moz-placeholder          {@content}
   &:-ms-input-placeholder      {@content}  
 }
+
+
+@keyframes loader {
+  0%{opacity: 1;}
+  100%{opacity: 1;}
+}

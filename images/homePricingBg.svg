@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200px" height="1241px" viewBox="0 0 1200 1241" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1200px" height="761px" viewBox="0 0 1200 761" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>567E7DA7-17AD-46E7-BB51-5381BC5476FA</title>
+    <title>D850B987-4A21-467F-B499-0D80A836D0C6</title>
     <desc>Created with sketchtool.</desc>
     <defs>
         <linearGradient x1="-36.0579296%" y1="-28.9565885%" x2="100%" y2="100%" id="linearGradient-1">
@@ -13,50 +13,16 @@
             <stop stop-color="#17EAD9" offset="0%"></stop>
             <stop stop-color="#02AFDE" offset="100%"></stop>
         </linearGradient>
-        <path d="M85.2011521,6.99450051 L1146.89854,570.759459 L1146.89854,570.759459 C1179.57395,588.110215 1200,622.083682 1200,659.080052 L1200,1167.02457 L106.729479,1240.76314 L106.729479,1240.76314 C51.6261993,1244.47973 3.94327493,1202.82258 0.226686364,1147.7193 C0.075604968,1145.47932 -7.0779332e-14,1143.23489 -7.10542736e-14,1140.98982 L0,861.26193 L0,854.886003 L0,58.2204444 L-2.13162821e-14,58.2204444 C-2.52391338e-14,26.1879289 25.9674845,0.220444364 58,0.220444364 C67.484535,0.220444364 76.8243545,2.54639223 85.2011521,6.99450051 Z" id="path-3"></path>
+        <path d="M75.8920896,3.33864033 L1130.84843,345.461644 L1130.84843,345.461644 C1172.07782,358.832362 1200,397.241321 1200,440.584588 L1200,714.824709 L104.115753,759.966854 L104.115753,759.966854 C48.9340752,762.239921 2.3578009,719.349018 0.0847330312,664.16734 C0.0282503281,662.796149 1.25505769e-14,661.42394 1.42108547e-14,660.051587 L0,528.085772 L0,524.19179 L0,58.5099475 L7.10542736e-15,58.5099475 C3.1825756e-15,26.477432 25.9674845,0.509947467 58,0.509947467 C64.0753707,0.509947467 70.1130182,1.46448385 75.8920896,3.33864033 Z" id="path-3"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Home-Page-10/04/2017-screen-Install-Rakam" transform="translate(0.000000, -3290.000000)">
-            <g id="pricing" transform="translate(0.000000, 3236.000000)">
-                <g id="BG" transform="translate(0.000000, 54.000000)">
+        <g id="Home-Page--Testimonials2" transform="translate(0.000000, -3128.000000)">
+            <g id="pricing" transform="translate(0.000000, 3076.000000)">
+                <g id="BG" transform="translate(0.000000, 52.000000)">
                     <mask id="mask-4" fill="white">
                         <use xlink:href="#path-3"></use>
                     </mask>
                     <use id="Mask" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
-                    <g id="pattern" opacity="0.76805933" mask="url(#mask-4)">
-                        <g transform="translate(49.751244, 969.000000)">
-                            <rect id="duplicate_53_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.171586434" transform="translate(1043.781095, 247.000000) rotate(-127.800000) translate(-1043.781095, -247.000000) " x="895.522388" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_52_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.2650345" transform="translate(1013.930348, 247.000000) rotate(-131.400000) translate(-1013.930348, -247.000000) " x="865.671642" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_51_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.689212566" transform="translate(985.074627, 247.000000) rotate(-135.000000) translate(-985.074627, -247.000000) " x="836.81592" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_50_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.0428274114" transform="translate(955.223881, 247.000000) rotate(-138.600000) translate(-955.223881, -247.000000) " x="806.965174" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_49_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.222976072" transform="translate(925.373134, 247.000000) rotate(-142.200000) translate(-925.373134, -247.000000) " x="777.114428" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_48_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.661485137" transform="translate(895.522388, 247.000000) rotate(-145.800000) translate(-895.522388, -247.000000) " x="747.263682" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_47_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.179580361" transform="translate(865.671642, 247.000000) rotate(-149.400000) translate(-865.671642, -247.000000) " x="717.412935" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_46_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.795665892" transform="translate(836.815920, 247.000000) rotate(-153.000000) translate(-836.815920, -247.000000) " x="688.557214" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_45_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.0454949641" transform="translate(805.970149, 247.000000) rotate(-156.600000) translate(-805.970149, -247.000000) " x="657.711443" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_43_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.126287959" transform="translate(747.263682, 247.000000) rotate(-163.800000) translate(-747.263682, -247.000000) " x="599.004975" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_42_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.335326575" transform="translate(717.412935, 247.000000) rotate(-167.400000) translate(-717.412935, -247.000000) " x="569.154229" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_41_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.252806778" transform="translate(688.557214, 247.000000) rotate(-171.000000) translate(-688.557214, -247.000000) " x="540.298507" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_40_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.280735313" transform="translate(657.711443, 247.000000) rotate(-174.600000) translate(-657.711443, -247.000000) " x="509.452736" y="98" width="296.517413" height="298" rx="18.0000007"></rect>
-                            <rect id="duplicate_44_BG" stroke="#FFFFFF" stroke-width="1" transform="translate(777.114428, 247.000000) rotate(-160.200000) translate(-777.114428, -247.000000) " x="629.355721" y="98.5" width="295.517413" height="297" rx="18.0000007"></rect>
-                            <g id="Group-Copy-3" opacity="0.76805933" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(418.407960, 298.000000) rotate(-14.000000) translate(-418.407960, -298.000000) translate(39.800995, 86.000000)">
-                                <rect id="duplicate_53_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.171586434" transform="translate(548.492151, 212.000000) rotate(-127.800000) translate(-548.492151, -212.000000) " x="400.018832" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_52_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.2650345" transform="translate(518.797487, 212.000000) rotate(-131.400000) translate(-518.797487, -212.000000) " x="370.324168" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_51_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.689212566" transform="translate(489.102823, 212.000000) rotate(-135.000000) translate(-489.102823, -212.000000) " x="340.629504" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_50_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.0428274114" transform="translate(459.408159, 212.000000) rotate(-138.600000) translate(-459.408159, -212.000000) " x="310.93484" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_49_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.222976072" transform="translate(429.713495, 212.000000) rotate(-142.200000) translate(-429.713495, -212.000000) " x="281.240176" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_48_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.661485137" transform="translate(400.018832, 212.000000) rotate(-145.800000) translate(-400.018832, -212.000000) " x="251.545512" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_47_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.179580361" transform="translate(370.324168, 212.000000) rotate(-149.400000) translate(-370.324168, -212.000000) " x="221.850848" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_46_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.795665892" transform="translate(340.629504, 212.000000) rotate(-153.000000) translate(-340.629504, -212.000000) " x="192.156184" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_45_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.0454949641" transform="translate(310.934840, 212.000000) rotate(-156.600000) translate(-310.934840, -212.000000) " x="162.46152" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_43_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.126287959" transform="translate(251.545512, 212.000000) rotate(-163.800000) translate(-251.545512, -212.000000) " x="103.072192" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_42_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.335326575" transform="translate(221.850848, 212.000000) rotate(-167.400000) translate(-221.850848, -212.000000) " x="73.3775282" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_41_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.252806778" transform="translate(192.156184, 212.000000) rotate(-171.000000) translate(-192.156184, -212.000000) " x="43.6828643" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_40_BG" stroke="#FFFFFF" stroke-width="1.20000005" opacity="0.280735313" transform="translate(162.461520, 212.000000) rotate(-174.600000) translate(-162.461520, -212.000000) " x="13.9882004" y="62.7042254" width="296.946639" height="298.591549" rx="18.0000007"></rect>
-                                <rect id="duplicate_44_BG" stroke="#FFFFFF" transform="translate(281.240176, 212.000000) rotate(-160.200000) translate(-281.240176, -212.000000) " x="133.266856" y="63.2042254" width="295.946639" height="297.591549" rx="18.0000007"></rect>
-                            </g>
-                        </g>
-                    </g>
                 </g>
             </g>
         </g>

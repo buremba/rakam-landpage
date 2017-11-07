@@ -475,7 +475,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
           altImage:'Kaan Uğurlu',
           title:'Kaan Uğurlu',
           title2:'Co-Founder | Scorp',
-          text:`With Rakam.io we're able to process our custom event data with ease. Being able to write our own custom reports allows us to created detailed reports. We can segment users based on complicated action history and see user engagements and retention for each user segment. The rakam BI panel allows us to create useful reports with graphs and tables easily which saves us the trouble of developing extra analytics panel.`
+          text:`“With Rakam.io we're able to process our custom event data with ease. Being able to write our own custom reports allows us to created detailed reports. We can segment users based on complicated action history and see user engagements and retention for each user segment. The rakam BI panel allows us to create useful reports with graphs and tables easily which saves us the trouble of developing extra analytics panel.“`
         },
         { 
           id: 1,
@@ -491,7 +491,7 @@ app.controller('mainController', ['$scope', '$http', '$interval', function ($sco
           altImage:'Tomi Ayorinde',
           title:'Tomi Ayorinde',
           title2:'CEO | Mobileforms',
-          text:'We needed an Analytics solution that could scale with our business model. With rakam have a simple but yet powerful infrastructure that does that and more. I like that rakam does the heavy work for us. We don’t have to deal with multiple and complex Analytics products. We can just use Rakam and it grows with us.”'
+          text:'“We needed an Analytics solution that could scale with our business model. With rakam have a simple but yet powerful infrastructure that does that and more. I like that rakam does the heavy work for us. We don’t have to deal with multiple and complex Analytics products. We can just use Rakam and it grows with us.”'
         }
       ];
 

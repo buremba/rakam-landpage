@@ -1,17 +1,18 @@
-<section class="container" id="ui_header">
+<section class="container-fluid" id="ui_header">
+    <div class="container">
+        <div ng-include src="'views/includes/new-header-product.html'"></div>
 
-    <div ng-include src="'views/includes/new-header-product.html'"></div>
-
-    <div class="row box">
-        <div class="col-xs-12 col-sm-5 col-lg-5">
-            <h1>Rakam UI</h1>
-            <p> 
-                Interactive Data & Analytics Visualization Interface, enabling you to discover critical insights.
-            </p>
-            <a href="#">Try It Free</a>
-        </div>
-        <div class="hidden-xs col-sm-7 col-lg-7">
-            <img src="../images/IllustrationUi.png" alt="">
+        <div class="row box">
+            <div class="col-xs-12 col-sm-5 col-lg-5">
+                <h1>Rakam UI</h1>
+                <p> 
+                    Interactive Data & Analytics Visualization Interface, enabling you to discover critical insights.
+                </p>
+                <a href="#">Try It Free</a>
+            </div>
+            <div class="hidden-xs col-sm-7 col-lg-7">
+                <img src="../images/IllustrationUi.png" alt="">
+            </div>
         </div>
     </div>
 </section>
@@ -79,10 +80,10 @@
                 </div>
             </uib-tab>
 
-            <uib-tab index="2" heading="SQL Playground">
+            <uib-tab index="2" heading="SQL Editor">
                 <div class="col-xs-6 col-sm-6 col-md-5">
-                    <h3>SQL Playground</h3>
-                    <p>Run ANSI SQL queries on your event data-set, plug your external databases and remote files, integrate it with third-party services such as Facebook Ads and Intercom.io and join the data via SQL.</p>
+                    <h3>SQL Editor</h3>
+                    <p>Run SQL queries on your data, plug your external databases and remote files, integrate it with third-party services such as Facebook Ads and Intercom.io and join the data via SQL.</p>
                     <a href="#">Read More</a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-7">
@@ -97,7 +98,7 @@
                     <a href="#">Read More</a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-7">
-                    <img src="../images/query-imageUI.png" alt="">
+                    <img src="../images/data_visualization_query_builder.png" alt="">
                 </div>
             </uib-tab>
 
@@ -141,15 +142,15 @@
 
             <uib-tab index="2" heading="Segmentation">
                 <div class="col-xs-5 col-sm-5 col-md-6">
-                    <img src="../images/recipesUI.png" alt="">
+                    <img src="../images/behavioral-analytics-segmentation.png" alt="">
                 </div>
                 <div class="col-xs-7 col-sm-7 col-md-5">
                     <h3>Segment your users based on their actions.</h3>
-                    <p>Rakam allows easily ask complicated questions by breaking events apart by its properties. You can easily segment your audience based on those properties. Export segment .csv or exel file or even send an email to them.</p>
+                    <p>Generate cohorts in order to understand how often your users use your product and find the potential problems of the user flow quickly.</p>
                     <a href="#">Read More</a>
                 </div>
                 <div class="box">
-                    <img src="../images/recipesUI.png" alt="">
+                    <img src="../images/behavioral-analytics-segmentation.png" alt="">
                 </div>
             </uib-tab>
 
@@ -159,22 +160,22 @@
 </section>
 
 
-<section class="container" id="ui_recipes">
-    <div class="row">
+<section class="container-fluid" id="ui_recipes">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 box">
+                <div class="row">
+                    <h2 class="col-lg-12">Recipes</h2>
+                    <p class="col-lg-10">Recipes are pre-build reports and dashboards. We can provide you pre-built dashboards and reports for your industry so that you can start fast and customize it your your needs.</p>
+                </div>
+            </div>
 
-        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 box">
-            <div class="row">
-                <h2 class="col-lg-12">Recipes</h2>
-                <p class="col-lg-10">Recipes are pre-build reports and dashboards. We can provide you pre-built dashboards and reports for your industry so that you can start fast and customize it your your needs.</p>
+            <div class="hidden-xs col-sm-7 col-md-7 col-lg-7" style="text-align: right;">
+                <div class="row">
+                    <img src="images/macbookUiRecipes.png" alt="">
+                </div>
             </div>
         </div>
-
-        <div class="hidden-xs col-sm-7 col-md-7 col-lg-7" style="text-align: right;">
-            <div class="row">
-                <img src="images/macbookUiRecipes.png" alt="">
-            </div>
-        </div>
-
     </div>
 </section>
 

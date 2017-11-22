@@ -1,9 +1,13 @@
 {{ partial "header.html" . }}
+<section class="container-fluid" id="main_header">
+    <div class="container">
+        {{ partial "new-header-product.html" . }}
+    </div>
+</section>
 {{ range $index, $page := (.Paginate (where .Data.Pages "Type" "posts")).Pages }}
 {{ if ne $index 0 }}
 {{ end }}
 {{ .Render "li" }}
 {{ end }}
 {{ partial "pagination.html" .Paginator }}
-{{ partial "siteinfo.html" . }}
-{{ partial "footer.html" . }}
+{{ partial "new-footer-product.html" . }}

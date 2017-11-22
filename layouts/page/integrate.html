@@ -1,0 +1,185 @@
+{{ partial "header.html" . }}
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<section class="container-fluid" id="api_header">
+    <div class="container">
+        {{ partial "new-header-product.html" . }}
+        <h2 style="color:#646782">Integrate Rakam</h2>
+        <div style="margin-top:25px; background:white; box-shadow:0 0 6px rgba(0,0,0,0.08); border-radius:3px" class="integrate-area">
+            <div style="padding:20px 0" class="ng-scope">
+                <div class="integrate clearfix pt-20">
+                    <div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-l2">
+                            <div class="rounded" ng-class="{selected: param == 'buremba/rakam-javascript'}">
+                                <a href="?type=javascript"
+                                   aria-label="Collect data from websites" class="box-top">
+                                    <div>
+                                        <i class="fa fa-list-alt"></i> Website
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-l2">
+                            <div class="rounded col-md-6" ng-class="{selected: param == 'buremba/rakam-android'}"
+                                 style="border-radius: 3px 0 0 3px;">
+                                <a href="?type=android"
+                                   aria-label="Track your visitors activities on your Android app" class="box-top">
+                                    <div>
+                                        <i class="fa fa-android"></i> Android
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="rounded col-md-6" ng-class="{selected: param == 'rakam-io/rakam-ios'}"
+                                 style="border-radius: 0 3px 3px  0;">
+                                <a href="?type=ios"
+                                   aria-label="Track your visitors activities on your IOS app" class="box-top">
+                                    <div>
+                                        <i class="fa fa-apple"></i> IOS
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
+                            <div class="rounded col-md-12"
+                                 style="border-radius: 0 3px 3px  0;">
+                                <a href="?type=database"
+                                   aria-label="Integrate your custom databases" class="box-top">
+                                    <div>
+                                        <i class="fa fa-database"></i> Databases
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
+                            <div class="rounded" ng-class="{selected: param == 'import/'}">
+                                <a href="?type=import" aria-label="Import data to Rakam"
+                                   class="box-top">
+                                    <div>
+                                        <i class="fa fa-cloud-download"></i> Import Data
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-l2">
+                            <div class="rounded">
+                                <a href="https://docs.rakam.io/reference#collectevent-1"
+                                   aria-label="Send data to Rakam using your favorite programming language" class="box-top">
+                                    <div>
+                                        <i class="fa fa-code"></i> API Reference
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="integration-content" style="position:relative">
+                <div style="background:#eee">
+                    <div id="embedbox" style="position:relative; width:560px;left:50%;margin-left:-280px;"></div>
+                </div>
+                <div id="markdown" style="padding:20px"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/embed-box/2.0.3/embed-box.min.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/showdown.min.js"></script>
+<script>
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    var type = getParameterByName('type');
+
+    if(type == 'javascript' || !type) {
+        var page = "https://raw.githubusercontent.com/buremba/rakam-javascript/master/README.md";
+        $.get(page, function (data) {
+            var content = new showdown.Converter().makeHtml(data);
+
+            $('#markdown').html(content);
+
+            var edata = $('#markdown')[0].querySelector('pre').textContent;
+
+            new EmbedBox({
+                name: "Rakam web tracker",
+                theme: {
+                    accentColor: "#00bff3",
+                },
+                beforeContent: "Do you have a running Rakam cluster? If not, you can setup using <a href='/deploy' target='_blank'>our deployment guide</a>.",
+                templateVars: {
+                    registerURL: "http://app.rakam.io/register"
+                },
+                afterContent: "You just installed Rakam web tracker. You can track your events and learn more about our web tracker in " +
+                "<a href='/doc/buremba/rakam-javascript/master/README' target='_blank'>our documentation</a>.",
+                embedCode: edata,
+                container: "#embedbox"
+            });
+        })
+    }
+
+    if(type == 'android') {
+        var page = "https://raw.githubusercontent.com/buremba/rakam-android/master/README.md";
+        $.get(page, function (data) {
+            var content = new showdown.Converter().makeHtml(data);
+
+            $('#markdown').html(content);
+        })
+    }
+
+    if(type == 'ios') {
+        var page = "https://raw.githubusercontent.com/rakam-io/rakam-ios/master/README.md";
+        $.get(page, function (data) {
+            var content = new showdown.Converter().makeHtml(data);
+
+            $('#markdown').html(content);
+        })
+    }
+
+    if(type == 'import') {
+        var page = "https://raw.githubusercontent.com/buremba/rakam-wiki/master/Import.md";
+        $.get(page, function (data) {
+            var content = new showdown.Converter().makeHtml(data);
+
+            $('#markdown').html(content);
+        })
+    }
+
+    if(type == 'database') {
+        var page = "https://raw.githubusercontent.com/buremba/rakam-wiki/master/Database.md";
+        $.get(page, function (data) {
+            var content = new showdown.Converter().makeHtml(data);
+
+            $('#markdown').html(content);
+        })
+    }
+
+    if(type == 'api') {
+        var div = document.createElement('div');
+        div.innerHTML = '<a href="https://docs.rakam.io/reference#collectevent-1" target="_blank">Visit documentation</a><br><br>';
+        $('#markdown').append(div);
+
+        var frame = document.createElement('iframe');
+        frame.src = 'https://docs.rakam.io/reference#collectevent-1';
+        frame.setAttribute('style', 'border: none; width: calc(100% + 10px); height: 500px; margin:-5px')
+        $('#markdown').append(frame)
+    }
+
+    if(type == 'third-party') {
+        $.get("https://app.rakam.io/ui/scheduled-task/list", function (data) {
+        })
+        $.get("https://app.rakam.io/ui/webhook/list", function (data) {
+        })
+    }
+</script>
+{{ partial "new-footer-product.html" . }}

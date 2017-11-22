@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="638px" viewBox="0 0 1200 638" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>A435E57C-177E-4BAB-80FD-7BA31EF33804</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="-72.2929688%" y1="-18.8169946%" x2="35.6927083%" y2="60.566089%" id="linearGradient-1">
+            <stop stop-color="#17EAD9" offset="0%"></stop>
+            <stop stop-color="#02AFDE" offset="100%"></stop>
+        </linearGradient>
+        <path d="M75.7881785,3.40579866 L1130.66927,343.310664 L1130.66927,343.310664 C1171.98983,356.625015 1200,395.078851 1200,438.491522 L1200,566.408095 L106.513504,637.783954 L106.513504,637.783954 C51.4023092,641.381263 3.80966322,599.621008 0.212354159,544.509813 C0.0708223181,542.341528 5.71095222e-14,540.169207 5.68434189e-14,537.996308 L0,58.6106961 L-2.84217094e-14,58.6106961 C-3.23445612e-14,26.5781806 25.9674845,0.610696134 58,0.610696134 C64.0387456,0.610696134 70.0404487,1.55375928 75.7881785,3.40579866 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rakam-UI-Screen-10/10/2017-event" transform="translate(0.000000, -3043.000000)">
+            <g id="looper" transform="translate(0.000000, 3043.000000)">
+                <g id="BG">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <g id="looper" opacity="0.76805933" mask="url(#mask-3)" stroke="#FFFFFF">
+                        <g transform="translate(-10.000000, 341.000000)">
+                            <rect id="duplicate_53_BG" stroke-width="1.20000005" opacity="0.171586434" transform="translate(1034.000000, 211.000000) rotate(-127.800000) translate(-1034.000000, -211.000000) " x="885" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_52_BG" stroke-width="1.20000005" opacity="0.2650345" transform="translate(1004.000000, 211.000000) rotate(-131.400000) translate(-1004.000000, -211.000000) " x="855" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_51_BG" stroke-width="1.20000005" opacity="0.689212566" transform="translate(975.000000, 211.000000) rotate(-135.000000) translate(-975.000000, -211.000000) " x="826" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_50_BG" stroke-width="1.20000005" opacity="0.0428274114" transform="translate(945.000000, 211.000000) rotate(-138.600000) translate(-945.000000, -211.000000) " x="796" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_49_BG" stroke-width="1.20000005" opacity="0.222976072" transform="translate(915.000000, 211.000000) rotate(-142.200000) translate(-915.000000, -211.000000) " x="766" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_48_BG" stroke-width="1.20000005" opacity="0.661485137" transform="translate(885.000000, 211.000000) rotate(-145.800000) translate(-885.000000, -211.000000) " x="736" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_47_BG" stroke-width="1.20000005" opacity="0.179580361" transform="translate(855.000000, 211.000000) rotate(-149.400000) translate(-855.000000, -211.000000) " x="706" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_46_BG" stroke-width="1.20000005" opacity="0.795665892" transform="translate(826.000000, 211.000000) rotate(-153.000000) translate(-826.000000, -211.000000) " x="677" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_45_BG" stroke-width="1.20000005" opacity="0.0454949641" transform="translate(795.000000, 211.000000) rotate(-156.600000) translate(-795.000000, -211.000000) " x="646" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_43_BG" stroke-width="1.20000005" opacity="0.126287959" transform="translate(736.000000, 211.000000) rotate(-163.800000) translate(-736.000000, -211.000000) " x="587" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_42_BG" stroke-width="1.20000005" opacity="0.335326575" transform="translate(706.000000, 211.000000) rotate(-167.400000) translate(-706.000000, -211.000000) " x="557" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_41_BG" stroke-width="1.20000005" opacity="0.252806778" transform="translate(677.000000, 211.000000) rotate(-171.000000) translate(-677.000000, -211.000000) " x="528" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_40_BG" stroke-width="1.20000005" opacity="0.280735313" transform="translate(646.000000, 211.000000) rotate(-174.600000) translate(-646.000000, -211.000000) " x="497" y="62" width="298" height="298" rx="18.0000007"></rect>
+                            <rect id="duplicate_44_BG" stroke-width="1" transform="translate(766.000000, 211.000000) rotate(-160.200000) translate(-766.000000, -211.000000) " x="617.5" y="62.5" width="297" height="297" rx="18.0000007"></rect>
+                            <rect id="duplicate_53_BG" stroke-width="1.20000005" opacity="0.171586434" transform="translate(539.477491, 261.228823) rotate(-127.800000) translate(-539.477491, -261.228823) " x="390.261805" y="111.933049" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_52_BG" stroke-width="1.20000005" opacity="0.2650345" transform="translate(510.520823, 268.448532) rotate(-131.400000) translate(-510.520823, -268.448532) " x="361.305136" y="119.152757" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_51_BG" stroke-width="1.20000005" opacity="0.689212566" transform="translate(481.564154, 275.668240) rotate(-135.000000) translate(-481.564154, -275.668240) " x="332.348468" y="126.372465" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_50_BG" stroke-width="1.20000005" opacity="0.0428274114" transform="translate(452.607485, 282.887948) rotate(-138.600000) translate(-452.607485, -282.887948) " x="303.391799" y="133.592174" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_49_BG" stroke-width="1.20000005" opacity="0.222976072" transform="translate(423.650817, 290.107657) rotate(-142.200000) translate(-423.650817, -290.107657) " x="274.435131" y="140.811882" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_48_BG" stroke-width="1.20000005" opacity="0.661485137" transform="translate(394.694148, 297.327365) rotate(-145.800000) translate(-394.694148, -297.327365) " x="245.478462" y="148.03159" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_47_BG" stroke-width="1.20000005" opacity="0.179580361" transform="translate(365.737480, 304.547073) rotate(-149.400000) translate(-365.737480, -304.547073) " x="216.521794" y="155.251299" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_46_BG" stroke-width="1.20000005" opacity="0.795665892" transform="translate(336.780811, 311.766782) rotate(-153.000000) translate(-336.780811, -311.766782) " x="187.565125" y="162.471007" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_45_BG" stroke-width="1.20000005" opacity="0.0454949641" transform="translate(307.824143, 318.986490) rotate(-156.600000) translate(-307.824143, -318.986490) " x="158.608457" y="169.690715" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_43_BG" stroke-width="1.20000005" opacity="0.126287959" transform="translate(249.910806, 333.425907) rotate(-163.800000) translate(-249.910806, -333.425907) " x="100.695119" y="184.130132" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_42_BG" stroke-width="1.20000005" opacity="0.335326575" transform="translate(220.954137, 340.645615) rotate(-167.400000) translate(-220.954137, -340.645615) " x="71.7384509" y="191.34984" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_41_BG" stroke-width="1.20000005" opacity="0.252806778" transform="translate(191.997469, 347.865323) rotate(-171.000000) translate(-191.997469, -347.865323) " x="42.7817824" y="198.569549" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_40_BG" stroke-width="1.20000005" opacity="0.280735313" transform="translate(163.040800, 355.085032) rotate(-174.600000) translate(-163.040800, -355.085032) " x="13.8251138" y="205.789257" width="298.431373" height="298.591549" rx="18.0000007"></rect>
+                            <rect id="duplicate_44_BG" stroke-width="1" transform="translate(278.867474, 326.206198) rotate(-160.200000) translate(-278.867474, -326.206198) " x="130.151788" y="177.410424" width="297.431373" height="297.591549" rx="18.0000007"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

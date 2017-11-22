@@ -1,0 +1,320 @@
+{{ partial "header.html" . }}
+<section class="container-fluid" id="main_header">
+    <div class="container">
+        {{ partial "new-header-product.html" . }}
+
+        <div class="row box">
+            <div class="col-xs-12 col-sm-5 col-lg-5">
+                <h1>Unified Analytical Platform</h1>
+                <p> 
+                    Analytical window into your internal and external insight 
+                </p>
+                <a href="/demo">View Demo</a>
+            </div>
+            <div class="hidden-xs col-sm-7 col-lg-7 box_animation">
+                <img src="{{ .Site.BaseURL }}images/animation_mocup_rakam.png" alt="" class="img_1">
+                <img src="{{ .Site.BaseURL }}images/group-main-2.gif" alt="" class="img_2">
+                <img src="{{ .Site.BaseURL }}images/group-main-3.png" alt="" class="img_3">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <p>Trusted by such Companies</p>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="{{ .Site.BaseURL }}images/Companies1.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="{{ .Site.BaseURL }}images/Companies3.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="{{ .Site.BaseURL }}images/Companies4.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="{{ .Site.BaseURL }}images/Companies5.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="container" id="main_tab">
+    <div class="row">
+        <h2 class="col-xs-12">How Rakam Works</h2>
+    </div>
+
+    <div class="row box">
+        <div>
+  <ul class="nav nav-tabs">
+
+            <li  class="uib-tab nav-item active" index="0" heading="Install Rakam">
+  <a class="nav-link">Install Rakam</a>
+</li>
+
+            <li class="uib-tab nav-item" index="1" heading="Integrate data sources">
+  <a class="nav-link">Integrate data sources</a>
+</li>
+
+            <li class="uib-tab nav-item" index="2" heading="Predefined reports &amp; dashboards">
+  <a class="nav-link">Predefined reports &amp; dashboards</a>
+</li>
+
+            <li class="uib-tab nav-item" index="3" heading="Share with your team">
+  <a class="nav-link">Share with your team</a>
+</li>
+
+        </ul>
+  <div class="tab-content">
+    
+    <div class="tab-pane active" >
+    
+                <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_1">
+                    <h3>Install Rakam</h3>
+                    <p>install rakam to your cloud provider with one click</p>
+                    <a href="/deploy">Read More</a>
+                </div>
+                <div class="hidden-xs col-sm-2">
+                    <img src="{{ .Site.BaseURL }}images/main1.svg" alt="">
+                </div>
+            </div>
+
+            <div class="tab-pane" >
+    
+                <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_2">
+                    <h3>Integrate data sources</h3>
+                    <p>Integrate your website, mobile app, database or third party sources</p>
+                    <a href="/integrate">Read More</a>
+                </div>
+                <div class="hidden-xs col-sm-2">
+                    <img src="{{ .Site.BaseURL }}images/main2.svg" alt="">
+                </div>
+            </div>
+
+            <div class="tab-pane">
+    
+                <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_3">
+                    <h3>Reports &amp; dashboards</h3>
+                    <p>Explore your data with funnels, retention and segmentation reports or directly using SQL.</p>
+                    <a href="#recipes">Read More</a>
+                </div>
+                <div class="hidden-xs col-sm-2">
+                    <img src="{{ .Site.BaseURL }}images/main3.svg" alt="">
+                </div>
+            </div>
+
+            <div class="tab-pane" >
+    
+                <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_4">
+                    <h3>Share with your team</h3>
+                    <p>Once you created your reports and dashboard, share them with your team.</p>
+                    <a href="/product/ui">Read More</a>
+                </div>
+                <div class="hidden-xs col-sm-2">
+                    <img src="{{ .Site.BaseURL }}images/main4.svg" alt="">
+                </div>
+            </div>
+  </div>
+</div>
+
+    </div>
+</section>
+
+
+<section class="container-fluid" id="main_our_products">
+    <div class="container">
+        <div class="row row_h2">
+            <h2>Our Products</h2>
+        </div>
+
+        <div class="row box">
+            <div class="col-sm-6">
+                <h3>Rakam API</h3>
+                <p>Takes care of collecting, enriching (No more complex ETL!) and storing the data on data warehouse. One-click installation to your AWS, Heroku, Digitalocean accounts or on-premise servers via Docker.</p>
+                <ul>
+                    <li>Open source, deploy it at your premise or in the cloud.</li>
+                    <li>Scalable, our customers currently store +30B events monthly</li>
+                    <li>Feature-rich and customizable with more than +50 endpoints</li>
+                    <li>Store data on your servers</li>
+                </ul>
+                <a href="/product/api">Read More</a>
+            </div>
+            <div class="col-sm-6 img_center">
+                <img src="{{ .Site.BaseURL }}images/homeOurProducts1.png" alt="">
+            </div>
+        </div>
+
+        <div class="row box">
+            <div class="hidden-xs col-sm-6">
+                <img src="{{ .Site.BaseURL }}images/homeOurProducts2.svg" alt="">
+            </div>
+            <div class="col-sm-6">
+                <h3>Rakam UI</h3>
+                <p>Visualize and analyze your data within seconds. A simple and intuitive user interface for business users and data scientists.</p>
+                <ul>
+                    <li>Create your custom reports using SQL with dynamic variable support.</li>
+                    <li>Create your dashboards and customize the layout for your use-case</li>
+                    <li>Run funnels, retention and segmentation reports easily with drag & drop.</li>
+                </ul>
+                <a href="/product/ui">Read More</a>
+            </div>
+            <div class="col-sm-6 hidden-sm hidden-md hidden-lg img_center">
+                <img src="{{ .Site.BaseURL }}images/homeOurProducts2.svg" alt="">
+            </div>
+        </div>
+
+        <div class="row box" id="recipes">
+            <div class="col-sm-6">
+                <h3>Analytics with Recipes</h3>
+                <p>Do you need to act fast and you don't have time for additional settings? Rakam provides Pre-Built templates with all needed data and metrics according to your line of work. We already predicted what data will be needed during your work process, but if you need some extra features they can be easily set up by several clicks!</p>
+                <ul>
+                    <li>Turn Rakam into a marketing analytics solution by connecting Facebook Ads, Google Adwords and Google Webmaster recipes.</li>
+                    <li>We created e-commerce analytics solutions for you. Install the recipe and use the e-commerce metrics</li>
+                </ul>
+                <a href="/product/prebuilt">Read More</a>
+            </div>
+            <div class="col-sm-6 img_center">
+                <img src="{{ .Site.BaseURL }}images/homeOurProducts3.svg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="container" id="main_why_do">
+    <div class="row">
+        <h2 class="col-xs-12">Why should I use Rakam?</h2>
+    </div>
+    <!-- <div class="row"> -->
+        <ul class="row">
+            <li class="sol-xs-12 col-sm-4">
+                <img src="{{ .Site.BaseURL }}images/homeWhyDo1.svg" alt="">
+                <h3>I am a Developer</h3>
+                <p>Don’t spend time to develop your own data pipeline or build your own visualization tool</p>
+            </li>
+            <li class="sol-xs-12 col-sm-4">
+                <img src=".{{ .Site.BaseURL }}images/homeWhyDo2.svg" alt="">
+                <h3>I am a Data Scientist</h3>
+                <p>Run ad-hoc behavioral analytics queries such as funnel, retention reports and analyze your data with SQL queries</p>
+            </li>
+            <li class="sol-xs-12 col-sm-4">
+                <img src="{{ .Site.BaseURL }}images/homeWhyDo3.svg" alt="">
+                <h3>I am a Business User</h3>
+                <p>A magnet fitting all your data sources into a single view to enable you to make informed decisions</p>
+            </li>
+        </ul>
+    <!-- </div> -->
+</section>
+
+
+<section class="container-fluid" id="main_pricing">
+    {{ partial "pricing.html" . }}
+</section>
+
+<section class="container" id="main_testimonials">
+
+    <div class="row box_testimonials">
+        <h2>Testimonials</h2>
+        <div class="col-md-8 col-md-offset-2">
+
+            <div>
+              <div class="tcb-quote-carousel">
+                <div  no-wrap="noWrapSlides" class="carousel"><div class="carousel-inner">
+<div class="item active"><div class="text-center">
+                    <div class="profile-circle">
+                        <img class="img-responsive"alt="Kaan Uğurlu" src="/images/kaan_ugurlu.jpg">
+                    </div>
+                    <div class="box">
+                        <h3>Kaan Uğurlu</h3>
+                        <p>Co-Founder | Scorp</p>
+                    </div>
+                    <blockquote>
+                        <p>“With Rakam.io we're able to process our custom event data with ease. Being able to write our own custom reports allows us to created detailed reports. We can segment users based on complicated action history and see user engagements and retention for each user segment. The rakam BI panel allows us to create useful reports with graphs and tables easily which saves us the trouble of developing extra analytics panel.“</p>
+                    </blockquote>
+                  </div>
+</div><div class="item" ><div class="text-center">
+                    <div class="profile-circle">
+                        <img class="img-responsive" alt="Kevin Adams" src="/images/bitmap.png">
+                    </div>
+                    <div class="box">
+                        <h3>Kevin Adams</h3>
+                        <p>CTO | Adventure Bucket List</p>
+                    </div>
+                    <blockquote>
+                        <p>“Rakam helped me get up and running with funnel / retention analysis in under an hour.”</p>
+                    </blockquote>
+                  </div>
+</div><div class="item"><div class="text-center">
+                    <div class="profile-circle">
+                        <img class="img-responsive" alt="Tomi Ayorinde" src="/images/bitmap2.png">
+                    </div>
+                    <div class="box">
+                        <h3>Tomi Ayorinde</h3>
+                        <p>CEO | Mobileforms</p>
+                    </div>
+                    <blockquote>
+                        <p>“We needed an Analytics solution that could scale with our business model. With rakam have a simple but yet powerful infrastructure that does that and more. I like that rakam does the heavy work for us. We don’t have to deal with multiple and complex Analytics products. We can just use Rakam and it grows with us.”</p>
+                    </blockquote>
+                  </div>
+</div>
+
+                </div>
+<ol class="carousel-indicators">
+  <li class="active">
+    <span class="sr-only">slide 1 of 3<span>, currently active</span></span>
+  </li><li>
+    <span class="sr-only">slide 2 of 3</span>
+  </li><li >
+    <span class="sr-only">slide 3 of 3</span>
+  </li>
+</ol>
+</div>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+<script>
+    var makeActiveTestimonial = function(idx) {
+      $('.box_testimonials .item').removeClass('active');
+      $('.box_testimonials .item:eq('+idx+')').addClass('active');
+      $('.carousel-indicators > li').removeClass('active');
+      $('.carousel-indicators > li:eq('+idx+')').addClass('active');
+    }
+
+    var i = 0;
+    setInterval(function () {
+      i = (i + 1) % 3;
+      makeActiveTestimonial(i)
+    }, 10000);
+
+    $('.carousel-indicators > li').click(function(e) {
+        makeActiveTestimonial($(e.target).index())
+    })
+
+
+    var makeActiveIntegration = function(idx) {
+      $('#main_tab .uib-tab').removeClass('active');
+      $('#main_tab .uib-tab:eq('+idx+')').addClass('active');
+      $('#main_tab .tab-pane').removeClass('active');
+      $('#main_tab .tab-pane:eq('+idx+')').addClass('active');
+    }
+
+    $('.uib-tab').click(function(e) {
+        makeActiveIntegration($(e.target).parent().index())
+    })
+</script>
+
+{{ partial "new-footer-product.html" . }}

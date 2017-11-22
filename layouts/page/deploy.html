@@ -1,0 +1,94 @@
+{{ partial "header.html" . }}
+<section class="container-fluid" id="api_header">
+    <div class="container">
+        {{ partial "new-header-product.html" . }}
+        <h2 style="color:#646782">Deploy Rakam</h2>
+        <div style="margin-top:25px; background:white; padding:20px 30px; box-shadow:0 0 6px rgba(0,0,0,0.08); border-radius:3px">
+            <ul class="nav nav-tabs" style="margin-bottom:10px">
+                <li class="nav-item docker" attr="docker">
+                    <a class="nav-link" style="font-weight:bold">Docker</a>
+                </li>
+                <li class="nav-item heroku" attr="heroku">
+                    <a class="nav-link" style="font-weight:bold">Heroku</a>
+                </li>
+                <li class="nav-item awscloudformation" attr="awscloudformation">
+                    <a class="nav-link" style="font-weight:bold">AWS (Cloudformation)</a>
+                </li>
+                <li class="nav-item custom" attr="custom">
+                    <a class="nav-link" style="font-weight:bold">Custom</a>
+                </li>
+                <li class="nav-item managed" attr="managed">
+                    <a class="nav-link" style="font-weight:bold">Managed</a>
+                </li>
+            </ul>
+            <div id="content">
+                test
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/showdown.min.js"></script>
+<style>.nav-link {cursor:pointer}</style>
+<script>
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    var page = "https://raw.githubusercontent.com/rakam-io/rakam/master/README.md";
+    $.get(page, function (data) {
+        var content = new showdown.Converter().makeHtml(data);
+
+        $('#content').html(content);
+
+        $('.nav-item').click(function(e) {
+            var attr = $(e.target).parent().attr('attr');
+
+            var new_url = "";
+
+            if(window.location.search && window.location.search.indexOf('type=') != -1)
+                new_url = window.location.search.replace( /type=\w*\d*/, "type=" + attr);
+            else if(window.location.search)
+                new_url = window.location.search + "&type=" + attr;
+            else
+                new_url = window.location.search + "?type=" + attr;
+
+            window.location.href = new_url;
+        })
+
+        var type = getParameterByName('type') || 'docker';
+
+        $('.nav-item.'+type).addClass('active');
+
+        var actualElement = $('#content').find('#' + type);
+        if (!actualElement) {
+            return null;
+        }
+
+        var element = actualElement[0].nextElementSibling;
+        var html = "";
+        while (true) {
+            if (element.tagName === 'H2' || element.tagName === 'H3') {
+                break;
+            }
+            else {
+                html += element.outerHTML;
+            }
+
+            element = element.nextElementSibling;
+        }
+        $('#content').html(html);
+
+        $('#content').find('table').each(function (a) {
+            a.classList.add('table');
+            a.classList.add('table-bordered');
+        });
+    });
+</script>
+{{ partial "new-footer-product.html" . }}

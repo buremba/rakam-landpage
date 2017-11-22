@@ -1,0 +1,53 @@
+{{ partial "header.html" . }}
+
+<section class="container-fluid" id="prebuilt_header">
+    <div class="container">
+        {{ partial "new-header-product.html" . }}
+
+        <div class="row box">
+            <div class="col-xs-12 col-sm-6 col-lg-5">
+                <h1>Rakam Pre-Built Analytics</h1>
+                <p> 
+                    We're aware that creating your own reports is not an easy task, don't waste your time at start.
+                </p>
+                <a href="#">Try It Free</a>
+            </div>
+            <div class="hidden-xs col-sm-6 col-lg-7">
+                <img src="{{ .Site.BaseURL }}images/illustrationPrebuilt.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid" id="prebuilt_tab">
+    <div class="container">
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box_pl">
+                    <h2>Website</h2>
+                    <p>You can integrate our JS SDK in a minute and start collecting data from your website. We provide most common metrics based on the data collected via JS tracker and give you the basic insights. Since your raw data is in Rakam from the beginning, you can create custom reports and dashboards when you need. Your data, your rules.</br> 
+    See comparison with Google Analytics.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="{{ .Site.BaseURL }}images/macbookPrebuildWeb.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="hidden-xs col-sm-6 col-md-6 col-lg-6 ta_c">
+                    <img src="{{ .Site.BaseURL }}images/macbookPrebuildAdvertisement.png" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 box_pr">
+                    <h2>Advertisement</h2>
+                    <p>Start analyzing your ads data with our prebuilt analytics service for advertisement and SEO services. You can analyze your both real-time and historical data-sets, join them with your different data-sets and create custom reports and dashboards for your needs..</p>
+                </div>
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg col-md-6 col-lg-6 ta_c">
+                    <img src="{{ .Site.BaseURL }}images/macbookPrebuildAdvertisement.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ partial "new-footer-product.html" . }}

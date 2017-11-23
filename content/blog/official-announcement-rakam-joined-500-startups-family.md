@@ -1,7 +1,7 @@
 ---
 title: "Official Announcement: Rakam joined 500 Startups Family"
 linktitle: "Official Announcement: Rakam joined 500 Startups Family"
-date: 2017-05-1T01:05:21-07:00
+date: "2017-05-01T01:05:21-07:00"
 tags: [company]
 author: nkirkan
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Data Lake Problem? | Many Reports — Many Sources — Many Discussions"
 linktitle: "Data Lake Problem? | Many Reports — Many Sources — Many Discussions"
-date: 2017-06-25T01:05:21-07:00
+date: "2017-06-25T01:05:21-07:00"
 tags: [data warehouse]
 author: nkirkan
 ---

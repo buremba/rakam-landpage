@@ -1,7 +1,7 @@
 ---
 title: "Analyze Your Google Search and Location History Data"
 linktitle: "Analyze Your Google Search and Location History Data"
-date: 2017-11-7T01:05:21-07:00
+date: "2017-11-07T01:05:21-07:00"
 tags: [personal analytics,data science]
 author: buremba
 ---

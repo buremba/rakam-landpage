@@ -2,6 +2,8 @@
 title: "Official Announcement: Rakam joined 500 Startups Family"
 linktitle: "Official Announcement: Rakam joined 500 Startups Family"
 date: 2017-05-1T01:05:21-07:00
+tags: [company]
+author: nkirkan
 ---
 
 We are excited and happy to announce that rakam just joined **#500Strong** Family last week for their Batch 21 program in Mountain View.

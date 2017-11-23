@@ -2,6 +2,8 @@
 title: "Data Security: How Safe Is Your Data With Presto?"
 linktitle: "Data Security: How Safe Is Your Data With Presto?"
 date: 2017-10-25T01:05:21-07:00
+tags: [data warehouse,presto,security]
+author: buremba
 ---
 
 Imagine you resume work and realize that your data has just been compromised. Months and years of data all maliciously tampered with and there’s no idea where it all went wrong.

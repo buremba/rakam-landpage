@@ -2,6 +2,8 @@
 title: "In 5 Min Combine all Advertising Reports"
 linktitle: "In 5 Min Combine all Advertising Reports"
 date: 2017-07-25T01:05:21-07:00
+tags: [personal analytics,data science]
+author: nkirkan
 ---
 
 Combine all your ad reports with rakam

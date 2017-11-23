@@ -12,3 +12,7 @@ facebook = "rakamio"
 github = "rakam-io"
 linkedin = "burak-emre-kabakcı-15b2bb33"
 twitter = "iorakam"
+
+
+[taxonomies]
+   tag = "tags"

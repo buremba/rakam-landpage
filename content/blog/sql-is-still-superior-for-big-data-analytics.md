@@ -2,6 +2,8 @@
 title: "SQL is still superior for big-data analytics"
 linktitle: "SQL is still superior for big-data analytics"
 date: 2017-05-25T01:05:21-07:00
+tags: [data warehouse,sql]
+author: buremba
 ---
 
 I wanted write about using only SQL for analytical queries (possibly for big-data) because when I talk about SQL, people usually tend to say that it’s not a good fit for analytics and they have to write complex code in Java or use a NO-SQL solution that has custom query language because in big-data world, all the paradigms should be changed and become complex.

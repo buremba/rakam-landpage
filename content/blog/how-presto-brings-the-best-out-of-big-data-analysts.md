@@ -2,6 +2,8 @@
 title: "How Presto Brings The Best Out of Big Data Analysts"
 linktitle: "How Presto Brings The Best Out of Big Data Analysts"
 date: 2017-08-25T01:05:21-07:00
+tags: [data warehouse,presto]
+author: buremba
 ---
 
 presto | Distributed SQL Query Engine for Big Data

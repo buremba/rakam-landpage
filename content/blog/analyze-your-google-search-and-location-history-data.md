@@ -2,6 +2,8 @@
 title: "Analyze Your Google Search and Location History Data"
 linktitle: "Analyze Your Google Search and Location History Data"
 date: 2017-11-7T01:05:21-07:00
+tags: [personal analytics,data science]
+author: buremba
 ---
 
 > Google allows you to export all of the Google searches that you’ve done since you created your Google account. Despite this ability, to date there wasn’t a dashboard for analyzing this historical data. Because of this I figured it would be interesting if I could download my search history from Google and analyze the data and create a dashboard in Rakam.

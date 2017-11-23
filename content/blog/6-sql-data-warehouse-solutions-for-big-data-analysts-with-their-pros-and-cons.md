@@ -2,6 +2,8 @@
 title: "6 SQL Data Warehouse Solutions For Big Data Analysts (With Their Pros And Cons)"
 linktitle: "6 SQL Data Warehouse Solutions For Big Data Analysts (With Their Pros And Cons)"
 date: 2017-09-25T01:05:21-07:00
+tags: [data warehouse]
+author: buremba
 ---
 
 Are you confused about which SQL Query tool is best for your organization?

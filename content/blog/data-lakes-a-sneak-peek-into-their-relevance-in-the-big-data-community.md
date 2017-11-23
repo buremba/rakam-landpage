@@ -2,6 +2,8 @@
 title: "Data Lakes: A Sneak Peek Into Their Relevance In The Big Data Community"
 linktitle: "Data Lakes: A Sneak Peek Into Their Relevance In The Big Data Community"
 date: 2017-10-5T01:05:21-07:00
+tags: [data warehouse]
+author: nkirkan
 ---
 
 With so much buzz around data lakes in the big data community these days, it’s time we looked more closely at what a data lake is and how it enriches the big data and analytics sphere.Let’s begin with the *why. *Why do you need a data lake?

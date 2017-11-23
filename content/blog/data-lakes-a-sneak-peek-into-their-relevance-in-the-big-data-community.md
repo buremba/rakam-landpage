@@ -1,7 +1,7 @@
 ---
 title: "Data Lakes: A Sneak Peek Into Their Relevance In The Big Data Community"
 linktitle: "Data Lakes: A Sneak Peek Into Their Relevance In The Big Data Community"
-date: "2017-10-5T01:05:21-07:00"
+date: "2017-10-05T01:05:21-07:00"
 tags: [data warehouse]
 author: nkirkan
 ---

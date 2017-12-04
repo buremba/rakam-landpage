@@ -768,7 +768,8 @@ section#api_sql.container-fluid {
   background-size: auto; }
   @media (max-width: 1199px) {
     section#api_sql.container-fluid {
-      background-image: url(../images/looper.svg); } }
+      background-image: url(../images/looper.svg);
+      background-size: cover; } }
 
 section#api_sql .container {
   min-height: 1520px;

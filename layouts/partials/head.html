@@ -43,17 +43,5 @@
   {{ if eq .URL "/" }}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
-
-  <!-- Calendly badge widget begin -->
-  <style type="text/css">
-    .calendly-badge-widget { right: auto !important; left: 20px !important; }
-    .calendly-badge-content span {  display: none !important;  }
-    @media (max-width:640px){.calendly-badge-widget{display:none}}
-  </style>
-  <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
-  <script type="text/javascript">Calendly.initBadgeWidget({url: 'https://calendly.com/rakamio', text: 'Schedule time with us', color: '#00a2ff', branding: true});</script>
-  <!-- Calendly badge widget end -->
-
   {{ partial "head_custom.html" . }}
 </head>

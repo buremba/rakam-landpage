@@ -1,7 +1,16 @@
 {{ partial "header.html" . }}
-{{ range .Data.Pages }}
-{{ .Render "li" }}
-{{ end }}
+
+<section class="container-fluid" id="api_header">
+    <div class="container">
+        {{ partial "blog_header.html" . }}
+
+        {{ range .Data.Pages }}
+        {{ .Render "li" }}
+        {{ end }}
+
+    </div>
+</section>
+
 {{ partial "pagination.html" .Paginator }}
 {{ partial "new-footer-product.html" . }}
 

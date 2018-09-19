@@ -6,7 +6,7 @@
   command = "hugo server -wD -d dev"
 
 [[redirects]]
-  from = "https://rakam.io/blog/:splat"
-  to = "https://blog.rakam.io/*"
+  from = "/blog/*"
+  to = "https://blog.rakam.io/:splat"
   status = 200
-  force = true
+  force = false

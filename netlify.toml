@@ -7,5 +7,5 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "https://blog.rakam.op/:splat"
+  to = "https://blog.rakam.io/:splat"
   status = 200

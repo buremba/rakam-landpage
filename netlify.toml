@@ -9,4 +9,4 @@
   from = "/blog/*"
   to = "https://blog.rakam.io/:splat"
   status = 200
-  force = false
+  force = true

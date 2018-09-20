@@ -10,3 +10,9 @@
   to = "https://rakam-blog.herokuapp.com/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/blog1/*"
+  to = "https://blograkam.wordpress.com/:splat"
+  status = 200
+  force = true

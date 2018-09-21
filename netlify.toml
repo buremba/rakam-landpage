@@ -6,7 +6,7 @@
   command = "hugo server -wD -d dev"
 
 [[redirects]]
-  from = "/blog1/*"
+  from = "/blog/*"
   to = "https://frosty-clarke-0c9fc5.netlify.com/:splat"
   status = 200
   force = true

@@ -6,13 +6,7 @@
   command = "hugo server -wD -d dev"
 
 [[redirects]]
-  from = "/blog/*"
-  to = "https://rakam-blog.herokuapp.com/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/blog1/*"
-  to = "https://blograkam.wordpress.com/:splat"
+  to = "https://frosty-clarke-0c9fc5.netlify.com/:splat"
   status = 200
   force = true

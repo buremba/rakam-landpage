@@ -3,7 +3,7 @@
   publish = "public"
 
 [context.deploy-preview]
-  command = "hugo server -wD -d dev"
+  command = "hugo server -wD -d dev "
 
 [[redirects]]
   from = "/blog/*"

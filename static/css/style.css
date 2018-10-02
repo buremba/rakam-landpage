@@ -2426,8 +2426,6 @@ section#main_why_do ul {
     color: #646782; }
 
 #main_pricing.container-fluid {
-  background-image: url(../images/homePricingBg.jpg);
-  background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: bottom;
   background-size: 100% 90%; }
@@ -2758,7 +2756,7 @@ section#new-footer-product .box:nth-child(1) {
   padding-bottom: 37px; }
   section#new-footer-product .box:nth-child(1) h2 {
     font-family: "Open Sans";
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1.5;
     color: #677897;

@@ -1,0 +1,197 @@
+{{ partial "header.html" . }}
+<section class="container-fluid" id="api_header">
+    <div class="container">
+        {{ partial "new-header-product.html" . }}
+        <h2 style="color:#646782;margin:50px 0 20px">Rakam - Getting Started</h2>
+        <div class="vid-main-wrapper clearfix">
+
+            <!-- THE YOUTUBE PLAYER -->
+            <div class="vid-container">
+                <div id="videoWrapper">
+                    <div id="mainVideo"></div>
+                </div>
+            </div>
+
+            <!-- THE PLAYLIST -->
+            <div class="vid-list-container">
+                <ul id="vid-list">
+                    <li>
+                        <a href="javascript:void();"
+                           onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/cOSEOYi9JS4?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                            <span class="vid-thumb">
+                                <img width=72 src="https://img.youtube.com/vi/cOSEOYi9JS4/default.jpg"/></span>
+                            <div class="desc">Getting Started</div>
+                        </a>
+                    </li>
+                </ul>
+                <div style="position:absolute; bottom:25px; right: 40px">
+                    <a href="{{ .Site.BaseURL }}demo" class="shiny-button">
+                        View demo
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<style>
+    .title {
+        width: 100%;
+        max-width: 854px;
+        margin: 0 auto;
+    }
+
+    .caption {
+        width: 100%;
+        max-width: 854px;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    .vid-main-wrapper {
+        width: 100%;
+        min-width: 440px;
+    }
+
+    .videos-footer {
+        border-bottom: 38px solid black;
+        padding: 12px 53px;
+        margin-top:30px
+    }
+
+    /*  VIDEO PLAYER CONTAINER
+   ############################### */
+    .vid-container {
+        position: relative;
+        padding-top: 30px;
+        height: 0;
+        width: 70%;
+        float: left;
+    }
+
+    .vid-container iframe,
+    .vid-container object,
+    .vid-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 460px;
+    }
+
+    .vid-list-container {
+        width: 30%;
+        height: 460px;
+        overflow: hidden;
+        float: right;
+        position:relative
+    }
+
+    .vid-list-container:hover, .vid-list-container:focus {
+        overflow-y: auto;
+    }
+
+    ul#vid-list {
+        margin: 0;
+        padding: 0;
+        background: #222;
+        height:100%
+    }
+
+    ul#vid-list li {
+        list-style: none;
+    }
+
+    ul#vid-list li a {
+        text-decoration: none;
+        background-color: #222;
+        height: 72px;
+        display: block;
+        padding: 10px;
+    }
+
+    ul#vid-list li a:hover {
+        background-color: #666666
+    }
+
+    .vid-thumb {
+        float: left;
+        margin-right: 8px;
+    }
+
+    .active-vid {
+        background: #3A3A3A;
+    }
+
+    #vid-list .desc {
+        color: #CACACA;
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    @media (max-width: 624px) {
+        body {
+            margin: 15px;
+        }
+
+        .caption {
+            margin-top: 40px;
+        }
+
+        .vid-list-container {
+            padding-bottom: 20px;
+        }
+
+    }
+</style>
+<script>
+  var tag = document.createElement('script')
+  tag.src = 'https://www.youtube.com/iframe_api'
+  var firstScriptTag = document.getElementsByTagName('script')[0]
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
+
+  var player
+
+  function onYouTubeIframeAPIReady () {
+    player = new YT.Player('mainVideo', {
+      videoId: 'G8Cm5jzYUPw',
+      origin: 'https://rakam.com',
+      playerVars: {
+        'autoplay': 1,
+        'controls': 1,
+        'rel': 0,
+        'fs': 1,
+      },
+      events: {
+        'onStateChange': function () {
+          switch (event.data) {
+            case YT.PlayerState.PLAYING:
+              analytics.track('Demo Video Played', {
+                video: player.getVideoData().title,
+                id: player.getVideoData().video_id,
+                duration: player.getDuration()
+              })
+              break
+            case YT.PlayerState.PAUSED:
+              analytics.track('Demo Video Paused', {
+                video: player.getVideoData().title,
+                id: player.getVideoData().video_id,
+                pausedAt: player.getCurrentTime()
+              })
+              break
+            case YT.PlayerState.ENDED:
+              analytics.track('Demo Video Finished', {
+                video: player.getVideoData().title,
+                id: player.getVideoData().video_id,
+                duration: player.getDuration()
+              })
+              break
+            default:
+              return
+          }
+        }
+      }
+    })
+  }
+</script>
+{{ partial "new-footer-product.html" . }}

@@ -2782,7 +2782,7 @@ section#new-footer-product .box:nth-child(1) {
       section#new-footer-product .box:nth-child(1) h2 + div {
         padding-left: 0;
         margin-top: 15px; } }
-  section#new-footer-product .box:nth-child(1) a {
+  a.shiny-button {
     float: right;
     display: block;
     width: 262px;
@@ -2807,17 +2807,17 @@ section#new-footer-product .box:nth-child(1) {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase; }
-    section#new-footer-product .box:nth-child(1) a:hover {
+    a.shiny-button:hover {
       background-color: #fd8c43;
       transform: translateY(-1px);
       -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
       -moz-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
       box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
     @media (max-width: 767px) {
-      section#new-footer-product .box:nth-child(1) a {
+      a.shiny-button {
         float: left; } }
     @media (max-width: 500px) {
-      section#new-footer-product .box:nth-child(1) a {
+      a.shiny-button {
         float: none;
         margin: 0 auto; } }
 

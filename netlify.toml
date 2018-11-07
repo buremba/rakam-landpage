@@ -4,3 +4,9 @@
 
 [context.deploy-preview]
   command = "hugo server -wD -d dev "
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://blog.rakam.io/:splat"
+  status = 200
+  force = true

@@ -7,6 +7,6 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "http://ghostlb.warehouse.35.244.137.211.xip.io/blog/:splat"
+  to = "http://35.194.42.69:32507/blog/:splat"
   status = 200
   force = true

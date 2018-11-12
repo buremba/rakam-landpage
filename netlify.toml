@@ -9,4 +9,4 @@
   from = "/blog/*"
   to = "http://ghost.warehouse.35.244.188.74.xip.io/:splat"
   status = 200
-  force = true
+  force = false

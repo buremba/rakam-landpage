@@ -2349,7 +2349,7 @@ section#main_our_products ul {
       margin: 0;
       margin-top: 12px; }
 
-section#main_our_products a {
+section#main_our_products .read_more {
   font-family: "Open Sans";
   font-size: 17px;
   letter-spacing: 0.5px;
@@ -2358,7 +2358,7 @@ section#main_our_products a {
   top: 25px;
   left: 25px; }
 
-section#main_our_products a:after {
+section#main_our_products .read_more:after {
   position: absolute;
   left: calc(100% + 7px);
   top: calc(50% - 1.8px);
@@ -2950,3 +2950,145 @@ section#new-footer-copy .copy {
   transition: background 0.4s ease; }
 .integrate .rounded:hover, .integrate .rounded.selected {
   background: rgba(0, 0, 0, 0.14); }
+
+.rakam-api-image {
+  width:350px;
+  height:350px;
+  margin:0 auto;
+  position:relative;
+}
+
+.rakam-intelligence-image {
+  width:350px;
+  height:350px;
+  position:relative;
+}
+
+.product-image img {
+  width:100%;
+  height:100%;
+}
+
+.r-tooltip {
+  position: absolute;
+  left:0;
+  top:0;
+  color:#fff;
+}
+
+.r-tooltip span {
+  display: block;
+  width: 120%;
+  margin-left:-10%;
+  height:30px;
+  background:#02afde;
+  text-align: center;
+  line-height:30px;
+  top: -35px;
+  position: relative;
+  border-radius:2px;
+  visibility: hidden;
+  opacity:0;
+  transition: all .3s ease-in-out;
+}
+
+.r-tooltip span:after {
+  content:'';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #02afde transparent transparent transparent;
+  position: absolute;
+  left: calc(50% - 5px);
+  bottom: -5px;
+}
+
+.r-tooltip:hover {
+  text-decoration: none;
+  color:#fff;
+}
+
+.r-tooltip:hover span {
+  visibility: visible;
+  opacity:1;
+}
+
+.r-tooltip.t-1 {
+  left: 20px;
+  width: 59px;
+  height: 61px;
+}
+
+.r-tooltip.t-2 {
+  left: 105px;
+  width: 59px;
+  height: 61px;
+}
+
+.r-tooltip.t-3 {
+  left: 185px;
+  width: 59px;
+  height: 61px;
+}
+
+.r-tooltip.t-4 {
+  left: 274px;
+  width: 59px;
+  height: 61px;
+}
+
+.r-tooltip.t-5 {
+  left: 119px;
+  width: 103px;
+  height: 75px;
+  top: 114px
+}
+
+.r-tooltip.t-6 {
+  left: 119px;
+  width: 103px;
+  height: 123px;
+  top: 223px;
+}
+
+.r-tooltip.t-7 {
+  width: 73px;
+  height: 77px;
+  left: 165px;
+}
+
+.r-tooltip.t-8 {
+  width: 73px;
+  height: 77px;
+  left: 165px;
+  top: 96px;
+}
+
+.r-tooltip.t-9 {
+  width: 73px;
+  height: 77px;
+  left: 165px;
+  top: 182px;
+}
+
+.r-tooltip.t-10 {
+  width: 73px;
+  height: 77px;
+  left: 165px;
+  top: 272px;
+}
+
+.r-tooltip.t-11 {
+  width: 73px;
+  height: 77px;
+  left: 270px;
+  top: 95px;
+}
+
+.r-tooltip.t-12 {
+  width: 73px;
+  height: 77px;
+  left: 270px;
+  top: 182px;
+}

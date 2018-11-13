@@ -7,12 +7,6 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "https://blog.rakam.io/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/content/*"
-  to = "https://blog.rakam.io/content/:splat"
+  to = "http://35.202.68.150/blog/:splat"
   status = 200
   force = true

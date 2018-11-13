@@ -12,6 +12,12 @@
   force = true
 
 [[redirects]]
+  from = "/hn"
+  to = "https://news.ycombinator.com/"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/blog5"
   to = "https:/blog.rakam.io"
   status = 200

@@ -1,5 +1,5 @@
-.body {
-    font-family: Open Sans,Segoe UI,sans-serif;
+body {
+    font-family: Open Sans, Segoe UI, sans-serif;
     color: #616e7c;
 }
 
@@ -620,7 +620,6 @@ section#api_header .cd-morph-dropdown {
 }
 
 section#api_header .s-button-o {
-    font-family: "Open Sans";
     font-size: 16px;
     font-weight: 600;
     line-height: 1.25;
@@ -644,21 +643,11 @@ section#api_header .header div:nth-child(4) {
     }
 }
 
-section#api_header .header .cd-morph-dropdown .main-nav > ul > li > a {
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.11;
-    text-align: left;
-    color: #646782;
-}
-
 section#api_header .box {
     margin-top: 114px;
 }
 
 section#api_header .box h1 {
-    font-family: "Open Sans";
     font-size: 50px;
     font-weight: bold;
     line-height: 1.2;
@@ -666,7 +655,6 @@ section#api_header .box h1 {
 }
 
 section#api_header .box p {
-    font-family: "Open Sans";
     padding-bottom: 32px;
     padding-left: 4px;
     font-size: 18px;
@@ -708,7 +696,6 @@ section#api_header .box a {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
     /* IE6-9 */
-    font-family: "Open Sans";
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -770,7 +757,6 @@ section#api_oneClick .tab-content > .tab-pane {
 }
 
 section#api_oneClick h2 {
-    font-family: "Open Sans";
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
@@ -829,7 +815,6 @@ section#api_oneClick .nav-tabs > li:nth-child(2) {
 
 section#api_oneClick .nav-tabs > li > a {
     text-align: center;
-    font-family: "Open Sans";
     font-size: 14px;
     line-height: 1.71;
     color: #646782;
@@ -921,7 +906,6 @@ section#api_oneClick .nav-tabs > li.active:nth-child(4) > a:before {
 }
 
 section#api_oneClick .tab-content h3 {
-    font-family: "Open Sans";
     font-size: 30px;
     font-weight: 600;
     line-height: 1.6;
@@ -931,7 +915,6 @@ section#api_oneClick .tab-content h3 {
 }
 
 section#api_oneClick .tab-content p {
-    font-family: "Open Sans";
     font-size: 16px;
     line-height: 1.5;
     color: #646782;
@@ -1039,7 +1022,6 @@ section#api_fastAndScalable .container {
 }
 
 section#api_fastAndScalable h2 {
-    font-family: "Open Sans";
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
@@ -1056,13 +1038,11 @@ section#api_fastAndScalable h2 {
 
 @media (max-width: 470px) {
     section#api_fastAndScalable h2 {
-        margin: 0;
-        margin-bottom: 40px;
+        margin: 0 0 40px;
     }
 }
 
 section#api_fastAndScalable h3 {
-    font-family: "Open Sans";
     font-size: 24px;
     line-height: 1.25;
     text-align: left;
@@ -1153,8 +1133,6 @@ section#api_sql .box:nth-child(2) {
 }
 
 section#api_sql .box:nth-child(2)::-webkit-scrollbar-button {
-    background-image: url("");
-    background-repeat: no-repeat;
     width: 10px;
     height: 10px;
 }
@@ -1278,7 +1256,6 @@ section#api_sql .box:nth-child(3) img {
 }
 
 section#api_sql h2 {
-    font-family: "Open Sans";
     font-size: 30px;
     font-weight: bold;
     color: #646782;
@@ -1286,14 +1263,12 @@ section#api_sql h2 {
 }
 
 section#api_sql h2 + p {
-    font-family: "Open Sans";
     font-size: 21px;
     line-height: 1.62;
     color: #9092a7;
 }
 
 section#api_sql h3 {
-    font-family: "Open Sans";
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
@@ -1302,15 +1277,13 @@ section#api_sql h3 {
 }
 
 section#api_sql h3 + p {
-    font-family: "Open Sans";
     font-size: 16px;
     line-height: 1.5;
     color: #ffffff;
 }
 
 section#ui_header.container-fluid {
-    background-image: url(../images/top-bg.png);
-    background-repeat: no-repeat;
+    background: url(../images/top-bg.png) no-repeat;
     background-position-x: left;
     background-position-y: top;
     background-size: 45% 74%;
@@ -1373,7 +1346,6 @@ section#ui_header .cd-morph-dropdown {
 }
 
 section#ui_header .s-button-o {
-    font-family: "Open Sans";
     font-size: 16px;
     font-weight: 600;
     line-height: 1.25;
@@ -1397,21 +1369,11 @@ section#ui_header .header div:nth-child(4) {
     }
 }
 
-section#ui_header .header .cd-morph-dropdown .main-nav > ul > li > a {
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.11;
-    text-align: left;
-    color: #646782;
-}
-
 section#ui_header .box {
     margin-top: 114px;
 }
 
 section#ui_header .box h1 {
-    font-family: "Open Sans";
     font-size: 50px;
     font-weight: bold;
     line-height: 1.2;
@@ -1419,7 +1381,6 @@ section#ui_header .box h1 {
 }
 
 section#ui_header .box p {
-    font-family: "Open Sans";
     padding-bottom: 32px;
     padding-left: 4px;
     font-size: 18px;
@@ -1461,7 +1422,6 @@ section#ui_header .box a {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
     /* IE6-9 */
-    font-family: "Open Sans";
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -1531,7 +1491,6 @@ section#ui_advanced div:nth-child(1) ul li img {
 }
 
 section#ui_advanced div:nth-child(1) ul li p {
-    font-family: "Open Sans";
     font-size: 18px;
     line-height: 1.33;
     text-align: center;
@@ -1565,7 +1524,6 @@ section#ui_advanced div:nth-child(1) ul li p {
 }
 
 section#ui_advanced h2 {
-    font-family: "Open Sans";
     font-size: 30px;
     font-weight: bold;
     line-height: 1.6;
@@ -1575,7 +1533,6 @@ section#ui_advanced h2 {
 }
 
 section#ui_advanced p {
-    font-family: "Open Sans";
     font-size: 16px;
     line-height: 1.5;
     color: #646782;
@@ -1613,7 +1570,6 @@ section#ui_tabsProductBusiness.container {
 }
 
 section#ui_tabsProductBusiness h2 {
-    font-family: "Open Sans";
     font-size: 30px;
     font-weight: 600;
     line-height: 1;
@@ -1685,7 +1641,7 @@ section#ui_tabsProductBusiness .nav-tabs::after {
 
 section#ui_tabsProductBusiness .nav-tabs > li > a {
     text-align: center;
-    font-family: "Open Sans";
+
     font-size: 16px;
     line-height: 1;
     color: #646782;
@@ -1806,7 +1762,7 @@ section#ui_tabsProductBusiness .nav-tabs > li.active:nth-child(4) > a:before {
 }
 
 section#ui_tabsProductBusiness .tab-content h3 {
-    font-family: "Open Sans";
+
     font-size: 30px;
     font-weight: 600;
     line-height: 1;
@@ -1823,7 +1779,7 @@ section#ui_tabsProductBusiness .tab-content h3 {
 }
 
 section#ui_tabsProductBusiness .tab-content p {
-    font-family: "Open Sans";
+
     font-size: 16px;
     line-height: 1.5;
     color: #646782;
@@ -1831,7 +1787,7 @@ section#ui_tabsProductBusiness .tab-content p {
 }
 
 section#ui_tabsProductBusiness .tab-content a {
-    font-family: "Open Sans";
+
     font-size: 17px;
     letter-spacing: 0.5px;
     color: #02afde;
@@ -1898,7 +1854,7 @@ section#ui_tabsProductBehavioral.container {
 }
 
 section#ui_tabsProductBehavioral h2 {
-    font-family: "Open Sans";
+
     font-size: 30px;
     font-weight: 600;
     line-height: 1;
@@ -1978,7 +1934,7 @@ section#ui_tabsProductBehavioral .nav-tabs::after {
 
 section#ui_tabsProductBehavioral .nav-tabs > li > a {
     text-align: center;
-    font-family: "Open Sans";
+
     font-size: 16px;
     line-height: 1;
     color: #646782;
@@ -2060,7 +2016,7 @@ section#ui_tabsProductBehavioral .nav-tabs > li.active:nth-child(3) > a:before {
 }
 
 section#ui_tabsProductBehavioral .tab-content h3 {
-    font-family: "Open Sans";
+
     font-size: 30px;
     font-weight: 600;
     line-height: 1;
@@ -2077,7 +2033,7 @@ section#ui_tabsProductBehavioral .tab-content h3 {
 }
 
 section#ui_tabsProductBehavioral .tab-content p {
-    font-family: "Open Sans";
+
     font-size: 16px;
     line-height: 1.5;
     color: #646782;
@@ -2091,7 +2047,7 @@ section#ui_tabsProductBehavioral .tab-content p {
 }
 
 section#ui_tabsProductBehavioral .tab-content a {
-    font-family: "Open Sans";
+
     font-size: 17px;
     letter-spacing: 0.5px;
     color: #02afde;
@@ -2268,7 +2224,7 @@ section#prebuilt_header .cd-morph-dropdown {
 }
 
 section#prebuilt_header .s-button-o {
-    font-family: "Open Sans";
+
     font-size: 16px;
     font-weight: 600;
     line-height: 1.25;
@@ -2292,13 +2248,14 @@ section#prebuilt_header .header div:nth-child(4) {
     }
 }
 
-section#prebuilt_header .header .cd-morph-dropdown .main-nav > ul > li > a {
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-weight: 600;
+.header .cd-morph-dropdown .main-nav > ul > li > a {
     line-height: 1.11;
     text-align: left;
     color: #646782;
+}
+
+.header .cd-morph-dropdown .main-nav > ul > li > a:hover {
+    text-decoration:none
 }
 
 section#prebuilt_header .box {
@@ -2312,7 +2269,7 @@ section#prebuilt_header .box {
 }
 
 section#prebuilt_header .box h1 {
-    font-family: "Open Sans";
+
     font-size: 50px;
     font-weight: bold;
     line-height: 1.2;
@@ -2333,7 +2290,7 @@ section#prebuilt_header .box h1 {
 }
 
 section#prebuilt_header .box p {
-    font-family: "Open Sans";
+
     padding-bottom: 32px;
     padding-left: 4px;
     font-size: 18px;
@@ -2381,7 +2338,7 @@ section#prebuilt_header .box a {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
     /* IE6-9 */
-    font-family: "Open Sans";
+
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -2551,7 +2508,7 @@ section#prebuilt_tab .ta_c {
 }
 
 section#prebuilt_tab h2 {
-    font-family: "Open Sans";
+
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
@@ -2560,7 +2517,7 @@ section#prebuilt_tab h2 {
 }
 
 section#prebuilt_tab p {
-    font-family: "Open Sans";
+
     font-size: 16px;
     line-height: 1.5;
     color: #646782;
@@ -2668,7 +2625,7 @@ section#main_header .cd-morph-dropdown {
 }
 
 section#main_header .s-button-o {
-    font-family: "Open Sans";
+
     font-size: 16px;
     font-weight: 600;
     line-height: 1.25;
@@ -2692,15 +2649,6 @@ section#main_header .header div:nth-child(4) {
     }
 }
 
-section#main_header .header .cd-morph-dropdown .main-nav > ul > li > a {
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.11;
-    text-align: left;
-    color: #646782;
-}
-
 section#main_header .box > div:nth-child(1) {
     margin-top: 35px;
     padding-right: 0;
@@ -2717,7 +2665,7 @@ section#main_header .box {
 }
 
 section#main_header .box h1 {
-    font-family: "Open Sans";
+
     font-size: 48px;
     font-weight: bold;
     line-height: 1.2;
@@ -2738,7 +2686,7 @@ section#main_header .box h1 {
 }
 
 section#main_header .box p {
-    font-family: "Open Sans";
+
     padding-bottom: 32px;
     padding-left: 4px;
     padding-right: 80px;
@@ -2787,7 +2735,7 @@ section#main_header .box a {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
     /* IE6-9 */
-    font-family: "Open Sans";
+
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -2848,7 +2796,7 @@ section#main_header .box + div > div {
 }
 
 section#main_header .box + div p {
-    font-family: "Open Sans";
+
     font-size: 14px;
     line-height: 1.43;
     color: #c8d2dd;
@@ -2900,7 +2848,7 @@ section#main_tab .tab-content > .tab-pane {
 }
 
 section#main_tab h2 {
-    font-family: "Open Sans";
+
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
@@ -3031,7 +2979,7 @@ section#main_tab .nav-tabs > li:last-child:after {
 
 section#main_tab .nav-tabs > li > a {
     text-align: center;
-    font-family: "Open Sans";
+
     font-size: 14px;
     line-height: 1.71;
     color: #646782;
@@ -3123,7 +3071,7 @@ section#main_tab .nav-tabs > li.active:nth-child(4) > a:before {
 }
 
 section#main_tab .tab-content h3 {
-    font-family: "Open Sans";
+
     font-size: 30px;
     font-weight: 600;
     line-height: 1;
@@ -3133,7 +3081,7 @@ section#main_tab .tab-content h3 {
 }
 
 section#main_tab .tab-content p {
-    font-family: "Open Sans";
+
     font-size: 16px;
     line-height: 1.5;
     color: #646782;
@@ -3141,7 +3089,7 @@ section#main_tab .tab-content p {
 }
 
 section#main_tab .tab-content a {
-    font-family: "Open Sans";
+
     font-size: 17px;
     letter-spacing: 0.5px;
     color: #02afde;
@@ -3268,7 +3216,7 @@ section#main_our_products .row_h2 {
 }
 
 section#main_our_products h2 {
-    font-family: "Open Sans";
+
     font-size: 2.5em;
     text-align: center;
     color: #646782;
@@ -3288,9 +3236,7 @@ section#main_our_products h3 {
 }
 
 section#main_our_products p {
-    font-family: "Open Sans";
     font-size: 16px;
-    line-height: 1.5;
     color: #646782;
     margin-bottom: 35px;
 }
@@ -3303,7 +3249,7 @@ section#main_our_products ul {
 section#main_our_products ul li {
     padding-left: 5px;
     margin-bottom: 12px;
-    font-family: "Open Sans";
+
     font-size: 16px;
     line-height: 1.5;
     color: #646782;
@@ -3315,7 +3261,7 @@ section#main_our_products ul li p {
 }
 
 section#main_our_products .read_more {
-    font-family: "Open Sans";
+
     font-size: 17px;
     letter-spacing: 0.5px;
     color: #02afde;
@@ -3380,7 +3326,7 @@ section#main_why_do.container {
 }
 
 section#main_why_do h2 {
-    font-family: "Open Sans";
+
     font-size: 30px;
     font-weight: bold;
     color: #646782;
@@ -3409,7 +3355,7 @@ section#main_why_do ul li h3 {
 
 section#main_why_do ul li p {
     margin: 0;
-    font-family: "Open Sans";
+
     font-size: 14px;
     line-height: 1.5;
     color: #646782;
@@ -3454,7 +3400,7 @@ section#main_why_do ul li p {
 }
 
 #main_pricing .box_header h2 {
-    font-family: "Open Sans";
+
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
@@ -3465,7 +3411,7 @@ section#main_why_do ul li p {
 }
 
 #main_pricing .box_header h2 + p {
-    font-family: "Open Sans";
+
     font-size: 22px;
     line-height: 1;
     letter-spacing: 0.7px;
@@ -3511,7 +3457,7 @@ section#main_why_do ul li p {
 }
 
 #main_pricing .box_content h3 {
-    font-family: "Open Sans";
+
     font-size: 26px;
     font-weight: 600;
     line-height: 1;
@@ -3645,7 +3591,7 @@ section#main_why_do ul li p {
 }
 
 #main_pricing .home_more {
-    font-family: "Open Sans";
+
     font-size: 17px;
     letter-spacing: 0.5px;
     color: #02afde;
@@ -3680,7 +3626,7 @@ section#main_why_do ul li p {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
     /* IE6-9 */
-    font-family: "Open Sans";
+
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -3720,7 +3666,7 @@ section#main_testimonials.container {
 section#main_testimonials .box_testimonials h2 {
     margin-top: 70px;
     margin-bottom: 48px;
-    font-family: "Open Sans";
+
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
@@ -3752,7 +3698,7 @@ section#main_testimonials .box_testimonials .item .box {
 }
 
 section#main_testimonials .box_testimonials .item .box h3 {
-    font-family: "Open Sans";
+
     font-size: 22px;
     color: #02afde;
     margin-bottom: 17px;
@@ -3760,7 +3706,7 @@ section#main_testimonials .box_testimonials .item .box h3 {
 }
 
 section#main_testimonials .box_testimonials .item .box p {
-    font-family: "Open Sans";
+
     font-size: 14px;
     color: #bebacb;
     margin: 0;
@@ -3792,7 +3738,7 @@ section#main_testimonials .box_testimonials .tcb-quote-carousel blockquote {
 }
 
 section#main_testimonials .box_testimonials .tcb-quote-carousel blockquote p {
-    font-family: "Open Sans";
+
     font-size: 16px;
     line-height: 1.71;
     color: #646782;
@@ -3862,7 +3808,7 @@ section#new-footer-product .box:nth-child(1) {
 }
 
 section#new-footer-product .box:nth-child(1) h2 {
-    font-family: "Open Sans";
+
     font-size: 20px;
     font-weight: bold;
     line-height: 1.5;
@@ -3925,7 +3871,7 @@ a.shiny-button {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
     /* IE6-9 */
-    font-family: "Open Sans";
+
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -3979,7 +3925,7 @@ section#new-footer-product .box:nth-child(2) > div > div > ul li:last-child {
 }
 
 section#new-footer-product .box:nth-child(2) > div > div > ul:nth-child(1) li a {
-    font-family: "Open Sans";
+
     font-size: 16px;
     font-weight: bold;
     line-height: 1;
@@ -3987,14 +3933,14 @@ section#new-footer-product .box:nth-child(2) > div > div > ul:nth-child(1) li a 
 }
 
 section#new-footer-product .box:nth-child(2) > div > div > ul:nth-child(2) li a {
-    font-family: "Open Sans";
+
     font-size: 16px;
     line-height: 1;
     color: #bfbbcc;
 }
 
 section#new-footer-product .box:nth-child(2) .address {
-    font-family: "Open Sans";
+
     font-size: 16px;
     font-weight: bold;
     line-height: 1.5;
@@ -4094,7 +4040,7 @@ section#new-footer-copy .copy {
     background-position-y: bottom;
     background-size: 100% 100%;
     text-align: center;
-    font-family: "Open Sans";
+
     font-size: 12px;
     font-weight: 600;
     color: white;

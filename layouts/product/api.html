@@ -5,6 +5,7 @@
         {{ partial "new-header-product.html" . }}
 
         <div class="row box">
+            <div class="col-xs-12 col-sm-5 col-lg-5" style="padding-top:140px">
                 <h1>Rakam API</h1>
                 <p>
                     This is your company-wide data and analytics platform. Easy to install, addictive to use.
@@ -93,18 +94,7 @@
             <h2>Data collection</h2>
             <div class="col-xs-12">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4 box">
-                        <h3>SDKs</h3>
-                        <img src="{{ .Site.BaseURL }}images/code.svg" alt="">
-                    </div>
-                    <div class="col-sm-12 col-md-4 box">
-                        <h3>External data sources</h3>
-                        <img src="{{ .Site.BaseURL }}images/code2.svg" alt="">
-                    </div>
-                    <div class="col-sm-12 col-md-4 box">
-                        <h3>API</h3>
-                        <img src="{{ .Site.BaseURL }}images/code3.svg" alt="">
-                    </div>
+                    fff
                 </div>
             </div>
         </div>
@@ -113,98 +103,16 @@
 
 <section class="container-fluid" id="api_sql">
     <div class="container">
-        <div class="row box">
-            <div class="col-xs-12">
-                <div class="row">
-                    <h2 class="col-xs-12">Pro tip</h2>
-                    <p class="col-xs-12 col-sm-9">If you have billions of data and want to power your dashboards using complex queries, we also provide ways to create summary tables from your raw data with materialialized views. We pre-process your data incrementally and allow you to create workflows with SQL.</p>
-                    <h2 class="col-xs-12" style="margin-top: 50px;">Data analysis</h2>
-                </div>
-            </div>
-        </div>
 
         <div class="row box">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 cm-s-material">
-                <div>
-                    <ol>
-                        <li>
-                            <div style="position: relative;">
-                                <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span
-                                        class="cm-keyword">SELECT</span> total_order_amount / fb.spent_amount_total <span
-                                        class="cm-keyword">AS</span> revenue_ads_ratio <span class="cm-keyword">FROM</span> (</span></pre>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div style="position: relative;">
-                                <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span
-                                        class="cm-keyword">SELECT</span> <span class="cm-builtin">cast</span>(_time <span
-                                        class="cm-keyword">AS</span> <span class="cm-keyword">date</span>) day, <span
-                                        class="cm-builtin">sum</span>(total_amount) <span class="cm-keyword">AS</span> total_order_amount <span
-                                        class="cm-keyword">FROM</span> (</span></pre>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div style="position: relative;">
-                                <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span
-                                        class="cm-keyword">SELECT</span> _user, total_amount <span
-                                        class="cm-keyword">FROM</span> <span
-                                        class="link sdk-hover hint--bounce hint--top"
-                                        data-hint="access your event data-set that you collected via sdk or restful api">collection.transaction</span></span></pre>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div style="position: relative;">
-                                <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span
-                                        class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top"
-                                                                             data-hint="connect your remote databases at query time">mysqldb.users</span> <span
-                                        class="cm-keyword">ON</span> (users.id = transaction._user)</span></pre>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div style="position: relative;">
-                                <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span
-                                        class="cm-keyword">UNION</span> <span class="cm-keyword">ALL</span> <span
-                                        class="cm-keyword">SELECT</span> user_id, total_amount <span class="cm-keyword">FROM</span> <span
-                                        class="link hint--bounce hint--top"
-                                        data-hint="plug your remote CSV or JSON files as virtual tables">remotefile.offlinesales</span></span></pre>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div style="position: relative;">
-                                <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">) <span
-                                        class="cm-keyword">WHERE</span> _user <span class="cm-keyword">IN</span> (<span
-                                        class="cm-keyword">SELECT</span> user_id <span class="cm-keyword">FROM</span> <span
-                                        class="link hint--bounce hint--top"
-                                        data-hint="create your flow with materialized views and continuous queries">materialized.gold_users</span> <span
-                                        class="cm-keyword">WHERE</span> <span
-                                        class="link hint--bounce hint--top" data-hint="enrich your events with event mappers">clearbit_job = <span
-                                        class="cm-string">'Doctor'</span></span>)</span></pre>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div style="position: relative;">
-                                <pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">) orders <span
-                                        class="cm-keyword">JOIN</span> <span class="link hint--bounce hint--top"
-                                                                             data-hint="collect data from third-party services with webhook and and scheduled tasks">fb_advertisement</span> fb <span
-                                        class="cm-keyword">ON</span> (orders.day = fb.day)</span></pre>
-                            </div>
-                        </li>
-
-                    </ol>
-                    <div>
-                        <a href="http://rakam.io/demo">
-                            <div class="demo">
-                                Visit Demo
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10" style="height:400px">
+                SELECT total_order_amount / fb.spent_amount_total AS revenue_ads_ratio FROM (
+                SELECT cast(_time AS date) day, sum(total_amount) AS total_order_amount FROM (
+                SELECT _user, total_amount FROM collection.transaction
+                JOIN mysqldb.users ON (users.id = transaction._user)
+                UNION ALL SELECT user_id, total_amount FROM remotefile.offlinesales
+                ) WHERE _user IN (SELECT user_id FROM materialized.gold_users WHERE clearbit_job = 'Doctor')
+                ) orders JOIN fb_advertisement fb ON (orders.day = fb.day)
             </div>
         </div>
 
@@ -218,8 +126,8 @@
     In fact, in most cases you won't need to write event mappers because Rakam provides a set of event mappers for different use-cases. However, it's important for us to provide you the ways to enrich and sanitize your event data so that you can embed your event pipeline inside Rakam without hassle.<br> 
     See <a href="https://docs.rakam.io/v1.0/docs/event-enrichment#section-event-mappers" style="color: white; text-decoration-line: underline;">event mappers</a> section in documentation.</p>
 
-                    <h3 class="col-lg-12" style="line-height: 1.33; margin-top: 57px;">Collect Data from<br> Anywhere</h3>
-                    <p class="col-lg-11">Rakam is data agnostic, you can send any kind of event data-set as long as it's immutable. You can just use the SDKs in order to ingegrate your application with Rakam easily or use the RESTFul API. We also provice embedded scheduled tasks, webhooks and some high level features for you to collect data from third party services. You can basically embed your scripts in Rakam and let it collect data for you. No cron-jobs, no manual process and no extra work after you setup the tasks.<br> See <a href="https://docs.rakam.io/v1.0/docs/collect-data" style="color: white; text-decoration-line: underline;">collecting events</a> section in documentation.</p>
+                    <h3 class="col-lg-12" style="line-height: 1.33; margin-top: 57px;">Collect Data from Anywhere</h3>
+                    <p class="col-lg-11">Rakam is data agnostic, you can send any kind of event data-set as long as it's immutable. You can just use the SDKs in order to ingegrate your application with Rakam easily or use the RESTFul API. You can basically embed your scripts in Rakam and let it collect data for you.<br> See <a href="https://docs.rakam.io/v1.0/docs/collect-data" style="color: white; text-decoration-line: underline;">collecting events</a> section in documentation.</p>
                 </div>
             </div>
             <div class="hidden-xs col-sm-6 col-md-6 col-lg-6" style="text-align: center;">

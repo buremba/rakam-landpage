@@ -12,6 +12,12 @@
   force = true
 
 [[redirects]]
+  from = "/blog5"
+  to = "https:/blog.rakam.io"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/blog/*"
   to = "https:/blog.rakam.io/:splat"
   status = 200

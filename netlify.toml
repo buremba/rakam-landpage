@@ -7,6 +7,6 @@
 
 [[redirects]]
   from = "/blog2"
-  to = "https:/blog.rakam.io"
+  to = "https://news.ycombinator.com"
   status = 200
   force = true

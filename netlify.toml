@@ -10,3 +10,9 @@
   to = "https://news.ycombinator.com"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https:/blog.rakam.io/:splat"
+  status = 200
+  force = true

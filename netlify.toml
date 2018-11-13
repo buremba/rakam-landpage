@@ -10,3 +10,9 @@
   to = "https://blog.rakam.io/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/content/*"
+  to = "https://blog.rakam.io/content/:splat"
+  status = 200
+  force = true

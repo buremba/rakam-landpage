@@ -6,8 +6,8 @@
   command = "hugo server -wD -d dev "
 
 [[redirects]]
-  from = "/blog2"
-  to = "https://news.ycombinator.com"
+  from = "/blog4/*"
+  to = "https:/blog.rakam.io/:splat"
   status = 200
   force = true
 

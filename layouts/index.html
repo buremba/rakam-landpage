@@ -139,44 +139,8 @@
 
         <div class="row box">
             <div class="col-sm-6">
-                <h3>Rakam API</h3>
-                <p>Takes care of collecting, enriching and storing your user event data on your data warehouse.
-                    One-click installation to your AWS, Heroku, Digitalocean accounts or on-premise servers via
-                    Docker.</p>
-                <ul>
-                    <li>Open source, deploy it on your premise or on your cloud.</li>
-                    <li>Scalable, we have customers currently store +30B events monthly</li>
-                    <li>Feature-rich and customizable for your use-cases</li>
-                </ul>
-                <a href="/product/api" class="read_more">Read More</a>
-            </div>
-            <div class="col-sm-6 img_center">
-                <div class="rakam-api-image">
-                    <img src="{{ .Site.BaseURL }}images/api_landing.svg" alt="Rakam API" />
-                    <a href="#" class="r-tooltip t-1"><span>Collect data from your Android app</span></a>
-                    <a href="#" class="r-tooltip t-2"><span>iOS</span></a>
-                    <a href="#" class="r-tooltip t-3"><span>Web</span></a>
-                    <a href="#" class="r-tooltip t-4"><span>Lorem</span></a>
-                    <a href="#" class="r-tooltip t-5"><span>Ipsum</span></a>
-                    <a href="#" class="r-tooltip t-6"><span>Dolor</span></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row box">
-            <div class="hidden-xs col-sm-6">
-                <div class="rakam-api-image">
-                    <img src="{{ .Site.BaseURL }}images/ui_landing.svg" alt="Rakam Intelligence" />
-                    <a href="#" class="r-tooltip t-7"><span>Lorem 1</span></a>
-                    <a href="#" class="r-tooltip t-8"><span>Lorem 2</span></a>
-                    <a href="#" class="r-tooltip t-9"><span>Lorem 3</span></a>
-                    <a href="#" class="r-tooltip t-10"><span>Lorem 4</span></a>
-                    <a href="#" class="r-tooltip t-11"><span>Lorem 5</span></a>
-                    <a href="#" class="r-tooltip t-12"><span>Lorem 6</span></a>
-                </div>
-            </div>
-            <div class="col-sm-6">
                 <h3>Rakam Intelligence</h3>
+                <img src="{{ .Site.BaseURL }}images/ui_landing.svg" class="col-sm-6 hidden-sm hidden-md hidden-lg" alt="" style="margin-bottom:35px;">
                 <p>Visualize and analyze your customer event data easily. A simple and intuitive user interface for product managers and data analysts. Our aim is to empower product teams while lessening the burden on your data team.</p>
                 <ul>
                     <li>Run funnel, retention and segmentation reports easily.</li>
@@ -186,8 +150,45 @@
                 </ul>
                 <a href="/product/ui" class="read_more">Read More</a>
             </div>
-            <div class="col-sm-6 hidden-sm hidden-md hidden-lg img_center">
-                <img src="{{ .Site.BaseURL }}images/ui_landing.svg" alt="">
+            <div class="hidden-xs col-sm-6">
+                <div class="rakam-api-image">
+                    <img src="{{ .Site.BaseURL }}images/ui_landing.svg" alt="Rakam Intelligence" />
+                    <a href="#" aria-label="Lorem" class="r-tooltip t-7"></a>
+                    <a href="#" aria-label="Ipsum" class="r-tooltip t-8"></a>
+                    <a href="#" aria-label="Dolor" class="r-tooltip t-9"></a>
+                    <a href="#" aria-label="Lorem2" class="r-tooltip t-10"></a>
+                    <a href="#" aria-label="Ipsum2" class="r-tooltip t-11"></a>
+                    <a href="#" aria-label="Dolor2" class="r-tooltip t-12"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="row box our-products-api">
+            <div class="col-sm-6 hidden-xs">
+                <div class="rakam-api-image">
+                    <img src="{{ .Site.BaseURL }}images/api_landing.svg" alt="Rakam API" />
+                    <a href="#" aria-label="Collect data from your Android appasdasdasdasdsa dasd asd asd asd sad" class="r-tooltip t-1"></a>
+                    <a href="#" aria-label="iOS" class="r-tooltip t-2"></a>
+                    <a href="#" aria-label="Web" class="r-tooltip t-3"></a>
+                    <a href="#" aria-label="Lorem" class="r-tooltip t-4"></a>
+                    <a href="#" aria-label="Ipsum" class="r-tooltip t-5"></a>
+                    <a href="#" aria-label="Dolor" class="r-tooltip t-6"></a>
+                </div>
+            </div>
+            <div class="col-sm-6" style="text-align:left;">
+                <h3>Rakam API</h3>
+                <img src="{{ .Site.BaseURL }}images/api_landing.svg" class="col-sm-6 hidden-sm hidden-md hidden-lg" alt="" style="margin-bottom:35px;">
+                <p>Takes care of collecting, enriching and storing your user event data on your data warehouse.
+                    One-click installation to your AWS, Heroku, Digitalocean accounts or on-premise servers via
+                    Docker.</p>
+                <ul>
+                    <li>Open source, deploy it on your premise or on your cloud.</li>
+                    <li>Scalable, we have customers currently store +30B events monthly</li>
+                    <li>Feature-rich and customizable for your use-cases</li>
+                </ul>
+                <a href="/product/api" class="read_more">Read More</a>
             </div>
         </div>
     </div>
@@ -218,7 +219,7 @@
         <li class="sol-xs-12 col-sm-3">
             <img src="{{ .Site.BaseURL }}images/homeWhyDo4.svg" alt="">
             <h3>Your tool is not for me</h3>
-            <p>That's OK, you can still enjoy a nice tetris game here.</p>
+            <p>That's OK, you can still enjoy a nice tetris game <a class='iframe' href="/tetris">here</a>.</p>
         </li>
     </ul>
 </section>

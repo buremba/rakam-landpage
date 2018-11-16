@@ -38,10 +38,14 @@
   {{ end }}
   <!-- Hugo Version number -->
   {{ .Hugo.Generator -}}
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico" />
   {{ if eq .URL "/" }}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
   {{ partial "head_custom.html" . }}
+  <link href="{{ .Site.BaseURL }}css/colorbox.css" rel="stylesheet">
+  <script src="{{ .Site.BaseURL }}js/jquery.colorbox-min.js"></script>
+  <script src="{{ .Site.BaseURL }}js/functions.js"></script>
 </head>

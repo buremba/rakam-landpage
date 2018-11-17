@@ -4115,15 +4115,14 @@ section#new-footer-copy .copy {
 .r-tooltip:after {
     content: attr(aria-label);
     position: absolute;
-    background: #383838;
+    background: #02afde;
     color: #fff;
     padding: 8px 10px;
-    font-size: 12px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 12px;
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 14px;
     white-space: nowrap;
-    text-shadow: 0 -1px 0 #000;
-    box-shadow: 4px 4px 8px rgba(0,0,0,.3);
+    box-shadow: 2px 2px 4px rgba(0,0,0, .3);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -4147,7 +4146,7 @@ section#new-footer-copy .copy {
 }
 
 .r-tooltip:hover:before {
-    border-top-color: #383838;
+    border-top-color: #02afde;
     -webkit-transform: translateY(-8px);
     -moz-transform: translateY(-8px);
     transform: translateY(-8px);
@@ -4249,10 +4248,6 @@ section#new-footer-copy .copy {
 
 #main_our_products .our-products-api {
     margin-top:130px !important;
-}
-
-#main_our_products .rakam-api-image {
-    margin:0;
 }
 
 .morph-dropdown-wrapper .subnav li {

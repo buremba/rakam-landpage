@@ -3,7 +3,7 @@
   publish = "public"
 
 [[redirects]]
-  from = "/blog2"
+  from = "/blog"
   to = "http://35.246.178.69:8080/blog/"
   status = 200
   force = true

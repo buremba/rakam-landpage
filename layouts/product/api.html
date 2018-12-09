@@ -13,7 +13,7 @@
                 <a href="http://rakam.io/demo">Try It Free</a>
             </div>
             <div class="hidden-xs col-sm-7 col-lg-7 text-right">
-                <img src="{{ .Site.BaseURL }}images/Illustration.png" alt="">
+                <img src="{{ .Site.BaseURL }}images/product/api/rakam-api-vector.png" alt="">
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@
             <ul class="nav nav-tabs">
 
                 <li class="uib-tab nav-item" index="0" heading="Rich analytical features with more than 60 endpoints">
-                    <a class="nav-link">Rich analytical features with more than 60 endpoints</a>
+                    <a class="nav-link">Collect data from multiple platforms via SDKs and RESTFul API</a>
                 </li>
 
                 <li class="uib-tab nav-item" index="1" heading="Designed to handle your event-data at any scale">
@@ -52,7 +52,7 @@
                             SDKs for you to integrate Rakam into your applications.</p>
                     </div>
                     <div class="hidden-xs col-sm-2">
-                        <img src="https://d33wubrfki0l68.cloudfront.net/7f36658aefa67ee1df1dd8565dd1d4b1775eed1c/39bab/images/api1.svg"
+                        <img src="{{ .Site.BaseURL }}images/product/api/api1.svg"
                              alt="">
                     </div>
                 </div>
@@ -61,11 +61,11 @@
                     <div class="col-xs-12 col-sm-8 col-sm-offset-1 box_2">
                         <h3>Designed to handle your event-data at any scale</h3>
                         <p>It's developed in Java 8 and Javascript V8 and designed for big-data. A simple 2GB server can
-                            handle +10K events per second, our customers process more than 30B events monthly with Rakam
+                            handle +10K events per second, our customers process 50B+ events monthly with Rakam
                             API</p>
                     </div>
                     <div class="hidden-xs col-sm-2">
-                        <img src="https://d33wubrfki0l68.cloudfront.net/ba5d1f55787f306b3164f4f4a87bd0021879dd3c/fa9cd/images/api2.svg"
+                        <img src="{{ .Site.BaseURL }}images/product/api/api2.svg"
                              alt="">
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                             need a data engineer.</p>
                     </div>
                     <div class="hidden-xs col-sm-2">
-                        <img src="https://d33wubrfki0l68.cloudfront.net/fd50c6fa6a5db6b9ddc46aac92e940128d7179f6/b1233/images/api3.svg"
+                        <img src="{{ .Site.BaseURL }}images/product/api/api3.svg"
                              alt="">
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                             solutions such as recommendation, fraud detection using the data collected via Rakam.</p>
                     </div>
                     <div class="hidden-xs col-sm-2">
-                        <img src="https://d33wubrfki0l68.cloudfront.net/e572cf0d7f41f804e88140d3031559138c7a9325/df952/images/api4.svg"
+                        <img src="{{ .Site.BaseURL }}images/product/api/api4.svg"
                              alt="">
                     </div>
                 </div>
@@ -102,16 +102,28 @@
     </div>
 </section>
 
+<div class="row" style="text-align:center;margin-top:50px">
+    <h2>How it works?</h2>
+</div>
 <section class="container-fluid" id="api_fastAndScalable">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
 
                 <div class="row">
-                    <h2>How it works?</h2>
-
-                    <img src="{{ .Site.BaseURL }}images/rakam_api_flow_presto.svg" style="margin-top:30px;" alt="">
-                    <img src="{{ .Site.BaseURL }}images/rakam_api_flow_postgresql.svg" style="margin-top:30px;" alt="">
+                    <div style="text-align:center">
+                        <h4 class="api-flow" data-target="postgresql">PostgreSQL (Community Edition)</h4>
+                        <h4 style="margin-left:35px" class="api-flow active-api-flow" data-target="presto">Presto (Enterprise
+                            Edition)</h4>
+                    </div>
+                    <img src="{{ .Site.BaseURL }}images/rakam_api_flow_postgresql.svg"
+                         style="margin-top:30px;display:none"
+                         id="postgresql"
+                         class="api-flow-target"
+                         alt="Prestodb big-data pipeline infrastructure (AWS S3, Kinesis, ELB, Dynamodb, EC2, AWS EKS)">
+                    <img src="{{ .Site.BaseURL }}images/rakam_api_flow_presto.svg"
+                         class="api-flow-target"
+                         style="margin-top:30px;" alt="Postgresql analytics with partitioned tables" id="presto">
                 </div>
             </div>
         </div>
@@ -120,56 +132,87 @@
 
 <section class="container-fluid" id="api_sql">
     <div class="container">
-        <div class="row box">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1" style="height:270px" id="code-demo"></div>
+        <div class="row box sql">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <h3>Collect data via SDKs</h3>
+                <img src="{{ .Site.BaseURL }}images/product/api/code.svg"
+                     style="margin-top:30px;box-shadow: 0px 0 8px #0000001f;" alt="">
+            </div>
+            <div class="col-xs-7 col-sm-7 col-md-offset-1 col-md-7 col-lg-7 cm-s-material">
+                <h3>→ Run SQL</h3>
+
+                <div style="margin-top:50px;">
+                    <ol>
+                        <li>
+                            <div style="position: relative;">
+                                <pre class=" CodeMirror-line "><span><span
+                                        class="cm-keyword">SELECT</span> city,</span></pre>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="position: relative;">
+                                <pre class=" CodeMirror-line ">       avg(quantity) <span class="cm-keyword">AS</span> avg_quantity,</pre>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="position: relative;">
+                                <pre class=" CodeMirror-line ">       sum(price) <span class="cm-keyword">AS</span> basket_price </pre>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="position: relative;">
+                                <pre class=" CodeMirror-line "><span class="cm-keyword">FROM</span> transaction </pre>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="position: relative;">
+                                <pre class=" CodeMirror-line "><span class="cm-keyword">GROUP BY</span> city </pre>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="position: relative;">
+                                <pre class=" CodeMirror-line "><span class="cm-keyword">ORDER BY</span> basket_price DESC</pre>
+                            </div>
+                        </li>
+                    </ol>
+                    <div>
+                        <a href="/demo">
+                            <div class="demo">
+                                Visit Demo
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
+
 <section class="container-fluid" id="customizable">
     <div class="container">
         <div class="row box">
-            <div class="col-xs-12 col-sm-6 vcenter">
-                <div class="row">
-                    <h3 class="col-lg-12" style="margin: 0 0 25px 0;">Customizable ETL</h3>
-                    <p class="col-lg-11">The ETL process in Rakam API is completely transparent. We have both native and
-                        custom event mappers, you can write modules that implements native event mappers in Java for
-                        stateful and fast ETL tasks and inject it to your Rakam API event collection process.<br>
-                        However writing Java <a
-                                href="https://docs.rakam.io/v1.0/docs/modules#section-developing-module-for-rakam"
-                                style="color: white; text-decoration-line: underline;">modules</a> are not an easy task
-                        so we have custom event mappers with Javascript embedded in Rakam. You can basically write
-                        Javascript mappers and let Rakam to invoke them when a new event arrives. They may enrich your
-                        event data or sanitize bad inputs, it's up to you.<br><br>
-    
-                        In fact, in most cases you won't need to write event mappers because Rakam provides a set of
-                        event mappers for different use-cases. However, it's important for us to provide you the ways to
-                        enrich and sanitize your event data so that you can embed your event pipeline inside Rakam
-                        without hassle.<br>
-                        See <a href="https://docs.rakam.io/v1.0/docs/event-enrichment#section-event-mappers"
-                                style="color: white; text-decoration-line: underline;">event mappers</a> section in
-                        documentation.</p>
-    
-                    <h3 class="col-lg-12" style="line-height: 1.33; margin-top: 57px;">Collect Data from Anywhere</h3>
-                    <p class="col-lg-11">Rakam is data agnostic, you can send any kind of event data-set as long as it's
-                        immutable. You can just use the SDKs in order to ingegrate your application with Rakam easily or
-                        use the RESTFul API. You can basically embed your scripts in Rakam and let it collect data for
-                        you.<br> See <a href="https://docs.rakam.io/v1.0/docs/collect-data"
-                                        style="color: white; text-decoration-line: underline;">collecting events</a>
-                        section in documentation.</p>
-                </div>
-            </div>
             <div class="hidden-xs col-sm-5 vcenter" style="text-align: center;">
                 <div class="row">
                     <img src="{{ .Site.BaseURL }}images/macbook3.png" alt="">
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-6 vcenter" style="margin-left:30px">
+                <div class="row">
+                    <h3 class="col-lg-12" style="line-height: 1.33; margin-top: 57px;">One-click deployments</h3>
+                    <p class="col-lg-11">You can install Rakam easily to our AWS account with our Cloudformation template,
+                        Google Cloud via Kubernetes and Heroku via our one-click installer. It's also fairly easy to install on-premise using Kubernetes.</p>
+                </div>
+                <div class="row">
+                    <h3 class="col-lg-12" style="line-height: 1.33; margin-top: 57px;">Horizontally scalable for big-data</h3>
+                    <p class="col-lg-11">We have customers who process 50B+ events per month with Rakam, the system automatically scales itself so you don't need to worry about scalability problem.</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glorious/demo/dist/gdemo.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@glorious/demo/dist/gdemo.min.js"></script>
 <script>
   var makeActiveVisualization = function (idx) {
     $('#api_oneClick .uib-tab').removeClass('active')
@@ -182,25 +225,13 @@
     makeActiveVisualization($(e.target).parent().index())
   })
 
-  var demo = new GDemo('#code-demo')
-
-  var code = 'SELECT total_order_amount / fb.spent_amount_total AS revenue_ads_ratio FROM (\n' +
-    '                SELECT cast(_time AS date) day, sum(total_amount) AS total_order_amount FROM (\n' +
-    '                SELECT _user, total_amount FROM collection.transaction\n' +
-    '                JOIN mysqldb.users ON (users.id = transaction._user)\n' +
-    '                UNION ALL SELECT user_id, total_amount FROM remotefile.offlinesales\n' +
-    '                ) WHERE _user IN (SELECT user_id FROM materialized.gold_users WHERE clearbit_job = \'Doctor\')\n' +
-    '                ) orders JOIN fb_advertisement fb ON (orders.day = fb.day)'
-
-  demo
-    .openApp('terminal', {minHeight: '200px', promptString: '$'})
-    .command('curl ')
-    .respond('{"success": true}')
-    .command('', {onCompleteDelay: 2000})
-    .openApp('editor', {minHeight: '200px', windowTitle: 'Rakam Intelligence'})
-    .write(code, {onCompleteDelay: 2000})
-    .end()
-
+  $('.api-flow').click(function (e) {
+    var target = $(e.target).attr('data-target')
+    $('.api-flow-target').hide()
+    $('.api-flow').removeClass('active-api-flow')
+    $(e.target).addClass('active-api-flow')
+    $('#'+target).show()
+  })
 </script>
 
 {{ partial "new-footer-product.html" . }}

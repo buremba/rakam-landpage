@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "https://stupefied-shannon-23bd58.netlify.com/blog/:splat"
+  to = "https://stupefied-shannon-23bd58.netlify.com/:splat"
   status = 200
   force = true

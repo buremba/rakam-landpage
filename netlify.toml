@@ -3,7 +3,7 @@
   publish = "public"
 
 [[redirects]]
-  from = "/blog"
-  to = "https://stupefied-shannon-23bd58.netlify.com/blog/"
+  from = "/blog/*"
+  to = "https://stupefied-shannon-23bd58.netlify.com/blog/:splat"
   status = 200
   force = true

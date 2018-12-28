@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/blog"
-  to = "http://35.246.178.69:8080/blog/"
+  to = "https://stupefied-shannon-23bd58.netlify.com/blog/"
   status = 200
   force = true

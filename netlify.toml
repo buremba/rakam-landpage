@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "http://35.202.68.150/blog/:splat"
+  to = "https://35.202.68.150/blog/:splat"
   status = 200
   force = true

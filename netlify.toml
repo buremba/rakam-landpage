@@ -3,7 +3,7 @@
   publish = "public"
 
 [[redirects]]
-  from = "/blog/*"
+  from = "/blog444/*"
   to = "http://35.202.68.150/blog/:splat"
   status = 200
   headers = {X-Forwarded-For = "35.202.68.150", X-Forwarded-Proto = "https", Host = "https://rakam.io", X-Real-IP: "35.202.68.150"}

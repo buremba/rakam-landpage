@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+<section class="container-fluid" id="api_header">
+    <div class="container">
+        {{ partial "new-header-product.html" . }}
+
+        <div class="row box" style="margin-top:80px">
+            <div class="clearfix col-md-6">
+                <h2 style="line-height: 1.5em; margin-top: 1em; font-weight: bold;">{{ .Params.Header.headline }}</h2>
+
+                <p style="font-size: 18px; line-height: 31px; margin-top:10px">{{ .Params.Header.desc }} </p>
+            </div>
+            <div class="clearfix col-md-6">
+                <img src="{{ .Site.BaseURL }}images/product/ui/sample-dashboard.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="white-box">
+            <p>Rakam answers these questions in a seamless way and lets you drill-down these metrics so that you can
+                understand how your users are behaving.</p>
+
+            <ul>
+                {{ range $name := .Params.Questions }}
+                <li>{{ $name }}</li>
+                {{ end }}
+            </ul>
+        </div>
+
+        {{ partial "industry_roles.html" . }}
+
+        {{ partial "call_to_action.html" }}
+
+    </div>
+</section>
+{{ partial "new-footer-product.html" . }}

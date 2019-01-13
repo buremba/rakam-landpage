@@ -9,7 +9,8 @@
                     Powerful way to visualize your user behaviour
                 </h1>
                 <p>
-                    Getting deeper insights on customer data has never been this easy while lessening the burden on your data team.
+                    Getting deeper insights on customer data has never been this easy while lessening the burden on your
+                    data team.
                 </p>
 
                 <a href="/demo">
@@ -21,40 +22,45 @@
 
             </div>
             <div class="hidden-xs col-sm-7 col-lg-7 box_animation">
-                <img src="{{ .Site.BaseURL }}images/animation_mocup_rakam.png" alt="" class="img_1">
-                <img src="{{ .Site.BaseURL }}images/group-main-2.gif" alt="" class="img_2">
-                <img src="{{ .Site.BaseURL }}images/group-main-3.png" alt="" class="img_3">
+                <!--<img src="{{ .Site.BaseURL }}images/animation_mocup_rakam.png" alt="" class="img_1">-->
+                <!--<img src="{{ .Site.BaseURL }}images/group-main-2.gif" alt="" class="img_2">-->
+
+
+                <!--<img src="{{ .Site.BaseURL }}images/group-main-3.png" alt="" class="img_3">-->
+                {{ partial "main_svg.html" . }}
+                <!--<img style="background:#f4f8fb" src="{{ .Site.BaseURL }}images/screens/main.svg" alt="" class="img_1">-->
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-xs-12">
-                <p>Trusted by such Companies</p>
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="{{ .Site.BaseURL }}images/homepage/Companies1.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="{{ .Site.BaseURL }}images/homepage/Companies3.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img style="width:88px" src="{{ .Site.BaseURL }}images/homepage/Rappi.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img style="width: 195px; opacity: 0.5;" src="{{ .Site.BaseURL }}images/homepage/Foodpanda.svg" alt="">
-                        </a>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>Trusted by such Companies</p>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="{{ .Site.BaseURL }}images/homepage/Companies1.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="{{ .Site.BaseURL }}images/homepage/Companies3.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img style="width:88px" src="{{ .Site.BaseURL }}images/homepage/Rappi.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img style="width: 195px; opacity: 0.5;"
+                                     src="{{ .Site.BaseURL }}images/homepage/Foodpanda.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 
 
@@ -89,7 +95,8 @@
 
                     <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_1">
                         <h3>Connecting to your database</h3>
-                        <p>We support most of the data warehouses that is commonly used for storing event-data, you simply enter your database credentials and connect to your data.</p>
+                        <p>We support most of the data warehouses that is commonly used for storing event-data, you
+                            simply enter your database credentials and connect to your data.</p>
                         <a href="https://beta.rakam.io">Register and connect your database</a>
                     </div>
                     <div class="hidden-xs col-sm-2">
@@ -101,7 +108,9 @@
 
                     <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_2">
                         <h3>Mapping your data layout</h3>
-                        <p>You define the event tables using our user interface, the user attribute and timestamp columns in event tables so that we can provide you the product analytics tool for non-technical users to analyze your event data.</p>
+                        <p>You define the event tables using our user interface, the user attribute and timestamp
+                            columns in event tables so that we can provide you the product analytics tool for
+                            non-technical users to analyze your event data.</p>
                         <!--<a href="#">Learn how you can map your data</a>-->
                     </div>
                     <div class="hidden-xs col-sm-2">
@@ -113,7 +122,8 @@
 
                     <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_3">
                         <h3>Creating reports &amp; dashboards</h3>
-                        <p>Explore your data with funnel, retention and segmentation reports or directly using SQL for custom reports. You can also create dashboards with custom layout from your reports.</p>
+                        <p>Explore your data with funnel, retention and segmentation reports or directly using SQL for
+                            custom reports. You can also create dashboards with custom layout from your reports.</p>
                         <a href="{{ .Site.BaseURL }}/product/ui">Learn More</a>
                     </div>
                     <div class="hidden-xs col-sm-2">
@@ -125,7 +135,9 @@
 
                     <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_4">
                         <h3>Share with your teams</h3>
-                        <p>You can share your reports &amp; dashboards with your teams easily. We provide enterprise-level features such as table, row and column permissions and support third-party identity providers such as OKTA.</p>
+                        <p>You can share your reports &amp; dashboards with your teams easily. We provide
+                            enterprise-level features such as table, row and column permissions and support third-party
+                            identity providers such as OKTA.</p>
                         <a href="{{ .Site.BaseURL }}/product/ui">Learn More</a>
                     </div>
                     <div class="hidden-xs col-sm-2">
@@ -148,8 +160,11 @@
         <div class="row box">
             <div class="col-sm-6">
                 <h3>Rakam Intelligence</h3>
-                <img src="{{ .Site.BaseURL }}images/ui_landing.svg" class="col-sm-6 hidden-sm hidden-md hidden-lg" alt="" style="margin-bottom:35px;">
-                <p>Visualize and analyze your customer event data easily. A simple and intuitive user interface for product managers and data analysts. Our aim is to empower product teams while lessening the burden on your data team.</p>
+                <img src="{{ .Site.BaseURL }}images/ui_landing.svg" class="col-sm-6 hidden-sm hidden-md hidden-lg"
+                     alt="" style="margin-bottom:35px;">
+                <p>Visualize and analyze your customer event data easily. A simple and intuitive user interface for
+                    product managers and data analysts. Our aim is to empower product teams while lessening the burden
+                    on your data team.</p>
                 <ul>
                     <li>Run funnel, retention and segmentation reports easily.</li>
                     <li>Mke your reports lighting fast with incremental materialized views.</li>
@@ -160,7 +175,7 @@
             </div>
             <div class="hidden-xs col-sm-6">
                 <div class="rakam-api-image">
-                    <img src="{{ .Site.BaseURL }}images/ui_landing.svg" alt="Rakam Intelligence" />
+                    <img src="{{ .Site.BaseURL }}images/ui_landing.svg" alt="Rakam Intelligence"/>
                     <a href="#" aria-label="Segmentation" class="r-tooltip t-7"></a>
                     <a href="#" aria-label="Funnel" class="r-tooltip t-8"></a>
                     <a href="#" aria-label="Retention" class="r-tooltip t-9"></a>
@@ -176,7 +191,7 @@
         <div class="row box our-products-api">
             <div class="col-sm-6 hidden-xs">
                 <div class="rakam-api-image">
-                    <img src="{{ .Site.BaseURL }}images/api_landing.svg" alt="Rakam API" />
+                    <img src="{{ .Site.BaseURL }}images/api_landing.svg" alt="Rakam API"/>
                     <a href="#" aria-label="Collect data from your Android apps" class="r-tooltip t-1"></a>
                     <a href="#" aria-label="Collect data from your iOS apps" class="r-tooltip t-2"></a>
                     <a href="#" aria-label="Collect data from your websites" class="r-tooltip t-3"></a>
@@ -187,7 +202,8 @@
             </div>
             <div class="col-sm-6" style="text-align:left;">
                 <h3>Rakam API</h3>
-                <img src="{{ .Site.BaseURL }}images/api_landing.svg" class="col-sm-6 hidden-sm hidden-md hidden-lg" alt="" style="margin-bottom:35px;">
+                <img src="{{ .Site.BaseURL }}images/api_landing.svg" class="col-sm-6 hidden-sm hidden-md hidden-lg"
+                     alt="" style="margin-bottom:35px;">
                 <p>Takes care of collecting, enriching and storing your user event data on your data warehouse.
                     One-click installation to your AWS, Heroku, Digitalocean accounts or on-premise servers via
                     Docker.</p>
@@ -211,7 +227,8 @@
         <li class="sol-xs-12 col-sm-3">
             <img src="{{ .Site.BaseURL }}images/homeWhyDo1.svg" alt="">
             <h3>I'm a Data Engineer</h3>
-            <p>You won't need to adopt generic BI tools, we will adopt you so that you focus on building great stuff.</p>
+            <p>You won't need to adopt generic BI tools, we will adopt you so that you focus on building great
+                stuff.</p>
         </li>
         <li class="sol-xs-12 col-sm-3">
             <img src="{{ .Site.BaseURL }}images/homeWhyDo2.svg" alt="">
@@ -345,6 +362,33 @@
   $('.uib-tab').click(function (e) {
     makeActiveIntegration($(e.target).parent().index())
   })
+
+  var states = [
+    // function () { $('#segmentation #query').fadeTo('slow', 1) },
+    function () { $('#segmentation #report').fadeTo('slow', 1) },
+    function () { $('#segmentation > g').css('opacity', 0); $('#funnel #query').css('opacity', 1) },
+    function () { $('#funnel #report').fadeTo('slow', 1)},
+    function () { $('#funnel > g').css('opacity', 0); $('#retention #query').css('opacity', 1) },
+    function () { $('#retention #report').fadeTo('slow', 1)},
+    function () { $('#retention > g').css('opacity', 0); $('#sql #query, #sql #schema').css('opacity', 1) },
+    function () { $('#sql #report').fadeTo('slow', 1)},
+    function () { $('#sql > g').css('opacity', 0); $('#dashboard #bet-count').fadeTo('slow', 1) },
+    function () { $('#dashboard #Profit-by-Weekdays').fadeTo('slow', 1)},
+    function () { $('#dashboard #Last-Actions').fadeTo('slow', 1)},
+    function () { $('#dashboard #Profit-Loss').fadeTo('slow', 1)},
+    function () { $('#dashboard #Win-Lose').fadeTo('slow', 1)},
+
+  ]
+
+  var currentState = -1
+  var handler = function () {
+    var number = ++currentState
+    if(states[number]) {
+      states[number]();
+      setTimeout(handler, 1000)
+    }
+  }
+  setTimeout(handler, 1000)
 </script>
 
 {{ partial "new-footer-product.html" . }}

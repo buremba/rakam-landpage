@@ -1,9 +1,3 @@
 [build]
   command = "hugo"
   publish = "public"
-
-[[redirects]]
-  from = "/blog2"
-  to = "https:/blog.rakam.io"
-  status = 200
-  force = true

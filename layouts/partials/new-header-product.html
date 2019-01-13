@@ -9,19 +9,19 @@
         <nav class="main-nav" style="margin-top: 7px;">
             <ul>
                 <li class="has-dropdown" data-content="products">
-                    <a href="#">Products</a>
+                    <a>Products</a>
                 </li>
 
-                <li>
+                <li class="has-dropdown" data-content="solutions">
                     <a href="/product/prebuilt">Solutions</a>
                 </li>
 
                 <li class="has-dropdown" data-content="developers">
-                    <a href="#">Developers</a>
+                    <a>Developers</a>
                 </li>
 
                 <li class="has-dropdown" data-content="company">
-                    <a href="#">Company</a>
+                    <a>Company</a>
                 </li>
                 <li>
                     <a href="/pricing">Pricing</a>
@@ -33,7 +33,7 @@
             <div class="dropdown-list">
                 <ul>
                     <li id="products" class="dropdown products menuSpecial">
-                        <a href="#" class="label">Products</a>
+                        <a class="label">Products</a>
 
                         <div class="content">
                             <div class="top-section clearfix">
@@ -53,43 +53,22 @@
                             </div>
                         </div>
                     </li>
-
-                    <li class="menuSpecial">
-                        <a href="/product/prebuilt" class="label">Solutions</a>
-                    </li>
-
+                    
                     <li id="developers" class="dropdown developers menuSpecial">
-                        <a href="#0" class="label">Developers</a>
+                        <a class="label">Developers</a>
                         <div class="content">
                             <div class="top-section clearfix">
-                                <ul class="clearfix col-md-6">
+                                <ul class="clearfix">
                                     <li><a href="http://docs.rakam.io" target="_blank">
                                         <h4>Documentation</h4>
                                         <p>Learn how to setup, use and customize Rakam.</p></a>
                                         </a>
 
                                     </li>
-                                    <li><a href="https://docs.rakam.io/reference" target="_blank">
-                                        <h4>API documentation</h4>
-                                        <p>Learn how to use the REST API.</p>
-                                    </a>
-                                    </li>
-                                </ul>
-                                <ul class="clearfix col-md-6">
-                                    <li><a href="/integrate">
-                                        <h4>Integration</h4>
-                                        <p>How to integrate Rakam into your company.</p></a>
-                                    </li>
                                     <li><a href="/deploy">
-                                        <h4>Deploy</h4>
+                                        <h4>Deploy Rakam API</h4>
                                         <p>Learn how to deploy Rakam easily.</p></a>
                                     </li>
-                                </ul>
-
-                                <ul class="clearfix col-md-12" style="text-align: right">
-                                    <li><a href="https://github.com/rakam-io/rakam">
-                                        <h4><i class="fa fa-github"></i> View in Github</h4>
-                                    </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -97,7 +76,7 @@
 
                     <li id="company" class="dropdown company menuSpecial">
 
-                        <a href="#0" class="label">Company</a>
+                        <a class="label">Company</a>
                         <div class="content" style="width:250px">
                             <div class="top-section clearfix">
                                 <ul class="clearfix">
@@ -114,9 +93,55 @@
                             </div>
                         </div>
                     </li>
+
+                    <li id="solutions" class="dropdown solutions menuSpecial">
+                        <a class="label">Solutions</a>
+                        <div class="content">
+                            <div class="top-section clearfix">
+                                <ul class="clearfix col-md-4">
+                                    <li>
+                                        <h4 class="color-sand-wh hover-black">Industries</h4>
+                                        <ul class="subnav custom-list diamond">
+                                            <li><a href="/industry/gaming">Gaming</a></li>
+                                            <li><a href="/industry/e-commerce">E-commerce</a></li>
+                                            <li><a href="/industry/gaming">Marketplace</a></li>
+                                            <li><a href="/industry/gaming">Social Media</a></li>
+                                            <li><a href="/industry/saas">SaaS</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="clearfix col-md-4">
+                                    <li>
+                                        <h4 class="color-sand-wh hover-black">Integration</h4>
+                                        <ul class="subnav triangle custom-list">
+                                            <li><a href="/integration/segment">Segment</a></li>
+                                            <li><a href="/integration/snowplow">Snowplow</a></li>
+                                            <li><a href="/integration/redshift">Redshift</a></li>
+                                            <li><a href="/integration/presto">Presto</a></li>
+                                            <li><a href="/integration/postgresql">PostgreSQL</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="clearfix col-md-4">
+                                    <li>
+                                        <h4 class="color-sand-wh hover-black">Role</h4>
+                                        <ul class="subnav round custom-list">
+                                            <li><a href="/role/product-manager">Product Manager</a></li>
+                                            <li><a href="/role/data-analyst">Data Analyst</a></li>
+                                            <li><a href="/role/marketing">Marketing</a></li>
+                                            <li><a href="/role/business">Business</a></li>
+                                            <li><a href="/role/data-engineer">Data engineer</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
                     <li class="menuSpecial">
                         <a href="#" class="label">Pricing</a>
                     </li>
+                    
                 </ul>
 
                 <div class="bg-layer" aria-hidden="true"></div>
@@ -135,7 +160,7 @@
             <button class="btn-md s-button-o">Register</button>
         </a>
         <a href="https://beta.rakam.io/login" class="login">
-            <button class="btn-md s-button-o">Login</button>
+            <button class="btn-md s-button-o">Login →</button>
         </a>
     </div>
 </div>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="582px" height="441px" viewBox="0 0 582 441" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="9.30435623%" y1="111.604675%" x2="90.9382572%" y2="-11.9399502%" id="linearGradient-1">
+            <stop stop-color="#4DC0E7" offset="100%"></stop>
+            <stop stop-color="#5772C1" offset="0%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.0431748%" y1="18.801299%" x2="31.6889297%" y2="77.0903239%" id="linearGradient-2">
+            <stop stop-color="#FFF900" offset="0%"></stop>
+            <stop stop-color="#FEE258" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-16.6242964%" y1="11.8076964%" x2="116.652533%" y2="88.2732508%" id="linearGradient-3">
+            <stop stop-color="#3FBFEF" offset="0.2483974%"></stop>
+            <stop stop-color="#4DC0E7" offset="9.135145%"></stop>
+            <stop stop-color="#68C3D8" offset="23.61%"></stop>
+            <stop stop-color="#8BCABF" offset="41.89%"></stop>
+            <stop stop-color="#B2D39A" offset="63.25%"></stop>
+            <stop stop-color="#DEE361" offset="86.9%"></stop>
+            <stop stop-color="#F5EB24" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="6.53198794%" y1="106.965859%" x2="93.5089065%" y2="-6.94399569%" id="linearGradient-4">
+            <stop stop-color="#3FBFEF" offset="0.2483974%"></stop>
+            <stop stop-color="#4DC0E7" offset="9.135145%"></stop>
+            <stop stop-color="#68C3D8" offset="23.61%"></stop>
+            <stop stop-color="#8BCABF" offset="41.89%"></stop>
+            <stop stop-color="#B2D39A" offset="63.25%"></stop>
+            <stop stop-color="#DEE361" offset="86.9%"></stop>
+            <stop stop-color="#F5EB24" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-15.0192967%" y1="11.2170614%" x2="115.068981%" y2="88.8639397%" id="linearGradient-5">
+            <stop stop-color="#3FBFEF" offset="0.2483974%"></stop>
+            <stop stop-color="#4DC0E7" offset="9.135145%"></stop>
+            <stop stop-color="#68C3D8" offset="23.61%"></stop>
+            <stop stop-color="#8BCABF" offset="41.89%"></stop>
+            <stop stop-color="#B2D39A" offset="63.25%"></stop>
+            <stop stop-color="#DEE361" offset="86.9%"></stop>
+            <stop stop-color="#F5EB24" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-195.5%" y1="22.1655329%" x2="295.5%" y2="77.8344671%" id="linearGradient-6">
+            <stop stop-color="#57C8E1" offset="0.2483974%"></stop>
+            <stop stop-color="#58C1DE" offset="13.96%"></stop>
+            <stop stop-color="#58B2D7" offset="36.28%"></stop>
+            <stop stop-color="#579ACB" offset="64.44%"></stop>
+            <stop stop-color="#577ABC" offset="97.05%"></stop>
+            <stop stop-color="#5777BB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="76.7208132%" y1="-337.74%" x2="23.2763611%" y2="437.73925%" id="linearGradient-7">
+            <stop stop-color="#5777BB" offset="0%"></stop>
+            <stop stop-color="#57C8E1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard" transform="translate(71.000000, 60.000000)">
+            <g id="Profit-by-Weekdays" style="visibility:hidden">
+                <path d="M484,161.5 L261,161.5 C259.3,161.5 258,160.2 258,158.5 L258,5.8 C258,3 260.2,0.8 263,0.8 L484,0.8 C486.8,0.8 489,3 489,5.8 L489,156.5 C489,159.2 486.8,161.5 484,161.5 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <text fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="284" y="25">Profit by Weekdays</tspan>
+                </text>
+                <path d="M238.100952,162 L4.99582361,162 C2.1981624,162 0,159.795893 0,156.990666 L0,6.0093342 C0,3.204107 2.1981624,1 4.99582361,1 L238.001036,1 C240.798697,1 242.996859,3.204107 242.996859,6.0093342 L242.996859,156.990666 C243.096776,159.695706 240.798697,162 238.100952,162 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="284" y="129" width="180" height="2"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="393" y="83" width="16" height="23"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="418" y="82" width="16" height="25"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="418" y="108" width="16" height="10"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="367" y="108" width="16" height="15"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="342" y="108" width="16" height="11"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="443" y="68" width="16" height="38"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="292" y="58" width="16" height="49"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="317" y="51" width="16" height="55"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="342" y="72" width="16" height="34"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="367" y="76" width="16" height="31"></rect>
+                <path d="M454,141 L454,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M426,141 L426,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M401,141 L401,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M350,141 L350,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M298,141 L298,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M375,141 L375,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M325,141 L325,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+            </g>
+            <g id="Profit/Loss" transform="translate(258.000000, 176.000000)">
+                <g id="Group" opacity="0.9" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                    <path d="M99.7,186.2 L6.9,186.2 C3.1,186.2 0,183.1 0,179.3 L0,7.3 C0,3.5 3.1,0.4 6.9,0.4 L99.7,0.4 C103.5,0.4 106.6,3.5 106.6,7.3 L106.6,179.3 C106.6,183.2 103.5,186.2 99.7,186.2 Z" id="Shape"></path>
+                </g>
+                <text fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="14" y="25">Profit/Loss</tspan>
+                </text>
+                <g id="Group" opacity="0.75" transform="translate(14.000000, 59.000000)" fill-rule="nonzero">
+                    <path d="M35.9,5.7 C16.2,5.7 0.2,21.7 0.2,41.4 C0.2,61.1 16.2,77.1 35.9,77.1 C55.6,77.1 71.6,61.1 71.6,41.4 L35.9,41.4 L35.9,5.7 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M77.6,36.3 C77.6,16.6 61.6,0.6 41.9,0.6 L41.9,36.3 L77.6,36.3 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+            <g id="Last-Actions" transform="translate(0.000000, 176.000000)">
+                <g id="Group" opacity="0.9" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                    <path d="M238.6,186.2 L5.3,186.2 C2.5,186.2 0.3,184 0.3,181.2 L0.3,5.5 C0.3,2.7 2.5,0.5 5.3,0.5 L238.5,0.5 C241.3,0.5 243.5,2.7 243.5,5.5 L243.5,181.2 C243.6,184 241.3,186.2 238.6,186.2 Z" id="Shape"></path>
+                </g>
+                <text fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="17" y="25">Last Actions</tspan>
+                </text>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="17" y="167" width="210" height="2"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="149" y="129" width="16" height="35"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="23" y="95" width="16" height="69"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="48" y="85" width="16" height="79"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="201" y="85" width="16" height="79"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="74" y="147" width="16" height="17"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="99" y="58" width="16" height="106"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="175" y="110" width="16" height="54"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="124" y="109" width="16" height="55"></rect>
+            </g>
+            <g id="Win/Lose" transform="translate(379.000000, 176.000000)">
+                <g id="Group" opacity="0.9" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                    <path d="M104.4,186.2 L7.3,186.2 C3.5,186.2 0.4,183.1 0.4,179.3 L0.4,7.3 C0.4,3.5 3.5,0.4 7.3,0.4 L104.4,0.4 C108.2,0.4 111.3,3.5 111.3,7.3 L111.3,179.3 C111.3,183.2 108.2,186.2 104.4,186.2 Z" id="Shape"></path>
+                </g>
+                <text fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="16" y="25">Win/Lose</tspan>
+                </text>
+                <g id="Group" opacity="0.75" transform="translate(20.000000, 61.000000)" fill-rule="nonzero">
+                    <path d="M42.5,0.1 C62.2,0.1 78.2,16.1 78.2,35.8 C78.2,43.1 76,49.9 72.3,55.5 L38.8,35.8 L42.5,0.1 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                    <path d="M36.3,2.3 C16.6,2.3 0.6,18.3 0.6,38 C0.6,57.7 16.6,73.7 36.3,73.7 C48.7,73.7 59.7,67.3 66.1,57.7 L33.3,38 L36.3,2.3 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <g id="bet-count">
+                <path d="M238.7,161.5 L5.4,161.5 C2.6,161.5 0.4,159.3 0.4,156.5 L0.4,5.8 C0.4,3 2.6,0.8 5.4,0.8 L238.6,0.8 C241.4,0.8 243.6,3 243.6,5.8 L243.6,156.5 C243.7,159.2 241.4,161.5 238.7,161.5 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <path d="M24.4,43.8 L204.7,43.8" id="Shape" stroke="#FFFFFF"></path>
+                <text id="Bet-Counts" fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="21" y="26">Bet Counts</tspan>
+                </text>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="24" y="132" width="180" height="2"></rect>
+                <path d="M25,75.77382 C25,75.77382 49.059677,24.2080678 69.625209,79.786719 C89.991076,134.663113 102.969325,122.724738 115.747909,105.469273 C126.529838,90.922514 145.19855,46.479657 170.855549,95.437025 C188.925265,129.847634 204,124.731188 204,124.731188" id="Shape" stroke="#FFFFFF"></path>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(32.000000, 65.000000) rotate(-65.259675) translate(-32.000000, -65.000000) " cx="32" cy="65" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(64.000000, 67.000000) rotate(-65.259675) translate(-64.000000, -67.000000) " cx="64" cy="67" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(73.000000, 87.000000) rotate(-65.259675) translate(-73.000000, -87.000000) " cx="73" cy="87" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(81.000000, 103.000000) rotate(-65.259675) translate(-81.000000, -103.000000) " cx="81" cy="103" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(91.000000, 116.000000) rotate(-65.259675) translate(-91.000000, -116.000000) " cx="91" cy="116" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(107.000000, 116.000000) rotate(-65.259675) translate(-107.000000, -116.000000) " cx="107" cy="116" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(118.000000, 104.000000) rotate(-65.259675) translate(-118.000000, -104.000000) " cx="118" cy="104" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(127.000000, 89.000000) rotate(-65.259675) translate(-127.000000, -89.000000) " cx="127" cy="89" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(138.000000, 76.000000) rotate(-65.259675) translate(-138.000000, -76.000000) " cx="138" cy="76" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(157.000000, 76.000000) rotate(-65.259675) translate(-157.000000, -76.000000) " cx="157" cy="76" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(167.000000, 87.000000) rotate(-65.259675) translate(-167.000000, -87.000000) " cx="167" cy="87" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(175.000000, 101.000000) rotate(-65.259675) translate(-175.000000, -101.000000) " cx="175" cy="101" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(189.000000, 118.000000) rotate(-65.259675) translate(-189.000000, -118.000000) " cx="189" cy="118" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(47.000000, 54.000000) rotate(-65.259675) translate(-47.000000, -54.000000) " cx="47" cy="54" r="2"></circle>
+                <g id="Group" opacity="0.212946429" transform="translate(24.000000, 43.000000)" stroke="#FFFFFF">
+                    <path d="M0.4,77.6 L180.7,77.6" id="Shape"></path>
+                    <path d="M0.4,66.7 L180.7,66.7" id="Shape"></path>
+                    <path d="M0.4,55.7 L180.7,55.7" id="Shape"></path>
+                    <path d="M0.4,44.7 L180.7,44.7" id="Shape"></path>
+                    <path d="M0.4,33.7 L180.7,33.7" id="Shape"></path>
+                    <path d="M0.4,22.8 L180.7,22.8" id="Shape"></path>
+                    <path d="M0.4,11.8 L180.7,11.8" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+        <g id="background">
+            <g id="Rectangle-path" opacity="0.8" fill="url(#linearGradient-6)" fill-rule="nonzero">
+                <rect x="0" y="0" width="50" height="441"></rect>
+            </g>
+            <rect id="Rectangle-path" fill="url(#linearGradient-7)" fill-rule="nonzero" x="1" y="0" width="581" height="40"></rect>
+            <g id="Rectangle-path" opacity="0.44" transform="translate(50.000000, 1.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <rect x="0" y="0" width="97" height="40"></rect>
+            </g>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="554.5" cy="20.5" r="6.5"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="532.5" cy="20.5" r="6.5"></circle>
+            <g id="Group" transform="translate(61.000000, 15.000000)">
+                <g id="Rakam-Demo" fill="#000000" fill-opacity="0.390511775" font-family="Geneva" font-size="9" font-weight="normal">
+                    <text>
+                        <tspan x="0.5158" y="9.6465">Rakam Demo</tspan>
+                    </text>
+                </g>
+                <polygon id="Shape" fill="#3C3C3C" fill-rule="nonzero" points="77 4.5 72.8 8.7 68.6 4.6 68.8 4.3 72.8 8.2 76.7 4.2"></polygon>
+            </g>
+            <g id="Rectangle-path" transform="translate(16.000000, 13.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <rect x="0" y="7.7" width="4.6" height="8.2"></rect>
+                <rect x="6.7" y="3.6" width="4.6" height="12.3"></rect>
+                <rect x="13.4" y="0.1" width="4.6" height="15.8"></rect>
+            </g>
+            <g id="Rectangle-path" transform="translate(15.000000, 52.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <rect x="0" y="0.3" width="8.6" height="5.5"></rect>
+                <rect x="0" y="7.9" width="8.6" height="10.4"></rect>
+                <rect x="10.4" y="0.3" width="7.6" height="10.4"></rect>
+                <rect x="10.4" y="12.9" width="7.6" height="5.5"></rect>
+            </g>
+            <path d="M16,91 L16,110.1 L33,110.1 L33,91 L30.6,91 L30.6,91.9 C30.6,92.2 30.3,92.4 30,92.4 C29.7,92.4 29.4,92.2 29.4,91.9 L29.4,91 L27,91 L27,91.9 C27,92.2 26.7,92.4 26.4,92.4 C26.1,92.4 25.8,92.2 25.8,91.9 L25.8,91 L23.4,91 L23.4,91.9 C23.4,92.2 23.1,92.4 22.8,92.4 C22.5,92.4 22.2,92.2 22.2,91.9 L22.2,91 L19.8,91 L19.8,91.9 C19.8,92.2 19.5,92.4 19.2,92.4 C18.9,92.4 18.6,92.2 18.6,91.9 L18.6,91 L16,91 Z M30,97.4 L19,97.4 C18.7,97.4 18.4,97 18.4,96.5 C18.4,96 18.7,95.6 19,95.6 L30,95.6 C30.3,95.6 30.6,96 30.6,96.5 C30.6,97 30.3,97.4 30,97.4 Z M30,102.2 L19,102.2 C18.7,102.2 18.4,101.8 18.4,101.3 C18.4,100.8 18.7,100.4 19,100.4 L30,100.4 C30.3,100.4 30.6,100.8 30.6,101.3 C30.6,101.8 30.3,102.2 30,102.2 Z M30,106.9 L19,106.9 C18.7,106.9 18.4,106.5 18.4,106 C18.4,105.5 18.7,105.1 19,105.1 L30,105.1 C30.3,105.1 30.6,105.5 30.6,106 C30.6,106.5 30.3,106.9 30,106.9 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M31.8,131.8 C28,128 21.9,128 18.1,131.8 C14.3,135.6 14.3,141.7 18.1,145.5 C21.9,149.3 28,149.3 31.8,145.5 C35.6,141.7 35.6,135.6 31.8,131.8 Z M21.6,142.1 L23.3,137 L28.4,135.3 L26.7,140.4 L21.6,142.1 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M17.9,187.2 C18.4,187.8 18.9,188.3 19.5,188.8 L19.5,190.1 C19.5,190.3 19.7,190.6 19.9,190.6 L22.5,191.6 L22.7,191.6 C22.9,191.6 23,191.5 23.1,191.4 L23.9,190.4 C24.7,190.5 25.4,190.5 26.2,190.4 L27.1,191.3 C27.3,191.5 27.5,191.5 27.8,191.4 L30.4,190.2 C30.6,190.1 30.8,189.9 30.8,189.6 L30.7,188.3 C31.3,187.8 31.8,187.3 32.3,186.7 L33.6,186.7 C33.8,186.7 34.1,186.5 34.1,186.3 L35.1,183.6 C35.2,183.4 35.1,183.1 34.9,182.9 L33.9,182.1 C34,181.3 34,180.6 33.9,179.8 L34.8,178.9 C35,178.7 35,178.5 34.9,178.2 L33.7,175.6 C33.6,175.4 33.4,175.2 33.1,175.2 L31.8,175.3 C31.3,174.7 30.8,174.2 30.2,173.7 L30.2,172.5 C30.2,172.3 30,172 29.8,172 L27.3,171 C27.1,170.9 26.8,171 26.6,171.2 L25.8,172.2 C25,172.1 24.3,172.1 23.5,172.2 L22.6,171.3 C22.4,171.1 22.2,171.1 21.9,171.2 L19.3,172.4 C19.1,172.5 18.9,172.7 18.9,173 L19,174.3 C18.4,174.8 17.9,175.3 17.4,175.9 L16.1,175.9 C15.9,175.9 15.6,176.1 15.6,176.3 L14.6,178.8 C14.5,179 14.6,179.3 14.8,179.5 L15.8,180.3 C15.7,181.1 15.7,181.8 15.8,182.6 L14.9,183.5 C14.7,183.7 14.7,183.9 14.8,184.2 L16,186.8 C16.1,187 16.3,187.2 16.6,187.2 L17.9,187.2 Z M20.4,180.7 C21.4,178.1 24.2,176.9 26.8,177.8 C29.4,178.8 30.6,181.6 29.7,184.2 C28.7,186.8 25.9,188 23.3,187.1 C23.3,187.1 23.3,187.1 23.3,187.1 C20.7,186.1 19.4,183.2 20.4,180.7 C20.4,180.7 20.4,180.7 20.4,180.7 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

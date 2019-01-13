@@ -1,0 +1,22 @@
+{
+  "name": "rakam-landpage",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "hugo server -wD -d dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buremba/rakam-landpage.git"
+  },
+  "author": "Burak Emre Kabakcı <emrekabakci@gmail.com> (https://rakam.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buremba/rakam-landpage/issues"
+  },
+  "homepage": "https://github.com/buremba/rakam-landpage#readme"
+}

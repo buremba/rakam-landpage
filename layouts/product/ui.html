@@ -5,15 +5,16 @@
         {{ partial "new-header-product.html" . }}
 
         <div class="row box">
-            <div class="col-xs-12 col-sm-5 col-lg-5">
+            <div class="col-xs-12 col-sm-5 col-lg-5" style="padding-top:140px">
                 <h1>Rakam Intelligence</h1>
-                <p> 
-                    Interactive Data & Analytics Visualization Interface, enabling you to discover critical insights.
+                <p>
+                    Interactive Data & Analytics visualization engine for your customer event-data which enables you to
+                    discover critical insights.
                 </p>
-                <a href="http://rakam.io/demo">Try It Free</a>
+                <a href="https://beta.rakam.io/register">Try It Free</a>
             </div>
             <div class="hidden-xs col-sm-7 col-lg-7">
-                <img src="{{ .Site.BaseURL }}images/IllustrationUi.png" alt="">
+                <img src="{{ .Site.BaseURL }}images/product/ui/rakam_ui_vector.png" alt="">
             </div>
         </div>
     </div>
@@ -25,208 +26,71 @@
             <ul>
                 <li>
                     <img src="{{ .Site.BaseURL }}images/bussines.svg" alt="">
-                    <p>Simple and powerful business intelligence.</p>
+                    <p>Enterprise-ready with SSO and on-premise support</p>
                 </li>
                 <li>
                     <img src="{{ .Site.BaseURL }}images/security.svg" alt="">
-                    <p>Security is not a feature, it's state of mind.</p>
+                    <p>Secure User Access and Management with teams and auditing</p>
                 </li>
                 <li>
                     <img src="{{ .Site.BaseURL }}images/visualization.svg" alt="">
                     <p>Advanced visualization techniques.</p>
                 </li>
-                <li>
-                    <img src="{{ .Site.BaseURL }}images/flexible.svg" alt="">
-                    <p>Customize for your needs, it's flexible.</p>
-                </li>
             </ul>
         </div>
         <div class="col-xs-12 col-sm-7 col-md-offset-1 col-md-7 col-lg-offset-1 col-lg-7">
             <div class="row">
-                <h2 class="col-lg-12">
-                    Advanced Visualization<br>
-                    for Rakam API
+                <h2 class="col-lg-12" style="color:#646782;line-height:1.5em;margin:85px 0 35px">
+                    The most powerful way to analyze your customer event-data
                 </h2>
-                <p class="col-lg-10">Rakam Intelligence is the frontend of your Rakam API, it connects your Rakam API and visualize the data for you. It allows you to run event explorer, funnel, retention queries on your event data-set collected via Rakam API and also allows you to create custom reports, dashboards with advanced SQL editor and simple query builder interface.</p>
-                <p class="col-lg-10">You can create your custom analytics service without writing any single code with Rakam Intelligence. The developers and analytsts can create custom reports and dashboards and share them with the teams in your company.</p>
-                <p class="col-lg-10">We take security seriously. Rakam Intelligence doesn't actually have accesss to your Rakam APIs, your browser executes the AJAX requests directly on your Rakam API. Rakam UI can only store metadata of your reports, not your data.</p>
+                <p class="col-lg-12">Rakam Intelligence is the frontend of your Rakam API, it connects your Rakam API
+                    and visualize the data for you. It allows you to run event explorer, funnel, retention queries on
+                    your event data-set collected via Rakam API and also allows you to create custom reports, dashboards
+                    with advanced SQL editor and simple query builder interface.</p>
+                <p class="col-lg-12">You can create your custom analytics service without writing any single code with
+                    Rakam Intelligence. The developers and analytsts can create custom reports and dashboards and share
+                    them with the teams in your company.</p>
+                <p class="col-lg-12">We take security seriously. Rakam Intelligence doesn't actually have accesss to
+                    your Rakam APIs, your browser executes the AJAX requests directly on your Rakam API. Rakam UI can
+                    only store metadata of your reports, not your data.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="container" id="ui_tabsProductBusiness">
-    <div class="row">
-        <h2>Data visualization</h2> 
-        <div active="active" >
-  <ul class="nav nav-tabs"  >
+{{ partial "product_features.html" . }}
 
-            <li  class="uib-tab nav-item active" index="0" heading="Event Explorer">
-  <a  class="nav-link" >Event Explorer</a>
-</li>
 
-            <li  class="uib-tab nav-item" index="1" heading="Dashboard">
-  <a  class="nav-link" >Dashboard</a>
-</li>
-
-            <li  class="uib-tab nav-item" index="2" heading="SQL Editor">
-  <a  class="nav-link" >SQL Editor</a>
-</li>
-
-            <li  class="uib-tab nav-item" index="3" heading="Query Builder">
-  <a  class="nav-link" >Query Builder</a>
-</li>
-
-        </ul>
-  <div class="tab-content">
-    <div class="tab-pane active"   >
-    
-                <div class="col-xs-6 col-sm-6 col-md-5">
-                    <h3>Event Explorer</h3>
-                    <p>Analyze your events in realtime with a simple interface.</p>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-7">
-                    <img src="{{ .Site.BaseURL }}images/event-imageui.png" alt="">
-                </div>
-            </div><div class="tab-pane"  >
-    
-                <div class="col-xs-6 col-sm-6 col-md-5">
-                    <h3>Dashboard</h3>
-                    <p>Create custom dashboards from your saved reports, you can customize the layout and the charts as you wish and get the summary of your reports in one picture.</p>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-7">
-                    <img src="{{ .Site.BaseURL }}images/dashboard-imageui.png" alt="">
-                </div>
-            </div><div class="tab-pane"   >
-    
-                <div class="col-xs-6 col-sm-6 col-md-5">
-                    <h3>SQL Editor</h3>
-                    <p>Run SQL queries on your data, plug your external databases and remote files, integrate it with third-party services such as Facebook Ads and Intercom.io and join the data via SQL.</p>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-7">
-                    <img src="{{ .Site.BaseURL }}images/sql-imageui.png" alt="">
-                </div>
-            </div><div class="tab-pane"  >
-    
-                <div class="col-xs-6 col-sm-6 col-md-5">
-                    <h3>Query Builder</h3>
-                    <p>You don't always need to write complex SQL queries, in that case just use your simple query builder interface.</p>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-7">
-                    <img src="{{ .Site.BaseURL }}images/data_visualization_query_builder.png" alt="">
-                </div>
-            </div>
-  </div>
-</div>
-
+<section class="container">
+    <div class="row white-box" style="margin-top:50px;position:relative">
+        <p class="col-md-9">Confused? Compare Rakam with Looker, Tableau and Periscope data. The best approach is to use the right tool for your use-case rather than choosing tools which is more popular than others.</p>
+        <a class="col-md-3 demo" href="/comparison" style="padding-top:22px">See comparison</a>
     </div>
 </section>
-
-<section class="container" id="ui_tabsProductBehavioral">
-    <div ng-controller="tabsProductBehavioral" class="row">
-        <h2>Behavioral Analytics</h2> 
-        <div active="active" >
-  <ul class="nav nav-tabs"  >
-
-            <li  class="uib-tab nav-item active" index="0" heading="Funnels">
-  <a  class="nav-link" >Funnels</a>
-</li>
-
-            <li  class="uib-tab nav-item" index="1" heading="Cohorts">
-  <a  class="nav-link" >Cohorts</a>
-</li>
-
-            <li  class="uib-tab nav-item" index="2" heading="Segmentation">
-  <a  class="nav-link" >Segmentation</a>
-</li>
-
-        </ul>
-  <div class="tab-content">
-    <div class="tab-pane active"   >
-    
-                <div class="col-xs-5 col-sm-5 col-md-6">
-                    <img src="{{ .Site.BaseURL }}images/event-imageui2.png" alt="">
-                </div>
-                <div class="col-xs-7 col-sm-7 col-md-5">
-                    <h3>Funnels</h3>
-                    <p>Create funnels from user actions and understand how your users use your product.</p>
-                </div>
-                <div class="box">
-                    <img src="{{ .Site.BaseURL }}images/event-imageui2.png" alt="">
-                </div>
-            </div><div class="tab-pane"   >
-    
-                <div class="col-xs-5 col-sm-5 col-md-6">
-                    <img src="{{ .Site.BaseURL }}images/macbookui2.png" alt="">
-                </div>
-                <div class="col-xs-7 col-sm-7 col-md-5">
-                    <h3>Cohorts</h3>
-                    <p>Generate cohorts in order to understand how often your users use your product and find the potential problems of the user flow quickly.</p>
-                </div>
-                <div class="box">
-                    <img src="{{ .Site.BaseURL }}images/macbookui2.png" alt="">
-                </div>
-            </div><div class="tab-pane"   >
-    
-                <div class="col-xs-5 col-sm-5 col-md-6">
-                    <img src="{{ .Site.BaseURL }}images/behavioral-analytics-segmentation.png" alt="">
-                </div>
-                <div class="col-xs-7 col-sm-7 col-md-5">
-                    <h3>Segment your users based on their actions.</h3>
-                    <p>Generate cohorts in order to understand how often your users use your product and find the potential problems of the user flow quickly.</p>
-                </div>
-                <div class="box">
-                    <img src="{{ .Site.BaseURL }}images/behavioral-analytics-segmentation.png" alt="">
-                </div>
-            </div>
-  </div>
-</div>
-
-    </div>
-</section>
-
 
 <section class="container-fluid" id="ui_recipes">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 box">
                 <div class="row">
-                    <h2 class="col-lg-12">Recipes</h2>
-                    <p class="col-lg-10">Recipes are pre-build reports and dashboards. We can provide you pre-built dashboards and reports for your industry so that you can start fast and customize it your your needs.</p>
+                    <h2 class="col-lg-12">
+                        <a class="demo" href="/demo" style="padding-top:22px">See demo</a>
+                    </h2>
+                    <p class="col-lg-10">
+                        It's quite easy to get started using Rakam, you don't need to learn any language, you basically
+                        use our UI to map your data
+                        and use our non-technical people friendly reporting features.
+                    </p>
                 </div>
             </div>
 
             <div class="hidden-xs col-sm-7 col-md-7 col-lg-7" style="text-align: right;">
                 <div class="row">
-                    <img src="{{ .Site.BaseURL }}images/macbookUiRecipes.png" alt="">
+                    <img src="{{ .Site.BaseURL }}images/product/ui/sample-dashboard.png" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<script>
-    var makeActiveVisualization = function(idx) {
-      $('#ui_tabsProductBusiness .uib-tab').removeClass('active');
-      $('#ui_tabsProductBusiness .uib-tab:eq('+idx+')').addClass('active');
-      $('#ui_tabsProductBusiness .tab-pane').removeClass('active');
-      $('#ui_tabsProductBusiness .tab-pane:eq('+idx+')').addClass('active');
-    }
-
-    $('#ui_tabsProductBusiness .uib-tab').click(function(e) {
-        makeActiveVisualization($(e.target).parent().index())
-    })
-
-    var makeActiveBehavioral = function(idx) {
-      $('#ui_tabsProductBehavioral .uib-tab').removeClass('active');
-      $('#ui_tabsProductBehavioral .uib-tab:eq('+idx+')').addClass('active');
-      $('#ui_tabsProductBehavioral .tab-pane').removeClass('active');
-      $('#ui_tabsProductBehavioral .tab-pane:eq('+idx+')').addClass('active');
-    }
-
-    $('#ui_tabsProductBehavioral .uib-tab').click(function(e) {
-        makeActiveBehavioral($(e.target).parent().index())
-    })
-</script>
 
 {{ partial "new-footer-product.html" . }}

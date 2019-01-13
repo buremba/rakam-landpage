@@ -1,0 +1,111 @@
+<section class="container">
+    {{ if eq .Params.Show.Dashboard "true" }}
+    <h2 class="black">Dashboard</h2>
+
+    <div class="row box">
+        <div class="hidden-xs col-sm-6">
+            <img style="width:500px;margin-top:-60px" src="{{ .Site.BaseURL }}images/product/ui/dashboard.svg" alt="">
+        </div>
+        <div class="col-sm-6">
+            <img src="{{ .Site.BaseURL }}images/product/ui/dashboard.svg"
+                 class="col-sm-6 hidden-sm hidden-md hidden-lg">
+            <p>Visualize and analyze your customer event data easily. A simple and intuitive user interface for product
+                managers and data analysts. Our aim is to empower product teams while lessening the burden on your data
+                team.</p>
+            <ul>
+                <li>Run funnel, retention and segmentation reports easily.</li>
+                <li>Make your reports lighting fast with incremental materialized views.</li>
+                <li>Create your custom reports using SQL with dynamic variable support.</li>
+                <li>Create your dashboards and customize the layout for your use-case</li>
+            </ul>
+        </div>
+    </div>
+    {{ end }}
+
+    <h2 class="black">Reporting features</h2>
+    {{ if eq .Params.Show.Reporting.Segmentation "true" }}
+    <div class="row box">
+        <div class="col-sm-6">
+            <h3 class="reporting">Segmentation</h3>
+            <img src="{{ .Site.BaseURL }}images/product/ui/segmentation.svg"
+                 class="col-sm-6 hidden-sm hidden-md hidden-lg">
+            <p>Visualize and analyze your customer event data easily. A simple and intuitive user interface for product
+                managers and data analysts. Our aim is to empower product teams while lessening the burden on your data
+                team.</p>
+            <ul>
+                <li>Run funnel, retention and segmentation reports easily.</li>
+                <li>Make your reports lighting fast with incremental materialized views.</li>
+                <li>Create your custom reports using SQL with dynamic variable support.</li>
+                <li>Create your dashboards and customize the layout for your use-case</li>
+            </ul>
+        </div>
+        <div class="hidden-xs col-sm-6">
+            <img style="width:450px" src="{{ .Site.BaseURL }}images/product/ui/segmentation.svg" alt="">
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if eq .Params.Show.Reporting.Funnel "true" }}
+    <div class="row box">
+        <div class="hidden-xs col-sm-6">
+            <img style="width:450px" src="{{ .Site.BaseURL }}images/product/ui/funnel.svg" alt="">
+        </div>
+        <div class="col-sm-6">
+            <h3 class="reporting">Funnel</h3>
+            <img src="{{ .Site.BaseURL }}images/product/ui/funnel.svg" class="col-sm-6 hidden-sm hidden-md hidden-lg">
+            <p>Visualize and analyze your customer event data easily. A simple and intuitive user interface for product
+                managers and data analysts. Our aim is to empower product teams while lessening the burden on your data
+                team.</p>
+            <ul>
+                <li>Run funnel, retention and segmentation reports easily.</li>
+                <li>Make your reports lighting fast with incremental materialized views.</li>
+                <li>Create your custom reports using SQL with dynamic variable support.</li>
+                <li>Create your dashboards and customize the layout for your use-case</li>
+            </ul>
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if eq .Params.Show.Reporting.Retention "true" }}
+    <div class="row box">
+        <div class="col-sm-6">
+            <h3 class="reporting">Retention</h3>
+            <img src="{{ .Site.BaseURL }}images/product/ui/retention.svg"
+                 class="col-sm-6 hidden-sm hidden-md hidden-lg">
+            <p>Visualize and analyze your customer event data easily. A simple and intuitive user interface for product
+                managers and data analysts. Our aim is to empower product teams while lessening the burden on your data
+                team.</p>
+            <ul>
+                <li>Run funnel, retention and segmentation reports easily.</li>
+                <li>Make your reports lighting fast with incremental materialized views.</li>
+                <li>Create your custom reports using SQL with dynamic variable support.</li>
+                <li>Create your dashboards and customize the layout for your use-case</li>
+            </ul>
+        </div>
+        <div class="hidden-xs col-sm-6">
+            <img style="width:450px" src="{{ .Site.BaseURL }}images/product/ui/retention.svg" alt="">
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if eq .Params.Show.Reporting.Sql "true" }}
+    <div class="row box">
+        <div class="hidden-xs col-sm-6">
+            <img style="width:500px" src="{{ .Site.BaseURL }}images/product/ui/sql.svg" alt="">
+        </div>
+        <div class="col-sm-6">
+            <h3 class="reporting">SQL Reporting</h3>
+            <img src="{{ .Site.BaseURL }}images/product/ui/sql.svg" class="col-sm-6 hidden-sm hidden-md hidden-lg">
+            <p>Visualize and analyze your customer event data easily. A simple and intuitive user interface for product
+                managers and data analysts. Our aim is to empower product teams while lessening the burden on your data
+                team.</p>
+            <ul>
+                <li>Run funnel, retention and segmentation reports easily.</li>
+                <li>Make your reports lighting fast with incremental materialized views.</li>
+                <li>Create your custom reports using SQL with dynamic variable support.</li>
+                <li>Create your dashboards and customize the layout for your use-case</li>
+            </ul>
+        </div>
+    </div>
+    {{ end }}
+</section>

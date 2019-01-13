@@ -208,7 +208,7 @@
 </g>
 <g id="Layer_1">
 	<g>
-		<g>
+		<g id="iOS">
 			<g>
 				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="105.5388" y1="31.6854" x2="161.9765" y2="31.6854">
 					<stop  offset="2.483974e-03" style="stop-color:#57C8E1"/>
@@ -246,7 +246,7 @@
 					C134.9,21.9,136.7,20.9,137.9,19.5"/>
 			</g>
 		</g>
-		<g>
+		<g id="Android">
 			<g>
 				<g>
 					<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="21" y1="31.6854" x2="77.4377" y2="31.6854">
@@ -283,7 +283,7 @@
 				</g>
 			</g>
 		</g>
-		<g>
+		<g id="Web">
 			<g>
 				<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="186.0776" y1="31.6854" x2="242.5153" y2="31.6854">
 					<stop  offset="2.483974e-03" style="stop-color:#57C8E1"/>
@@ -318,7 +318,7 @@
 					C221.4,45.6,223.9,43.9,225.9,41.7z"/>
 			</g>
 		</g>
-		<g>
+		<g id="Lorem">
 			<g>
 				<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="274.6704" y1="31.6854" x2="331" y2="31.6854">
 					<stop  offset="2.483974e-03" style="stop-color:#57C8E1"/>
@@ -367,7 +367,7 @@
 			</g>
 		</g>
 	</g>
-	<g>
+	<g id="Ipsum">
 		<g>
 			<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="123.1098" y1="321.7494" x2="219.1975" y2="321.7494">
 				<stop  offset="2.483974e-03" style="stop-color:#57C8E1"/>
@@ -438,7 +438,7 @@
 			<path class="st34" d="M111.2,285.6c0,0-3,2.2-4.3,4.5l10.4,21.4c0,0,2.9,0.4,5.6-0.3L111.2,285.6z"/>
 		</g>
 	</g>
-	<g>
+	<g id="Dolor">
 		<linearGradient id="SVGID_16_" gradientUnits="userSpaceOnUse" x1="121.3193" y1="152.7586" x2="184.7877" y2="152.7586">
 			<stop  offset="2.483974e-03" style="stop-color:#57C8E1"/>
 			<stop  offset="0.1396" style="stop-color:#58C1DE"/>

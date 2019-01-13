@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="582px" height="390px" viewBox="0 0 582 441" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="9.30435623%" y1="111.604675%" x2="90.9382572%" y2="-11.9399502%" id="linearGradient-1">
+            <stop stop-color="#4DC0E7" offset="100%"></stop>
+            <stop stop-color="#5772C1" offset="0%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.0431748%" y1="18.801299%" x2="31.6889297%" y2="77.0903239%" id="linearGradient-2">
+            <stop stop-color="#FFF900" offset="0%"></stop>
+            <stop stop-color="#FEE258" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-16.6242964%" y1="11.8076964%" x2="116.652533%" y2="88.2732508%" id="linearGradient-3">
+            <stop stop-color="#3FBFEF" offset="0.2483974%"></stop>
+            <stop stop-color="#4DC0E7" offset="9.135145%"></stop>
+            <stop stop-color="#68C3D8" offset="23.61%"></stop>
+            <stop stop-color="#8BCABF" offset="41.89%"></stop>
+            <stop stop-color="#B2D39A" offset="63.25%"></stop>
+            <stop stop-color="#DEE361" offset="86.9%"></stop>
+            <stop stop-color="#F5EB24" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="6.53198794%" y1="106.965859%" x2="93.5089065%" y2="-6.94399569%" id="linearGradient-4">
+            <stop stop-color="#3FBFEF" offset="0.2483974%"></stop>
+            <stop stop-color="#4DC0E7" offset="9.135145%"></stop>
+            <stop stop-color="#68C3D8" offset="23.61%"></stop>
+            <stop stop-color="#8BCABF" offset="41.89%"></stop>
+            <stop stop-color="#B2D39A" offset="63.25%"></stop>
+            <stop stop-color="#DEE361" offset="86.9%"></stop>
+            <stop stop-color="#F5EB24" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-15.0192967%" y1="11.2170614%" x2="115.068981%" y2="88.8639397%" id="linearGradient-5">
+            <stop stop-color="#3FBFEF" offset="0.2483974%"></stop>
+            <stop stop-color="#4DC0E7" offset="9.135145%"></stop>
+            <stop stop-color="#68C3D8" offset="23.61%"></stop>
+            <stop stop-color="#8BCABF" offset="41.89%"></stop>
+            <stop stop-color="#B2D39A" offset="63.25%"></stop>
+            <stop stop-color="#DEE361" offset="86.9%"></stop>
+            <stop stop-color="#F5EB24" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.0347117539%" y1="49.9627577%" x2="99.9761051%" y2="49.9627577%" id="linearGradient-6">
+            <stop stop-color="#E2D94D" offset="0.2483974%"></stop>
+            <stop stop-color="#DED957" offset="13.53%"></stop>
+            <stop stop-color="#D1D770" offset="35.15%"></stop>
+            <stop stop-color="#BCD590" offset="62.42%"></stop>
+            <stop stop-color="#9BD3B8" offset="94%"></stop>
+            <stop stop-color="#94D3C1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.0225462012%" y1="50.0577508%" x2="100.018337%" y2="50.0577508%" id="linearGradient-7">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#2EA08A" offset="8.194568%"></stop>
+            <stop stop-color="#50AD81" offset="27.13%"></stop>
+            <stop stop-color="#62B778" offset="47.54%"></stop>
+            <stop stop-color="#6DBE72" offset="70.28%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.00918720717%" y1="49.8445205%" x2="99.9857405%" y2="49.8445205%" id="linearGradient-8">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.00918720717%" y1="49.9876712%" x2="99.9857405%" y2="49.9876712%" id="linearGradient-9">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.00918720717%" y1="49.9273973%" x2="99.9857405%" y2="49.9273973%" id="linearGradient-10">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.00918720717%" y1="50.1547945%" x2="99.9857405%" y2="50.1547945%" id="linearGradient-11">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.139461883%" y1="51.3292683%" x2="100.363677%" y2="51.3292683%" id="linearGradient-12">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.139461883%" y1="51.1756098%" x2="100.363677%" y2="51.1756098%" id="linearGradient-13">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.139461883%" y1="51.0682927%" x2="100.363677%" y2="51.0682927%" id="linearGradient-14">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.139461883%" y1="50.9609756%" x2="100.363677%" y2="50.9609756%" id="linearGradient-15">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.139461883%" y1="51.3658537%" x2="100.363677%" y2="51.3658537%" id="linearGradient-16">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.139461883%" y1="49.3317073%" x2="100.363677%" y2="49.3317073%" id="linearGradient-17">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.169058296%" y1="51.3292683%" x2="100.054709%" y2="51.3292683%" id="linearGradient-18">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.169058296%" y1="51.1756098%" x2="100.054709%" y2="51.1756098%" id="linearGradient-19">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.169058296%" y1="51.0682927%" x2="100.054709%" y2="51.0682927%" id="linearGradient-20">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.169058296%" y1="50.9609756%" x2="100.054709%" y2="50.9609756%" id="linearGradient-21">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.169058296%" y1="51.3658537%" x2="100.054709%" y2="51.3658537%" id="linearGradient-22">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.169058296%" y1="49.3317073%" x2="100.054709%" y2="49.3317073%" id="linearGradient-23">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0295964126%" y1="51.3292683%" x2="100.253812%" y2="51.3292683%" id="linearGradient-24">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0295964126%" y1="51.1756098%" x2="100.253812%" y2="51.1756098%" id="linearGradient-25">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0295964126%" y1="51.0682927%" x2="100.253812%" y2="51.0682927%" id="linearGradient-26">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0295964126%" y1="50.9609756%" x2="100.253812%" y2="50.9609756%" id="linearGradient-27">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0295964126%" y1="51.3658537%" x2="100.253812%" y2="51.3658537%" id="linearGradient-28">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0295964126%" y1="49.3317073%" x2="100.253812%" y2="49.3317073%" id="linearGradient-29">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.215695067%" y1="51.3292683%" x2="100.00852%" y2="51.3292683%" id="linearGradient-30">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.215695067%" y1="51.1756098%" x2="100.00852%" y2="51.1756098%" id="linearGradient-31">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.215695067%" y1="51.0682927%" x2="100.00852%" y2="51.0682927%" id="linearGradient-32">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.215695067%" y1="50.9609756%" x2="100.00852%" y2="50.9609756%" id="linearGradient-33">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.215695067%" y1="51.3658537%" x2="100.00852%" y2="51.3658537%" id="linearGradient-34">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.215695067%" y1="49.3317073%" x2="100.00852%" y2="49.3317073%" id="linearGradient-35">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.0248598131%" y1="49.6935484%" x2="99.9714019%" y2="49.6935484%" id="linearGradient-36">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0760747664%" y1="49.6935484%" x2="100.07215%" y2="49.6935484%" id="linearGradient-37">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.954375%" y1="49.9226667%" x2="-0.045625%" y2="49.9226667%" id="linearGradient-38">
+            <stop stop-color="#6FC171" offset="0%"></stop>
+            <stop stop-color="#0F998E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.512604167%" y1="49.9226667%" x2="100.529062%" y2="49.9226667%" id="linearGradient-39">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.000346585117%" y1="50.0020784%" x2="99.9874822%" y2="50.0020784%" id="linearGradient-40">
+            <stop stop-color="#0F998E" offset="0.2483974%"></stop>
+            <stop stop-color="#40A686" offset="29.64%"></stop>
+            <stop stop-color="#64B877" offset="74.55%"></stop>
+            <stop stop-color="#6FC171" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="5.80746004e-15%" y1="50%" x2="100%" y2="50%" id="linearGradient-41">
+            <stop stop-color="#57C8E1" offset="0.2483974%"></stop>
+            <stop stop-color="#58C1DE" offset="13.96%"></stop>
+            <stop stop-color="#58B2D7" offset="36.28%"></stop>
+            <stop stop-color="#579ACB" offset="64.44%"></stop>
+            <stop stop-color="#577ABC" offset="97.05%"></stop>
+            <stop stop-color="#5777BB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100.30274%" x2="50%" y2="0.302739726%" id="linearGradient-42">
+            <stop stop-color="#57C8E1" offset="0.2483974%"></stop>
+            <stop stop-color="#58C1DE" offset="13.96%"></stop>
+            <stop stop-color="#58B2D7" offset="36.28%"></stop>
+            <stop stop-color="#579ACB" offset="64.44%"></stop>
+            <stop stop-color="#577ABC" offset="97.05%"></stop>
+            <stop stop-color="#5777BB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="99.569863%" x2="50%" y2="-0.430136986%" id="linearGradient-43">
+            <stop stop-color="#57C8E1" offset="0.2483974%"></stop>
+            <stop stop-color="#58C1DE" offset="13.96%"></stop>
+            <stop stop-color="#58B2D7" offset="36.28%"></stop>
+            <stop stop-color="#579ACB" offset="64.44%"></stop>
+            <stop stop-color="#577ABC" offset="97.05%"></stop>
+            <stop stop-color="#5777BB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-44">
+            <stop stop-color="#57C8E1" offset="0.2483974%"></stop>
+            <stop stop-color="#58C1DE" offset="13.96%"></stop>
+            <stop stop-color="#58B2D7" offset="36.28%"></stop>
+            <stop stop-color="#579ACB" offset="64.44%"></stop>
+            <stop stop-color="#577ABC" offset="97.05%"></stop>
+            <stop stop-color="#5777BB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-45">
+            <stop stop-color="#57C8E1" offset="0.2483974%"></stop>
+            <stop stop-color="#58C1DE" offset="13.96%"></stop>
+            <stop stop-color="#58B2D7" offset="36.28%"></stop>
+            <stop stop-color="#579ACB" offset="64.44%"></stop>
+            <stop stop-color="#577ABC" offset="97.05%"></stop>
+            <stop stop-color="#5777BB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-46">
+            <stop stop-color="#57C8E1" offset="0.2483974%"></stop>
+            <stop stop-color="#58C1DE" offset="13.96%"></stop>
+            <stop stop-color="#58B2D7" offset="36.28%"></stop>
+            <stop stop-color="#579ACB" offset="64.44%"></stop>
+            <stop stop-color="#577ABC" offset="97.05%"></stop>
+            <stop stop-color="#5777BB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.390625%" y1="50%" x2="-0.390625%" y2="50%" id="linearGradient-47">
+            <stop stop-color="#57C8E1" offset="0.2483974%"></stop>
+            <stop stop-color="#58C1DE" offset="13.96%"></stop>
+            <stop stop-color="#58B2D7" offset="36.28%"></stop>
+            <stop stop-color="#579ACB" offset="64.44%"></stop>
+            <stop stop-color="#577ABC" offset="97.05%"></stop>
+            <stop stop-color="#5777BB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00313645621%" y1="49.985203%" x2="100.009817%" y2="49.985203%" id="linearGradient-48">
+            <stop stop-color="#F16079" offset="0%"></stop>
+            <stop stop-color="#B34592" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.016042%" y1="50.1583333%" x2="0.0160416667%" y2="50.1583333%" id="linearGradient-49">
+            <stop stop-color="#B34592" offset="0.2483974%"></stop>
+            <stop stop-color="#BA488F" offset="20.29%"></stop>
+            <stop stop-color="#CC4F88" offset="52.9%"></stop>
+            <stop stop-color="#EA5D7B" offset="93.83%"></stop>
+            <stop stop-color="#F16079" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0396875%" y1="50.1583333%" x2="100.039687%" y2="50.1583333%" id="linearGradient-50">
+            <stop stop-color="#B34592" offset="0.2483974%"></stop>
+            <stop stop-color="#BA488F" offset="20.29%"></stop>
+            <stop stop-color="#CC4F88" offset="52.9%"></stop>
+            <stop stop-color="#EA5D7B" offset="93.83%"></stop>
+            <stop stop-color="#F16079" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00313901345%" y1="50.0090244%" x2="100.000734%" y2="50.0090244%" id="linearGradient-51">
+            <stop stop-color="#B34592" offset="0.2483974%"></stop>
+            <stop stop-color="#BA488F" offset="20.29%"></stop>
+            <stop stop-color="#CC4F88" offset="52.9%"></stop>
+            <stop stop-color="#EA5D7B" offset="93.83%"></stop>
+            <stop stop-color="#F16079" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00313901345%" y1="49.8921951%" x2="100.000734%" y2="49.8921951%" id="linearGradient-52">
+            <stop stop-color="#B34592" offset="0.2483974%"></stop>
+            <stop stop-color="#BA488F" offset="20.29%"></stop>
+            <stop stop-color="#CC4F88" offset="52.9%"></stop>
+            <stop stop-color="#EA5D7B" offset="93.83%"></stop>
+            <stop stop-color="#F16079" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.0224530831%" y1="50.0395%" x2="99.9540885%" y2="50.0395%" id="linearGradient-53">
+            <stop stop-color="#B34592" offset="0.2483974%"></stop>
+            <stop stop-color="#BA488F" offset="20.29%"></stop>
+            <stop stop-color="#CC4F88" offset="52.9%"></stop>
+            <stop stop-color="#EA5D7B" offset="93.83%"></stop>
+            <stop stop-color="#F16079" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0103217158%" y1="50.0395%" x2="99.9869973%" y2="50.0395%" id="linearGradient-54">
+            <stop stop-color="#B34592" offset="0.2483974%"></stop>
+            <stop stop-color="#BA488F" offset="20.29%"></stop>
+            <stop stop-color="#CC4F88" offset="52.9%"></stop>
+            <stop stop-color="#EA5D7B" offset="93.83%"></stop>
+            <stop stop-color="#F16079" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="22.7538386%" y1="-9.75522452%" x2="77.2882173%" y2="109.736764%" id="linearGradient-55">
+            <stop stop-color="#3CC1F1" offset="0.2483974%"></stop>
+            <stop stop-color="#3DBCED" offset="13.31%"></stop>
+            <stop stop-color="#3BADE2" offset="34.58%"></stop>
+            <stop stop-color="#3F95D1" offset="61.4%"></stop>
+            <stop stop-color="#4277BB" offset="92.46%"></stop>
+            <stop stop-color="#426FB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.005938%" y1="49.9763333%" x2="0.0059375%" y2="49.9763333%" id="linearGradient-56">
+            <stop stop-color="#3CC1F1" offset="0.2483974%"></stop>
+            <stop stop-color="#3DBCED" offset="13.31%"></stop>
+            <stop stop-color="#3BADE2" offset="34.58%"></stop>
+            <stop stop-color="#3F95D1" offset="61.4%"></stop>
+            <stop stop-color="#4277BB" offset="92.46%"></stop>
+            <stop stop-color="#426FB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.565208333%" y1="49.9763333%" x2="100.476458%" y2="49.9763333%" id="linearGradient-57">
+            <stop stop-color="#3CC1F1" offset="0.2483974%"></stop>
+            <stop stop-color="#3DBCED" offset="13.31%"></stop>
+            <stop stop-color="#3BADE2" offset="34.58%"></stop>
+            <stop stop-color="#3F95D1" offset="61.4%"></stop>
+            <stop stop-color="#4277BB" offset="92.46%"></stop>
+            <stop stop-color="#426FB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0129668185%" y1="50.027794%" x2="100.01864%" y2="50.027794%" id="linearGradient-58">
+            <stop stop-color="#3CC1F1" offset="0.2483974%"></stop>
+            <stop stop-color="#3DBCED" offset="13.31%"></stop>
+            <stop stop-color="#3BADE2" offset="34.58%"></stop>
+            <stop stop-color="#3F95D1" offset="61.4%"></stop>
+            <stop stop-color="#4277BB" offset="92.46%"></stop>
+            <stop stop-color="#426FB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00725490195%" y1="4.27%" x2="100.007255%" y2="4.27%" id="linearGradient-59">
+            <stop stop-color="#3CC1F1" offset="0.2483974%"></stop>
+            <stop stop-color="#3DBCED" offset="13.31%"></stop>
+            <stop stop-color="#3BADE2" offset="34.58%"></stop>
+            <stop stop-color="#3F95D1" offset="61.4%"></stop>
+            <stop stop-color="#4277BB" offset="92.46%"></stop>
+            <stop stop-color="#426FB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0072549%" y1="17.96%" x2="50.0072549%" y2="-7.04%" id="linearGradient-60">
+            <stop stop-color="#3CC1F1" offset="0.2483974%"></stop>
+            <stop stop-color="#3DBCED" offset="13.31%"></stop>
+            <stop stop-color="#3BADE2" offset="34.58%"></stop>
+            <stop stop-color="#3F95D1" offset="61.4%"></stop>
+            <stop stop-color="#4277BB" offset="92.46%"></stop>
+            <stop stop-color="#426FB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0072549%" y1="15.13%" x2="50.0072549%" y2="-9.87%" id="linearGradient-61">
+            <stop stop-color="#3CC1F1" offset="0.2483974%"></stop>
+            <stop stop-color="#3DBCED" offset="13.31%"></stop>
+            <stop stop-color="#3BADE2" offset="34.58%"></stop>
+            <stop stop-color="#3F95D1" offset="61.4%"></stop>
+            <stop stop-color="#4277BB" offset="92.46%"></stop>
+            <stop stop-color="#426FB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0072549%" y1="21.7%" x2="50.0072549%" y2="-3.3%" id="linearGradient-62">
+            <stop stop-color="#3CC1F1" offset="0.2483974%"></stop>
+            <stop stop-color="#3DBCED" offset="13.31%"></stop>
+            <stop stop-color="#3BADE2" offset="34.58%"></stop>
+            <stop stop-color="#3F95D1" offset="61.4%"></stop>
+            <stop stop-color="#4277BB" offset="92.46%"></stop>
+            <stop stop-color="#426FB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-50.6104957%" y1="5.06270966%" x2="150.621623%" y2="94.9634514%" id="linearGradient-63">
+            <stop stop-color="#3CC1F1" offset="0.2483974%"></stop>
+            <stop stop-color="#3DBCED" offset="13.31%"></stop>
+            <stop stop-color="#3BADE2" offset="34.58%"></stop>
+            <stop stop-color="#3F95D1" offset="61.4%"></stop>
+            <stop stop-color="#4277BB" offset="92.46%"></stop>
+            <stop stop-color="#426FB6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-195.5%" y1="22.1655329%" x2="295.5%" y2="77.8344671%" id="linearGradient-64">
+            <stop stop-color="#57C8E1" offset="0.2483974%"></stop>
+            <stop stop-color="#58C1DE" offset="13.96%"></stop>
+            <stop stop-color="#58B2D7" offset="36.28%"></stop>
+            <stop stop-color="#579ACB" offset="64.44%"></stop>
+            <stop stop-color="#577ABC" offset="97.05%"></stop>
+            <stop stop-color="#5777BB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="76.7208132%" y1="-337.74%" x2="23.2763611%" y2="437.73925%" id="linearGradient-65">
+            <stop stop-color="#5777BB" offset="0%"></stop>
+            <stop stop-color="#57C8E1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dashboard" transform="translate(71.000000, 60.000000)">
+            <g id="Profit-by-Weekdays" transform="translate(258.000000, 0.000000)">
+                <path d="M226,161.5 L3,161.5 C1.3,161.5 0,160.2 0,158.5 L0,5.8 C0,3 2.2,0.8 5,0.8 L226,0.8 C228.8,0.8 231,3 231,5.8 L231,156.5 C231,159.2 228.8,161.5 226,161.5 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <text fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="26" y="25">Profit by Weekdays</tspan>
+                </text>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="26" y="129" width="180" height="2"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="135" y="83" width="16" height="23"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="160" y="82" width="16" height="25"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="160" y="108" width="16" height="10"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="109" y="108" width="16" height="15"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="84" y="108" width="16" height="11"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="185" y="68" width="16" height="38"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="34" y="58" width="16" height="49"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="59" y="51" width="16" height="55"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="84" y="72" width="16" height="34"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="109" y="76" width="16" height="31"></rect>
+                <path d="M196,141 L196,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M168,141 L168,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M143,141 L143,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M92,141 L92,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M40,141 L40,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M117,141 L117,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M67,141 L67,132" id="Shape" stroke="#FFFFFF" stroke-width="2"></path>
+            </g>
+            <g id="Profit-Loss" transform="translate(258.000000, 176.000000)">
+                <g id="Group" opacity="0.9" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                    <path d="M99.7,186.2 L6.9,186.2 C3.1,186.2 0,183.1 0,179.3 L0,7.3 C0,3.5 3.1,0.4 6.9,0.4 L99.7,0.4 C103.5,0.4 106.6,3.5 106.6,7.3 L106.6,179.3 C106.6,183.2 103.5,186.2 99.7,186.2 Z" id="Shape"></path>
+                </g>
+                <text id="Profit/Loss" fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="14" y="25">Profit/Loss</tspan>
+                </text>
+                <g id="Group" opacity="0.75" transform="translate(14.000000, 59.000000)" fill-rule="nonzero">
+                    <path d="M35.9,5.7 C16.2,5.7 0.2,21.7 0.2,41.4 C0.2,61.1 16.2,77.1 35.9,77.1 C55.6,77.1 71.6,61.1 71.6,41.4 L35.9,41.4 L35.9,5.7 Z" id="Shape" fill="#FFFFFF"></path>
+                    <path d="M77.6,36.3 C77.6,16.6 61.6,0.6 41.9,0.6 L41.9,36.3 L77.6,36.3 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+            <g id="Last-Actions" transform="translate(0.000000, 176.000000)">
+                <g id="Group" opacity="0.9" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                    <path d="M238.6,186.2 L5.3,186.2 C2.5,186.2 0.3,184 0.3,181.2 L0.3,5.5 C0.3,2.7 2.5,0.5 5.3,0.5 L238.5,0.5 C241.3,0.5 243.5,2.7 243.5,5.5 L243.5,181.2 C243.6,184 241.3,186.2 238.6,186.2 Z" id="Shape"></path>
+                </g>
+                <text fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="17" y="25">Last Actions</tspan>
+                </text>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="17" y="167" width="210" height="2"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="149" y="129" width="16" height="35"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="23" y="95" width="16" height="69"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="48" y="85" width="16" height="79"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="201" y="85" width="16" height="79"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="74" y="147" width="16" height="17"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="99" y="58" width="16" height="106"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="175" y="110" width="16" height="54"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.75" x="124" y="109" width="16" height="55"></rect>
+            </g>
+            <g id="Win-Lose" transform="translate(379.000000, 176.000000)">
+                <g id="Group" opacity="0.9" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                    <path d="M104.4,186.2 L7.3,186.2 C3.5,186.2 0.4,183.1 0.4,179.3 L0.4,7.3 C0.4,3.5 3.5,0.4 7.3,0.4 L104.4,0.4 C108.2,0.4 111.3,3.5 111.3,7.3 L111.3,179.3 C111.3,183.2 108.2,186.2 104.4,186.2 Z" id="Shape"></path>
+                </g>
+                <text id="Win/Lose" fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="16" y="25">Win/Lose</tspan>
+                </text>
+                <g id="Group" opacity="0.75" transform="translate(20.000000, 61.000000)" fill-rule="nonzero">
+                    <path d="M42.5,0.1 C62.2,0.1 78.2,16.1 78.2,35.8 C78.2,43.1 76,49.9 72.3,55.5 L38.8,35.8 L42.5,0.1 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                    <path d="M36.3,2.3 C16.6,2.3 0.6,18.3 0.6,38 C0.6,57.7 16.6,73.7 36.3,73.7 C48.7,73.7 59.7,67.3 66.1,57.7 L33.3,38 L36.3,2.3 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <g id="bet-count">
+                <path d="M238.7,161.5 L5.4,161.5 C2.6,161.5 0.4,159.3 0.4,156.5 L0.4,5.8 C0.4,3 2.6,0.8 5.4,0.8 L238.6,0.8 C241.4,0.8 243.6,3 243.6,5.8 L243.6,156.5 C243.7,159.2 241.4,161.5 238.7,161.5 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <path d="M24.4,43.8 L204.7,43.8" id="Shape" stroke="#FFFFFF"></path>
+                <text id="Bet-Counts" fill="#FFFFFF" font-family="Geneva" font-size="9" font-weight="normal">
+                    <tspan x="21" y="26">Bet Counts</tspan>
+                </text>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="24" y="132" width="180" height="2"></rect>
+                <path d="M25,75.77382 C25,75.77382 49.059677,24.2080678 69.625209,79.786719 C89.991076,134.663113 102.969325,122.724738 115.747909,105.469273 C126.529838,90.922514 145.19855,46.479657 170.855549,95.437025 C188.925265,129.847634 204,124.731188 204,124.731188" id="Shape" stroke="#FFFFFF"></path>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(32.000000, 65.000000) rotate(-65.259675) translate(-32.000000, -65.000000) " cx="32" cy="65" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(64.000000, 67.000000) rotate(-65.259675) translate(-64.000000, -67.000000) " cx="64" cy="67" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(73.000000, 87.000000) rotate(-65.259675) translate(-73.000000, -87.000000) " cx="73" cy="87" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(81.000000, 103.000000) rotate(-65.259675) translate(-81.000000, -103.000000) " cx="81" cy="103" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(91.000000, 116.000000) rotate(-65.259675) translate(-91.000000, -116.000000) " cx="91" cy="116" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(107.000000, 116.000000) rotate(-65.259675) translate(-107.000000, -116.000000) " cx="107" cy="116" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(118.000000, 104.000000) rotate(-65.259675) translate(-118.000000, -104.000000) " cx="118" cy="104" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(127.000000, 89.000000) rotate(-65.259675) translate(-127.000000, -89.000000) " cx="127" cy="89" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(138.000000, 76.000000) rotate(-65.259675) translate(-138.000000, -76.000000) " cx="138" cy="76" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(157.000000, 76.000000) rotate(-65.259675) translate(-157.000000, -76.000000) " cx="157" cy="76" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(167.000000, 87.000000) rotate(-65.259675) translate(-167.000000, -87.000000) " cx="167" cy="87" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(175.000000, 101.000000) rotate(-65.259675) translate(-175.000000, -101.000000) " cx="175" cy="101" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(189.000000, 118.000000) rotate(-65.259675) translate(-189.000000, -118.000000) " cx="189" cy="118" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(47.000000, 54.000000) rotate(-65.259675) translate(-47.000000, -54.000000) " cx="47" cy="54" r="2"></circle>
+                <g id="Group" opacity="0.212946429" transform="translate(24.000000, 43.000000)" stroke="#FFFFFF">
+                    <path d="M0.4,77.6 L180.7,77.6" id="Shape"></path>
+                    <path d="M0.4,66.7 L180.7,66.7" id="Shape"></path>
+                    <path d="M0.4,55.7 L180.7,55.7" id="Shape"></path>
+                    <path d="M0.4,44.7 L180.7,44.7" id="Shape"></path>
+                    <path d="M0.4,33.7 L180.7,33.7" id="Shape"></path>
+                    <path d="M0.4,22.8 L180.7,22.8" id="Shape"></path>
+                    <path d="M0.4,11.8 L180.7,11.8" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+        <g id="segmentation" transform="translate(60.000000, 60.000000)">
+            <g id="report" transform="translate(9.000000, 221.000000)">
+                <path d="M0.5,15.8 C0.5,15.8 66.3,-1.2 123,17.1 C178.9,35.3 198.2,30.3 249.4,25.6 C282.9,22.5 316.2,6.2 407.4,20.7 C482.4,32.6 491.4,32 491.4,32" id="Shape" stroke="url(#linearGradient-6)"></path>
+                <path d="M4.3,30.4 C4.3,30.4 147.2,-6.3 324.4,25.7 C324.4,25.7 394.5,38.3 491.3,26.7" id="Shape" stroke="url(#linearGradient-7)"></path>
+                <rect id="Rectangle-path" fill="url(#linearGradient-8)" fill-rule="nonzero" opacity="0.5" x="0.5" y="35.9" width="490.9" height="14.6"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-9)" fill-rule="nonzero" opacity="0.5" x="0.5" y="66.7" width="490.9" height="14.6"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-10)" fill-rule="nonzero" opacity="0.5" x="0.5" y="98.5" width="490.9" height="14.6"></rect>
+                <rect id="Rectangle-path" fill="url(#linearGradient-11)" fill-rule="nonzero" opacity="0.5" x="0.5" y="128.9" width="490.9" height="14.6"></rect>
+                <text id="Country" fill="#0A6057" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="36.7183" y="46.1338">Country</tspan>
+                </text>
+                <text id="Unique-Users" fill="#0A6057" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="108.064" y="46.1338">Unique Users</tspan>
+                </text>
+                <text id="Total-Events" fill="#0A6057" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="195.4922" y="45.8838">Total Events</tspan>
+                </text>
+                <text id="Ratio" fill="#0A6057" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="296.9105" y="45.8838">Ratio</tspan>
+                </text>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="103.4" cy="42.3" r="1.5"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="191.5" cy="43.3" r="1.5"></circle>
+                <g id="Group" transform="translate(43.000000, 55.000000)" fill-rule="nonzero" opacity="0.7">
+                    <rect id="Rectangle-path" fill="url(#linearGradient-12)" x="0" y="0.5" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-13)" x="0" y="16.9" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-14)" x="0" y="32.8" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-15)" x="0" y="48.7" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-16)" x="0" y="63.9" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-17)" x="0" y="79.2" width="22.3" height="4.1"></rect>
+                </g>
+                <g id="Group" transform="translate(129.000000, 55.000000)" fill-rule="nonzero" opacity="0.7">
+                    <rect id="Rectangle-path" fill="url(#linearGradient-18)" x="0.7" y="0.5" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-19)" x="0.7" y="16.9" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-20)" x="0.7" y="32.8" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-21)" x="0.7" y="48.7" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-22)" x="0.7" y="63.9" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-23)" x="0.7" y="79.2" width="22.3" height="4.1"></rect>
+                </g>
+                <g id="Group" transform="translate(214.000000, 55.000000)" fill-rule="nonzero" opacity="0.7">
+                    <rect id="Rectangle-path" fill="url(#linearGradient-24)" x="0.1" y="0.5" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-25)" x="0.1" y="16.9" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-26)" x="0.1" y="32.8" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-27)" x="0.1" y="48.7" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-28)" x="0.1" y="63.9" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-29)" x="0.1" y="79.2" width="22.3" height="4.1"></rect>
+                </g>
+                <g id="Group" transform="translate(298.000000, 55.000000)" fill-rule="nonzero" opacity="0.7">
+                    <rect id="Rectangle-path" fill="url(#linearGradient-30)" x="0.6" y="0.5" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-31)" x="0.6" y="16.9" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-32)" x="0.6" y="32.8" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-33)" x="0.6" y="48.7" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-34)" x="0.6" y="63.9" width="22.3" height="4.1"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-35)" x="0.6" y="79.2" width="22.3" height="4.1"></rect>
+                </g>
+            </g>
+            <g id="query">
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="187.9" y="54.1" width="89.5" height="20"></rect>
+                <text id="Total-Events" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="200.9764" y="67.4698">Total Events</tspan>
+                </text>
+                <polygon id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" points="266.9 20.6 263.2 24.4 259.4 20.6 259.7 20.4 263.2 23.9 266.7 20.4"></polygon>
+                <polygon id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" points="266.9 104.1 263.2 107.9 259.4 104.2 259.7 103.9 263.2 107.4 266.7 103.9"></polygon>
+                <polygon id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" points="266.9 145.9 263.2 149.6 259.4 145.9 259.7 145.7 263.2 149.2 266.7 145.6"></polygon>
+                <g id="Group" transform="translate(177.000000, 19.637800)" fill="#08998E" fill-rule="nonzero" stroke="#03998F">
+                    <g id="Shape">
+                        <polygon points="0.4 0.7 0.1 1 1.8 2.7 0.1 4.4 0.4 4.7 2.1 3 3.8 4.7 4.1 4.4 2.4 2.7 4.1 1 3.8 0.7 2.1 2.4"></polygon>
+                    </g>
+                </g>
+                <path d="M500,85.1 L9.5,85.1" id="Shape" stroke="#FFFFFF" stroke-width="0.75"></path>
+                <path d="M500,126.9 L9.5,126.9" id="Shape" stroke="#FFFFFF" stroke-width="0.75"></path>
+                <path d="M500,43.3 L9.5,43.3" id="Shape" stroke="#FFFFFF" stroke-width="0.75"></path>
+                <text id="From" fill="#0A6057" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="334.987" y="198.7881">From</tspan>
+                </text>
+                <rect id="Rectangle-path" fill="url(#linearGradient-36)" fill-rule="nonzero" opacity="0.5" x="367.3" y="190.8" width="53.5" height="12.4"></rect>
+                <text id="To" fill="#0A6057" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="430.3692" y="198.7881">To</tspan>
+                </text>
+                <rect id="Rectangle-path" fill="url(#linearGradient-37)" fill-rule="nonzero" opacity="0.5" x="446.7" y="190.8" width="53.5" height="12.4"></rect>
+                <path d="M103.4,209.7 L13.4,209.7 C11.7,209.7 10.4,208.3 10.4,206.7 L10.4,182.7 C10.4,181.1 11.7,179.7 13.4,179.7 L103.4,179.7 C105,179.7 106.4,181.1 106.4,182.7 L106.4,206.7 C106.4,208.3 105,209.7 103.4,209.7 Z" id="Shape" fill="url(#linearGradient-38)" fill-rule="nonzero"></path>
+                <path d="M209.7,209.7 L119.7,209.7 C118.1,209.7 116.7,208.3 116.7,206.7 L116.7,182.7 C116.7,181.1 118.1,179.7 119.7,179.7 L209.7,179.7 C211.3,179.7 212.7,181.1 212.7,182.7 L212.7,206.7 C212.7,208.3 211.4,209.7 209.7,209.7 Z" id="Shape" stroke="url(#linearGradient-39)"></path>
+                <text id="Query" fill="#FDFEFE" font-family="Helvetica" font-size="12" font-weight="normal">
+                    <tspan x="39.4735" y="198.1869">Query</tspan>
+                </text>
+                <text id="Save" fill="#04998E" font-family="Helvetica" font-size="12" font-weight="normal">
+                    <tspan x="150.0919" y="197.6016">Save</tspan>
+                </text>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="4" cy="8" r="3.5"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="4" cy="55.1" r="3.5"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="4" cy="102.1" r="3.5"></circle>
+                <path d="M494.7,169.2 L15.3,169.2 C12.3,169.2 9.8,166.7 9.8,163.7 L9.8,6.3 C9.8,3.3 12.3,0.8 15.3,0.8 L494.8,0.8 C497.8,0.8 500.3,3.3 500.3,6.3 L500.3,163.7 C500.2,166.7 497.8,169.2 494.7,169.2 Z" id="Shape" fill="url(#linearGradient-40)" fill-rule="nonzero" opacity="0.9"></path>
+                <text id="Analyze" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="19.7748" y="24.4126">Analyze</tspan>
+                </text>
+                <text id="Measure" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="19.7748" y="66.1753">Measure</tspan>
+                </text>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="88.8" y="54.1" width="89.5" height="20"></rect>
+                <text id="Dimension" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="19.7748" y="107.938">Dimension</tspan>
+                </text>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="88.8" y="95.9" width="188.7" height="20"></rect>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="88.8" y="12.6" width="188.7" height="20"></rect>
+                <text id="Segment" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="19.7748" y="149.7007">Segment</tspan>
+                </text>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="88.8" y="137.7" width="188.7" height="20"></rect>
+                <text id="Device-Family" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="96.6283" y="150.802">Device Family</tspan>
+                </text>
+                <text id="Country-Code" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="96.6283" y="108.802">Country Code</tspan>
+                </text>
+                <text id="Unique-Users" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="99.088" y="66.7633">Unique Users</tspan>
+                </text>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="88.8" y="12.4" width="188.7" height="20"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="91.1" y="14.7" width="96.8" height="15"></rect>
+                <g id="Group" transform="translate(162.000000, 19.637800)" fill="#08998E" fill-rule="nonzero">
+                    <g id="Shape">
+                        <polygon points="0.3 0.6 0 0.9 1.7 2.6 0 4.3 0.3 4.6 2 2.9 3.7 4.6 4 4.3 2.3 2.6 4 0.9 3.7 0.6 2 2.3"></polygon>
+                    </g>
+                </g>
+                <text id="Add-to-Basket" fill="#08998E" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="95.7749" y="24.802">Add to Basket</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="funnel" transform="translate(62.000000, 60.000000)">
+            <g id="report" transform="translate(9.000000, 210.000000)">
+                <rect id="Rectangle-path" fill="url(#linearGradient-41)" fill-rule="nonzero" opacity="0.5" x="1.6" y="141.2" width="489.4" height="2.2"></rect>
+                <polygon id="Shape" fill="url(#linearGradient-42)" fill-rule="nonzero" opacity="0.5" points="246.7 143.4 246.7 150.7 244.5 150.7 244.5 143.4"></polygon>
+                <polygon id="Shape" fill="url(#linearGradient-42)" fill-rule="nonzero" opacity="0.5" points="417.5 143.4 417.5 150.7 415.3 150.7 415.3 143.4"></polygon>
+                <polygon id="Shape" fill="url(#linearGradient-43)" fill-rule="nonzero" opacity="0.5" points="69.6 143.2 69.6 150.5 67.4 150.5 67.4 143.2"></polygon>
+                <g id="Group" opacity="0.9" transform="translate(29.000000, 0.000000)" fill="url(#linearGradient-44)" fill-rule="nonzero">
+                    <rect id="Rectangle-path" x="0.3" y="0" width="86.2" height="137.9"></rect>
+                </g>
+                <g id="Group" opacity="0.9" transform="translate(199.000000, 47.000000)" fill="url(#linearGradient-44)" fill-rule="nonzero">
+                    <rect id="Rectangle-path" x="0.7" y="0.7" width="86.2" height="90.2"></rect>
+                </g>
+                <g id="Group" opacity="0.9" transform="translate(370.000000, 93.000000)" fill="url(#linearGradient-44)" fill-rule="nonzero">
+                    <rect id="Rectangle-path" x="0.1" y="0.4" width="86.2" height="44.5"></rect>
+                </g>
+                <g id="Group" opacity="0.2" stroke="url(#linearGradient-45)">
+                    <path d="M0.5,129.4 L491,129.4" id="Shape"></path>
+                    <path d="M0.5,119.4 L491,119.4" id="Shape"></path>
+                    <path d="M0.5,109.4 L491,109.4" id="Shape"></path>
+                    <path d="M0.5,99.4 L491,99.4" id="Shape"></path>
+                    <path d="M0.5,89.4 L491,89.4" id="Shape"></path>
+                    <path d="M0.5,79.4 L491,79.4" id="Shape"></path>
+                    <path d="M0.5,69.4 L491,69.4" id="Shape"></path>
+                    <path d="M0.5,59.4 L491,59.4" id="Shape"></path>
+                    <path d="M0.5,49.4 L491,49.4" id="Shape"></path>
+                    <path d="M0.5,39.4 L491,39.4" id="Shape"></path>
+                    <path d="M0.5,29.4 L491,29.4" id="Shape"></path>
+                    <path d="M0.5,19.4 L491,19.4" id="Shape"></path>
+                    <path d="M0.5,10 L491,10" id="Shape"></path>
+                    <path d="M0.5,0 L491,0" id="Shape"></path>
+                </g>
+            </g>
+            <g id="query">
+                <text id="Save" fill="#5877BA" font-family="Helvetica" font-size="12" font-weight="normal">
+                    <tspan x="149.7505" y="180.1199">Save</tspan>
+                </text>
+                <g id="Group" opacity="0.9" transform="translate(9.000000, 0.000000)" fill="url(#linearGradient-46)" fill-rule="nonzero">
+                    <path d="M483.1,41.6 L9,41.6 C4.4,41.6 0.6,39.1 0.6,36.1 L0.6,6 C0.6,3 4.4,0.5 9,0.5 L483.1,0.5 C487.7,0.5 491.5,3 491.5,6 L491.5,36 C491.5,39.1 487.7,41.6 483.1,41.6 Z" id="Shape"></path>
+                </g>
+                <text id="First-Did" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="19.5432" y="23.6951">First Did</tspan>
+                </text>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="72.6" y="11" width="149.2" height="20"></rect>
+                <g id="Group" opacity="0.9" transform="translate(9.000000, 51.000000)" fill="url(#linearGradient-46)" fill-rule="nonzero">
+                    <path d="M483.1,41.6 L9,41.6 C4.4,41.6 0.6,39.1 0.6,36.1 L0.6,6.1 C0.6,3.1 4.4,0.6 9,0.6 L483.1,0.6 C487.7,0.6 491.5,3.1 491.5,6.1 L491.5,36.1 C491.5,39.1 487.7,41.6 483.1,41.6 Z" id="Shape"></path>
+                </g>
+                <text id="And-Did" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="19.5432" y="74.7478">And Did</tspan>
+                </text>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="72.6" y="62.1" width="149.2" height="20"></rect>
+                <g id="Group" opacity="0.9" transform="translate(9.000000, 102.000000)" fill="url(#linearGradient-46)" fill-rule="nonzero">
+                    <path d="M483.1,41.7 L9,41.7 C4.4,41.7 0.6,39.2 0.6,36.2 L0.6,6.2 C0.6,3.2 4.4,0.7 9,0.7 L483.1,0.7 C487.7,0.7 491.5,3.2 491.5,6.2 L491.5,36.2 C491.5,39.2 487.7,41.7 483.1,41.7 Z" id="Shape"></path>
+                </g>
+                <text id="And-Did" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="19.5432" y="125.7991">And Did</tspan>
+                </text>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="72.6" y="113.1" width="149.2" height="20"></rect>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="4" cy="13" r="3.5"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="4" cy="64.1" r="3.5"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="4" cy="115.1" r="3.5"></circle>
+                <g id="Group" transform="translate(232.000000, 16.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M4.8,0.2 C2.1,0.2 0,2.4 0,5 C0,7.7 2.2,9.8 4.8,9.8 C7.5,9.8 9.6,7.6 9.6,5 C9.6,2.4 7.4,0.2 4.8,0.2 Z M4.8,9 C2.6,9 0.8,7.2 0.8,5 C0.8,2.8 2.6,1 4.8,1 C7,1 8.8,2.8 8.8,5 C8.7,7.2 6.9,9 4.8,9 Z" id="Shape"></path>
+                    <path d="M6.6,4.6 L5.2,4.6 L5.2,3.2 C5.2,3 5,2.8 4.8,2.8 C4.6,2.8 4.4,3 4.4,3.2 L4.4,4.6 L3,4.6 C2.8,4.6 2.6,4.8 2.6,5 C2.6,5.2 2.8,5.4 3,5.4 L4.4,5.4 L4.4,6.8 C4.4,7 4.6,7.2 4.8,7.2 C5,7.2 5.2,7 5.2,6.8 L5.2,5.4 L6.6,5.4 C6.8,5.4 7,5.2 7,5 C7.1,4.8 6.9,4.6 6.6,4.6 Z" id="Shape"></path>
+                </g>
+                <g id="Group" transform="translate(232.000000, 67.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M4.8,0.3 C2.1,0.3 0,2.5 0,5.1 C0,7.8 2.2,9.9 4.8,9.9 C7.5,9.9 9.6,7.7 9.6,5.1 C9.6,2.4 7.4,0.3 4.8,0.3 Z M4.8,9.1 C2.6,9.1 0.8,7.3 0.8,5.1 C0.8,2.9 2.6,1.1 4.8,1.1 C7,1.1 8.8,2.9 8.8,5.1 C8.7,7.3 6.9,9.1 4.8,9.1 Z" id="Shape"></path>
+                    <path d="M6.6,4.7 L5.2,4.7 L5.2,3.3 C5.2,3.1 5,2.9 4.8,2.9 C4.6,2.9 4.4,3.1 4.4,3.3 L4.4,4.7 L3,4.7 C2.8,4.7 2.6,4.9 2.6,5.1 C2.6,5.3 2.8,5.5 3,5.5 L4.4,5.5 L4.4,6.9 C4.4,7.1 4.6,7.3 4.8,7.3 C5,7.3 5.2,7.1 5.2,6.9 L5.2,5.5 L6.6,5.5 C6.8,5.5 7,5.3 7,5.1 C7.1,4.9 6.9,4.7 6.6,4.7 Z" id="Shape"></path>
+                </g>
+                <g id="Group" transform="translate(232.000000, 118.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M4.8,0.3 C2.1,0.3 0,2.5 0,5.1 C0,7.8 2.2,9.9 4.8,9.9 C7.5,9.9 9.6,7.7 9.6,5.1 C9.6,2.5 7.4,0.3 4.8,0.3 Z M4.8,9.1 C2.6,9.1 0.8,7.3 0.8,5.1 C0.8,2.9 2.6,1.1 4.8,1.1 C7,1.1 8.8,2.9 8.8,5.1 C8.8,7.3 6.9,9.1 4.8,9.1 Z" id="Shape"></path>
+                    <path d="M6.6,4.7 L5.2,4.7 L5.2,3.3 C5.2,3.1 5,2.9 4.8,2.9 C4.6,2.9 4.4,3.1 4.4,3.3 L4.4,4.7 L3,4.7 C2.8,4.7 2.6,4.9 2.6,5.1 C2.6,5.3 2.8,5.5 3,5.5 L4.4,5.5 L4.4,6.9 C4.4,7.1 4.6,7.3 4.8,7.3 C5,7.3 5.2,7.1 5.2,6.9 L5.2,5.5 L6.6,5.5 C6.8,5.5 7,5.3 7,5.1 C7,4.9 6.9,4.7 6.6,4.7 Z" id="Shape"></path>
+                </g>
+                <text id="Add-to-Basket" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="81.479" y="24.0987">Add to Basket</tspan>
+                </text>
+                <polygon id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" points="211.2 19.3 207.5 23 203.8 19.3 204 19.1 207.5 22.6 211 19"></polygon>
+                <text id="Transaction" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="81.479" y="75.1506">Transaction</tspan>
+                </text>
+                <polygon id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" points="211.2 70.3 207.5 74.1 203.8 70.4 204 70.1 207.5 73.6 211 70.1"></polygon>
+                <text id="Select-Event-Type" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="81.479" y="126.1506">Select Event Type</tspan>
+                </text>
+                <polygon id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" points="211.2 121.3 207.5 125.1 203.8 121.4 204 121.1 207.5 124.6 211 121.1"></polygon>
+                <path d="M103,192.2 L13,192.2 C11.3,192.2 10,190.8 10,189.2 L10,165.2 C10,163.5 11.3,162.2 13,162.2 L103,162.2 C104.7,162.2 106,163.5 106,165.2 L106,189.2 C106,190.8 104.7,192.2 103,192.2 Z" id="Shape" fill="url(#linearGradient-46)" fill-rule="nonzero"></path>
+                <path d="M209.4,192.2 L119.4,192.2 C117.8,192.2 116.4,190.8 116.4,189.2 L116.4,165.2 C116.4,163.5 117.8,162.2 119.4,162.2 L209.4,162.2 C211,162.2 212.4,163.5 212.4,165.2 L212.4,189.2 C212.4,190.8 211,192.2 209.4,192.2 Z" id="Shape" stroke="url(#linearGradient-47)" stroke-width="0.75"></path>
+                <text id="Query" fill="#FDFEFE" font-family="Helvetica" font-size="12" font-weight="normal">
+                    <tspan x="39.1323" y="180.7052">Query</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="retention" transform="translate(72.000000, 61.000000)">
+            <g id="report" transform="translate(0.000000, 174.000000)">
+                <g id="Group" fill-rule="nonzero">
+                    <path d="M486.5,187.3 L5.5,187.3 C2.7,187.3 0.5,185.1 0.5,182.3 L0.5,5.1 C0.5,2.3 2.7,0.1 5.5,0.1 L486.5,0.1 C489.3,0.1 491.5,2.3 491.5,5.1 L491.5,182.3 C491.5,185 489.3,187.3 486.5,187.3 Z" id="Shape" fill="#FFFFFF"></path>
+                    <g opacity="0.5" fill="url(#linearGradient-48)" id="Shape">
+                        <path d="M486.5,187.3 L5.5,187.3 C2.7,187.3 0.5,185.1 0.5,182.3 L0.5,5.1 C0.5,2.3 2.7,0.1 5.5,0.1 L486.5,0.1 C489.3,0.1 491.5,2.3 491.5,5.1 L491.5,182.3 C491.5,185 489.3,187.3 486.5,187.3 Z"></path>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(37.000000, 21.000000)" fill-rule="nonzero">
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.3" y="19" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.3" y="0.4" width="41.9" height="13.2"></rect>
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.3" y="52.1" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.3" y="85.2" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.3" y="119.3" width="41.9" height="27.6"></rect>
+                </g>
+                <g id="Group" transform="translate(98.000000, 21.000000)" fill-rule="nonzero">
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.9" y="0.4" width="41.9" height="13.2"></rect>
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.9" y="19" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.9" y="52.1" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.9" y="85.2" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.9" y="119.3" width="41.9" height="27.6"></rect>
+                </g>
+                <g id="Group" transform="translate(160.000000, 21.000000)" fill-rule="nonzero">
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.6" y="0.4" width="41.9" height="13.2"></rect>
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.6" y="19" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.6" y="52.1" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.6" y="85.2" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.6" y="119.3" width="41.9" height="27.6"></rect>
+                </g>
+                <g id="Group" transform="translate(222.000000, 21.000000)" fill-rule="nonzero">
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.3" y="0.4" width="41.9" height="13.2"></rect>
+                    <rect id="Rectangle-path" fill="#B44592" opacity="0.7" x="0.3" y="19" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.3" y="52.1" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.3" y="85.2" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="0.3" y="119.3" width="41.9" height="27.6"></rect>
+                </g>
+                <g id="Group" transform="translate(283.000000, 21.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <rect id="Rectangle-path" x="0.9" y="0.4" width="41.9" height="13.2"></rect>
+                    <rect id="Rectangle-path" x="0.9" y="19" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" x="0.9" y="52.1" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" x="0.9" y="85.2" width="41.9" height="27.6"></rect>
+                    <rect id="Rectangle-path" x="0.9" y="119.3" width="41.9" height="27.6"></rect>
+                </g>
+                <text id="Date" fill="#B44592" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="47.2945" y="30.8278">Date</tspan>
+                </text>
+                <text id="Users" fill="#B44592" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="107.3914" y="30.8278">Users</tspan>
+                </text>
+                <text id="Day-1" fill="#B44592" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="169.9314" y="30.8278">Day 1</tspan>
+                </text>
+                <text id="Day-2" fill="#B44592" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="230.6674" y="30.8278">Day 2</tspan>
+                </text>
+                <text id="Day-3" fill="#B44592" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="292.3527" y="30.8278">Day 3</tspan>
+                </text>
+            </g>
+            <g id="query">
+                <path d="M93.5,163.6 L3.5,163.6 C1.8,163.6 0.5,162.3 0.5,160.6 L0.5,136.6 C0.5,135 1.8,133.6 3.5,133.6 L93.5,133.6 C95.2,133.6 96.5,135 96.5,136.6 L96.5,160.6 C96.5,162.3 95.2,163.6 93.5,163.6 Z" id="Shape" fill="url(#linearGradient-49)" fill-rule="nonzero"></path>
+                <path d="M200.6,134.6 C201.7,134.6 202.6,135.5 202.6,136.6 L202.6,160.6 C202.6,161.7 201.7,162.6 200.6,162.6 L110.6,162.6 C109.5,162.6 108.6,161.7 108.6,160.6 L108.6,136.6 C108.6,135.5 109.5,134.6 110.6,134.6 L200.6,134.6 Z M200.6,133.6 L110.6,133.6 C108.9,133.6 107.6,135 107.6,136.6 L107.6,160.6 C107.6,162.3 108.9,163.6 110.6,163.6 L200.6,163.6 C202.3,163.6 203.6,162.3 203.6,160.6 L203.6,136.6 C203.6,135 202.3,133.6 200.6,133.6 Z" id="Shape" fill="url(#linearGradient-50)" fill-rule="nonzero"></path>
+                <text id="Query" fill="#FDFEFE" font-family="Helvetica" font-size="12" font-weight="normal">
+                    <tspan x="30.4028" y="152.1575">Query</tspan>
+                </text>
+                <text id="Save" fill="#B54592" font-family="Helvetica" font-size="12" font-weight="normal">
+                    <tspan x="141.0212" y="151.5722">Save</tspan>
+                </text>
+                <g id="Group" opacity="0.9" fill="url(#linearGradient-51)" fill-rule="nonzero">
+                    <path d="M485.6,41.2 L6,41.2 C3,41.2 0.5,38.7 0.5,35.7 L0.5,5.7 C0.5,2.7 3,0.2 6,0.2 L485.6,0.2 C488.6,0.2 491.1,2.7 491.1,5.7 L491.1,35.7 C491.1,38.7 488.6,41.2 485.6,41.2 Z" id="Shape"></path>
+                </g>
+                <text id="User-Who-Did" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="10.5254" y="23.3533">User Who Did</tspan>
+                </text>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="109.6" y="10.7" width="149.2" height="20"></rect>
+                <g id="Group" opacity="0.9" transform="translate(0.000000, 51.000000)" fill="url(#linearGradient-52)" fill-rule="nonzero">
+                    <path d="M485.6,41.3 L6,41.3 C3,41.3 0.5,38.8 0.5,35.8 L0.5,5.8 C0.5,2.8 3,0.3 6,0.3 L485.6,0.3 C488.6,0.3 491.1,2.8 491.1,5.8 L491.1,35.8 C491.1,38.8 488.6,41.3 485.6,41.3 Z" id="Shape"></path>
+                </g>
+                <rect id="Rectangle-path" stroke="#FFFFFF" x="108.6" y="61.7" width="149.2" height="20"></rect>
+                <g id="Group" transform="translate(10.525400, 59.611400)" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <text id="Then-Come-back">
+                        <tspan x="0" y="10">Then Come back</tspan>
+                    </text>
+                    <text id="and-Did">
+                        <tspan x="0" y="22">and Did</tspan>
+                    </text>
+                </g>
+                <g id="Group" opacity="0.2" transform="translate(0.000000, 102.000000)" fill="url(#linearGradient-53)" fill-rule="nonzero">
+                    <g id="Shape">
+                        <path d="M148.7,1.8 L148.7,19.8 L1.6,19.8 L1.6,1.8 L148.7,1.8 Z M149.7,0.8 L0.6,0.8 L0.6,20.8 L149.8,20.8 L149.8,0.8 L149.7,0.8 Z"></path>
+                    </g>
+                </g>
+                <g id="Group" opacity="0.5" transform="translate(0.000000, 102.000000)" fill="url(#linearGradient-54)" fill-rule="nonzero">
+                    <g id="Shape">
+                        <path d="M149.4,1 L149.4,20.5 L0.8,20.5 L0.8,1 L149.4,1 Z M149.7,0.8 L0.5,0.8 L0.5,20.8 L149.7,20.8 L149.7,0.8 Z"></path>
+                    </g>
+                </g>
+                <text id="Account-Update" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="118.4626" y="22.7569">Account Update</tspan>
+                </text>
+                <polygon id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" points="248.2 18.9 244.5 22.7 240.7 19 241 18.7 244.5 22.2 248 18.7"></polygon>
+                <text id="Login" fill="#FFFFFF" font-family="Helvetica" font-size="9" font-weight="normal">
+                    <tspan x="117.4626" y="73.8088">Login</tspan>
+                </text>
+                <polygon id="Shape" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" points="247.2 70 243.5 73.8 239.7 70 240 69.8 243.5 73.3 247 69.8"></polygon>
+                <text id="Group-By" fill="#B44592" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="9.4626" y="115.1598">Group By</tspan>
+                </text>
+                <polygon id="Shape" stroke="#B54592" fill="#B44592" fill-rule="nonzero" points="139.2 111 135.5 114.8 131.7 111 132 110.8 135.5 114.3 139 110.8"></polygon>
+            </g>
+        </g>
+        <g id="sql" transform="translate(69.000000, 60.000000)">
+            <g id="query" transform="translate(183.000000, 1.000000)">
+                <g id="Group" opacity="0.9" fill="url(#linearGradient-55)" fill-rule="nonzero">
+                    <g id="Shape">
+                        <path d="M302,140.3 L5.6,140.3 C2.6,140.3 0.1,137.8 0.1,134.8 L0.1,5.5 C0.1,2.5 2.6,0 5.6,0 L302,0 C305,0 307.5,2.5 307.5,5.5 L307.5,134.8 C307.5,137.8 305,140.3 302,140.3 Z"></path>
+                    </g>
+                </g>
+                <text id="2" fill="#FFFFFF" font-family="Helvetica" font-size="11.0297" font-weight="normal">
+                    <tspan x="19.8253" y="63.089">2</tspan>
+                </text>
+                <text id="3" fill="#FFFFFF" font-family="Helvetica" font-size="11.0297" font-weight="normal">
+                    <tspan x="19.8253" y="89.261">3</tspan>
+                </text>
+                <text id="4" fill="#FFFFFF" font-family="Helvetica" font-size="11.0297" font-weight="normal">
+                    <tspan x="19.8253" y="115.4334">4</tspan>
+                </text>
+                <path d="M36.9,140.7 L36.9,0.6" id="Shape_1_" stroke="#FFFFFF" stroke-width="0.75"></path>
+                <text id="1" fill="#FFFFFF" font-family="Helvetica" font-size="11.0297" font-weight="normal">
+                    <tspan x="19.8253" y="36.917">1</tspan>
+                </text>
+                <g id="Group_1_" transform="translate(47.117200, 26.433600)" fill="#FFFFFF" font-family="Helvetica" font-size="11.0297" font-weight="normal">
+                    <text id="SELECT">
+                        <tspan x="0.8341" y="10.4834">SELECT</tspan>
+                    </text>
+                    <text id="city,-count(*)">
+                        <tspan x="46.834" y="10.4834">city, count(*)</tspan>
+                    </text>
+                </g>
+                <g id="Group_2_" transform="translate(58.147500, 52.376000)" fill="#FFFFFF" font-family="Helvetica" font-size="11.0297" font-weight="normal">
+                    <g id="Group">
+                        <text id="FROM">
+                            <tspan x="0.834" y="10.4833">FROM</tspan>
+                        </text>
+                        <text id="view_page">
+                            <tspan x="40.834" y="10.4833">view_page</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group_3_" transform="translate(58.147500, 78.950200)" fill="#FFFFFF" font-family="Helvetica" font-size="11.0297" font-weight="normal">
+                    <g id="Group">
+                        <text id="GROUP-BY">
+                            <tspan x="0.834" y="10.4834">GROUP BY</tspan>
+                        </text>
+                        <text id="city">
+                            <tspan x="65.834" y="10.4834">city</tspan>
+                        </text>
+                        <text id="country-=">
+                            <tspan x="47.834" y="35.4834">country =</tspan>
+                        </text>
+                        <text id="{country}">
+                            <tspan x="101.834" y="35.4834">{country}</tspan>
+                        </text>
+                        <text id="WHERE">
+                            <tspan x="0.834" y="36.4834">WHERE</tspan>
+                        </text>
+                    </g>
+                </g>
+                <path d="M93.8,180.6 L3.8,180.6 C2.2,180.6 0.8,179.2 0.8,177.6 L0.8,153.6 C0.8,151.9 2.2,150.6 3.8,150.6 L93.8,150.6 C95.4,150.6 96.8,151.9 96.8,153.6 L96.8,177.6 C96.8,179.2 95.5,180.6 93.8,180.6 Z" id="Shape" fill="url(#linearGradient-56)" fill-rule="nonzero"></path>
+                <path d="M200.2,180.6 L110.2,180.6 C108.6,180.6 107.2,179.2 107.2,177.6 L107.2,153.6 C107.2,151.9 108.6,150.6 110.2,150.6 L200.2,150.6 C201.9,150.6 203.2,151.9 203.2,153.6 L203.2,177.6 C203.2,179.2 201.8,180.6 200.2,180.6 Z" id="Shape" stroke="url(#linearGradient-57)"></path>
+                <text id="Query" fill="#FDFEFE" font-family="Helvetica" font-size="12" font-weight="normal">
+                    <tspan x="29.922" y="169.1029">Query</tspan>
+                </text>
+                <text id="Save" fill="#426FB6" font-family="Helvetica" font-size="12" font-weight="normal">
+                    <tspan x="140.5404" y="168.5176">Save</tspan>
+                </text>
+            </g>
+            <g id="report" transform="translate(183.000000, 191.000000)">
+                <g id="Group_5_">
+                    <path d="M302.5,171.7 L5.1,171.7 C2.3,171.7 0.1,169.5 0.1,166.7 L0.1,5.8 C0.1,3 2.3,0.8 5.1,0.8 L302.5,0.8 C305.3,0.8 307.5,3 307.5,5.8 L307.5,166.7 C307.5,169.4 305.3,171.7 302.5,171.7 Z" id="Shape_8_" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <g id="Group" fill="url(#linearGradient-58)" fill-rule="nonzero">
+                        <g id="Shape_3_">
+                            <path d="M302.5,171.6 L5.1,171.6 C2.3,171.6 0.1,169.4 0.1,166.6 L0.1,5.7 C0.1,2.9 2.3,0.7 5.1,0.7 L302.5,0.7 C305.3,0.7 307.5,2.9 307.5,5.7 L307.5,166.6 C307.5,169.3 305.3,171.6 302.5,171.6 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                    <rect id="Rectangle-path_1_" fill="#FFFFFF" fill-rule="nonzero" x="15.2" y="65.3" width="260.3" height="2.2"></rect>
+                    <g id="Rectangle-path_2_" opacity="0.2" transform="translate(18.000000, 72.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle-path" x="0.4" y="0.5" width="257.1" height="16.5"></rect>
+                    </g>
+                    <rect id="Rectangle-path_3_" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" x="150.7" y="89" width="124.7" height="16.3"></rect>
+                    <rect id="Rectangle-path_4_" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" x="150.7" y="124.5" width="124.7" height="17"></rect>
+                    <g id="Rectangle-path_5_" opacity="0.3" transform="translate(39.000000, 94.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle-path" x="0.9" y="0.7" width="28.9" height="4.7"></rect>
+                    </g>
+                    <g id="Rectangle-path_6_" opacity="0.3" transform="translate(39.000000, 112.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle-path" x="0.9" y="0.5" width="28.9" height="4.7"></rect>
+                    </g>
+                    <g id="Rectangle-path_7_" opacity="0.3" transform="translate(39.000000, 130.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle-path" x="0.9" y="0.8" width="28.9" height="4.7"></rect>
+                    </g>
+                    <g id="Rectangle-path_8_" opacity="0.3" transform="translate(162.000000, 94.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle-path" x="0.3" y="0.7" width="28.9" height="4.7"></rect>
+                    </g>
+                    <g id="Rectangle-path_9_" opacity="0.3" transform="translate(162.000000, 112.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle-path" x="0.3" y="0.5" width="28.9" height="4.7"></rect>
+                    </g>
+                    <g id="Rectangle-path_10_" opacity="0.3" transform="translate(162.000000, 130.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle-path" x="0.3" y="0.8" width="28.9" height="4.7"></rect>
+                    </g>
+                    <g id="Rectangle-path_11_" opacity="0.3" transform="translate(39.000000, 148.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle-path" x="0.9" y="0.5" width="28.9" height="4.7"></rect>
+                    </g>
+                    <g id="Rectangle-path_12_" opacity="0.3" transform="translate(162.000000, 148.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                        <rect id="Rectangle-path" x="0.3" y="0.5" width="28.9" height="4.7"></rect>
+                    </g>
+                    <path d="M275.6,105.3 L20.6,105.3" id="Shape_4_" stroke="url(#linearGradient-60)" stroke-width="0.25" fill="url(#linearGradient-59)" fill-rule="nonzero"></path>
+                    <path d="M275.6,124.5 L20.6,124.5" id="Shape_5_" stroke="url(#linearGradient-61)" stroke-width="0.25" fill="url(#linearGradient-59)" fill-rule="nonzero"></path>
+                    <path d="M275.6,141.4 L20.6,141.4" id="Shape_6_" stroke="url(#linearGradient-62)" stroke-width="0.25" fill="url(#linearGradient-59)" fill-rule="nonzero"></path>
+                    <path d="M19,48 C19,48 53.1,37.7 82.5,48.8 C111.5,59.8 121.5,56.8 148,53.9 C165.4,52 182.7,42.1 229.9,50.9 C268.8,58.1 273.4,57.7 273.4,57.7" id="Shape_7_" stroke="#B7E3EC"></path>
+                    <circle id="Oval" fill="#426FB6" fill-rule="nonzero" transform="translate(34.496930, 44.965350) rotate(-65.259675) translate(-34.496930, -44.965350) " cx="34.49693" cy="44.96535" r="1.69997407"></circle>
+                    <circle id="Oval_1_" fill="#426FB6" fill-rule="nonzero" transform="translate(71.415140, 45.744670) rotate(-65.259675) translate(-71.415140, -45.744670) " cx="71.41514" cy="45.74467" r="1.69997407"></circle>
+                    <circle id="Oval_2_" fill="#426FB6" fill-rule="nonzero" transform="translate(109.973080, 55.854150) rotate(-65.259675) translate(-109.973080, -55.854150) " cx="109.97308" cy="55.85415" r="1.69997407"></circle>
+                    <circle id="Oval_3_" fill="#6896CC" fill-rule="nonzero" transform="translate(139.796140, 54.715290) rotate(-65.259675) translate(-139.796140, -54.715290) " cx="139.79614" cy="54.71529" r="1.69997407"></circle>
+                    <circle id="Oval_4_" fill="#36ACCB" fill-rule="nonzero" transform="translate(170.113130, 49.419080) rotate(-65.259675) translate(-170.113130, -49.419080) " cx="170.11313" cy="49.41908" r="1.69997407"></circle>
+                    <circle id="Oval_5_" fill="#41C1F0" fill-rule="nonzero" transform="translate(200.706290, 47.733610) rotate(-65.259675) translate(-200.706290, -47.733610) " cx="200.70629" cy="47.73361" r="1.69997407"></circle>
+                    <circle id="Oval_6_" fill="#41C1F0" fill-rule="nonzero" transform="translate(233.690010, 51.748660) rotate(-65.259675) translate(-233.690010, -51.748660) " cx="233.69001" cy="51.74866" r="1.69997407"></circle>
+                    <circle id="Oval_7_" fill="#41C1F0" fill-rule="nonzero" transform="translate(268.776580, 57.421440) rotate(-65.259675) translate(-268.776580, -57.421440) " cx="268.77658" cy="57.42144" r="1.69997407"></circle>
+                    <g id="Group" transform="translate(158.000000, 15.000000)" fill="#FFFFFF" font-family="Helvetica" font-size="9" font-weight="normal">
+                        <text id="Country">
+                            <tspan x="0.0775" y="9.9351">Country</tspan>
+                        </text>
+                    </g>
+                    <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="200.7" y="14.6" width="69" height="16"></rect>
+                    <polygon id="Shape" fill="#426FB6" fill-rule="nonzero" points="264.7 20.8 260.9 24.6 257.2 20.9 257.5 20.6 260.9 24.1 264.5 20.6"></polygon>
+                    <text id="USA" fill="#787878" font-family="Helvetica" font-size="8" font-weight="normal">
+                        <tspan x="205.6819" y="24.9316">USA</tspan>
+                    </text>
+                    <g id="Group" transform="translate(44.000000, 72.000000)" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                        <text id="City">
+                            <tspan x="0.349" y="10.863">City</tspan>
+                        </text>
+                    </g>
+                    <g id="Group" transform="translate(161.000000, 72.000000)" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                        <text id="Count">
+                            <tspan x="0.7813" y="10.863">Count</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="schema">
+                <path d="M125.4,27.4 L123.3,25.3 C123.8,24.7 124.1,23.9 124.1,23.1 C124.1,21.1 122.5,19.6 120.6,19.6 C118.6,19.6 117.1,21.2 117.1,23.1 C117.1,25 118.7,26.6 120.6,26.6 C121.4,26.6 122.2,26.3 122.8,25.8 L124.9,27.9 C125,28 125.1,28 125.2,28 C125.3,28 125.4,28 125.5,27.9 C125.6,27.7 125.6,27.5 125.4,27.4 Z M117.8,23 C117.8,21.5 119,20.2 120.6,20.2 C122.2,20.2 123.4,21.4 123.4,23 C123.4,24.6 122.2,25.8 120.6,25.8 C119,25.8 117.8,24.6 117.8,23 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <g id="Group_4_" opacity="0.9" fill="url(#linearGradient-63)" fill-rule="nonzero">
+                    <g id="Shape_2_">
+                        <path d="M156.8,362.2 L6.4,362.2 C3.4,362.2 0.9,359.7 0.9,356.7 L0.9,6.4 C0.9,3.4 3.4,0.9 6.4,0.9 L156.8,0.9 C159.8,0.9 162.3,3.4 162.3,6.4 L162.3,356.7 C162.3,359.7 159.8,362.2 156.8,362.2 Z" id="Shape"></path>
+                    </g>
+                </g>
+                <text id="add_to_basket" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="43.1351" y="54.6665">add_to_basket</tspan>
+                </text>
+                <text id="login" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="67.8246" y="75.7878">login</tspan>
+                </text>
+                <text id="register" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="60.805" y="96.9088">register</tspan>
+                </text>
+                <text id="transaction" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="53.4242" y="118.03">transaction</tspan>
+                </text>
+                <text id="view_product" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <tspan x="49.6751" y="139.1508">view_product</tspan>
+                </text>
+                <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.75" x="16.3" y="13.7" width="129.2" height="20"></rect>
+                <path d="M144.4,14.3 L144.4,32.3 L17.3,32.3 L17.3,14.3 L144.4,14.3 Z M145.4,13.3 L16.3,13.3 L16.3,33.3 L145.5,33.3 L145.5,13.3 L145.4,13.3 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="32.8" y="156.3" width="96.1" height="8.3"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="32.8" y="178.7" width="96.1" height="8.3"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="32.8" y="201.1" width="96.1" height="8.3"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="32.8" y="223.5" width="96.1" height="8.3"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="32.8" y="245.9" width="96.1" height="8.3"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="32.8" y="268.4" width="96.1" height="8.3"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="32.8" y="290.8" width="96.1" height="8.3"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="32.8" y="313.2" width="96.1" height="8.3"></rect>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="32.8" y="335.6" width="96.1" height="8.3"></rect>
+                <g id="Group_12_" opacity="0.370089286" transform="translate(47.117200, 16.433600)" fill="#FFFFFF" font-family="Helvetica" font-size="10" font-weight="normal">
+                    <text id="Input-Search">
+                        <tspan x="0.8341" y="10.5664">Input Search</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+        <g id="background">
+            <g id="Rectangle-path" opacity="0.8" fill="url(#linearGradient-64)" fill-rule="nonzero">
+                <rect x="0" y="0" width="50" height="441"></rect>
+            </g>
+            <rect id="Rectangle-path" fill="url(#linearGradient-65)" fill-rule="nonzero" x="1" y="0" width="581" height="40"></rect>
+            <g id="Rectangle-path" opacity="0.44" transform="translate(50.000000, 1.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <rect x="0" y="0" width="97" height="40"></rect>
+            </g>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="554.5" cy="20.5" r="6.5"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="532.5" cy="20.5" r="6.5"></circle>
+            <g id="Group" transform="translate(61.000000, 15.000000)">
+                <g id="Rakam-Demo" fill="#000000" fill-opacity="0.390511775" font-family="Geneva" font-size="9" font-weight="normal">
+                    <text>
+                        <tspan x="0.5158" y="9.6465">Rakam Demo</tspan>
+                    </text>
+                </g>
+                <polygon id="Shape" fill="#3C3C3C" fill-rule="nonzero" points="77 4.5 72.8 8.7 68.6 4.6 68.8 4.3 72.8 8.2 76.7 4.2"></polygon>
+            </g>
+            <g id="Rectangle-path" transform="translate(16.000000, 13.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <rect x="0" y="7.7" width="4.6" height="8.2"></rect>
+                <rect x="6.7" y="3.6" width="4.6" height="12.3"></rect>
+                <rect x="13.4" y="0.1" width="4.6" height="15.8"></rect>
+            </g>
+            <g id="Rectangle-path" transform="translate(15.000000, 52.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <rect x="0" y="0.3" width="8.6" height="5.5"></rect>
+                <rect x="0" y="7.9" width="8.6" height="10.4"></rect>
+                <rect x="10.4" y="0.3" width="7.6" height="10.4"></rect>
+                <rect x="10.4" y="12.9" width="7.6" height="5.5"></rect>
+            </g>
+            <path d="M16,91 L16,110.1 L33,110.1 L33,91 L30.6,91 L30.6,91.9 C30.6,92.2 30.3,92.4 30,92.4 C29.7,92.4 29.4,92.2 29.4,91.9 L29.4,91 L27,91 L27,91.9 C27,92.2 26.7,92.4 26.4,92.4 C26.1,92.4 25.8,92.2 25.8,91.9 L25.8,91 L23.4,91 L23.4,91.9 C23.4,92.2 23.1,92.4 22.8,92.4 C22.5,92.4 22.2,92.2 22.2,91.9 L22.2,91 L19.8,91 L19.8,91.9 C19.8,92.2 19.5,92.4 19.2,92.4 C18.9,92.4 18.6,92.2 18.6,91.9 L18.6,91 L16,91 Z M30,97.4 L19,97.4 C18.7,97.4 18.4,97 18.4,96.5 C18.4,96 18.7,95.6 19,95.6 L30,95.6 C30.3,95.6 30.6,96 30.6,96.5 C30.6,97 30.3,97.4 30,97.4 Z M30,102.2 L19,102.2 C18.7,102.2 18.4,101.8 18.4,101.3 C18.4,100.8 18.7,100.4 19,100.4 L30,100.4 C30.3,100.4 30.6,100.8 30.6,101.3 C30.6,101.8 30.3,102.2 30,102.2 Z M30,106.9 L19,106.9 C18.7,106.9 18.4,106.5 18.4,106 C18.4,105.5 18.7,105.1 19,105.1 L30,105.1 C30.3,105.1 30.6,105.5 30.6,106 C30.6,106.5 30.3,106.9 30,106.9 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M31.8,131.8 C28,128 21.9,128 18.1,131.8 C14.3,135.6 14.3,141.7 18.1,145.5 C21.9,149.3 28,149.3 31.8,145.5 C35.6,141.7 35.6,135.6 31.8,131.8 Z M21.6,142.1 L23.3,137 L28.4,135.3 L26.7,140.4 L21.6,142.1 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M17.9,187.2 C18.4,187.8 18.9,188.3 19.5,188.8 L19.5,190.1 C19.5,190.3 19.7,190.6 19.9,190.6 L22.5,191.6 L22.7,191.6 C22.9,191.6 23,191.5 23.1,191.4 L23.9,190.4 C24.7,190.5 25.4,190.5 26.2,190.4 L27.1,191.3 C27.3,191.5 27.5,191.5 27.8,191.4 L30.4,190.2 C30.6,190.1 30.8,189.9 30.8,189.6 L30.7,188.3 C31.3,187.8 31.8,187.3 32.3,186.7 L33.6,186.7 C33.8,186.7 34.1,186.5 34.1,186.3 L35.1,183.6 C35.2,183.4 35.1,183.1 34.9,182.9 L33.9,182.1 C34,181.3 34,180.6 33.9,179.8 L34.8,178.9 C35,178.7 35,178.5 34.9,178.2 L33.7,175.6 C33.6,175.4 33.4,175.2 33.1,175.2 L31.8,175.3 C31.3,174.7 30.8,174.2 30.2,173.7 L30.2,172.5 C30.2,172.3 30,172 29.8,172 L27.3,171 C27.1,170.9 26.8,171 26.6,171.2 L25.8,172.2 C25,172.1 24.3,172.1 23.5,172.2 L22.6,171.3 C22.4,171.1 22.2,171.1 21.9,171.2 L19.3,172.4 C19.1,172.5 18.9,172.7 18.9,173 L19,174.3 C18.4,174.8 17.9,175.3 17.4,175.9 L16.1,175.9 C15.9,175.9 15.6,176.1 15.6,176.3 L14.6,178.8 C14.5,179 14.6,179.3 14.8,179.5 L15.8,180.3 C15.7,181.1 15.7,181.8 15.8,182.6 L14.9,183.5 C14.7,183.7 14.7,183.9 14.8,184.2 L16,186.8 C16.1,187 16.3,187.2 16.6,187.2 L17.9,187.2 Z M20.4,180.7 C21.4,178.1 24.2,176.9 26.8,177.8 C29.4,178.8 30.6,181.6 29.7,184.2 C28.7,186.8 25.9,188 23.3,187.1 C23.3,187.1 23.3,187.1 23.3,187.1 C20.7,186.1 19.4,183.2 20.4,180.7 C20.4,180.7 20.4,180.7 20.4,180.7 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

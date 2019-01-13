@@ -1,3 +1,15 @@
 [build]
   command = "hugo"
   publish = "public"
+  
+[[redirects]]
+  from = "/blog/*"
+  to = "https://rakam-blog.netlify.com/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/blog-content/*"
+  to = "https://rakam-blog.netlify.com/content/:splat"
+  status = 200
+  force = true

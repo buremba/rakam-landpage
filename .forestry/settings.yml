@@ -1,0 +1,42 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: content/integration
+  label: Integration
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/role
+  label: Role
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/industry
+  label: Industry
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/comparison
+  label: Comparison
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: content/product
+  label: Product
+  create: all
+  match: "**/*"
+upload_dir: static/blog/uploads
+public_path: "/blog/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":year:/:month:/:day:/:filename:"
+version: 0.30.2

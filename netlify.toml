@@ -13,3 +13,6 @@
   to = "https://rakam-blog.netlify.com/content/:splat"
   status = 200
   force = true
+
+[context.production.environment]
+  HUGO_VERSION = "0.53"

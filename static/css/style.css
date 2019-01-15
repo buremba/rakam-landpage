@@ -4487,6 +4487,10 @@ section#main_header .box .box_animation .img_1 {
     background: none;
 }
 
+section.content {
+    font-size: 15px;
+    line-height: 31px;
+}
 section.content img {
     border: 1px solid #ddd;
     border-radius: 5px;

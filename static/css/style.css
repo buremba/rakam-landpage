@@ -4476,6 +4476,7 @@ section#main_header .box .box_animation .img_1 {
     font-size: 18px;
     color: #2CA01C;
 }
+
 .comparison-table .no-tick {
     font-size: 18px;
     color: #a04437;
@@ -4484,6 +4485,12 @@ section#main_header .box .box_animation .img_1 {
 .comparison-table .hidden-ta {
     border: 0;
     background: none;
+}
+
+section.content img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width:100%
 }
 
 @media (min-width: 640px) {

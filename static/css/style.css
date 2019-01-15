@@ -3331,13 +3331,6 @@ section#main_why_do ul li p {
     background-size: 100% 90%;
 }
 
-@media (max-width: 1199px) {
-    #main_pricing.container-fluid {
-        background-image: url(../images/homePricingBg.svg);
-        background-size: cover;
-    }
-}
-
 #main_pricing .container {
     min-height: 670px;
     padding-bottom: 105px;
@@ -3404,7 +3397,7 @@ section#main_why_do ul li p {
     -webkit-box-shadow: 0 6px 30px rgba(65, 117, 165, 0.24);
     -moz-box-shadow: 0 6px 30px rgba(65, 117, 165, 0.24);
     box-shadow: 0 6px 30px rgba(65, 117, 165, 0.24);
-    padding-left: 65px;
+    padding-left: 3em;
 }
 
 #main_pricing .box_content div:nth-child(1) ul,
@@ -3536,12 +3529,6 @@ section#main_why_do ul li p {
 
 #main_pricing .box_content div:nth-child(2) .home_more {
     top: 4px;
-}
-
-@media (max-width: 857px) {
-    #main_pricing .box_content div:nth-child(2) a {
-        top: 25px;
-    }
 }
 
 @media (max-width: 372px) {
@@ -4524,4 +4511,10 @@ section.content img {
 
 #segmentation #query {
     opacity: 1
+}
+
+@media (max-width: 1000px) {
+    .hide-mobile {
+        display: none !important;
+    }
 }

@@ -18,13 +18,13 @@ Looker is a big step in terms of empowering non-technical teams to ask more ques
 
 ![](/blog/uploads/2019/01/15/lookml.png "LookML editor")
 
-![](/blog/uploads/2019/01/15/Screen Shot 2019-01-15 at 2.43.50 PM.png "Taxonomy feature of Rakam")
+![](/blog/uploads/2019/01/15/rakam_taxonomy.png "Taxonomy feature of Rakam")
 
 As you can see, while you need to define your metrics and relations via a programing language called LookML in Looker, we have user-friendly UIs for your data analysts to map your data layout to Rakam. It significantly reduce the time to get started using Rakam and maintain using it.
 
 2. The main feature of Looker is Explores which allows you to create metrics from your data. You basically have measure, dimension, pivot, filter options in order to drill-down the data. In Rakam, the alternative is the segmentation feature which lets you to create event metrics. You have access to all these features in Rakam so it comes down to the preference, let's see how it looks like in Rakam and Looker:
 
-![Dimension, pivot, measure options are on the left and filters are on top.](/blog/uploads/2019/01/15/Screen Shot 2019-01-15 at 2.55.23 PM.png "Looker Explore feature")![The query section is on top ](/blog/uploads/2019/01/15/Screen Shot 2019-01-15 at 3.00.44 PM.png "Rakam segmentation feature")
+![Dimension, pivot, measure options are on the left and filters are on top.](/blog/uploads/2019/01/15/looker_explore.png "Looker Explore feature")![The query section is on top ](/blog/uploads/2019/01/15/rakam_segmentation.png "Rakam segmentation feature")
 
 You can also create predefined metrics that either use expressions or column aggregations in Rakam so that your non-technical people see the metrics that they're looking for without hassle.
 

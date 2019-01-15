@@ -19,7 +19,7 @@ Looker is a big step in terms of empowering non-technical teams to ask more ques
 <div class="row">
 <img class="col-md-6" src="/blog/uploads/2019/01/15/lookml.png" title="LookML editor" style="heigth:300px">
 <img class="col-md-6" src="/blog/uploads/2019/01/15/rakam_taxonomy.png" title="Taxonomy feature of Rakam" style="heigth:300px">
-  </div>
+</div>
 
 As you can see, while you need to define your metrics and relations via a programing language called LookML in Looker, we have user-friendly UIs for your data analysts to map your data layout to Rakam. It significantly reduce the time to get started using Rakam and maintain using it.
 
@@ -27,11 +27,10 @@ As you can see, while you need to define your metrics and relations via a progra
 
 <div class="row">
 <img class="col-md-6" src="/blog/uploads/2019/01/15/looker_explore.png" title="Looker Explore feature" alt="Dimension, pivot, measure options are on the left and filters are on top.">
-  
 
 <img class="col-md-6" src="/blog/uploads/2019/01/15/rakam_segmentation.png" title="Rakam segmentation feature" alt="The query section is on top ">
-  </div>
+</div>
 
 You can also create predefined metrics that either use expressions or column aggregations in Rakam so that your non-technical people see the metrics that they're looking for without hassle.
 
-1. While Looker only provides Explore feature as part of their reporting technology, we also provide two more features that can be used in order to ask questions which can't be answered in both Looker's Explore and Rakam's Segmentation features natively. There are funnel and retention features. If you have customer event data in your database, you can basically ask questions 'Show me users who did this event and came back and this event' or 'Show me users who did this event and continue to do the same event over the next 2 weeks' kind of questions which lets you to understand your users behaviour.
+3. While Looker only provides Explore feature as part of their reporting technology, we also provide two more features that can be used in order to ask questions which can't be answered in both Looker's Explore and Rakam's Segmentation features natively. There are funnel and retention features. If you have customer event data in your database, you can basically ask questions 'Show me users who did this event and came back and this event' or 'Show me users who did this event and continue to do the same event over the next 2 weeks' kind of questions which lets you to understand your users behaviour.

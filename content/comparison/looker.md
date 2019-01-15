@@ -17,8 +17,8 @@ Looker is a big step in terms of empowering non-technical teams to ask more ques
 1. We don't require you to learn any programming language and we aim to make the learning curve of newcomers as smooth as possible. You can basically use our UI to map your data, let us make your reports as interactive just using SQL. Here is the LookerML editor of Looker vs Taxonomy feature of Rakam:
 
 <div class="row">
-<img class="col-md-6" src="/blog/uploads/2019/01/15/lookml.png" title="LookML editor">
-<img class="col-md-6" src="/blog/uploads/2019/01/15/rakam_taxonomy.png" title="Taxonomy feature of Rakam">
+<img class="col-md-6" src="/blog/uploads/2019/01/15/lookml.png" title="LookML editor" style="heigth:300px">
+<img class="col-md-6" src="/blog/uploads/2019/01/15/rakam_taxonomy.png" title="Taxonomy feature of Rakam" style="heigth:300px">
   </div>
 
 As you can see, while you need to define your metrics and relations via a programing language called LookML in Looker, we have user-friendly UIs for your data analysts to map your data layout to Rakam. It significantly reduce the time to get started using Rakam and maintain using it.

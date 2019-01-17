@@ -17,11 +17,10 @@
         </div>
 
         <div class="comparison-tabs">
-
-            <a class="selected" href="/comparison/looker">Looker</a>
-            <a href="/comparison/tableau">Tableau</a>
-            <a href="/comparison/periscope-data">Periscope Data</a>
-            <a href="/comparison/mixpanel-amplitude">Mixpanel & Amplitude</a>
+            <a {{ if eq .File.TranslationBaseName "looker" }}class="selected"{{ end }} href="/comparison/looker">Looker</a>
+            <a {{ if eq .File.TranslationBaseName "tableau" }}class="selected"{{ end }} href="/comparison/tableau">Tableau</a>
+            <a {{ if eq .File.TranslationBaseName "periscope-data" }}class="selected"{{ end }} href="/comparison/periscope-data">Periscope Data</a>
+            <a {{ if eq .File.TranslationBaseName "mixpanel-amplitude" }}class="selected"{{ end }} href="/comparison/mixpanel-amplitude">Mixpanel & Amplitude</a>
 
             <section class="content">
                 {{ .Content }}

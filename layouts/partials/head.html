@@ -6,6 +6,7 @@
   <meta property="og:title" content="{{ . }}" />
   <meta name="twitter:title" content="{{ . }}" />
   {{ end }}
+  <link rel="canonical" href="{{ .Permalink }}">
 
   {{ with .Description | default .Site.Params.subtitle }}
   <meta name="description" content="{{ . }}">
@@ -45,7 +46,4 @@
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
   {{ partial "head_custom.html" . }}
-  <link href="{{ .Site.BaseURL }}css/colorbox.css" rel="stylesheet">
-  <script src="{{ .Site.BaseURL }}js/jquery.colorbox-min.js"></script>
-  <script src="{{ .Site.BaseURL }}js/functions.js"></script>
 </head>

@@ -6,7 +6,7 @@
         <div class="row box">
             <div class="col-xs-12 col-sm-5 col-lg-5">
                 <h1>
-                    Powerful way to visualize your user behaviour
+                    Powerful Data platform for product analytics
                 </h1>
                 <p>
                     Get deeper insights on customer data and reduce the burden on your team.
@@ -31,35 +31,35 @@
             </div>
         </div>
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <p>Trusted by such Companies</p>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <img src="{{ .Site.BaseURL }}images/homepage/Companies1.png" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="{{ .Site.BaseURL }}images/homepage/Companies3.png" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img style="width:88px" src="{{ .Site.BaseURL }}images/homepage/Rappi.svg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img style="width: 195px; opacity: 0.5;"
-                                     src="{{ .Site.BaseURL }}images/homepage/Foodpanda.svg" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p>Trusted by such Companies</p>
+                <ul>
+                    <li>
+                        <a style="cursor:pointer">
+                            <img src="{{ .Site.BaseURL }}images/homepage/Companies1.png" alt="Olacabs">
+                        </a>
+                    </li>
+                    <li>
+                        <a style="cursor:pointer">
+                            <img src="{{ .Site.BaseURL }}images/homepage/Companies3.png" alt="Yellowpages">
+                        </a>
+                    </li>
+                    <li>
+                        <a style="cursor:pointer">
+                            <img style="width:88px" src="{{ .Site.BaseURL }}images/homepage/Rappi.svg" alt="Rappi">
+                        </a>
+                    </li>
+                    <li>
+                        <a style="cursor:pointer">
+                            <img style="width: 195px; opacity: 0.5;"
+                                 src="{{ .Site.BaseURL }}images/homepage/Foodpanda.svg" alt="Foodpanda">
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </div>
 </section>
 
 
@@ -243,7 +243,10 @@
         <li class="sol-xs-12 col-sm-3">
             <img src="{{ .Site.BaseURL }}images/homeWhyDo4.svg" alt="">
             <h3>Your tool is not for me</h3>
-            <p>That's OK, you can still enjoy a nice tetris game <a class='iframe' href="/tetris">here</a>.</p>
+            <p>That's OK, you can still enjoy a nice tetris game
+                <a style="cursor:pointer" class="bmd-modalButton" data-toggle="modal" data-bmdSrc="/tetris" data-bmdWidth="700" data-bmdHeight="650"
+                                                                    data-target="#myModal">here</a>.</p>
+            </button>
         </li>
     </ul>
 </section>
@@ -332,6 +335,24 @@
         </div>
     </div>
 
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content bmd-modalContent">
+
+                <div class="modal-body">
+
+                    <div class="close-button">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 </section>
 <script>
   var makeActiveTestimonial = function (idx) {
@@ -365,13 +386,25 @@
   var states = [
     // function () { $('#segmentation #query').fadeTo('slow', 1) },
     function () { $('#segmentation #report').fadeTo('slow', 1) },
-    function () { $('#segmentation > g').css('opacity', 0); $('#funnel #query').css('opacity', 1) },
+    function () {
+      $('#segmentation > g').css('opacity', 0)
+      $('#funnel #query').css('opacity', 1)
+    },
     function () { $('#funnel #report').fadeTo('slow', 1)},
-    function () { $('#funnel > g').css('opacity', 0); $('#retention #query').css('opacity', 1) },
+    function () {
+      $('#funnel > g').css('opacity', 0)
+      $('#retention #query').css('opacity', 1)
+    },
     function () { $('#retention #report').fadeTo('slow', 1)},
-    function () { $('#retention > g').css('opacity', 0); $('#sql #query, #sql #schema').css('opacity', 1) },
+    function () {
+      $('#retention > g').css('opacity', 0)
+      $('#sql #query, #sql #schema').css('opacity', 1)
+    },
     function () { $('#sql #report').fadeTo('slow', 1)},
-    function () { $('#sql > g').css('opacity', 0); $('#dashboard #bet-count').fadeTo('slow', 1) },
+    function () {
+      $('#sql > g').css('opacity', 0)
+      $('#dashboard #bet-count').fadeTo('slow', 1)
+    },
     function () { $('#dashboard #Profit-by-Weekdays').fadeTo('slow', 1)},
     function () { $('#dashboard #Last-Actions').fadeTo('slow', 1)},
     function () { $('#dashboard #Profit-Loss').fadeTo('slow', 1)},
@@ -382,12 +415,53 @@
   var currentState = -1
   var handler = function () {
     var number = ++currentState
-    if(states[number]) {
-      states[number]();
+    if (states[number]) {
+      states[number]()
       setTimeout(handler, 1000)
     }
   }
-  setTimeout(handler, 1000)
-</script>
+  setTimeout(handler, 1000);
 
+  (function ($) {
+    $.fn.bmdIframe = function (options) {
+      var self = this
+      var settings = $.extend({
+        classBtn: '.bmd-modalButton',
+        defaultW: 640,
+        defaultH: 360
+      }, options)
+
+      $(settings.classBtn).on('click', function (e) {
+        var allowFullscreen = $(this).attr('data-bmdVideoFullscreen') || false
+
+        var dataVideo = {
+          'src': $(this).attr('data-bmdSrc'),
+          'height': $(this).attr('data-bmdHeight') || settings.defaultH,
+          'width': $(this).attr('data-bmdWidth') || settings.defaultW
+        }
+
+        if (allowFullscreen) dataVideo.allowfullscreen = ''
+
+        $(self).find('iframe').attr(dataVideo)
+      })
+
+      this.on('hidden.bs.modal', function () {
+        $(this).find('iframe').html('').attr('src', '')
+      })
+
+      return this
+    }
+
+  })(jQuery)
+
+  jQuery(document).ready(function () {
+    jQuery('#myModal').bmdIframe()
+  })
+
+</script>
+<style>
+    .embed-responsive-16by9 {
+        padding-bottom: 650px !important;
+    }
+</style>
 {{ partial "new-footer-product.html" . }}

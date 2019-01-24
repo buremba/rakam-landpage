@@ -2,6 +2,7 @@ baseURL = "https://rakam.io/"
 copyright = "&copy; Copyright notice"
 languageCode = "en-us"
 title = "rakam.io"
+subtitle = "Product analytics tool for funnel, retention and segmentation. Looker Alternative for user event analytics."
 [params]
 author = "Burak Emre"
 authorwebsite = "buremba.com"

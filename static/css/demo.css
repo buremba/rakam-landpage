@@ -420,16 +420,6 @@ img {
   vertical-align: top;
 }
 
-main {
-  padding-top: 71px;
-}
-
-@media (max-width: 767px) {
-  main {
-    padding-top: 50px;
-  }
-}
-
 #wrapper {
   position: relative;
   overflow: hidden;
@@ -443,6 +433,62 @@ body {
   letter-spacing: 0.3px;
 }
 
+main.demo-page {
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.get-started {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  transition: opacity 500ms;
+}
+
+.get-started .get-started-content {
+  margin: 100px auto;
+  padding: 20px;
+  background: #fff;
+  width: 30%;
+  position: relative;
+  border-radius: 2px;
+  animation: fadeIn 2s;
+}
+
+.get-started-content h3 {
+  color: #4e4e56;
+  margin: 0 0 15px 0;
+}
+
+.get-started-content input {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 60%;
+  height: 50px;
+  padding: 5px 10px;
+}
+
+.get-started-content button {
+  display: inline-block;
+  width: 35%;
+  height: 50px;
+  margin-left: 15px;
+  padding: 5px 10px;
+  vertical-align: top;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0 }
+  to   { opacity: 1 }
+}
+
 a {
   text-decoration: none;
 }
@@ -454,10 +500,8 @@ a {
   font-weight: 400;
   text-transform: uppercase;
   line-height: 1.6;
-  padding: 12px 12px 10px 12px;
   border-width: 0;
   position: relative;
-  min-width: 170px;
   letter-spacing: 1.3px;
 }
 

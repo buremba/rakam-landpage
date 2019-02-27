@@ -18,65 +18,18 @@
 <body>
 
 <div id="wrapper">
-    <main class="contact-page">
-        <section class="contact-section">
-            <div class="right-content">
-                <div class="content-holder">
-                    <div class="content-frame">
-                        <div class="header">
-                            <h2>Ready to See Rakam In Action?</h2>
-                            <p>Analytical window into your internal and external insight.</p>
-                        </div>
-                        <form id="signup-form" method="post">
-
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="form-group">
-                                        <label for="email">Work email address</label>
-                                        <input type="email" class="form-control" id="email" name="email"
-                                               placeholder="matt@companyname.com" required>
-
-                                        <small class="help-block text-danger-help-block invalid-email">Your email doesn't seem to be valid. We promise that we won't spam you, please enter your correct e-email.</small>
-
-                                        <small class="help-block text-danger-help-block ">An account already exists with
-                                            that email. Please <a href="https://beta.rakam.io/login">log in</a>.
-                                        </small>
-                                    </div>
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-green" style="cursor:pointer">Get Started Now</button>
-                        </form>
-                        <div class="block-footer">
-
-                            <div class="login-block">
-                                <p>Have an account? <a href="https://beta.rakam.io/login">Log in here.</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <main class="demo-page" style="background-image: url('{{ .Site.BaseURL }}images/screens/demo.png')">
+        <div class="get-started">
+            <div class="get-started-content">
+                <h3>Ready to see rakam in action?</h3>
+                <form id="signup-form" method="post">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="matt@companyname.com" required>
+                    <button type="submit" class="btn btn-green">Get Started</button>
+                </form>
+                <small class="help-block text-danger-help-block invalid-email">Your email doesn't seem to be valid. We promise that we won't spam you, please enter your correct e-email.</small>
+                <small class="help-block text-danger-help-block">An account already exists withthat email. Please <a href="https://beta.rakam.io/login">log in</a>.</small>
             </div>
-            <div class="left-content" style="background: url('images/demo-background.jpg') no-repeat 50% 0 / cover">
-                <div class="content-holder">
-                    <div class="content-frame">
-                        <div class="logo-holder">
-                            <div class="logo-frame">
-                                <div class="logo">
-                                    <a href="#"><img src="/images/new-logo.svg" width="170" height="35"
-                                                     alt="Rakam"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <blockquote>
-                            <q>We are very happy with Rakam’s platform and the quality of their product. Rakam backend always meet or beat our expectations and we never have problems with the quality of the product. The best thing is when you’re confident enough to move your data to Rakam.</q>
-                            <cite>
-                                <span>Kevin Adams</span>
-                                <span>CTO,  Adventure Bucket List Inc.</span>
-                            </cite>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
     </main>
 </div>
 <script type="text/javascript" src="/js/jquery.min.js"></script>

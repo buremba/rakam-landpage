@@ -12,8 +12,8 @@ content: It's often not efficient to use generic BI tools for the Segment data b
   event data has different semantics. You usually want to run ad-hoc funnel, retention
   and segmentation queries, label your event types and share them internally which
   is not convenient in generic BI tools. That's why we created Rakam for just the
-  product event data. Rakam answers these questions in a seamless way and lets you
-  drill-down these metrics so that you can understand how your users are behaving.
+  product event data. Rakam seamlessly answers these questions and lets you drill-down
+  these metrics so that you can understand how your users are behaving.
 show:
   dashboard: 'true'
   reporting:

@@ -2954,13 +2954,13 @@ section#main_tab .nav-tabs > li:last-child:after {
 
 section#main_tab .nav-tabs > li > a {
     text-align: center;
-
     font-size: 14px;
     line-height: 1.71;
     color: #646782;
     border: none;
     margin-right: 0;
     padding: 0;
+    background: transparent;
 }
 
 @media (max-width: 643px) {

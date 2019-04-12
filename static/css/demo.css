@@ -440,7 +440,7 @@ main.demo-page {
   background-repeat: no-repeat;
 }
 
-.get-started {
+main.demo-page > .get-started {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -1034,4 +1034,142 @@ header .logo a {
 
 .has-error .form-control {
   border-color: #ef6c4b !important;
+}
+
+/* ##### ONBOARDING ##### */
+
+.onboarding {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: #e5eaee;
+  position: relative;
+  z-index: 10000;
+}
+
+.onboarding-container {
+  max-width: 1200px;
+  margin: 100px auto;
+  text-align: center;
+  position: relative;
+}
+
+.onboarding h1 {
+  color: #003b61;
+}
+
+.onboarding h3 {
+  color: #0065a5;
+}
+
+.onboarding a.none-button {
+  display: inline-block;
+  color: #60758b;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 4px 8px;
+}
+
+.onboarding a.none-button:hover {
+  opacity: 0.8;
+}
+
+.select-team {
+  padding: 50px 350px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.select-team a.team-button {
+  color: #0065a5;
+  border: 1px solid #0065a5;
+  border-radius: 20px;
+  font-weight: 500;
+  width: 140px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  padding: 2px 0;
+  margin: 8px 4px;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  text-transform: capitalize;
+}
+
+.select-team a.team-button:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.select-team a.team-button:focus {
+  color: #fff;
+  background-color: #0065a5;
+}
+
+.selected-team {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e5eaee; 
+}
+
+.selected-team h2 {
+  margin: 0 0 20px 0;
+}
+
+.selected-team > span.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.selected-team > span.skip {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.selected-team a.get-started {
+  color: #fff;
+  background-color: #22bbb3;
+  padding: 12px 24px;
+  border-radius: 40px;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.selected-team a.get-started:hover {
+  opacity: 0.8;
+}
+
+.team-card {
+  display: inline-block;
+  border: 1px solid #c6d0d9;
+  background-color: #fff;
+  border-radius: 6px;
+  width: 28%;
+  margin: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.team-card h4 {
+  color: #005488;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.team-card p {
+  font-size: 18px;
+  font-weight: 500;
 }

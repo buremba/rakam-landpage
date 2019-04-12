@@ -34,9 +34,8 @@ function showOnboarding() {
   document.querySelector(".onboarding").style.display = "inline-block";
 
   for (var i = 0; i < teams.length; i++) {
-    var teamButton = document.createElement("a");
-    teamButton.setAttribute("class", "team-button");
-    teamButton.setAttribute("id", "team-button");
+    var teamButton = document.createElement("button");
+    teamButton.setAttribute("class", "team-button button--wayra");
     teamButton.innerHTML = teams[i].name;
     teamButton.addEventListener("click", selectTeam.bind(this, i), false);
     document.getElementsByClassName("select-team")[0].appendChild(teamButton);

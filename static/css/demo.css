@@ -1042,7 +1042,7 @@ header .logo a {
   display: none;
   width: 100%;
   height: 100vh;
-  background-color: #e5eaee;
+  background-color: #f4f8fb;
   position: relative;
   z-index: 10000;
 }
@@ -1063,12 +1063,13 @@ header .logo a {
 }
 
 .onboarding a.none-button {
-  display: inline-block;
+  display: block;
+  clear: both;
   color: #60758b;
   cursor: pointer;
   font-size: 18px;
   text-decoration: none;
-  padding: 4px 8px;
+  padding: 20px 8px;
 }
 
 .onboarding a.none-button:hover {
@@ -1076,37 +1077,65 @@ header .logo a {
 }
 
 .select-team {
-  padding: 50px 350px;
+  margin: 20px auto;
+  text-align: center;
   display: block;
   margin-bottom: 50px;
 }
 
-.select-team a.team-button {
-  color: #0065a5;
-  border: 1px solid #0065a5;
-  border-radius: 20px;
-  font-weight: 500;
-  width: 140px;
+.button--wayra {
+  overflow: hidden;
+  -webkit-transition: border-color 0.3s, color 0.3s;
+  transition: border-color 0.3s, color 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  border: 1px solid #0000003b;
+  letter-spacing: 2px;
+  min-width: 150px;
+  margin: 5px;
+  border-radius: 3px;
+  max-width: 250px;
   display: inline-block;
-  text-align: center;
-  justify-content: center;
-  padding: 2px 0;
-  margin: 8px 4px;
-  text-decoration: none;
+  padding: 1em 2em;
+  background: none;
   cursor: pointer;
-  user-select: none;
-  text-transform: capitalize;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase;
 }
-
-.select-team a.team-button:hover {
-  text-decoration: none;
-  opacity: 0.8;
+.button--wayra::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background: #37474f;
+  z-index: -1;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s, background-color 0.3s;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
 }
-
-.select-team a.team-button:focus {
+.button--wayra:hover {
   color: #fff;
-  background-color: #0065a5;
+  border-color: #02afde;
 }
+.button--wayra:hover::before {
+  opacity: 1;
+  background-color: #02afde;
+  -webkit-transform: rotate3d(0, 0, 1, 0deg);
+  transform: rotate3d(0, 0, 1, 0deg);
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
 
 .selected-team {
   display: none;
@@ -1115,7 +1144,7 @@ header .logo a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #e5eaee; 
+  background-color: #e5eaee;
 }
 
 .selected-team h2 {

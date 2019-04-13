@@ -1102,7 +1102,6 @@ header .logo a {
   color: inherit;
   vertical-align: middle;
   position: relative;
-  z-index: 1;
   -webkit-backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   text-transform: uppercase;
@@ -1143,8 +1142,7 @@ header .logo a {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background-color: #e5eaee;
+  background-color: #f4f8fb;
 }
 
 .selected-team h2 {

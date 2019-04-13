@@ -43,7 +43,7 @@ function showOnboarding() {
 }
 
 function selectTeam(index) {
-  document.querySelector(".selected-team").style.display = "block";
+  document.querySelector(".selected-team").style.display = "inline-block";
 
   selectedTeam = teams[index].name;
 

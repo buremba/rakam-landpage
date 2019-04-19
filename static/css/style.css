@@ -3171,7 +3171,7 @@ section#main_our_products.container-fluid {
 
 section#main_our_products .container {
     padding-top: 55px;
-    padding-bottom: 150px;
+    padding-bottom: 45px;
 }
 
 @media (max-width: 1199px) {
@@ -3270,26 +3270,26 @@ section#main_our_products .box:nth-child(4) div:nth-child(2) {
     }
 }
 
-section#main_why_do.container {
+section.main_why_do.container {
     margin-top: 66px;
-    min-height: 400px;
+    min-height: 350px;
     text-align: center;
 }
 
 @media (max-width: 1199px) {
-    section#main_why_do.container {
+    section.main_why_do.container {
         width: 100%;
     }
 }
 
 @media (max-width: 768px) {
-    section#main_why_do.container {
+    section.main_why_do.container {
         padding-top: 100px;
         padding-bottom: 100px;
     }
 }
 
-section#main_why_do h2 {
+section.main_why_do h2 {
 
     font-size: 30px;
     font-weight: bold;
@@ -3298,18 +3298,18 @@ section#main_why_do h2 {
     margin-bottom: 65px;
 }
 
-section#main_why_do ul {
+section.main_why_do ul {
     list-style: none;
     padding: 0;
 }
 
 @media (max-width: 768px) {
-    section#main_why_do ul {
+    section.main_why_do ul {
         display: block;
     }
 }
 
-section#main_why_do ul li h3 {
+section.main_why_do ul li h3 {
     margin: 0 0 15px;
     font-size: 20px;
     font-weight: bold;
@@ -3317,7 +3317,7 @@ section#main_why_do ul li h3 {
     color: #646782;
 }
 
-section#main_why_do ul li p {
+section.main_why_do ul li p {
     margin: 0;
 
     font-size: 14px;
@@ -4522,12 +4522,6 @@ section.content img {
     .hide-mobile {
         display: none !important;
     }
-}
-
-.bmd-modalButton {
-    display: block;
-    margin: 15px auto;
-    padding: 5px 15px;
 }
 
 .close-button {

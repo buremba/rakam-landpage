@@ -80,9 +80,9 @@
                     <a class="nav-link">Connect to your database</a>
                 </li>
 
-                <!--<li class="uib-tab nav-item" index="1" heading="Map your data layout">-->
-                    <!--<a class="nav-link">Map your data layout</a>-->
-                <!--</li>-->
+                <li class="uib-tab nav-item" index="1" heading="Map your data layout">
+                    <a class="nav-link">Map your data layout</a>
+                </li>
 
                 <li class="uib-tab nav-item" index="2" heading="Start creating reports">
                     <a class="nav-link">Start creating reports</a>
@@ -108,19 +108,19 @@
                     </div>
                 </div>
 
-                <!--<div class="tab-pane">-->
+                <div class="tab-pane">
 
-                    <!--<div class="col-xs-12 col-sm-6 col-sm-offset-2 box_2">-->
-                        <!--<h3>Map your data layout</h3>-->
-                        <!--<p>You define the event tables using our user interface, the user attribute and timestamp-->
-                            <!--columns in event tables so that we can provide you the product analytics tool for-->
-                            <!--non-technical users to analyze your event data.</p>-->
-                        <!--&lt;!&ndash;<a href="#">Learn how you can map your data</a>&ndash;&gt;-->
-                    <!--</div>-->
-                    <!--<div class="hidden-xs col-sm-2">-->
-                        <!--<img src="{{ .Site.BaseURL }}images/main2.svg" alt="">-->
-                    <!--</div>-->
-                <!--</div>-->
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-2 box_2">
+                        <h3>Map your data layout</h3>
+                        <p>You define the event tables using our user interface, the user attribute and timestamp
+                            columns in event tables so that we can provide you the product analytics tool for
+                            non-technical users to analyze your event data.</p>
+                        <!--<a href="#">Learn how you can map your data</a>-->
+                    </div>
+                    <div class="hidden-xs col-sm-2">
+                        <img src="{{ .Site.BaseURL }}images/main2.svg" alt="">
+                    </div>
+                </div>
 
                 <div class="tab-pane">
 
@@ -157,16 +157,16 @@
 
 <section class="container-fluid" id="main_our_products">
     <div class="container">
-        <div class="row row_h2">
-            <h2>Our Products</h2>
-        </div>
+        <!--<div class="row row_h2">-->
+            <!--<h2>Our Products</h2>-->
+        <!--</div>-->
 
         <div class="row box">
             <div class="col-sm-6">
-                <h3>Rakam Intelligence</h3>
+                <!--<h3>Rakam Intelligence</h3>-->
                 <img src="{{ .Site.BaseURL }}images/ui_landing.svg" class="col-sm-6 hidden-sm hidden-md hidden-lg"
                      alt="" style="margin-bottom:35px;">
-                <p>Visualize and analyze your customer event data easily. A simple and intuitive user interface for
+                <p>Analyze and visualize your customer event data easily. A simple and intuitive user interface for
                     product managers and data analysts. Our aim is to empower product teams while lessening the burden
                     on your data team.</p>
                 <ul>
@@ -223,16 +223,47 @@
 </section>
 
 
-<section class="container" id="main_why_do">
+<section class="container main_why_do">
+    <div class="row">
+        <h2 class="col-xs-12">How is Rakam different?</h2>
+    </div>
+    <ul class="row">
+        <li class="sol-xs-12 col-sm-3">
+            <img src="{{ .Site.BaseURL }}images/compare/looker.png" alt="Rakam vs Looker" style="width:85px;margin-top:-17px">
+            <p style="margin-top:5px">We have similar concept of LookML with Jsonnet but we mainly focus on customer data and behavioral analytics whereas Looker is a more generic tool.</p>
+            <p><a href="/comparison/looker">Learn more →</a></p>
+        </li>
+        <li class="sol-xs-12 col-sm-3">
+            <img src="{{ .Site.BaseURL }}images/compare/mixpanel.png" alt="Rakam vs Mixpanel" style="width:115px;margin-top:-4px">
+            <p style="margin-top:8px">Unlike Mixpanel, we do not require you to send the data to our services. If you already have your customer data in your database, Rakam connects to your database and provide similar reporting features.</p>
+            <p><a href="/comparison/mixpanel-amplitude">Learn more →</a></p>
+        </li>
+        <li class="sol-xs-12 col-sm-3">
+            <img src="{{ .Site.BaseURL }}images/compare/tableau.png" alt="Rakam vs Tableau" style="width:175px;margin-top:-4px">
+            <p style="margin-top:10px">Tableau focuses on charts and dashboards whereas Rakam is more of an ad-hoc data exploration tool. We help you to understand how your users behave and we provide high level features for this use-case.</p>
+            <p><a href="/comparison/tableau">Learn more →</a></p>
+        </li>
+        <li class="sol-xs-12 col-sm-3">
+            <img src="{{ .Site.BaseURL }}images/compare/google-analytics.png" alt="Rakam vs Google Analytics" style="width:215px;margin-top:-20px">
+            <p style="margin-top:-5px">
+                GA provides pre-defined reports mostly for websites but we're able to provide the full customer journey from websites, mobile apps, email, CRM and much more if you're able to collect the data in your database.
+            </p>
+            <p><a href="/comparison/google-analytics">Learn more →</a></p>
+            </button>
+        </li>
+    </ul>
+</section>
+
+
+<section class="container main_why_do">
     <div class="row">
         <h2 class="col-xs-12">Why should I use Rakam?</h2>
     </div>
     <ul class="row">
         <li class="sol-xs-12 col-sm-3">
             <img src="{{ .Site.BaseURL }}images/homeWhyDo1.svg" alt="">
-            <h3>I'm a Data Engineer</h3>
-            <p>You won't need to adopt generic BI tools, we will adopt you so that you focus on building great
-                stuff.</p>
+            <h3>I'm a Data Analyst</h3>
+            <p>If you're going to analyze customer event data, we take care of the hassle so you don't need to write behavioral analytics queries in SQL.</p>
         </li>
         <li class="sol-xs-12 col-sm-3">
             <img src="{{ .Site.BaseURL }}images/homeWhyDo2.svg" alt="">

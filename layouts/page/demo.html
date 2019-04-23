@@ -10,7 +10,7 @@
     <title>Get Started Today - Create Your Free Account for Rakam</title>
     <meta name="title" content="Get Started Today - Create Your Free Account | Rakam">
     <meta property="og:site_name" content="Rakam Analytics"/>
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/demo.css"/>
+    <link rel="stylesheet" href="/css/demo.css"/>
 
     <link rel="canonical" href="https://rakam.io/demo">
 </head>
@@ -30,9 +30,26 @@
                 <small class="help-block text-danger-help-block">An account already exists withthat email. Please <a href="https://beta.rakam.io/login">log in</a>.</small>
             </div>
         </div>
-    </main>
+        <div class="onboarding">
+            <div class="onboarding-container">
+                <img src="{{ .Site.BaseURL }}images/new-logo.svg"/>
+                <h3>Welcome! What team do you work on?</h3>
+                <div class="select-team">
+
+                </div>
+                <a class="none-button" onclick="completeTour()">None of the above apply</a>
+                <div class="selected-team">
+                    <div class="team-cards"></div>
+                    <span class="back" onclick="closeSelectedTeam()">< Go Back</span>
+                    <a onclick="completeTour()" class="get-started">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </main>   
 </div>
+
 <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/utils/onboarding.js"></script>
 <script>
   window.intercomSettings = {
     app_id: "balkdz0u",
@@ -49,11 +66,14 @@
         }
     }
 
-    var submitEmail = function (email) {
+    var completeTour = function () {
+        var email = $('#email').val();
+
         if (window.Intercom) {
             window.Intercom('update', {email: email, visited_demo: true});
         }
-        window.location = 'http://apibeta.rakam.io/api/settings/team/inviteToDemoProject?email=' + email
+
+        window.location = 'http://apibeta.rakam.io/api/settings/team/inviteToDemoProject?email=' + email + '&team=' + selectedTeam
     }
 
     var error;
@@ -63,18 +83,18 @@
         var email = $('#email').val();
 
         if (error) {
-            submitEmail(email);
+            showOnboarding()
         }
 
         $.get("https://api.hunter.io/trial/v2/email-verifier?api_key=0925084c997e6815149ee621344d1cef66194f68&format=json&email=" + email).then(function (response) {
             error = response.data.score <= 40;
             if (!error) {
-                submitEmail(email);
+                showOnboarding()
             } else {
                 $('.invalid-email').css('display', 'block')
             }
         }, function () {
-            submitEmail(email);
+            showOnboarding()
         });
     })
 </script>

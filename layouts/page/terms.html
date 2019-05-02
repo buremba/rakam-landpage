@@ -4,7 +4,7 @@
         {{ partial "new-header-product.html" . }}
         <h2 style="color:#646782">Terms of Service</h2>
         <div style="margin-top:25px; background:white; padding:20px 30px; box-shadow:0 0 6px rgba(0,0,0,0.08); border-radius:3px">
-            {{ .Params.content | safeHTML }}
+            {{ .Content | safeHTML }}
         </div>
     </div>
 </section>

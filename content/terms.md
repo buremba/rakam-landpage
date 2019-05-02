@@ -45,11 +45,11 @@ ACCESS TO OUR SERVICES
 
 We do not provide you with the equipment to access our Services. You are responsible for all fees charged by third parties related to your access and use of our Services (e.g., charges by Internet service providers).
 
-For freemium users we reserve the right to modify or discontinue, temporarily or permanently, all or any portion of our Services without notice. We will not be liable to you or to any third party for any modification, suspension, or discontinuance of all or any portion of our Services.
+For freemium users, we reserve the right to modify or discontinue, temporarily or permanently, all or any portion of our Services without notice. We will not be liable to you or to any third party for any modification, suspension, or discontinuance of all or any portion of our Services.
 
-For freemium users we also reserve the right, in our sole discretion, to reject, refuse to post, or remove any material that you post or submit for posting, and to restrict, suspend, or terminate your access to our Services at any time, for any or no reason, with or without prior notice, and without liability.
+For freemium users, we also reserve the right, in our sole discretion, to reject, refuse to post, or remove any material that you post or submit for posting, and to restrict, suspend, or terminate your access to our Services at any time, for any or no reason, with or without prior notice, and without liability.
 
-We also reserve the right, in our sole discretion, to permanently or temporarily suspend your access to the Services without notice and liability for any reason, including if in our sole determination you violate any provision of these Terms, or for no reason. Upon termination for any reason or no reason, you continue to be bound by these Terms.
+For freemium users, We also reserve the right, in our sole discretion, to permanently or temporarily suspend your access to the Services without notice and liability for any reason, including if in our sole determination you violate any provision of these Terms, or for no reason. Upon termination for any reason or no reason, you continue to be bound by these Terms.
 
 RESTRICTIONS
 

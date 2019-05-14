@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200px" height="664px" viewBox="0 0 1200 664" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>9BD12C77-EDDB-4206-B7BC-E56F7703774A</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Rakam-API-Screen-10/10/2017-Rich" transform="translate(0.000000, -1362.000000)" fill="#FAFAFA">
-            <g id="Products1" transform="translate(0.000000, 1334.000000)">
-                <path d="M0,175.289392 L1086.70248,29.4901428 L1086.70248,29.4901428 C1141.44049,22.1461263 1191.76792,60.5665502 1199.11194,115.304561 C1199.70332,119.712389 1200,124.154757 1200,128.60208 L1200,591.698977 L1200,591.698977 C1200,646.927452 1155.22847,691.698977 1100,691.698977 C1096.64951,691.698977 1093.30113,691.53059 1089.96754,691.194453 L0,581.289392 L0,175.289392 Z" id="bg-section" transform="translate(600.000000, 360.144696) scale(-1, -1) translate(-600.000000, -360.144696) "></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="664" viewBox="0 0 1200 664" width="1200" xmlns="http://www.w3.org/2000/svg"><path d="m0 175.289392 1086.70248-145.7992492c54.73801-7.3440165 105.06544 31.0764074 112.40946 85.8144182.59138 4.407828.88806 8.850196.88806 13.297519v463.096897c0 55.228475-44.77153 100-100 100-3.35049 0-6.69887-.168387-10.03246-.504524l-1089.96754-109.905061z" fill="#fafafa" fill-rule="evenodd" transform="matrix(-1 0 0 -1 1200 692.289392)"/></svg>

@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="4000" height="615" viewBox="0 0 4000 615">
-  <defs>
-    <linearGradient id="a" x1="0%" x2="70.713%" y1="87.675%" y2="20.764%">
-      <stop stop-color="#17EAD9" offset="0%"/>
-      <stop stop-color="#02AFDE" offset="100%"/>
-    </linearGradient>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <rect width="4000" height="615" fill="#FFFFFF"/>
-    <path fill="url(#a)" d="M3749.29623,7.81597009e-14 L4000.30069,7.81597009e-14 L4000.30069,613.128831 L3375.13242,520.223897 C3334.70729,514.216405 3306.80628,476.575328 3312.81378,436.150199 C3315.24262,419.806187 3323.07172,404.745277 3335.0536,393.367208 L3749.29623,7.81597009e-14 Z"/>
-  </g>
-</svg>
+<svg height="615" viewBox="0 0 4000 615" width="4000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="0%" x2="70.713%" y1="87.675%" y2="20.764%"><stop offset="0" stop-color="#17ead9"/><stop offset="1" stop-color="#02afde"/></linearGradient><g fill="none" fill-rule="evenodd"><path d="m0 0h4000v615h-4000z" fill="#fff"/><path d="m3749.29623 0h251.00446v613.128831l-625.16827-92.904934c-40.42513-6.007492-68.32614-43.648569-62.31864-84.073698 2.42884-16.344012 10.25794-31.404922 22.23982-42.782991z" fill="url(#a)"/></g></svg>

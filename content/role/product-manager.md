@@ -1,5 +1,5 @@
 ---
-title: Rakam - Solutions for Social Media Industry
+title: How Product Managers Use Rakam in Order to Create Segmentation, Funnel and Retention Reports
 date: 2017-11-06 17:09:18 -0800
 slug: "product-manager"
 type: role

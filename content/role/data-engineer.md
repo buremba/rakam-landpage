@@ -1,5 +1,5 @@
 ---
-title: Rakam - Solutions for Social Media Industry
+title: How Data Engineers Use Rakam for Modeling their Customer Data
 date: 2017-11-06 17:09:18 -0800
 slug: "data-engineer"
 type: role

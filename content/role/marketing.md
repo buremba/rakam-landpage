@@ -1,5 +1,5 @@
 ---
-title: Rakam - Solutions for Social Media Industry
+title: How Marketing People Use Rakam in Order to Keep Their Users Engaged
 date: 2017-11-06 17:09:18 -0800
 type: role
 layout: index

@@ -1,5 +1,5 @@
 ---
-title: Rakam - Solutions for Social Media Industry
+title: Rakam - Compare to other solutions
 date: 2017-11-06 17:09:18 -0800
 type: comparison
 layout: index

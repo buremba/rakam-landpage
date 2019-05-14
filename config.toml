@@ -1,7 +1,7 @@
 baseURL = "https://rakam.io/"
 copyright = "&copy; Copyright notice"
 languageCode = "en-us"
-title = "rakam.io"
+title = "rakam.io - Analyze Your Customer Data in a Seamless Way"
 [params]
 author = "Burak Emre"
 authorwebsite = "buremba.com"
@@ -13,4 +13,4 @@ facebook = "rakamio"
 github = "rakam-io"
 linkedin = "burak-emre-kabakcı-15b2bb33"
 twitter = "iorakam"
-enableRobotsTXT = true
+enableRobotsTXT = "true"

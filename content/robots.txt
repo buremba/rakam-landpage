@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: /sitemap.xml
-Sitemap: /blog/sitemap.xml
+Sitemap: https://rakam.io/sitemap.xml
+Sitemap: https://rakam.io/blog/sitemap.xml

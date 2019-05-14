@@ -1,7 +1,7 @@
 baseURL = "https://rakam.io/"
 copyright = "&copy; Copyright notice"
 languageCode = "en-us"
-title = "rakam.io - Analyze Your Customer Data in a Seamless Way"
+title = "Analyze Your Customer Data in a Seamless Way | Rakam"
 [params]
 author = "Burak Emre Kabakci"
 logo= "/images/new-logo.svg"
